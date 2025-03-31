@@ -23,7 +23,7 @@
             "title": "<strong>L’excellence à chaque destination</strong>",
             "heading_size": "hd2",
             "subheading": "Plus qu’un bagage, une promesse",
-            "description": "<ul><li>Design raffiné & intemporel</li><li>Résistance exceptionnelle</li><li>Confort de déplacement absolu</li></ul>",
+            "description": "<p>Design raffiné & intemporel</p><p>Résistance exceptionnelle</p><p>Confort de déplacement absolu</p>",
             "description_size": "text-base",
             "button_label": "Acheter maintenant",
             "button_link": "shopify://products/valise-verte",
