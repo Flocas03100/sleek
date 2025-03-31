@@ -41,9 +41,9 @@
         "show_dots": true,
         "autoplay": true,
         "autoplay_delay": 5,
-        "controls_position": "below",
-        "show_text_below": true,
-        "text_alignment_mobile": "left",
+        "controls_position": "bottom",
+        "show_text_below": false,
+        "text_alignment_mobile": "center",
         "accessibility_info": "Slideshow about our brand"
       }
     },
