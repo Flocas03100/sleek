@@ -28,42 +28,10 @@
             "use_custom_color": false,
             "custom_color": "#000000"
           }
-        },
-        "text_t3BcT4": {
-          "type": "text",
-          "settings": {
-            "text": "TELL CUSTOMERS ABOUT A PROMOTION",
-            "text_link": "",
-            "text_size": "text-base",
-            "font_weight": "font-heading",
-            "font_style": "normal",
-            "letter_spacing": 0,
-            "text_opacity": 100,
-            "text_style": "normal",
-            "use_custom_color": false,
-            "custom_color": "#000000"
-          }
-        },
-        "text_QCAxbn": {
-          "type": "text",
-          "settings": {
-            "text": "TELL CUSTOMERS ABOUT A PROMOTION",
-            "text_link": "",
-            "text_size": "text-base",
-            "font_weight": "font-heading",
-            "font_style": "normal",
-            "letter_spacing": 0,
-            "text_opacity": 100,
-            "text_style": "normal",
-            "use_custom_color": false,
-            "custom_color": "#000000"
-          }
         }
       },
       "block_order": [
-        "text_niHbzP",
-        "text_t3BcT4",
-        "text_QCAxbn"
+        "text_niHbzP"
       ],
       "settings": {
         "color_scheme": "scheme-inverse",
