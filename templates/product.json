@@ -116,6 +116,12 @@
             "page": "",
             "default_open": false
           }
+        },
+        "custom_liquid_WhEVXA": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n.video-carousel-container {\n  width: 100%;\n  overflow: hidden;\n  position: relative;\n  margin-top: 0px; \n  margin-bottom: 0px; \n}\n\n.video-carousel-track {\n  display: flex;\n  gap: 15px; \n  overflow-x: scroll; \n  scroll-snap-type: x mandatory; \n  padding: 10px;\n  -webkit-overflow-scrolling: touch; \n}\n\n.video-carousel-track::-webkit-scrollbar {\n  display: none; \n}\n\n.video-carousel-item {\n  flex-shrink: 0;\n  width: 200px; \n  height: 350px; \n  border-radius: 10px; \n  overflow: hidden;\n  scroll-snap-align: start; /* Alignement précis pour chaque vidéo */\n  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\n}\n\n.video-carousel-item video {\n  width: 100%;\n  height: 100%;\n  object-fit: cover; \n  pointer-events: none;\n}\n</style>\n\n<div class=\"video-carousel-container\">\n  <div class=\"video-carousel-track\">\n    <!-- Vidéos -->\n<div class=\"video-carousel-item\">\n      <video src=\"https://cdn.shopify.com/votre-lien.mp4\" muted autoplay loop playsinline></video>\n    </div>\n    <div class=\"video-carousel-item\">\n \n      <video src=\"https://cdn.shopify.com/votre-lien.mp4\" muted autoplay loop playsinline></video>\n    </div>\n    <div class=\"video-carousel-item\">\n      <video src=\"https://cdn.shopify.com/votre-lien.mp4\" muted autoplay loop playsinline></video>\n\n    </div>\n    \n\n  </div>\n</div>"
+          }
         }
       },
       "block_order": [
@@ -130,7 +136,8 @@
         "pickup_availability",
         "complementary",
         "collapsible-row-1",
-        "collapsible-row-2"
+        "collapsible-row-2",
+        "custom_liquid_WhEVXA"
       ],
       "settings": {
         "color_scheme": "scheme-1",
