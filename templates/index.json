@@ -16,7 +16,7 @@
           "type": "slide",
           "settings": {
             "color_scheme": "scheme-2",
-            "background": "shopify://shop_images/cropped_2.webp",
+            "background": "shopify://shop_images/Design_sans_titre_64.png",
             "image_overlay_opacity": 0,
             "content_position": "middle-left",
             "text_alignment": "center",
@@ -25,7 +25,7 @@
             "subheading": "Plus qu’un bagage, une promesse",
             "description": "<p><em>Pensées dans les moindres détails. Créées pour voyager avec style.</em></p>",
             "description_size": "text-base",
-            "button_label": "Buy now",
+            "button_label": "Acheter maintenant",
             "button_link": "shopify://products/valise-verte",
             "button_style": "btn--primary"
           }
