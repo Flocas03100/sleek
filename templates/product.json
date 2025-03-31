@@ -157,7 +157,7 @@
         "feature_item_VbCwL3": {
           "type": "feature_item",
           "settings": {
-            "color_scheme": "",
+            "color_scheme": "scheme-1",
             "icon": "check",
             "icon_style": "btn--secondary",
             "text": "Feature item"
@@ -462,11 +462,57 @@
         "show_section_divider": false,
         "divider_width": "fixed"
       }
+    },
+    "image_comparison_KrPcHa": {
+      "type": "image-comparison",
+      "blocks": {
+        "image_TVP7AF": {
+          "type": "image",
+          "settings": {
+            "heading": "Before",
+            "color_scheme": ""
+          }
+        },
+        "image_yFV6Pk": {
+          "type": "image",
+          "settings": {
+            "heading": "After",
+            "color_scheme": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_TVP7AF",
+        "image_yFV6Pk"
+      ],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "header_layout": "vertical",
+        "heading": "Before/after image slider",
+        "heading_size": "h1",
+        "heading_highlight_style": "none",
+        "subheading": "",
+        "description": "",
+        "description_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "direction": "horizontal",
+        "image_height": "adapt",
+        "image_heading_style": "badge",
+        "product": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
     }
   },
   "order": [
     "breadcrumbs",
     "main",
+    "image_comparison_KrPcHa",
     "feature_list_cW3d9c",
     "image_with_text_MgddA8",
     "collapsible_tabs_phAkEE",
