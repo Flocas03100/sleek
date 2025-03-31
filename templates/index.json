@@ -86,6 +86,80 @@
         "divider_width": "fixed"
       }
     },
+    "press_pFfQkM": {
+      "type": "press",
+      "blocks": {
+        "press_FM93kM": {
+          "type": "press",
+          "settings": {
+            "text": "You can add detailed text content from various press comments, comprehensive reviews, or extensive customer testimonials here."
+          }
+        },
+        "press_rtDCNw": {
+          "type": "press",
+          "settings": {
+            "image": "shopify://shop_images/main-image-10.jpg",
+            "text": "test \""
+          }
+        },
+        "press_ytWGHX": {
+          "type": "press",
+          "settings": {
+            "image": "shopify://shop_images/main-image-6.jpg",
+            "text": "test 1"
+          }
+        },
+        "press_x3krLx": {
+          "type": "press",
+          "settings": {
+            "text": "You can add detailed text content from various press comments, comprehensive reviews, or extensive customer testimonials here."
+          }
+        },
+        "press_B9APgU": {
+          "type": "press",
+          "settings": {
+            "text": "You can add detailed text content from various press comments, comprehensive reviews, or extensive customer testimonials here."
+          }
+        },
+        "press_n7LVAp": {
+          "type": "press",
+          "settings": {
+            "text": "You can add detailed text content from various press comments, comprehensive reviews, or extensive customer testimonials here."
+          }
+        },
+        "press_anF9NG": {
+          "type": "press",
+          "settings": {
+            "text": "You can add detailed text content from various press comments, comprehensive reviews, or extensive customer testimonials here."
+          }
+        }
+      },
+      "block_order": [
+        "press_FM93kM",
+        "press_rtDCNw",
+        "press_ytWGHX",
+        "press_x3krLx",
+        "press_B9APgU",
+        "press_n7LVAp",
+        "press_anF9NG"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "heading": "Certifié par toutes les compagnies",
+        "heading_size": "h1",
+        "heading_highlight_style": "none",
+        "subheading": "",
+        "description": "",
+        "description_size": "text-base",
+        "text_size": "h4",
+        "image_width": 160,
+        "image_width_mobile": 140,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
     "feature_list_cW3d9c": {
       "type": "feature-list",
       "blocks": {
@@ -208,6 +282,64 @@
         "alignment": "center",
         "padding_top": 100,
         "padding_bottom": 100,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "lookbook_banner_TUktqa": {
+      "type": "lookbook-banner",
+      "blocks": {
+        "product_TNpP4B": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "top": 45,
+            "left": 30,
+            "top_mobile": 45,
+            "left_mobile": 30
+          }
+        },
+        "product_4L67e8": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "top": 50,
+            "left": 70,
+            "top_mobile": 50,
+            "left_mobile": 70
+          }
+        },
+        "product_ycaqH4": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "top": 62,
+            "left": 43,
+            "top_mobile": 62,
+            "left_mobile": 43
+          }
+        }
+      },
+      "block_order": [
+        "product_TNpP4B",
+        "product_4L67e8",
+        "product_ycaqH4"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "heading": "Lookbook banner",
+        "heading_size": "h1",
+        "heading_highlight_style": "none",
+        "subheading": "",
+        "description": "",
+        "description_size": "text-base",
+        "annotation_color": "dark",
+        "scrolling_direction": "left",
+        "pause_on_hover": true,
+        "scrolling_speed": 1,
+        "scrolling_text_color": "#000000",
+        "padding_top": 50,
+        "padding_bottom": 50,
         "show_section_divider": false,
         "divider_width": "fixed"
       }
@@ -386,69 +518,12 @@
         "show_divider": true,
         "divider_layout": "vertical"
       }
-    },
-    "lookbook_banner_TUktqa": {
-      "type": "lookbook-banner",
-      "blocks": {
-        "product_TNpP4B": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "top": 45,
-            "left": 30,
-            "top_mobile": 45,
-            "left_mobile": 30
-          }
-        },
-        "product_4L67e8": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "top": 50,
-            "left": 70,
-            "top_mobile": 50,
-            "left_mobile": 70
-          }
-        },
-        "product_ycaqH4": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "top": 62,
-            "left": 43,
-            "top_mobile": 62,
-            "left_mobile": 43
-          }
-        }
-      },
-      "block_order": [
-        "product_TNpP4B",
-        "product_4L67e8",
-        "product_ycaqH4"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "heading": "Lookbook banner",
-        "heading_size": "h1",
-        "heading_highlight_style": "none",
-        "subheading": "",
-        "description": "",
-        "description_size": "text-base",
-        "annotation_color": "dark",
-        "scrolling_direction": "left",
-        "pause_on_hover": true,
-        "scrolling_speed": 1,
-        "scrolling_text_color": "#000000",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
     }
   },
   "order": [
     "slideshow_q3U4Jn",
     "product_tabs_JRF8bP",
+    "press_pFfQkM",
     "feature_list_cW3d9c",
     "highlight_text_with_image_9KLzcX",
     "lookbook_banner_TUktqa",
