@@ -89,6 +89,22 @@
     "highlight_text_with_image_9KLzcX": {
       "type": "highlight-text-with-image",
       "blocks": {
+        "image_9JdcFw": {
+          "type": "image",
+          "settings": {
+            "image_link": "",
+            "image_width": 220,
+            "image_width_mobile": 110
+          }
+        },
+        "image_P3qGMJ": {
+          "type": "image",
+          "settings": {
+            "image_link": "",
+            "image_width": 220,
+            "image_width_mobile": 110
+          }
+        },
         "image_URaWGC": {
           "type": "image",
           "settings": {
@@ -104,20 +120,13 @@
             "image_width": 134,
             "image_width_mobile": 110
           }
-        },
-        "image_NGQQmW": {
-          "type": "image",
-          "settings": {
-            "image_link": "",
-            "image_width": 220,
-            "image_width_mobile": 110
-          }
         }
       },
       "block_order": [
+        "image_9JdcFw",
+        "image_P3qGMJ",
         "image_URaWGC",
-        "image_DyKWHM",
-        "image_NGQQmW"
+        "image_DyKWHM"
       ],
       "settings": {
         "color_scheme": "",
