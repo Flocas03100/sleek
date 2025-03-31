@@ -18,10 +18,10 @@
           "type": "newsletter",
           "settings": {
             "block_width": 41,
-            "heading": "Subscribe to our emails",
+            "heading": "Rester informé",
             "heading_size": "h1",
-            "newsletter_description": "<p>Be the first to know about new collections and exclusive offers.</p>",
-            "newsletter_term": "<p>By subscribing you agree to the <a href=\"#\">Terms of Use</a> & <a href=\"#\">Privacy Policy.</a></p>",
+            "newsletter_description": "<p>Soyez le premier à connaître les nouvelles collections et les offres exclusives.</p>",
+            "newsletter_term": "<p>En vous inscrivant, vous acceptez les conditions d'utilisation et la politique de confidentialité.</p>",
             "newsletter_text_alignment": "left",
             "form_width": 465,
             "order_first": true
