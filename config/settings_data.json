@@ -49,6 +49,7 @@
     "buttons_transform": "uppercase",
     "page_width": 1410,
     "section_header_alignment": "center",
+    "section_header_alignment_mobile": "inherit",
     "buttons_corner_radius": "square",
     "inputs_corner_radius": "square",
     "blocks_corner_radius": "square",
