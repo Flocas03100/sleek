@@ -15,70 +15,35 @@
         "slide_JhU8hg": {
           "type": "slide",
           "settings": {
-            "color_scheme": "scheme-1",
+            "color_scheme": "scheme-2",
+            "background": "shopify://shop_images/cropped_2.webp",
             "image_overlay_opacity": 0,
             "content_position": "middle-left",
             "text_alignment": "center",
-            "title": "Image slide",
+            "title": "<strong>Easyway - Carry on</strong>",
             "heading_size": "hd1",
-            "subheading": "Add a tagline",
-            "description": "",
+            "subheading": "test",
+            "description": "<p>Have a look ?</p>",
             "description_size": "text-base",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style": "btn--primary"
-          }
-        },
-        "slide_U9bPyj": {
-          "type": "slide",
-          "settings": {
-            "color_scheme": "scheme-1",
-            "image_overlay_opacity": 0,
-            "content_position": "middle-right",
-            "text_alignment": "center",
-            "title": "Image slide",
-            "heading_size": "hd1",
-            "subheading": "Add a tagline",
-            "description": "",
-            "description_size": "text-base",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style": "btn--primary"
-          }
-        },
-        "slide_pEkPxY": {
-          "type": "slide",
-          "settings": {
-            "color_scheme": "scheme-1",
-            "image_overlay_opacity": 0,
-            "content_position": "middle-left",
-            "text_alignment": "center",
-            "title": "Image slide",
-            "heading_size": "hd1",
-            "subheading": "Add a tagline",
-            "description": "",
-            "description_size": "text-base",
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Buy now",
+            "button_link": "shopify://products/valise-verte",
             "button_style": "btn--primary"
           }
         }
       },
       "block_order": [
-        "slide_JhU8hg",
-        "slide_U9bPyj",
-        "slide_pEkPxY"
+        "slide_JhU8hg"
       ],
       "settings": {
         "container": "full",
-        "layout": "centered",
-        "slide_height": "adapt",
+        "layout": "standard",
+        "slide_height": "medium",
         "show_dots": true,
         "autoplay": true,
         "autoplay_delay": 5,
         "controls_position": "below",
         "show_text_below": true,
-        "text_alignment_mobile": "center",
+        "text_alignment_mobile": "left",
         "accessibility_info": "Slideshow about our brand"
       }
     },
