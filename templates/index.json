@@ -47,57 +47,41 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "product_tabs_iJHLzK": {
+    "product_tabs_JRF8bP": {
       "type": "product-tabs",
       "blocks": {
-        "tab_Yz8Mnz": {
+        "tab_JqXLry": {
           "type": "tab",
           "settings": {
-            "title": "Tab name",
-            "collection": ""
-          }
-        },
-        "tab_9cGBUe": {
-          "type": "tab",
-          "settings": {
-            "title": "Tab name",
-            "collection": ""
-          }
-        },
-        "tab_AfgNn8": {
-          "type": "tab",
-          "settings": {
-            "title": "Tab name",
-            "collection": ""
+            "title": "Tab 1",
+            "collection": "frontpage"
           }
         }
       },
       "block_order": [
-        "tab_Yz8Mnz",
-        "tab_9cGBUe",
-        "tab_AfgNn8"
+        "tab_JqXLry"
       ],
       "settings": {
         "color_scheme": "",
-        "header_layout": "horizontal",
-        "heading": "",
-        "heading_size": "h1",
+        "header_layout": "vertical",
+        "heading": "Nos produits",
+        "heading_size": "h2",
         "heading_highlight_style": "none",
-        "limit": 8,
+        "limit": 4,
         "columns": 4,
-        "column_gap": "extra-small",
+        "column_gap": "medium",
         "row_gap": "inherit",
         "grid_layout": "standard",
         "pcard_image_ratio": "",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "show_all_button_on_top": true,
-        "button_label": "Button label",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "show_all_button_on_top": false,
+        "button_label": "",
         "button_link": "",
-        "button_style": "btn--underline",
-        "tabs_nav_style": "design-2",
-        "padding_top": 100,
-        "padding_bottom": 0,
+        "button_style": "btn--primary",
+        "tabs_nav_style": "design-1",
+        "padding_top": 50,
+        "padding_bottom": 50,
         "show_section_divider": false,
         "divider_width": "fixed"
       }
@@ -645,7 +629,7 @@
   },
   "order": [
     "slideshow_q3U4Jn",
-    "product_tabs_iJHLzK",
+    "product_tabs_JRF8bP",
     "highlight_text_with_image_9KLzcX",
     "collection_list_Pr36qH",
     "feature_list_cW3d9c",
