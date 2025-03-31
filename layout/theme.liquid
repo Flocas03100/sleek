@@ -89,7 +89,7 @@
     {% comment %} Custom metafield for head tag like GTag tracking {% endcomment %}
     {{ shop.metafields.foxtheme.code_head.value }}
     {% comment %} End custom metafield for head tag like GTag tracking {% endcomment %}
-  </head>
+  {%- render 'foxify-head' -%}</head>
 
   <body
     class="{{ request.page_type }}-template {{ template.suffix }} blocks-corner--{{ settings.blocks_corner_radius }}{% if request.design_mode %} shopify-design-mode{% endif %}"
@@ -137,5 +137,5 @@
     {% if settings.pcard_show_quickview_button or settings.pcard_choose_options_actions == 'open_popup' %}
       <script src="{{ 'quick-view.js' | asset_url }}" defer="defer"></script>
     {% endif %}
-  </body>
+  {%- render 'foxify-footer' -%}</body>
 </html>
