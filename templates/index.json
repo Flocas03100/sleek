@@ -16,7 +16,7 @@
           "type": "badge",
           "settings": {
             "text": "🚚 FREE SHIPPING",
-            "text_color": "#FFFFFF",
+            "text_color": "#ffffff",
             "bg_color": "#000000",
             "border_color": "#000000"
           }
@@ -25,7 +25,7 @@
           "type": "badge",
           "settings": {
             "text": "100% COTTON",
-            "text_color": "#FFFFFF",
+            "text_color": "#ffffff",
             "bg_color": "#000000",
             "border_color": "#000000"
           }
@@ -138,8 +138,8 @@
         "absolute_image_width": 220,
         "absolute_image_radius": 0,
         "absolute_image_border_thickness": 0,
-        "button_color": "#FFFFFF",
-        "button_hover_color": "#FFFFFF",
+        "button_color": "#ffffff",
+        "button_hover_color": "#ffffff",
         "button_other_color": "#d63a2f",
         "button_hover_other_color": "#ba8450",
         "button_bg_color": "#000000",
@@ -155,7 +155,7 @@
         "image_border_color": "#1c1c1c",
         "image_blur_color": "#faf9f7",
         "absolute_image_border_color": "#000000",
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
@@ -878,6 +878,201 @@
         "border_thickness": 0,
         "lazy": true
       }
+    },
+    "ss_testimonial_12_XQKFki": {
+      "type": "ss-testimonial-12",
+      "blocks": {
+        "slide_mYfXw7": {
+          "type": "slide",
+          "settings": {
+            "media_style": "image",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "controls": false,
+            "stars_count": 5,
+            "text": "<p>the perfect candle replacement, obsessed with the lamps!</p>",
+            "author": "<p><strong>@tracer</strong></p>"
+          }
+        },
+        "slide_gbMdEe": {
+          "type": "slide",
+          "settings": {
+            "media_style": "image",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "controls": false,
+            "stars_count": 5,
+            "text": "<p>Our kids bring them everywhere, specially when doing puzzles and drawings</p>",
+            "author": "<p><strong>@theworldisyours</strong></p>"
+          }
+        },
+        "slide_M7AjgK": {
+          "type": "slide",
+          "settings": {
+            "media_style": "image",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "controls": false,
+            "stars_count": 5,
+            "text": "<p>This is the brand to go for lamps, love the quality and design, as always you get what you pay</p>",
+            "author": "<p><strong>@niels_homes</strong></p>"
+          }
+        },
+        "slide_VkRYTw": {
+          "type": "slide",
+          "settings": {
+            "media_style": "image",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "controls": false,
+            "stars_count": 5,
+            "text": "<p>Love them, they give the perfect luxury touch to any room</p>",
+            "author": "<p><strong>@allfinds</strong></p>"
+          }
+        },
+        "slide_GjdgMP": {
+          "type": "slide",
+          "settings": {
+            "media_style": "image",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "controls": false,
+            "stars_count": 5,
+            "text": "<p>The cordless lamp you've been looking for!</p>",
+            "author": "<p><strong>@lacey</strong></p>"
+          }
+        },
+        "slide_pRBHMr": {
+          "type": "slide",
+          "settings": {
+            "media_style": "image",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "controls": false,
+            "stars_count": 5,
+            "text": "<p>All my friends want them too now, at least I was the first one to get them..!</p>",
+            "author": "<p><strong>@mcqueen</strong></p>"
+          }
+        },
+        "slide_ehGFUM": {
+          "type": "slide",
+          "settings": {
+            "media_style": "image",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "controls": false,
+            "stars_count": 5,
+            "text": "<p>I use it every day early in the morning and on our dining table, it is do convenient and cool</p>",
+            "author": "<p><strong>@dwithpatty</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_mYfXw7",
+        "slide_gbMdEe",
+        "slide_M7AjgK",
+        "slide_VkRYTw",
+        "slide_GjdgMP",
+        "slide_pRBHMr",
+        "slide_ehGFUM"
+      ],
+      "settings": {
+        "heading": "<h2>Loved by everyone, everywhere. Don't miss out.</h2>",
+        "heading_custom": true,
+        "heading_font": "montserrat_n4",
+        "heading_size": 30,
+        "heading_size_mobile": 22,
+        "heading_height": 130,
+        "heading_align": "center",
+        "heading_align_mobile": "center",
+        "sub_heading": "",
+        "sub_heading_custom": false,
+        "sub_heading_font": "josefin_sans_n4",
+        "sub_heading_size": 30,
+        "sub_heading_size_mobile": 22,
+        "sub_heading_height": 130,
+        "sub_heading_mt": 12,
+        "sub_heading_align": "center",
+        "sub_heading_align_mobile": "center",
+        "slider_view": 5.4,
+        "slider_view_mobile": 1.5,
+        "slider_gap": 28,
+        "slider_gap_mobile": 20,
+        "slider_mt": 20,
+        "autoplay": false,
+        "autoplay_delay": 5,
+        "card_padding_vertical": 20,
+        "card_padding_vertical_mobile": 16,
+        "card_padding_horizontal": 20,
+        "card_padding_horizontal_mobile": 16,
+        "card_radius": 20,
+        "card_border_thickness": 1,
+        "card_shadow": false,
+        "media_radius": 20,
+        "media_border_thickness": 0,
+        "media_ratio": "square",
+        "media_ratio_mobile": "square",
+        "content_padding_vertical": 0,
+        "content_padding_vertical_mobile": 0,
+        "content_padding_horizontal": 0,
+        "content_padding_horizontal_mobile": 0,
+        "hide_content": false,
+        "stars_size": 16,
+        "stars_mt": 12,
+        "stars_align": "center",
+        "stars_align_mobile": "center",
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 16,
+        "text_size_mobile": 16,
+        "text_height": 130,
+        "text_mt": 12,
+        "text_align": "center",
+        "text_align_mobile": "center",
+        "author_custom": false,
+        "author_font": "josefin_sans_n4",
+        "author_size": 14,
+        "author_size_mobile": 14,
+        "author_height": 130,
+        "author_mt": 12,
+        "author_align": "center",
+        "author_align_mobile": "center",
+        "navigation_mt": 40,
+        "navigation_gap": 20,
+        "navigation_align": "center",
+        "navigation_align_mobile": "center",
+        "arrow_size": 50,
+        "arrow_size_mobile": 50,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": false,
+        "dots_size": 10,
+        "dots_size_mobile": 10,
+        "dots_show_desktop": false,
+        "dots_show_mobile": true,
+        "btn_icon_size": 50,
+        "btn_icon_size_mobile": 40,
+        "card_bg_color": "#FFFFFF",
+        "card_bg_gradient": "",
+        "card_border_color": "#DEDBC4",
+        "card_shadow_color": "#000000",
+        "media_border_color": "#000000",
+        "stars_color": "#323232",
+        "text_color": "#323232",
+        "author_color": "#323232",
+        "video_icon_bg_color": "#FFFFFF",
+        "video_icon_color": "#000000",
+        "arrow_color": "#837c5c",
+        "arrow_hover_color": "#837c5c",
+        "dots_color": "#837c5c",
+        "heading_color": "#837c5c",
+        "sub_heading_color": "#837c5c",
+        "background_color": "#F6F5F2",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
     }
   },
   "order": [
@@ -891,6 +1086,7 @@
     "custom_content_rhXbV3",
     "image_with_text_MgddA8",
     "scrolling_promotion_htQpcB",
-    "ss_testimonial_8_PeEecB"
+    "ss_testimonial_8_PeEecB",
+    "ss_testimonial_12_XQKFki"
   ]
 }
