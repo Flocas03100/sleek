@@ -34,7 +34,7 @@
         "text_niHbzP"
       ],
       "settings": {
-        "color_scheme": "scheme-inverse",
+        "color_scheme": "scheme-2",
         "vertical_alignment": "center",
         "direction": "left",
         "pause_on_hover": false,
@@ -93,7 +93,7 @@
         "header_layout": "left-center",
         "sticky_header": "on-scroll-up",
         "menu_trigger": "click",
-        "show_sperator_line": false,
+        "show_sperator_line": true,
         "enable_transparent_header": false,
         "transparent_header_color": "#ffffff",
         "logo_mobile_position": "center",

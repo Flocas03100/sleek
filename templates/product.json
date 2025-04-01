@@ -9,12 +9,6 @@
  */
 {
   "sections": {
-    "breadcrumbs": {
-      "type": "breadcrumbs",
-      "settings": {
-        "text_alignment": "start"
-      }
-    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -116,12 +110,6 @@
             "page": "",
             "default_open": false
           }
-        },
-        "custom_liquid_WhEVXA": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<style>\n.video-carousel-container {\n  width: 100%;\n  overflow: hidden;\n  position: relative;\n  margin-top: 0px; \n  margin-bottom: 0px; \n}\n\n.video-carousel-track {\n  display: flex;\n  gap: 15px; \n  overflow-x: scroll; \n  scroll-snap-type: x mandatory; \n  padding: 10px;\n  -webkit-overflow-scrolling: touch; \n}\n\n.video-carousel-track::-webkit-scrollbar {\n  display: none; \n}\n\n.video-carousel-item {\n  flex-shrink: 0;\n  width: 200px; \n  height: 350px; \n  border-radius: 10px; \n  overflow: hidden;\n  scroll-snap-align: start; /* Alignement précis pour chaque vidéo */\n  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\n}\n\n.video-carousel-item video {\n  width: 100%;\n  height: 100%;\n  object-fit: cover; \n  pointer-events: none;\n}\n</style>\n\n<div class=\"video-carousel-container\">\n  <div class=\"video-carousel-track\">\n    <!-- Vidéos -->\n<div class=\"video-carousel-item\">\n      <video src=\"https://cdn.shopify.com/votre-lien.mp4\" muted autoplay loop playsinline></video>\n    </div>\n    <div class=\"video-carousel-item\">\n \n      <video src=\"https://cdn.shopify.com/votre-lien.mp4\" muted autoplay loop playsinline></video>\n    </div>\n    <div class=\"video-carousel-item\">\n      <video src=\"https://cdn.shopify.com/votre-lien.mp4\" muted autoplay loop playsinline></video>\n\n    </div>\n    \n\n  </div>\n</div>"
-          }
         }
       },
       "block_order": [
@@ -136,8 +124,7 @@
         "pickup_availability",
         "complementary",
         "collapsible-row-1",
-        "collapsible-row-2",
-        "custom_liquid_WhEVXA"
+        "collapsible-row-2"
       ],
       "settings": {
         "color_scheme": "scheme-1",
@@ -149,51 +136,6 @@
         "enable_video_looping": true,
         "padding_top": 0,
         "padding_bottom": 100
-      }
-    },
-    "image_comparison_KrPcHa": {
-      "type": "image-comparison",
-      "blocks": {
-        "image_TVP7AF": {
-          "type": "image",
-          "settings": {
-            "heading": "Before",
-            "color_scheme": ""
-          }
-        },
-        "image_yFV6Pk": {
-          "type": "image",
-          "settings": {
-            "heading": "After",
-            "color_scheme": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_TVP7AF",
-        "image_yFV6Pk"
-      ],
-      "settings": {
-        "container": "fixed",
-        "color_scheme": "",
-        "header_layout": "vertical",
-        "heading": "Before/after image slider",
-        "heading_size": "h1",
-        "heading_highlight_style": "none",
-        "subheading": "",
-        "description": "",
-        "description_size": "text-base",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "btn--primary",
-        "direction": "horizontal",
-        "image_height": "adapt",
-        "image_heading_style": "badge",
-        "product": "",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "show_section_divider": false,
-        "divider_width": "fixed"
       }
     },
     "feature_list_cW3d9c": {
@@ -510,9 +452,7 @@
     }
   },
   "order": [
-    "breadcrumbs",
     "main",
-    "image_comparison_KrPcHa",
     "feature_list_cW3d9c",
     "image_with_text_MgddA8",
     "collapsible_tabs_phAkEE",
