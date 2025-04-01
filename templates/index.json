@@ -1044,22 +1044,22 @@
         "dots_show_mobile": true,
         "btn_icon_size": 50,
         "btn_icon_size_mobile": 40,
-        "card_bg_color": "#FFFFFF",
+        "card_bg_color": "#ffffff",
         "card_bg_gradient": "",
-        "card_border_color": "#DEDBC4",
+        "card_border_color": "#dedbc4",
         "card_shadow_color": "#000000",
         "media_border_color": "#000000",
         "stars_color": "#323232",
         "text_color": "#323232",
         "author_color": "#323232",
-        "video_icon_bg_color": "#FFFFFF",
+        "video_icon_bg_color": "#ffffff",
         "video_icon_color": "#000000",
         "arrow_color": "#837c5c",
         "arrow_hover_color": "#837c5c",
         "dots_color": "#837c5c",
         "heading_color": "#837c5c",
         "sub_heading_color": "#837c5c",
-        "background_color": "#F6F5F2",
+        "background_color": "#f6f5f2",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
@@ -1069,6 +1069,141 @@
         "padding_horizontal": 0,
         "padding_horizontal_mobile": 0,
         "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "ss_hotspots_DBt6BY": {
+      "type": "ss-hotspots",
+      "blocks": {
+        "hotspot_cgW89k": {
+          "type": "hotspot",
+          "settings": {
+            "vertical_position": 45,
+            "vertical_position_mobile": 45,
+            "horizontal_position": 22,
+            "horizontal_position_mobile": 22,
+            "heading": "<h2>Self-Cleaning Technology</h2>",
+            "text": "<p>Incorporates advanced nanotechnology that breaks down dirt and stains when exposed to sunlight, reducing the need for frequent washing.</p>"
+          }
+        },
+        "hotspot_XVWrgN": {
+          "type": "hotspot",
+          "settings": {
+            "vertical_position": 54,
+            "vertical_position_mobile": 54,
+            "horizontal_position": 32,
+            "horizontal_position_mobile": 32,
+            "heading": "<h2>Temperature Regulation</h2>",
+            "text": "<p>Embedded with phase change materials that absorb excess heat when the environment is warm and release it when cooler, providing year-round comfort.</p>"
+          }
+        },
+        "hotspot_AAe6aN": {
+          "type": "hotspot",
+          "settings": {
+            "vertical_position": 69,
+            "vertical_position_mobile": 69,
+            "horizontal_position": 52,
+            "horizontal_position_mobile": 52,
+            "heading": "<h2>Sustainable Materials</h2>",
+            "text": "<p>Made entirely from bio-based fibers that are not only biodegradable but also actively capture and neutralize airborne pollutants, improving indoor air quality.</p>"
+          }
+        },
+        "hotspot_nfE7Xa": {
+          "type": "hotspot",
+          "settings": {
+            "vertical_position": 40,
+            "vertical_position_mobile": 40,
+            "horizontal_position": 70,
+            "horizontal_position_mobile": 70,
+            "heading": "<h2>Interactive Design</h2>",
+            "text": "<p>Features smart fabric technology that can change colors or patterns via a mobile app, allowing for customizable aesthetics to match any decor.</p>"
+          }
+        },
+        "hotspot_RGrJ8M": {
+          "type": "hotspot",
+          "settings": {
+            "vertical_position": 21,
+            "vertical_position_mobile": 21,
+            "horizontal_position": 85,
+            "horizontal_position_mobile": 85,
+            "heading": "<h2>Health Monitoring</h2>",
+            "text": "<p>Woven with conductive fibers that can subtly monitor room conditions and foot traffic, potentially integrating with smart home systems to provide insights into wellness and activity levels.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_cgW89k",
+        "hotspot_XVWrgN",
+        "hotspot_AAe6aN",
+        "hotspot_nfE7Xa",
+        "hotspot_RGrJ8M"
+      ],
+      "settings": {
+        "body_gap": 30,
+        "body_gap_mobile": 30,
+        "body_mt_mobile": 30,
+        "image_position": "1",
+        "image_position_mobile": "1",
+        "image_ratio": "landscape",
+        "image_ratio_mobile": "landscape",
+        "image_radius": 16,
+        "image_border_thickness": 1,
+        "image_shadow": false,
+        "image_overlay": 0.2,
+        "circle_size": 36,
+        "circle_size_mobile": 32,
+        "circle_border_thickness": 1,
+        "hotspot_custom": false,
+        "hotspot_font": "josefin_sans_n4",
+        "hotspot_size": 14,
+        "hotspot_size_mobile": 14,
+        "hotspot_height": 100,
+        "content_maxwidth": 550,
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 48,
+        "heading_size_mobile": 28,
+        "heading_height": 130,
+        "heading_align": "center",
+        "heading_align_mobile": "center",
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 24,
+        "text_size_mobile": 14,
+        "text_height": 150,
+        "text_mt": 14,
+        "text_mt_mobile": 12,
+        "text_align": "center",
+        "text_align_mobile": "center",
+        "nav_align": "center",
+        "nav_align_mobile": "center",
+        "nav_mt": 40,
+        "nav_mt_mobile": 24,
+        "image_border_color": "#000000",
+        "image_shadow_color": "#000000",
+        "hotspot_color": "#000000",
+        "hotspot_hover_color": "#000000",
+        "hotspot_active_color": "#000000",
+        "circle_bg_color": "#FFFFFF",
+        "circle_bg_hover_color": "#ffcf9f",
+        "circle_bg_active_color": "#ffcf9f",
+        "circle_border_color": "#000000",
+        "circle_border_hover_color": "#000000",
+        "circle_border_active_color": "#000000",
+        "text_color": "#000000",
+        "heading_color": "#000000",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
         "content_width": 120,
         "border_thickness": 0,
         "lazy": true
@@ -1087,6 +1222,7 @@
     "image_with_text_MgddA8",
     "scrolling_promotion_htQpcB",
     "ss_testimonial_8_PeEecB",
-    "ss_testimonial_12_XQKFki"
+    "ss_testimonial_12_XQKFki",
+    "ss_hotspots_DBt6BY"
   ]
 }
