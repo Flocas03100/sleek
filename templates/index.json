@@ -9,6 +9,169 @@
  */
 {
   "sections": {
+    "ss_hero_6_e37GBt": {
+      "type": "ss-hero-6",
+      "blocks": {
+        "badge_zwV9WH": {
+          "type": "badge",
+          "settings": {
+            "text": "🚚 FREE SHIPPING",
+            "text_color": "#FFFFFF",
+            "bg_color": "#000000",
+            "border_color": "#000000"
+          }
+        },
+        "badge_GtTFyi": {
+          "type": "badge",
+          "settings": {
+            "text": "100% COTTON",
+            "text_color": "#FFFFFF",
+            "bg_color": "#000000",
+            "border_color": "#000000"
+          }
+        },
+        "feature_L4CFXR": {
+          "type": "feature",
+          "settings": {
+            "text": "🎁 The Perfect Gift"
+          }
+        },
+        "feature_rHJt6V": {
+          "type": "feature",
+          "settings": {
+            "text": "🔃 Reversible Design"
+          }
+        },
+        "feature_c6AMpK": {
+          "type": "feature",
+          "settings": {
+            "text": "💦 Machine Washable"
+          }
+        }
+      },
+      "block_order": [
+        "badge_zwV9WH",
+        "badge_GtTFyi",
+        "feature_L4CFXR",
+        "feature_rHJt6V",
+        "feature_c6AMpK"
+      ],
+      "settings": {
+        "heading": "<h2>Thick as a towel. Soft to touch.</h2>",
+        "heading_custom": false,
+        "heading_font": "montserrat_n4",
+        "heading_size": 36,
+        "heading_size_mobile": 23,
+        "heading_height": 130,
+        "heading_mt": 10,
+        "heading_align": "left",
+        "heading_align_mobile": "left",
+        "text": "<p>test test test</p>",
+        "text_custom": false,
+        "text_font": "montserrat_n4",
+        "text_size": 24,
+        "text_size_mobile": 18,
+        "text_height": 160,
+        "text_mt": 12,
+        "text_align": "left",
+        "text_align_mobile": "left",
+        "feature_text_custom": false,
+        "feature_text_font": "montserrat_n4",
+        "feature_text_size": 20,
+        "feature_text_size_mobile": 18,
+        "feature_text_height": 160,
+        "feature_text_mt": 28,
+        "feature_text_space": 12,
+        "feature_text_align": "left",
+        "feature_text_align_mobile": "left",
+        "button": "<p>SHOP <strong>THROW RUGS</strong></p>",
+        "button_url": "shopify://collections/frontpage",
+        "button_custom": false,
+        "button_font": "montserrat_n4",
+        "button_size": 18,
+        "button_size_mobile": 18,
+        "button_height": 100,
+        "button_mt": 28,
+        "button_padding_vertical": 16,
+        "button_padding_vertical_mobile": 16,
+        "button_padding_horizontal": 50,
+        "button_padding_horizontal_mobile": 50,
+        "button_radius": 12,
+        "button_border_thickness": 0,
+        "button_align": "left",
+        "button_align_mobile": "center",
+        "button_icon": true,
+        "button_gap": 28,
+        "button_shadow": true,
+        "stars_count": 4.5,
+        "stars_size": 18,
+        "stars_size_mobile": 20,
+        "stars_mt": 16,
+        "rate_text": "<p>Rated <strong>4.4/5</strong> based on <strong>+1475</strong> reviews</p>",
+        "rate_text_custom": false,
+        "rate_text_font": "montserrat_n4",
+        "rate_text_size": 14,
+        "rate_text_size_mobile": 14,
+        "rate_text_height": 100,
+        "rate_text_align": "start",
+        "rate_text_align_mobile": "center",
+        "badge_custom": false,
+        "badge_font": "montserrat_n4",
+        "badge_size": 14,
+        "badge_size_mobile": 14,
+        "badge_height": 100,
+        "badge_padding_vertical": 4,
+        "badge_padding_vertical_mobile": 4,
+        "badge_padding_horizontal": 24,
+        "badge_padding_horizontal_mobile": 24,
+        "badge_radius": 24,
+        "badge_border_thickness": 0,
+        "badge_align": "start",
+        "badge_align_mobile": "center",
+        "badge_mt_mobile": 10,
+        "image": "shopify://shop_images/Design_sans_titre_64.png",
+        "image_mobile": "shopify://shop_images/Design_sans_titre_64.png",
+        "image_radius": 0,
+        "image_border_thickness": 0,
+        "image_blur_desktop": true,
+        "absolute_image": "shopify://shop_images/main-image-11.jpg",
+        "absolute_image_width": 220,
+        "absolute_image_radius": 0,
+        "absolute_image_border_thickness": 0,
+        "button_color": "#FFFFFF",
+        "button_hover_color": "#FFFFFF",
+        "button_other_color": "#d63a2f",
+        "button_hover_other_color": "#ba8450",
+        "button_bg_color": "#000000",
+        "button_bg_hover_color": "#000000",
+        "button_border_color": "#000000",
+        "button_border_hover_color": "#000000",
+        "button_shadow_color": "#f6dc5b",
+        "heading_color": "#000000",
+        "text_color": "#000000",
+        "feature_text_color": "#000000",
+        "stars_color": "#000000",
+        "rate_text_color": "#000000",
+        "image_border_color": "#1c1c1c",
+        "image_blur_color": "#faf9f7",
+        "absolute_image_border_color": "#000000",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 100,
+        "padding_top_mobile": 25,
+        "padding_bottom": 100,
+        "padding_bottom_mobile": 25,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
     "slideshow_q3U4Jn": {
       "type": "slideshow",
       "blocks": {
@@ -592,7 +755,7 @@
         "heading_size": 40,
         "heading_size_mobile": 24,
         "heading_height": 130,
-        "heading_align": "center",
+        "heading_align": "left",
         "rating_text": "Excellent",
         "rating_text_custom": false,
         "rating_text_font": "josefin_sans_n4",
@@ -715,169 +878,10 @@
         "border_thickness": 0,
         "lazy": true
       }
-    },
-    "ss_hero_6_e37GBt": {
-      "type": "ss-hero-6",
-      "blocks": {
-        "badge_zwV9WH": {
-          "type": "badge",
-          "settings": {
-            "text": "🚚 FREE SHIPPING",
-            "text_color": "#FFFFFF",
-            "bg_color": "#000000",
-            "border_color": "#000000"
-          }
-        },
-        "badge_GtTFyi": {
-          "type": "badge",
-          "settings": {
-            "text": "100% COTTON",
-            "text_color": "#FFFFFF",
-            "bg_color": "#000000",
-            "border_color": "#000000"
-          }
-        },
-        "feature_L4CFXR": {
-          "type": "feature",
-          "settings": {
-            "text": "🎁 The Perfect Gift"
-          }
-        },
-        "feature_rHJt6V": {
-          "type": "feature",
-          "settings": {
-            "text": "🔃 Reversible Design"
-          }
-        },
-        "feature_c6AMpK": {
-          "type": "feature",
-          "settings": {
-            "text": "💦 Machine Washable"
-          }
-        }
-      },
-      "block_order": [
-        "badge_zwV9WH",
-        "badge_GtTFyi",
-        "feature_L4CFXR",
-        "feature_rHJt6V",
-        "feature_c6AMpK"
-      ],
-      "settings": {
-        "heading": "<h2>Thick as a towel. Soft to touch.</h2>",
-        "heading_custom": false,
-        "heading_font": "montserrat_n4",
-        "heading_size": 36,
-        "heading_size_mobile": 23,
-        "heading_height": 130,
-        "heading_mt": 10,
-        "heading_align": "left",
-        "heading_align_mobile": "left",
-        "text": "<p>It's a beautiful throw for the bed and couch. A soft blanket for cooler months, and a great picnic rug for summer days.</p>",
-        "text_custom": false,
-        "text_font": "montserrat_n4",
-        "text_size": 24,
-        "text_size_mobile": 18,
-        "text_height": 160,
-        "text_mt": 12,
-        "text_align": "left",
-        "text_align_mobile": "left",
-        "feature_text_custom": false,
-        "feature_text_font": "montserrat_n4",
-        "feature_text_size": 20,
-        "feature_text_size_mobile": 18,
-        "feature_text_height": 160,
-        "feature_text_mt": 28,
-        "feature_text_space": 12,
-        "feature_text_align": "left",
-        "feature_text_align_mobile": "left",
-        "button": "<p>SHOP <strong>THROW RUGS</strong></p>",
-        "button_url": "",
-        "button_custom": false,
-        "button_font": "montserrat_n4",
-        "button_size": 18,
-        "button_size_mobile": 18,
-        "button_height": 100,
-        "button_mt": 28,
-        "button_padding_vertical": 16,
-        "button_padding_vertical_mobile": 16,
-        "button_padding_horizontal": 50,
-        "button_padding_horizontal_mobile": 50,
-        "button_radius": 12,
-        "button_border_thickness": 0,
-        "button_align": "left",
-        "button_align_mobile": "center",
-        "button_icon": true,
-        "button_gap": 28,
-        "button_shadow": true,
-        "stars_count": 4.5,
-        "stars_size": 20,
-        "stars_size_mobile": 20,
-        "stars_mt": 16,
-        "rate_text": "<p>Rated <strong>4.4/5</strong> based on <strong>+1475</strong> reviews</p>",
-        "rate_text_custom": false,
-        "rate_text_font": "montserrat_n4",
-        "rate_text_size": 14,
-        "rate_text_size_mobile": 14,
-        "rate_text_height": 100,
-        "rate_text_align": "start",
-        "rate_text_align_mobile": "center",
-        "badge_custom": false,
-        "badge_font": "josefin_sans_n4",
-        "badge_size": 14,
-        "badge_size_mobile": 14,
-        "badge_height": 100,
-        "badge_padding_vertical": 4,
-        "badge_padding_vertical_mobile": 4,
-        "badge_padding_horizontal": 24,
-        "badge_padding_horizontal_mobile": 24,
-        "badge_radius": 24,
-        "badge_border_thickness": 0,
-        "badge_align": "start",
-        "badge_align_mobile": "center",
-        "badge_mt_mobile": 10,
-        "image_radius": 0,
-        "image_border_thickness": 0,
-        "image_blur_desktop": true,
-        "absolute_image_width": 400,
-        "absolute_image_radius": 0,
-        "absolute_image_border_thickness": 0,
-        "button_color": "#FFFFFF",
-        "button_hover_color": "#FFFFFF",
-        "button_other_color": "#FF75B8",
-        "button_hover_other_color": "#FF75B8",
-        "button_bg_color": "#000000",
-        "button_bg_hover_color": "#000000",
-        "button_border_color": "#000000",
-        "button_border_hover_color": "#000000",
-        "button_shadow_color": "#f6dc5b",
-        "heading_color": "#000000",
-        "text_color": "#000000",
-        "feature_text_color": "#000000",
-        "stars_color": "#000000",
-        "rate_text_color": "#000000",
-        "image_border_color": "#000000",
-        "image_blur_color": "#FFDAEC",
-        "absolute_image_border_color": "#000000",
-        "background_color": "#FFFFFF",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 100,
-        "padding_top_mobile": 25,
-        "padding_bottom": 100,
-        "padding_bottom_mobile": 25,
-        "padding_horizontal": 5,
-        "padding_horizontal_mobile": 1.5,
-        "full_width": false,
-        "content_width": 120,
-        "border_thickness": 0,
-        "lazy": true
-      }
     }
   },
   "order": [
+    "ss_hero_6_e37GBt",
     "slideshow_q3U4Jn",
     "product_tabs_JRF8bP",
     "press_pFfQkM",
@@ -887,7 +891,6 @@
     "custom_content_rhXbV3",
     "image_with_text_MgddA8",
     "scrolling_promotion_htQpcB",
-    "ss_testimonial_8_PeEecB",
-    "ss_hero_6_e37GBt"
+    "ss_testimonial_8_PeEecB"
   ]
 }
