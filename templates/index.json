@@ -56,6 +56,7 @@
         "feature_rHJt6V",
         "feature_c6AMpK"
       ],
+      "disabled": true,
       "settings": {
         "heading": "<p><strong>L’excellence à chaque destination</strong></p>",
         "heading_custom": true,
@@ -134,7 +135,6 @@
         "image_radius": 0,
         "image_border_thickness": 0,
         "image_blur_desktop": true,
-        "absolute_image": "shopify://shop_images/main-image-11.jpg",
         "absolute_image_width": 220,
         "absolute_image_radius": 0,
         "absolute_image_border_thickness": 0,
@@ -180,17 +180,18 @@
           "settings": {
             "color_scheme": "scheme-2",
             "background": "shopify://shop_images/Design_sans_titre_65.png",
+            "background_mobile": "shopify://shop_images/Sans_titre_600_x_480_px.png",
             "image_overlay_opacity": 0,
-            "content_position": "middle-left",
-            "text_alignment": "left",
+            "content_position": "middle-center",
+            "text_alignment": "center",
             "title": "<strong>L’excellence à chaque destination</strong>",
-            "heading_size": "hd2",
-            "subheading": "Plus qu’un bagage, une promesse",
-            "description": "<p>Design raffiné & intemporel</p><p>Résistance exceptionnelle</p><p>Confort de déplacement absolu</p>",
+            "heading_size": "hd3",
+            "subheading": "",
+            "description": "<p>Design raffiné & intemporel</p>",
             "description_size": "text-base",
             "button_label": "Acheter maintenant",
             "button_link": "shopify://products/valise-verte",
-            "button_style": "btn--primary"
+            "button_style": "btn--underline"
           }
         }
       },
@@ -200,7 +201,7 @@
       "settings": {
         "container": "full",
         "layout": "standard",
-        "slide_height": "medium",
+        "slide_height": "adapt",
         "show_dots": true,
         "autoplay": true,
         "autoplay_delay": 5,
@@ -230,8 +231,8 @@
         "heading": "Nos produits",
         "heading_size": "h2",
         "heading_highlight_style": "none",
-        "limit": 4,
-        "columns": 4,
+        "limit": 5,
+        "columns": 5,
         "column_gap": "medium",
         "row_gap": "inherit",
         "grid_layout": "standard",
@@ -243,6 +244,79 @@
         "button_link": "",
         "button_style": "btn--primary",
         "tabs_nav_style": "design-1",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "feature_list_cW3d9c": {
+      "type": "feature-list",
+      "blocks": {
+        "feature_item_VbCwL3": {
+          "type": "feature_item",
+          "settings": {
+            "color_scheme": "",
+            "icon": "check",
+            "icon_style": "btn--secondary",
+            "text": "Certifié TSA"
+          }
+        },
+        "feature_item_NzxQGa": {
+          "type": "feature_item",
+          "settings": {
+            "color_scheme": "",
+            "icon": "check",
+            "icon_style": "btn--secondary",
+            "text": "Ouverture pratique"
+          }
+        },
+        "feature_item_yyNV9A": {
+          "type": "feature_item",
+          "settings": {
+            "color_scheme": "",
+            "icon": "check",
+            "icon_style": "btn--secondary",
+            "text": "Porte gobelet"
+          }
+        },
+        "feature_item_gBgLft": {
+          "type": "feature_item",
+          "settings": {
+            "color_scheme": "",
+            "icon": "check",
+            "icon_style": "btn--secondary",
+            "text": "Chargeur intégré"
+          }
+        },
+        "feature_item_jrtGw9": {
+          "type": "feature_item",
+          "settings": {
+            "color_scheme": "",
+            "icon": "check",
+            "icon_style": "btn--secondary",
+            "text": "Poche étanche"
+          }
+        }
+      },
+      "block_order": [
+        "feature_item_VbCwL3",
+        "feature_item_NzxQGa",
+        "feature_item_yyNV9A",
+        "feature_item_gBgLft",
+        "feature_item_jrtGw9"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "subheading": "",
+        "heading": "",
+        "heading_size": "h2",
+        "heading_highlight_style": "none",
+        "description": "",
+        "text_size": "text-base",
+        "item_alignment": "center",
+        "icon_size": "extra-medium",
+        "swipe_on_mobile": true,
         "padding_top": 50,
         "padding_bottom": 50,
         "show_section_divider": false,
@@ -306,6 +380,7 @@
         "press_n7LVAp",
         "press_anF9NG"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-1",
         "heading": "Certifié par toutes les compagnies",
@@ -323,73 +398,134 @@
         "divider_width": "fixed"
       }
     },
-    "feature_list_cW3d9c": {
-      "type": "feature-list",
+    "custom_content_XfhWd7": {
+      "type": "custom-content",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "enable_sticky_column": false,
+        "heading": "Certifié par toutes les compagnies",
+        "heading_size": "h1",
+        "heading_highlight_style": "none",
+        "subheading": "",
+        "description": "",
+        "column_gap": "medium",
+        "row_gap": "large",
+        "swipe_on_mobile": false,
+        "columns_mobile": "1",
+        "padding_top": 28,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "scrolling_promotion_UUQHgd": {
+      "type": "scrolling-promotion",
       "blocks": {
-        "feature_item_VbCwL3": {
-          "type": "feature_item",
+        "image_kymJbW": {
+          "type": "image",
           "settings": {
-            "color_scheme": "",
-            "icon": "check",
-            "icon_style": "btn--secondary",
-            "text": "Feature item"
+            "image_height": 120,
+            "image_rounded": false,
+            "image_link": "",
+            "image_height_mobile": 90
           }
         },
-        "feature_item_NzxQGa": {
-          "type": "feature_item",
+        "image_cdd3xA": {
+          "type": "image",
           "settings": {
-            "color_scheme": "",
-            "icon": "check",
-            "icon_style": "btn--secondary",
-            "text": "Feature item"
+            "image_height": 120,
+            "image_rounded": false,
+            "image_link": "",
+            "image_height_mobile": 90
           }
         },
-        "feature_item_yyNV9A": {
-          "type": "feature_item",
+        "image_XjHB4T": {
+          "type": "image",
           "settings": {
-            "color_scheme": "",
-            "icon": "check",
-            "icon_style": "btn--secondary",
-            "text": "Feature item"
+            "image_height": 120,
+            "image_rounded": false,
+            "image_link": "",
+            "image_height_mobile": 90
           }
         },
-        "feature_item_gBgLft": {
-          "type": "feature_item",
+        "image_Drh9Jb": {
+          "type": "image",
           "settings": {
-            "color_scheme": "",
-            "icon": "check",
-            "icon_style": "btn--secondary",
-            "text": "Feature item"
-          }
-        },
-        "feature_item_R8A8eX": {
-          "type": "feature_item",
-          "settings": {
-            "color_scheme": "",
-            "icon": "check",
-            "icon_style": "btn--secondary",
-            "text": "Feature item"
+            "image_height": 120,
+            "image_rounded": false,
+            "image_link": "",
+            "image_height_mobile": 90
           }
         }
       },
       "block_order": [
-        "feature_item_VbCwL3",
-        "feature_item_NzxQGa",
-        "feature_item_yyNV9A",
-        "feature_item_gBgLft",
-        "feature_item_R8A8eX"
+        "image_kymJbW",
+        "image_cdd3xA",
+        "image_XjHB4T",
+        "image_Drh9Jb"
       ],
       "settings": {
-        "color_scheme": "scheme-1",
-        "subheading": "",
-        "heading": "",
-        "heading_size": "h2",
+        "color_scheme": "",
+        "vertical_alignment": "center",
+        "direction": "left",
+        "pause_on_hover": true,
+        "speed": 0.5,
+        "h_spacing": 50,
+        "v_spacing": 10,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "show_divider": false,
+        "divider_layout": "vertical"
+      }
+    },
+    "lookbook_slider_WeHJUK": {
+      "type": "lookbook-slider",
+      "blocks": {
+        "product_K7miRk": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "top": 45,
+            "left": 30
+          }
+        },
+        "product_BwgpfL": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "top": 50,
+            "left": 70
+          }
+        },
+        "product_dkdktH": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "top": 62,
+            "left": 43
+          }
+        }
+      },
+      "block_order": [
+        "product_K7miRk",
+        "product_BwgpfL",
+        "product_dkdktH"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "use_color_scheme_in_container": false,
+        "heading": "Shop the look",
+        "heading_size": "h1",
         "heading_highlight_style": "none",
-        "description": "",
-        "text_size": "text-base",
-        "item_alignment": "center",
-        "icon_size": "extra-medium",
-        "swipe_on_mobile": true,
+        "subheading": "",
+        "description": "<p>test</p>",
+        "description_size": "text-base",
+        "image_aspect_ratio": "adapt",
+        "image_position": "left",
+        "annotation_color": "dark",
+        "product_image_ratio": "",
+        "product_per_slide": "2",
         "padding_top": 50,
         "padding_bottom": 50,
         "show_section_divider": false,
@@ -449,58 +585,58 @@
         "divider_width": "fixed"
       }
     },
-    "lookbook_banner_TUktqa": {
-      "type": "lookbook-banner",
+    "layered_images_with_text_pj49Yi": {
+      "type": "layered-images-with-text",
       "blocks": {
-        "product_TNpP4B": {
-          "type": "product",
+        "image_X3kfac": {
+          "type": "image",
           "settings": {
-            "product": "",
-            "top": 45,
-            "left": 30,
-            "top_mobile": 45,
-            "left_mobile": 30
+            "custom_classes": ""
           }
         },
-        "product_4L67e8": {
-          "type": "product",
+        "image_4MWJpp": {
+          "type": "image",
           "settings": {
-            "product": "",
-            "top": 50,
-            "left": 70,
-            "top_mobile": 50,
-            "left_mobile": 70
+            "custom_classes": ""
           }
         },
-        "product_ycaqH4": {
-          "type": "product",
+        "image_werV9Q": {
+          "type": "image",
           "settings": {
-            "product": "",
-            "top": 62,
-            "left": 43,
-            "top_mobile": 62,
-            "left_mobile": 43
+            "custom_classes": ""
+          }
+        },
+        "image_PfcPHD": {
+          "type": "image",
+          "settings": {
+            "custom_classes": ""
+          }
+        },
+        "image_DJXYrP": {
+          "type": "image",
+          "settings": {
+            "custom_classes": ""
           }
         }
       },
       "block_order": [
-        "product_TNpP4B",
-        "product_4L67e8",
-        "product_ycaqH4"
+        "image_X3kfac",
+        "image_4MWJpp",
+        "image_werV9Q",
+        "image_PfcPHD",
+        "image_DJXYrP"
       ],
       "settings": {
         "color_scheme": "",
-        "heading": "Lookbook banner",
+        "heading": "Layered images with text",
         "heading_size": "h1",
         "heading_highlight_style": "none",
         "subheading": "",
-        "description": "",
+        "description": "<p>Tell your brand's story through images</p>",
         "description_size": "text-base",
-        "annotation_color": "dark",
-        "scrolling_direction": "left",
-        "pause_on_hover": true,
-        "scrolling_speed": 1,
-        "scrolling_text_color": "#000000",
+        "button_label": "Button label",
+        "button_link": "",
+        "button_style": "btn--primary",
         "padding_top": 50,
         "padding_bottom": 50,
         "show_section_divider": false,
@@ -748,6 +884,7 @@
         "slide_WYG797",
         "slide_X6QRwY"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Our customers tell it better than we do!",
         "heading_custom": false,
@@ -969,6 +1106,7 @@
         "slide_pRBHMr",
         "slide_ehGFUM"
       ],
+      "disabled": true,
       "settings": {
         "heading": "<h2>Loved by everyone, everywhere. Don't miss out.</h2>",
         "heading_custom": true,
@@ -1131,6 +1269,17 @@
             "heading": "<h2>Health Monitoring</h2>",
             "text": "<p>Woven with conductive fibers that can subtly monitor room conditions and foot traffic, potentially integrating with smart home systems to provide insights into wellness and activity levels.</p>"
           }
+        },
+        "hotspot_9FBnzj": {
+          "type": "hotspot",
+          "settings": {
+            "vertical_position": 50,
+            "vertical_position_mobile": 50,
+            "horizontal_position": 50,
+            "horizontal_position_mobile": 50,
+            "heading": "<h2>Patented TUSHY Classic</h2>",
+            "text": "<p>Text</p>"
+          }
         }
       },
       "block_order": [
@@ -1138,8 +1287,10 @@
         "hotspot_XVWrgN",
         "hotspot_AAe6aN",
         "hotspot_nfE7Xa",
-        "hotspot_RGrJ8M"
+        "hotspot_RGrJ8M",
+        "hotspot_9FBnzj"
       ],
+      "disabled": true,
       "settings": {
         "body_gap": 30,
         "body_gap_mobile": 30,
@@ -1209,21 +1360,83 @@
         "border_thickness": 0,
         "lazy": true
       }
+    },
+    "lookbook_banner_WjmKhW": {
+      "type": "lookbook-banner",
+      "blocks": {
+        "product_EtCFwx": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "top": 45,
+            "left": 30,
+            "top_mobile": 45,
+            "left_mobile": 30
+          }
+        },
+        "product_XnMxye": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "top": 50,
+            "left": 70,
+            "top_mobile": 50,
+            "left_mobile": 70
+          }
+        },
+        "product_VmbGie": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "top": 62,
+            "left": 43,
+            "top_mobile": 62,
+            "left_mobile": 43
+          }
+        }
+      },
+      "block_order": [
+        "product_EtCFwx",
+        "product_XnMxye",
+        "product_VmbGie"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "heading": "Lookbook banner",
+        "heading_size": "h1",
+        "heading_highlight_style": "none",
+        "subheading": "",
+        "description": "",
+        "description_size": "text-base",
+        "annotation_color": "dark",
+        "scrolling_direction": "left",
+        "pause_on_hover": true,
+        "scrolling_speed": 1,
+        "scrolling_text_color": "#000000",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
     }
   },
   "order": [
     "ss_hero_6_e37GBt",
     "slideshow_q3U4Jn",
     "product_tabs_JRF8bP",
-    "press_pFfQkM",
     "feature_list_cW3d9c",
+    "press_pFfQkM",
+    "custom_content_XfhWd7",
+    "scrolling_promotion_UUQHgd",
+    "lookbook_slider_WeHJUK",
     "highlight_text_with_image_9KLzcX",
-    "lookbook_banner_TUktqa",
+    "layered_images_with_text_pj49Yi",
     "custom_content_rhXbV3",
     "image_with_text_MgddA8",
     "scrolling_promotion_htQpcB",
     "ss_testimonial_8_PeEecB",
     "ss_testimonial_12_XQKFki",
-    "ss_hotspots_DBt6BY"
+    "ss_hotspots_DBt6BY",
+    "lookbook_banner_WjmKhW"
   ]
 }
