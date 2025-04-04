@@ -54,12 +54,6 @@
             "size_chart_from_page": ""
           }
         },
-        "custom_liquid_pbnbKA": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div class=\"benefits-section\">\n  <h2></h2>\n  <ul class=\"benefits-list\">\n    <li>\n      <img src=\"https://img.icons8.com/?size=100&id=57926&format=png&color=000000\" class=\"benefit-icon\" alt=\"Authenticity Shield\">\n      <span class=\"benefit-text\">Authenticité Garantie</span>\n    </li>\n    <li>\n      <img src=\"https://img.icons8.com/?size=100&id=74519&format=png&color=000000\" class=\"benefit-icon\" alt=\"Checkmark\">\n      <span class=\"benefit-text\">Paiement sécurisé</span>\n    </li>\n    <li>\n      <img src=\"https://img.icons8.com/?size=100&id=Lt9swTmrH6AE&format=png&color=000000\" class=\"benefit-icon\" alt=\"Checkmark\">\n      <span class=\"benefit-text\">Livraison Rapide</span>\n    </li>\n    <li>\n      <img src=\"https://img.icons8.com/?size=100&id=11162&format=png&color=000000\" class=\"benefit-icon\" alt=\"Checkmark\">\n      <span class=\"benefit-text\">Support Technique</span>\n    </li>\n  </ul>\n</div>\n<style>\n  .benefits-section {\n    font-family: Arial, sans-serif;\n    color: #333;\n  }\n  .benefits-section h2 {\n    font-size: 26px;\n    margin-bottom: 10px;\n  }\n  .benefits-list {\n    list-style: none;\n    padding: 0;\n    margin: 0;\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: space-between;\n  }\n  .benefits-list li {\n    width: 48%;\n    margin-bottom: 10px;\n    display: flex;\n    align-items: center;\n  }\n  .benefit-icon {\n    width: 20px;\n    height: 20px;\n    margin-right: 8px;\n  }\n  .benefit-text {\n    font-size: 14px; /* Increased by 2px */\n  }\n</style>"
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -80,6 +74,12 @@
             "heading_2": "30 day returns",
             "icon_3": "star-four",
             "heading_3": ""
+          }
+        },
+        "custom_liquid_pbnbKA": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"benefits-section\">\n  <h2></h2>\n  <ul class=\"benefits-list\">\n    <li>\n      <img src=\"https://img.icons8.com/?size=100&id=57926&format=png&color=000000\" class=\"benefit-icon\" alt=\"Authenticity Shield\">\n      <span class=\"benefit-text\">Authenticité Garantie</span>\n    </li>\n    <li>\n      <img src=\"https://img.icons8.com/?size=100&id=74519&format=png&color=000000\" class=\"benefit-icon\" alt=\"Checkmark\">\n      <span class=\"benefit-text\">Paiement sécurisé</span>\n    </li>\n    <li>\n      <img src=\"https://img.icons8.com/?size=100&id=Lt9swTmrH6AE&format=png&color=000000\" class=\"benefit-icon\" alt=\"Checkmark\">\n      <span class=\"benefit-text\">Livraison Rapide</span>\n    </li>\n    <li>\n      <img src=\"https://img.icons8.com/?size=100&id=11162&format=png&color=000000\" class=\"benefit-icon\" alt=\"Checkmark\">\n      <span class=\"benefit-text\">Support Technique</span>\n    </li>\n  </ul>\n</div>\n<style>\n  .benefits-section {\n    font-family: Arial, sans-serif;\n    color: #333;\n  }\n  .benefits-section h2 {\n    font-size: 26px;\n    margin-bottom: 10px;\n  }\n  .benefits-list {\n    list-style: none;\n    padding: 0;\n    margin: 0;\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: space-between;\n  }\n  .benefits-list li {\n    width: 48%;\n    margin-bottom: 10px;\n    display: flex;\n    align-items: center;\n  }\n  .benefit-icon {\n    width: 20px;\n    height: 20px;\n    margin-right: 8px;\n  }\n  .benefit-text {\n    font-size: 14px; /* Increased by 2px */\n  }\n</style>"
           }
         },
         "pickup_availability": {
@@ -126,9 +126,9 @@
         "description",
         "inventory",
         "variant_picker",
-        "custom_liquid_pbnbKA",
         "buy_buttons",
         "icon_with_text",
+        "custom_liquid_pbnbKA",
         "pickup_availability",
         "complementary",
         "collapsible-row-1",
