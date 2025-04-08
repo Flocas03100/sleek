@@ -34,8 +34,8 @@
           "type": "inventory",
           "settings": {
             "text_style": "body",
-            "inventory_threshold": 50,
-            "show_inventory_quantity": true
+            "inventory_threshold": 100,
+            "show_inventory_quantity": false
           }
         },
         "description": {
