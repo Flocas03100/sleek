@@ -398,87 +398,6 @@
         "divider_width": "fixed"
       }
     },
-    "custom_content_XfhWd7": {
-      "type": "custom-content",
-      "settings": {
-        "container": "fixed",
-        "color_scheme": "",
-        "enable_sticky_column": false,
-        "heading": "Certifié par toutes les compagnies",
-        "heading_size": "h1",
-        "heading_highlight_style": "none",
-        "subheading": "",
-        "description": "",
-        "column_gap": "medium",
-        "row_gap": "large",
-        "swipe_on_mobile": false,
-        "columns_mobile": "1",
-        "padding_top": 28,
-        "padding_bottom": 0,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
-    },
-    "scrolling_promotion_UUQHgd": {
-      "type": "scrolling-promotion",
-      "blocks": {
-        "image_kymJbW": {
-          "type": "image",
-          "settings": {
-            "image_height": 120,
-            "image_rounded": false,
-            "image_link": "",
-            "image_height_mobile": 90
-          }
-        },
-        "image_cdd3xA": {
-          "type": "image",
-          "settings": {
-            "image_height": 120,
-            "image_rounded": false,
-            "image_link": "",
-            "image_height_mobile": 90
-          }
-        },
-        "image_XjHB4T": {
-          "type": "image",
-          "settings": {
-            "image_height": 120,
-            "image_rounded": false,
-            "image_link": "",
-            "image_height_mobile": 90
-          }
-        },
-        "image_Drh9Jb": {
-          "type": "image",
-          "settings": {
-            "image_height": 120,
-            "image_rounded": false,
-            "image_link": "",
-            "image_height_mobile": 90
-          }
-        }
-      },
-      "block_order": [
-        "image_kymJbW",
-        "image_cdd3xA",
-        "image_XjHB4T",
-        "image_Drh9Jb"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "vertical_alignment": "center",
-        "direction": "left",
-        "pause_on_hover": true,
-        "speed": 0.5,
-        "h_spacing": 50,
-        "v_spacing": 10,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "show_divider": false,
-        "divider_layout": "vertical"
-      }
-    },
     "lookbook_slider_WeHJUK": {
       "type": "lookbook-slider",
       "blocks": {
@@ -575,7 +494,7 @@
         "image_DyKWHM"
       ],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "text": "Highlight products, [img1] a collection, or [img2] images alongside a brand message [img3]",
         "heading_size": "hd1",
         "alignment": "center",
@@ -1426,8 +1345,6 @@
     "product_tabs_JRF8bP",
     "feature_list_cW3d9c",
     "press_pFfQkM",
-    "custom_content_XfhWd7",
-    "scrolling_promotion_UUQHgd",
     "lookbook_slider_WeHJUK",
     "highlight_text_with_image_9KLzcX",
     "layered_images_with_text_pj49Yi",

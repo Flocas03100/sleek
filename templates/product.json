@@ -57,29 +57,21 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_quantity_selector": true,
+            "show_quantity_selector": false,
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
-          }
-        },
-        "icon_with_text": {
-          "type": "icon-with-text",
-          "settings": {
-            "layout": "horizontal",
-            "title_font": "body",
-            "title_size": "text-base",
-            "icon_1": "package",
-            "heading_1": "Orders over $50 ship free",
-            "icon_2": "seal-check",
-            "heading_2": "30 day returns",
-            "icon_3": "star-four",
-            "heading_3": ""
           }
         },
         "custom_liquid_pbnbKA": {
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "<div class=\"benefits-section\">\n  <h2></h2>\n  <ul class=\"benefits-list\">\n    <li>\n      <img src=\"https://img.icons8.com/?size=100&id=57926&format=png&color=000000\" class=\"benefit-icon\" alt=\"Authenticity Shield\">\n      <span class=\"benefit-text\">Authenticité Garantie</span>\n    </li>\n    <li>\n      <img src=\"https://img.icons8.com/?size=100&id=74519&format=png&color=000000\" class=\"benefit-icon\" alt=\"Checkmark\">\n      <span class=\"benefit-text\">Paiement sécurisé</span>\n    </li>\n    <li>\n      <img src=\"https://img.icons8.com/?size=100&id=Lt9swTmrH6AE&format=png&color=000000\" class=\"benefit-icon\" alt=\"Checkmark\">\n      <span class=\"benefit-text\">Livraison Rapide</span>\n    </li>\n    <li>\n      <img src=\"https://img.icons8.com/?size=100&id=11162&format=png&color=000000\" class=\"benefit-icon\" alt=\"Checkmark\">\n      <span class=\"benefit-text\">Support Technique</span>\n    </li>\n  </ul>\n</div>\n<style>\n  .benefits-section {\n    font-family: Arial, sans-serif;\n    color: #333;\n  }\n  .benefits-section h2 {\n    font-size: 26px;\n    margin-bottom: 10px;\n  }\n  .benefits-list {\n    list-style: none;\n    padding: 0;\n    margin: 0;\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: space-between;\n  }\n  .benefits-list li {\n    width: 48%;\n    margin-bottom: 10px;\n    display: flex;\n    align-items: center;\n  }\n  .benefit-icon {\n    width: 20px;\n    height: 20px;\n    margin-right: 8px;\n  }\n  .benefit-text {\n    font-size: 14px; /* Increased by 2px */\n  }\n</style>"
+          }
+        },
+        "custom_liquid_7gHBwT": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"\n  background-color: #F6F2EE;\n  padding: 15px;\n  border-radius: 5px;\n  text-align: center;\n\">\n  <style>\n    /* Réduire la taille du texte pour les écrans inférieurs à 768px de large */\n    @media screen and (max-width: 768px) {\n      .responsive-text {\n        font-size: 12px; /* Diminuer encore si besoin (ex: 10px) */\n        line-height: 1.2em; /* Ajustez pour resserrer davantage */\n      }\n    }\n  </style>\n  <p class=\"responsive-text\" style=\"margin: 0; font-size: 16px;\">\n    Convient à toutes les compagnies aériennes internationales, y compris les compagnies low-cost européennes\n  </p>\n</div>"
           }
         },
         "pickup_availability": {
@@ -107,16 +99,6 @@
             "page": "",
             "default_open": false
           }
-        },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Collapsible tab heading",
-            "icon": "none",
-            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
-            "page": "",
-            "default_open": false
-          }
         }
       },
       "block_order": [
@@ -127,12 +109,11 @@
         "inventory",
         "variant_picker",
         "buy_buttons",
-        "icon_with_text",
         "custom_liquid_pbnbKA",
+        "custom_liquid_7gHBwT",
         "pickup_availability",
         "complementary",
-        "collapsible-row-1",
-        "collapsible-row-2"
+        "collapsible-row-1"
       ],
       "custom_css": [
         ".product__tax,.price__tax,.product__tax-note,.product__policies {display: none !important;}"
@@ -369,7 +350,7 @@
         "html_XAthVt": {
           "type": "html",
           "settings": {
-            "html": "<div class=\"flex items-center\"><div style=\"display: block;width: 6.4rem;height: 1px; background: #000\"> </div></div>"
+            "html": "<div class=\"flex items-center\"><div style=\"display: block;width: 6.4rem;height: 1px; background: #1C1C1C\"> </div></div>"
           }
         },
         "text_QpjN3F": {
@@ -390,7 +371,7 @@
         "html_ADnizU": {
           "type": "html",
           "settings": {
-            "html": "<div class=\"flex items-center\"><div style=\"display: block;width: 6.4rem;height: 1px; background: #000\"> </div></div>"
+            "html": "<div class=\"flex items-center\"><div style=\"display: block;width: 6.4rem;height: 1px; background: #1C1C1C\"> </div></div>"
           }
         },
         "text_WiAYMn": {
@@ -411,7 +392,7 @@
         "html_4bNp7y": {
           "type": "html",
           "settings": {
-            "html": "<div class=\"flex items-center\"><div style=\"display: block;width: 6.4rem;height: 1px; background: #000\"> </div></div>"
+            "html": "<div class=\"flex items-center\"><div style=\"display: block;width: 6.4rem;height: 1px; background: #1C1C1C\"> </div></div>"
           }
         }
       },
@@ -428,7 +409,7 @@
         "vertical_alignment": "center",
         "direction": "left",
         "pause_on_hover": true,
-        "speed": 0.5,
+        "speed": 0.3,
         "h_spacing": 30,
         "v_spacing": 0,
         "padding_top": 40,
