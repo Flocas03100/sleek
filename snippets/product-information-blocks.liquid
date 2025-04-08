@@ -48,6 +48,12 @@
                 price_class: 'f-price--large'
               -%}
             </div>
+                {% if product.compare_at_price > product.price %}
+      {% assign discount = product.compare_at_price | minus: product.price | times: 100 | divided_by: product.compare_at_price | round %}
+      <span style="background-color: #A48A6E; color: white; font-size: 14px; font-weight: bold; padding: 4px 10px; border-radius: 4px; margin-left: 10px;">
+        Économisez {{ discount }}%
+      </span>
+    {% endif %}
             {%- if product.quantity_price_breaks_configured? -%}
               <div class="volume-pricing-note" id="VolumeNote-{{ section.id }}">
                 <span>{{ 'products.product.volume_pricing.note' | t }}</span>
