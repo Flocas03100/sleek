@@ -40,20 +40,20 @@
             class="product__block product__block--{{ block.type }}"
             {{ block.shopify_attributes }}
           >
-            <div id="price-{{ section.id }}" role="status">
-              {%- render 'price',
-                product: product,
-                use_variant: true,
-                show_sale_badge: false,
-                price_class: 'f-price--large'
-              -%}
-            </div>
-                {% if product.compare_at_price > product.price %}
-      {% assign discount = product.compare_at_price | minus: product.price | times: 100 | divided_by: product.compare_at_price | round %}
-      <span style="background-color: #A48A6E; color: white; font-size: 14px; font-weight: bold; padding: 4px 10px; border-radius: 4px; margin-left: 10px;">
-        Économisez {{ discount }}%
-      </span>
-    {% endif %}
+            <div id="price-{{ section.id }}" role="status" style="display: inline-flex; align-items: center; gap: 12px;">
+  {%- render 'price',
+    product: product,
+    use_variant: true,
+    show_sale_badge: false,
+    price_class: 'f-price--large'
+  -%}
+  {% if product.compare_at_price > product.price %}
+    {% assign discount = product.compare_at_price | minus: product.price | times: 100 | divided_by: product.compare_at_price | round %}
+    <span style="background-color: #A48A6E; color: white; font-size: 14px; font-weight: bold; padding: 4px 10px; border-radius: 4px;">
+      Économisez {{ discount }}%
+    </span>
+  {% endif %}
+</div>
             {%- if product.quantity_price_breaks_configured? -%}
               <div class="volume-pricing-note" id="VolumeNote-{{ section.id }}">
                 <span>{{ 'products.product.volume_pricing.note' | t }}</span>
