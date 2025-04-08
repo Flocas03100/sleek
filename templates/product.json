@@ -30,18 +30,17 @@
           "type": "price",
           "settings": {}
         },
+        "inventory": {
+          "type": "inventory",
+          "settings": {
+            "text_style": "body",
+            "inventory_threshold": 50,
+            "show_inventory_quantity": true
+          }
+        },
         "description": {
           "type": "description",
           "settings": {}
-        },
-        "inventory": {
-          "type": "inventory",
-          "disabled": true,
-          "settings": {
-            "text_style": "body",
-            "inventory_threshold": 20,
-            "show_inventory_quantity": true
-          }
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -105,8 +104,8 @@
         "badges",
         "title",
         "price",
-        "description",
         "inventory",
+        "description",
         "variant_picker",
         "buy_buttons",
         "custom_liquid_pbnbKA",
