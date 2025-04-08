@@ -116,7 +116,9 @@
         "collapsible-row-1"
       ],
       "custom_css": [
-        ".product__tax,.price__tax,.product__tax-note,.product__policies {display: none !important;}"
+        ".product__tax,.price__tax,.product__tax-note,.product__policies {display: none !important;}",
+        "/* Conteneur du prix et du badge */.product__info-container {display: flex; align-items: center; gap: 10px; /* Espace entre le prix et le badge */ flex-wrap: wrap; /* Assure une bonne adaptation sur les petits écrans */}",
+        "/* Style du badge */.badge {background-color: #F6F2EE; /* Couleur de fond du badge */ color: #000; /* Couleur du texte du badge */ font-size: 14px; padding: 4px 8px; border-radius: 4px; white-space: nowrap; /* Empêche le retour à la ligne */}"
       ],
       "settings": {
         "color_scheme": "scheme-1",
