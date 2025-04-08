@@ -1831,5 +1831,12 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "/* Regroupe prix + badge dans une ligne */.product__info-container > .price, .product__info-container > .custom-liquid {display: inline-block; vertical-align: middle;}",
+      "/* Gère l'espacement du badge */.product__info-container > .custom-liquid {margin-left: 10px;}",
+      "/* Cache l'ancien badge en haut à gauche */.badge--bottom-left {display: none !important;}"
+    ]
   }
 }
