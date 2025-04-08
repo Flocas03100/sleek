@@ -30,6 +30,12 @@
           "type": "price",
           "settings": {}
         },
+"custom_liquid_badge_price": {
+  "type": "custom_liquid",
+  "settings": {
+    "custom_liquid": "<div style='display: inline-block; background-color: #A48A6E; color: white; font-size: 14px; font-weight: bold; padding: 4px 10px; border-radius: 3px; margin-left: 12px; white-space: nowrap;'>Économisez 50%</div>"
+  }
+},
         "description": {
           "type": "description",
           "settings": {}
@@ -105,6 +111,7 @@
         "badges",
         "title",
         "price",
+"custom_liquid_badge_price",
         "description",
         "inventory",
         "variant_picker",
