@@ -57,6 +57,11 @@ pagination: {
   el: this.querySelector('.swiper-pagination'),
   clickable: true,
   type: 'bullets',
+  bulletClass: 'swiper-pagination-bullet',
+  bulletActiveClass: 'swiper-pagination-bullet-active',
+  renderBullet: function (index, className) {
+    return '<span class="' + className + '"></span>';
+  }
 },
           threshold: 2,
         };
