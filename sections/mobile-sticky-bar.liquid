@@ -58,7 +58,7 @@
     assign default_cart = 'sections.mobile-sticky-bar.cart' | t
   -%}
   {%- if block_size > 0 -%}
-    <mobile-sticky-bar class="mobile-sticky-bar md:hidden up" data-section-type="mobile-sticky-bar">
+    <mobile-sticky-bar class="mobile-sticky-bar md:hidden up delayed-hidden" data-section-type="mobile-sticky-bar">
       <div class="mobile-sticky-bar__wrapper f-grid f-grid-{{ block_size }}-cols">
         {%- for block in section.blocks -%}
           {%- liquid
@@ -385,3 +385,13 @@
   ]
 }
 {% endschema %}
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    setTimeout(function () {
+      const bar = document.querySelector('.mobile-sticky-bar.delayed-hidden');
+      if (bar) {
+        bar.classList.remove('delayed-hidden');
+      }
+    }, 5000); // 5000ms = 5 secondes
+  });
+</script>
