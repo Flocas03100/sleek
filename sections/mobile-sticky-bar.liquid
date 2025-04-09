@@ -61,8 +61,7 @@
     assign default_cart = 'sections.mobile-sticky-bar.cart' | t
   -%}
   {%- if block_size > 0 -%}
-    <div class="sticky-add-to-cart-bar">
-</div>
+    <mobile-sticky-bar class="mobile-sticky-bar md:hidden up sticky-add-to-cart-bar">
       <div class="mobile-sticky-bar__wrapper f-grid f-grid-{{ block_size }}-cols">
         {%- for block in section.blocks -%}
           {%- liquid
