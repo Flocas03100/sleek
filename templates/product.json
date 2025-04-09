@@ -62,12 +62,6 @@
             "show_gift_card_recipient": true
           }
         },
-        "custom_liquid_pbnbKA": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div class=\"benefits-section-minea no-top-padding\">\n  <ul class=\"benefits-list-minea\">\n    <li>\n      <img src=\"https://img.icons8.com/?size=100&id=57926&format=png&color=000000\" class=\"benefit-icon-minea\" alt=\"Authenticity Shield\">\n      <span class=\"benefit-text-minea\">Authenticité Garantie</span>\n    </li>\n    <li>\n      <img src=\"https://img.icons8.com/?size=100&id=74519&format=png&color=000000\" class=\"benefit-icon-minea\" alt=\"Paiement Sécurisé\">\n      <span class=\"benefit-text-minea\">Paiement sécurisé</span>\n    </li>\n  </ul>\n</div>\n\n<style>\n  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');\n\n  .benefits-section-minea {\n    font-family: 'Montserrat', sans-serif;\n    margin: 0 0 10px 0; /* aucune marge en haut */\n  }\n\n  .benefits-list-minea {\n    list-style: none;\n    display: flex;\n    flex-wrap: wrap;\n    gap: 8px 12px;\n    padding: 0;\n    margin: 0;\n  }\n\n  .benefits-list-minea li {\n    display: flex;\n    align-items: center;\n    width: calc(50% - 6px); /* 2 colonnes */\n    padding: 4px 0;\n  }\n\n  .benefit-icon-minea {\n    width: 18px;\n    height: 18px;\n    margin-right: 6px;\n  }\n\n  .benefit-text-minea {\n    font-size: 13.5px;\n    color: #1C1C1C;\n    font-weight: 500;\n  }\n\n  @media screen and (max-width: 480px) {\n    .benefit-text-minea {\n      font-size: 13px;\n    }\n  }\n</style>"
-          }
-        },
         "custom_liquid_7gHBwT": {
           "type": "custom_liquid",
           "settings": {
@@ -90,6 +84,12 @@
             "enable_quick_add": true
           }
         },
+        "custom_liquid_LAx4WJ": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"\n  background-color: #f6f4f0;\n  font-family: 'Montserrat', sans-serif;\n  padding: 30px 20px 20px;\n  border-radius: 10px;\n\">\n  <style>\n    .feature-clean-grid {\n      display: flex;\n      flex-wrap: wrap;\n      justify-content: space-between;\n      gap: 18px 0;\n    }\n\n    .feature-clean-item {\n      display: flex;\n      align-items: flex-start;\n      gap: 10px;\n      width: 48%;\n    }\n\n    .feature-clean-item img {\n      width: 22px;\n      height: auto;\n      object-fit: contain;\n      pointer-events: none;\n    }\n\n    .feature-clean-text {\n      font-size: 13px;\n      color: #1c1c1c;\n      line-height: 1.4em;\n      margin: 0;\n      font-weight: 400;\n    }\n\n    @media screen and (max-width: 768px) {\n      .feature-clean-text {\n        font-size: 12px;\n      }\n\n      .feature-clean-item img {\n        width: 20px;\n      }\n    }\n\n    @media screen and (max-width: 480px) {\n      .feature-clean-text {\n        font-size: 11px;\n      }\n\n      .feature-clean-item img {\n        width: 18px;\n      }\n    }\n  </style>\n\n  <div class=\"feature-clean-grid\">\n    <div class=\"feature-clean-item\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0934/4129/4668/files/wheels.webp?v=1744174783\" alt=\"Roues 360°\">\n      <p class=\"feature-clean-text\">Roues pivotantes 360°</p>\n    </div>\n    <div class=\"feature-clean-item\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0934/4129/4668/files/numberdays.webp?v=1744174783\" alt=\"5 à 7 jours\">\n      <p class=\"feature-clean-text\">Pour des voyages de 5 à 7 jours</p>\n    </div>\n    <div class=\"feature-clean-item\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0934/4129/4668/files/shell_1.webp?v=1744174783\" alt=\"Coque incassable\">\n      <p class=\"feature-clean-text\">Coque incassable en polycarbonate</p>\n    </div>\n    <div class=\"feature-clean-item\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0934/4129/4668/files/lock.webp?v=1744174783\" alt=\"Serrures sécurité\">\n      <p class=\"feature-clean-text\">Serrures sécurité aéroport approuvées</p>\n    </div>\n  </div>\n</div>"
+          }
+        },
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
@@ -98,12 +98,6 @@
             "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
             "page": "",
             "default_open": false
-          }
-        },
-        "custom_liquid_LAx4WJ": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div style=\"\n  background-color: #f6f4f0;\n  font-family: 'Montserrat', sans-serif;\n  padding: 30px 20px 20px;\n  border-radius: 10px;\n\">\n  <style>\n    .feature-clean-grid {\n      display: flex;\n      flex-wrap: wrap;\n      justify-content: space-between;\n      gap: 18px 0;\n    }\n\n    .feature-clean-item {\n      display: flex;\n      align-items: flex-start;\n      gap: 10px;\n      width: 48%;\n    }\n\n    .feature-clean-item img {\n      width: 22px;\n      height: auto;\n      object-fit: contain;\n      pointer-events: none;\n    }\n\n    .feature-clean-text {\n      font-size: 13px;\n      color: #1c1c1c;\n      line-height: 1.4em;\n      margin: 0;\n      font-weight: 400;\n    }\n\n    @media screen and (max-width: 768px) {\n      .feature-clean-text {\n        font-size: 12px;\n      }\n\n      .feature-clean-item img {\n        width: 20px;\n      }\n    }\n\n    @media screen and (max-width: 480px) {\n      .feature-clean-text {\n        font-size: 11px;\n      }\n\n      .feature-clean-item img {\n        width: 18px;\n      }\n    }\n  </style>\n\n  <div class=\"feature-clean-grid\">\n    <div class=\"feature-clean-item\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0934/4129/4668/files/wheels.webp?v=1744174783\" alt=\"Roues 360°\">\n      <p class=\"feature-clean-text\">Roues pivotantes 360°</p>\n    </div>\n    <div class=\"feature-clean-item\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0934/4129/4668/files/numberdays.webp?v=1744174783\" alt=\"5 à 7 jours\">\n      <p class=\"feature-clean-text\">Pour des voyages de 5 à 7 jours</p>\n    </div>\n    <div class=\"feature-clean-item\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0934/4129/4668/files/shell_1.webp?v=1744174783\" alt=\"Coque incassable\">\n      <p class=\"feature-clean-text\">Coque incassable en polycarbonate</p>\n    </div>\n    <div class=\"feature-clean-item\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0934/4129/4668/files/lock.webp?v=1744174783\" alt=\"Serrures sécurité\">\n      <p class=\"feature-clean-text\">Serrures sécurité aéroport approuvées</p>\n    </div>\n  </div>\n</div>"
           }
         }
       },
@@ -115,12 +109,11 @@
         "description",
         "variant_picker",
         "buy_buttons",
-        "custom_liquid_pbnbKA",
         "custom_liquid_7gHBwT",
         "pickup_availability",
         "complementary",
-        "collapsible-row-1",
-        "custom_liquid_LAx4WJ"
+        "custom_liquid_LAx4WJ",
+        "collapsible-row-1"
       ],
       "custom_css": [
         ".product__tax,.price__tax,.product__tax-note,.product__policies {display: none !important;}"
