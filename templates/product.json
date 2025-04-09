@@ -9,87 +9,6 @@
  */
 {
   "sections": {
-    "ss_product_tabs_2_Ny4YWg": {
-      "type": "ss-product-tabs-2",
-      "blocks": {
-        "tab_VVUMVf": {
-          "type": "tab",
-          "settings": {
-            "icon": "none",
-            "header": "Caractéristiques",
-            "content": "{{ product.description }}",
-            "product_description": true
-          }
-        },
-        "tab_6kpFhq": {
-          "type": "tab",
-          "settings": {
-            "icon": "none",
-            "header": "Ce qui est inclus",
-            "content": "<p>This is an answer</p>",
-            "product_description": false
-          }
-        },
-        "tab_cqCGAG": {
-          "type": "tab",
-          "settings": {
-            "icon": "none",
-            "header": "Garantie à vie",
-            "content": "<p>This is an answer</p>",
-            "product_description": false
-          }
-        }
-      },
-      "block_order": [
-        "tab_VVUMVf",
-        "tab_6kpFhq",
-        "tab_cqCGAG"
-      ],
-      "settings": {
-        "tabs_position": "below_buy",
-        "btns_gap": 20,
-        "btns_gap_mobile": 20,
-        "button_line_thickness": 2,
-        "bts_padding_vertical": 0,
-        "button_padding_horizontal": 0,
-        "button_radius": 0,
-        "button_border_thickness": 0,
-        "icon_size": 20,
-        "icon_size_mobile": 20,
-        "btns_text_custom": true,
-        "btns_text_font": "montserrat_n4",
-        "btns_text_size": 14,
-        "btns_text_size_mobile": 14,
-        "btns_text_height": 130,
-        "content_custom": true,
-        "content_font": "montserrat_n4",
-        "content_size": 12,
-        "content_size_mobile": 13,
-        "content_height": 170,
-        "content_mt": 16,
-        "btns_bg_color": "",
-        "btns_bg_hover_color": "",
-        "btns_border_color": "#000000",
-        "btns_border_hover_color": "#121212",
-        "btns_text_color": "#121212",
-        "btns_text_hover_color": "#121212",
-        "tabs_line_color": "#121212",
-        "content_color": "#121212",
-        "icon_color": "#121212",
-        "icon_hover_color": "#121212",
-        "background_color": "#fcfaf7",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 12,
-        "padding_bottom": 12,
-        "padding_horizontal": 0,
-        "padding_horizontal_mobile": 0,
-        "content_width": 120,
-        "border_thickness": 0
-      }
-    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -497,7 +416,6 @@
     }
   },
   "order": [
-    "ss_product_tabs_2_Ny4YWg",
     "main",
     "ss_feature_22_M3X9FH",
     "collapsible_tabs_phAkEE",
