@@ -16,8 +16,8 @@
           "type": "tab",
           "settings": {
             "icon": "none",
-            "header": "Product Description",
-            "content": "<p>Description</p>",
+            "header": "Caractéristiques",
+            "content": "{{ product.description }}",
             "product_description": true
           }
         },
@@ -25,7 +25,7 @@
           "type": "tab",
           "settings": {
             "icon": "none",
-            "header": "Shipping",
+            "header": "Ce qui est inclus",
             "content": "<p>This is an answer</p>",
             "product_description": false
           }
@@ -34,7 +34,7 @@
           "type": "tab",
           "settings": {
             "icon": "none",
-            "header": "Returns",
+            "header": "Garantie à vie",
             "content": "<p>This is an answer</p>",
             "product_description": false
           }
@@ -57,12 +57,12 @@
         "icon_size": 20,
         "icon_size_mobile": 20,
         "btns_text_custom": false,
-        "btns_text_font": "josefin_sans_n4",
+        "btns_text_font": "montserrat_n4",
         "btns_text_size": 14,
         "btns_text_size_mobile": 14,
         "btns_text_height": 130,
         "content_custom": false,
-        "content_font": "josefin_sans_n4",
+        "content_font": "montserrat_n4",
         "content_size": 12,
         "content_size_mobile": 13,
         "content_height": 170,
