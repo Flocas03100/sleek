@@ -218,7 +218,7 @@
         "item_zNgFD7": {
           "type": "item",
           "settings": {
-            "percent": 90,
+            "percent": 0,
             "percent_text": "<p>Optional subtext</p>",
             "title": "<h3>TELL YOUR STORY</h3>",
             "text": "<p>Talk about results of your customers and how your product improved their life.</p>"
@@ -227,7 +227,7 @@
         "item_cDBULV": {
           "type": "item",
           "settings": {
-            "percent": 90,
+            "percent": 0,
             "percent_text": "<p>Optional subtext</p>",
             "title": "<h3>TELL YOUR STORY</h3>",
             "text": "<p>Talk about results of your customers and how your product improved their life.</p>"
@@ -245,7 +245,7 @@
         "item_8pkEQr": {
           "type": "item",
           "settings": {
-            "percent": 90,
+            "percent": 0,
             "percent_text": "<p>Optional subtext</p>",
             "title": "<h3>TELL YOUR STORY</h3>",
             "text": "<p>Talk about results of your customers and how your product improved their life.</p>"
@@ -254,7 +254,7 @@
         "item_6U6Wxh": {
           "type": "item",
           "settings": {
-            "percent": 90,
+            "percent": 0,
             "percent_text": "<p>Optional subtext</p>",
             "title": "<h3>TELL YOUR STORY</h3>",
             "text": "<p>Talk about results of your customers and how your product improved their life.</p>"
@@ -338,8 +338,8 @@
         "navigation_mt_mobile": 24,
         "arrow_size": 48,
         "arrow_size_mobile": 56,
-        "pagination_custom": false,
-        "pagination_font": "josefin_sans_n4",
+        "pagination_custom": true,
+        "pagination_font": "montserrat_n4",
         "pagination_size": 12,
         "pagination_size_mobile": 12,
         "pagination_height": 150,
