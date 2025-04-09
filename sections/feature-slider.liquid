@@ -1,0 +1,81 @@
+{% stylesheet %}
+.feature-slider {
+  overflow-x: auto;
+  display: flex;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  gap: 1rem;
+  padding: 2rem 1rem;
+}
+
+.feature-slide {
+  flex: 0 0 auto;
+  min-width: 250px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  scroll-snap-align: start;
+  text-align: center;
+}
+
+.feature-slide img {
+  max-width: 60px;
+  margin-bottom: 1rem;
+}
+{% endstylesheet %}
+
+<section class="feature-slider">
+  {% for block in section.blocks %}
+    <div class="feature-slide">
+      {% if block.settings.icon != blank %}
+        <img src="{{ block.settings.icon | image_url: width: 100 }}" alt="Icon">
+      {% endif %}
+      <h3>{{ block.settings.title }}</h3>
+      <p>{{ block.settings.text }}</p>
+    </div>
+  {% endfor %}
+</section>
+
+{% schema %}
+{
+  "name": "Slider de features",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "feature",
+      "name": "Feature",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icône"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Titre",
+          "default": "Livraison gratuite"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Texte descriptif",
+          "default": "Recevez votre produit en 48h chrono."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Slider de features",
+      "category": "Produit",
+      "blocks": [
+        { "type": "feature" },
+        { "type": "feature" },
+        { "type": "feature" }
+      ]
+    }
+  ]
+}
+{% endschema %}
