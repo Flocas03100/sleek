@@ -150,15 +150,16 @@
         {%- endfor -%}
       </div>
     </mobile-sticky-bar>
-    <script>
+   </mobile-sticky-bar>
+
+<script>
   document.addEventListener('DOMContentLoaded', function () {
     setTimeout(function () {
       const stickyBar = document.querySelector('.mobile-sticky-bar');
       if (stickyBar) {
         stickyBar.classList.remove('hidden');
-        stickyBar.classList.add('up');
       }
-    }, 5000); // 5 secondes
+    }, 5000); // Affichage après 5 secondes
   });
 </script>
     <div id="mobileNavStatic" class="no-empty"></div>
