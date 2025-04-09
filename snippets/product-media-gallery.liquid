@@ -167,6 +167,20 @@
   {%- endif -%}
 </media-gallery>
 <style>
+  /* Supprime les résidus d’espace liés à l’ancienne pagination fraction */
+  .swiper-pagination-fraction {
+    display: none !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Supprime aussi tout espace restant si jamais une marge est définie */
+  .product__media-gallery-viewer {
+    margin-bottom: 0 !important;
+  }
+</style>
+<style>
   .swiper-pagination.custom-bullets {
     position: absolute;
     bottom: 14px;
