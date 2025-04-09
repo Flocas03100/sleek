@@ -110,9 +110,11 @@
           >
             {%- render 'icon-slider-next' -%}
           </button>
-          {%- unless enable_mobile_thumbnails -%}
-            <div class="swiper-pagination"></div>
-          {%- endunless -%}
+          <div class="media-dots" id="media-dots">
+  {% for media in product.media %}
+    <span class="dot {% if forloop.first %}active{% endif %}"></span>
+  {% endfor %}
+</div>
         </div>
       </div>
     {%- endif -%}
