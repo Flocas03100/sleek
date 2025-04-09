@@ -107,7 +107,10 @@
       },
       "sticky-atc-bar": {
         "type": "sticky-atc-bar",
-        "custom_css": [],
+        "custom_css": [
+          ".sticky-add-to-cart-bar {opacity: 0; pointer-events: none; transition: opacity 0.5s ease;}",
+          ".sticky-add-to-cart-bar.visible {opacity: 1; pointer-events: auto;}"
+        ],
         "settings": {
           "container": "full",
           "visibility": "all",
