@@ -1,6 +1,9 @@
 {%- if section.settings.enable_sticky_bar -%}
   <script src="{{ 'mobile-sticky-bar.js' | asset_url }}" defer="defer"></script>
   {% style %}
+    .mobile-sticky-bar.delayed-hidden {
+  display: none !important;
+}
     .cart-icon-wrap {
       width: 4rem;
     }
