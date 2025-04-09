@@ -63,10 +63,11 @@
 >
   <div id="GalleryStatus-{{ section.id }}" class="visually-hidden" role="status"></div>
   <div class="product__media-gallery-viewer-wrap relative{{ slider_css_class }}">
-    <div
-      id="GalleryViewer-{{ section.id }}"
-      class="product__media-gallery-viewer blocks-radius swiper"
-    >
+  <div
+  id="GalleryViewer-{{ section.id }}"
+  class="product__media-gallery-viewer blocks-radius swiper"
+>
+  <div class="swiper-pagination custom-bullets"></div>
       <a class="skip-to-content-link button visually-hidden" href="#ProductInfo-{{ section.id }}">
         {{ 'accessibility.skip_to_product_info' | t }}
       </a>
@@ -95,7 +96,6 @@
       <div class="slider-controls--group{% if enable_desktop_slider == false %} md:hidden{% endif %}">
         <div class="slider-controls">
           <!-- Flèches supprimées -->
-<div class="swiper-pagination"></div>
           <div class="media-dots" id="media-dots">
   {% for media in product.media %}
     <span class="dot {% if forloop.first %}active{% endif %}"></span>
