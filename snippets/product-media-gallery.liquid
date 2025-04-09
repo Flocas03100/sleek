@@ -96,11 +96,6 @@
       <div class="slider-controls--group{% if enable_desktop_slider == false %} md:hidden{% endif %}">
         <div class="slider-controls">
           <!-- Flèches supprimées -->
-          <div class="media-dots" id="media-dots">
-  {% for media in product.media %}
-    <span class="dot {% if forloop.first %}active{% endif %}"></span>
-  {% endfor %}
-</div>
         </div>
       </div>
     {%- endif -%}
