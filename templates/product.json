@@ -331,7 +331,7 @@
         "text_align": "left",
         "text_align_mobile": "left",
         "navigation_show_desktop": true,
-        "navigation_show_mobile": true,
+        "navigation_show_mobile": false,
         "navigation_padding_vertical": 6,
         "navigation_padding_vertical_mobile": 6,
         "navigation_padding_horizontal": 16,
