@@ -126,6 +126,11 @@
         "type": "shopify://apps/trackbee-connect/blocks/trackbee/4ee1d514-671e-48bf-bd4e-9373f4af089a",
         "disabled": false,
         "settings": {}
+      },
+      "5281749993944428517": {
+        "type": "shopify://apps/variant-image-wizard-swatch/blocks/app-embed/66205c03-f474-4e2c-b275-0a2806eeac16",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
