@@ -152,16 +152,26 @@
     </mobile-sticky-bar>
    </mobile-sticky-bar>
 
+    </mobile-sticky-bar>
+
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     setTimeout(function () {
       const stickyBar = document.querySelector('.mobile-sticky-bar');
+
       if (stickyBar) {
+        // On enlève toutes les classes qui pourraient la cacher
         stickyBar.classList.remove('hidden');
+        stickyBar.style.display = 'block'; // force l'affichage
+
+        // Si elle a une transition (genre .down), on force l'animation visible
+        stickyBar.classList.remove('down');
+        stickyBar.classList.add('up');
       }
-    }, 5000); // Affichage après 5 secondes
+    }, 5000);
   });
 </script>
+    
     <div id="mobileNavStatic" class="no-empty"></div>
   {%- endif -%}
 {%- endif -%}
