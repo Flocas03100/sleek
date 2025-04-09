@@ -1,18 +1,22 @@
 {%- if section.settings.enable_sticky_bar -%}
   <script src="{{ 'mobile-sticky-bar.js' | asset_url }}" defer="defer"></script>
+
   {% style %}
-  .hidden-delay {
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.4s ease-in-out;
-}
-.hidden-delay.show {
-  opacity: 1;
-  pointer-events: auto;
-}
+    .hidden-delay {
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.4s ease-in-out;
+    }
+
+    .hidden-delay.show {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
     .cart-icon-wrap {
       width: 4rem;
     }
+
     .mobile-sticky-bar {
       position: fixed;
       bottom: 0;
@@ -25,21 +29,26 @@
       will-change: transform;
       transition: transform 0.3s;
     }
+
     .mobile-sticky-bar.up {
       transform: translateY(0);
     }
+
     .mobile-sticky-bar.down {
       transform: translateY(100%);
     }
+
     .mobile-sticky-bar__link {
       padding: 1rem 0.5rem;
       min-height: 5rem !important;
       overflow: hidden;
       gap: 0.5rem;
     }
+
     .mobile-sticky-bar__link + .mobile-sticky-bar__link {
       border-left: 0.1rem solid rgb(var(--color-border));
     }
+
     .mobile-sticky-bar__text {
       line-height: 1;
       overflow: hidden;
@@ -55,6 +64,7 @@
       }
     }
   {% endstyle %}
+
   {%- liquid
     assign show_text = section.settings.show_text
     assign block_size = section.blocks.size
@@ -63,363 +73,75 @@
     assign default_search = 'sections.mobile-sticky-bar.search' | t
     assign default_cart = 'sections.mobile-sticky-bar.cart' | t
   -%}
+
   {%- if block_size > 0 -%}
-    <mobile-sticky-bar class="mobile-sticky-bar md:hidden up sticky-add-to-cart-bar hidden-delay" data-section-type="mobile-sticky-bar">
+    <mobile-sticky-bar class="mobile-sticky-bar md:hidden up hidden-delay" data-section-type="mobile-sticky-bar">
       <div class="mobile-sticky-bar__wrapper f-grid f-grid-{{ block_size }}-cols">
         {%- for block in section.blocks -%}
-          {%- liquid
-            assign title = block.settings.text
-          -%}
+          {%- assign title = block.settings.text -%}
           {%- case block.type -%}
             {%- when 'home' -%}
-              <a
-                class="f-column mobile-sticky-bar__link mobile-sticky-bar__{{ block.type }} flex flex-col items-center justify-center"
-                href="{{ shop.secure_url }}"
-                {{ block.shopify_attributes }}
-              >
+              <a class="f-column mobile-sticky-bar__link mobile-sticky-bar__home flex flex-col items-center justify-center"
+                 href="{{ shop.secure_url }}"
+                 {{ block.shopify_attributes }}>
                 {%- render 'icon-home', size: 'large' -%}
                 <span class="mobile-sticky-bar__text text-center text-sm{% unless show_text %} visually-hidden{% endunless %}">
-                  {{- title | default: default_home -}}
+                  {{ title | default: default_home }}
                 </span>
               </a>
             {%- when 'products' -%}
-              {%- liquid
-                assign selected_collection = block.settings.collection
-                assign default_url = routes.all_products_collection_url
-              -%}
-              <a
-                class="f-column mobile-sticky-bar__link mobile-sticky-bar__{{ block.type }} flex flex-col items-center justify-center"
-                href="{{ selected_collection.url | default: default_url }}"
-                {{ block.shopify_attributes }}
-              >
+              <a class="f-column mobile-sticky-bar__link mobile-sticky-bar__products flex flex-col items-center justify-center"
+                 href="{{ block.settings.collection.url | default: routes.all_products_collection_url }}"
+                 {{ block.shopify_attributes }}>
                 {%- render 'icon-products', size: 'large' -%}
                 <span class="mobile-sticky-bar__text text-center text-sm{% unless show_text %} visually-hidden{% endunless %}">
-                  {{- title | default: default_products -}}
+                  {{ title | default: default_products }}
                 </span>
               </a>
             {%- when 'search' -%}
-              <a
-                href="{{ routes.search_url }}"
-                class="f-column search-drawer-button mobile-sticky-bar__link mobile-sticky-bar__{{ block.type }} flex flex-col items-center justify-center"
-                aria-controls="SearchDrawer"
-              >
+              <a href="{{ routes.search_url }}"
+                 class="f-column search-drawer-button mobile-sticky-bar__link mobile-sticky-bar__search flex flex-col items-center justify-center"
+                 aria-controls="SearchDrawer">
                 {%- render 'icon-search', size: 'large' -%}
                 <span class="mobile-sticky-bar__text text-center text-sm{% unless show_text %} visually-hidden{% endunless %}">
-                  {{- title | default: default_search -}}
+                  {{ title | default: default_search }}
                 </span>
               </a>
             {%- when 'cart' -%}
-              <a
-                href="{{ routes.cart_url }}"
-                class="f-column cart-drawer-button mobile-sticky-bar__link mobile-sticky-bar__{{ block.type }} flex flex-col items-center justify-center"
-                aria-controls="CartDrawer"
-              >
+              <a href="{{ routes.cart_url }}"
+                 class="f-column cart-drawer-button mobile-sticky-bar__link mobile-sticky-bar__cart flex flex-col items-center justify-center"
+                 aria-controls="CartDrawer">
                 <span class="cart-icon-wrap relative flex justify-center">
                   {%- render 'icon-cart', size: 'large', name: settings.cart_icon -%}
-                  <cart-count
-                    class="cart-count cart-count--absolute font-body-bolder{% if cart.item_count > 99 %} cart-count--small-medium{% endif %}"
-                    aria-label="{{ 'general.cart.cart_count' | t: count: cart.item_count | escape }}"
-                    {% if cart == empty %}
-                      hidden
-                    {% endif %}
-                  >
+                  <cart-count class="cart-count cart-count--absolute font-body-bolder{% if cart.item_count > 99 %} cart-count--small-medium{% endif %}"
+                              aria-label="{{ 'general.cart.cart_count' | t: count: cart.item_count | escape }}"
+                              {% if cart == empty %} hidden {% endif %}>
                     {%- if cart.item_count < 100 -%}
-                      {{- cart.item_count -}}
+                      {{ cart.item_count }}
                     {%- else -%}
                       <span class="text-sm">99+</span>
                     {%- endif -%}
                   </cart-count>
                 </span>
                 <span class="mobile-sticky-bar__text text-center text-sm{% unless show_text %} visually-hidden{% endunless %}">
-                  {{- title | default: default_cart -}}
+                  {{ title | default: default_cart }}
                 </span>
               </a>
-            {%- when 'link' -%}
-              {% if block.settings.url != blank %}
-                <a
-                  class="f-column mobile-sticky-bar__link mobile-sticky-bar__{{ block.type }} flex flex-col items-center justify-center"
-                  href="{{ block.settings.url }}"
-                  {{ block.shopify_attributes }}
-                >
-                  {% if block.settings.icon != 'none' %}
-                    {% render 'icons', icon: block.settings.icon, size: 'large' %}
-                  {%- endif -%}
-                  <span class="mobile-sticky-bar__text text-center text-sm{% unless show_text %} visually-hidden{% endunless %}">
-                    {{- title -}}
-                  </span>
-                </a>
-              {%- endif -%}
           {%- endcase -%}
         {%- endfor -%}
       </div>
     </mobile-sticky-bar>
-   </mobile-sticky-bar>
-
-    </mobile-sticky-bar>
-
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    setTimeout(function () {
-      const stickyBar = document.querySelector('.mobile-sticky-bar');
-
-      if (stickyBar) {
-        // On enlève toutes les classes qui pourraient la cacher
-        stickyBar.classList.remove('hidden');
-        stickyBar.style.display = 'block'; // force l'affichage
-
-        // Si elle a une transition (genre .down), on force l'animation visible
-        stickyBar.classList.remove('down');
-        stickyBar.classList.add('up');
-      }
-    }, 5000);
-  });
-</script>
-    
     <div id="mobileNavStatic" class="no-empty"></div>
   {%- endif -%}
 {%- endif -%}
-{% schema %}
-{
-  "name": "t:sections.mobile-sticky-bar.name",
-  "max_blocks": 6,
-  "settings": [
-    {
-      "type": "paragraph",
-      "content": "t:sections.mobile-sticky-bar.settings.paragraph.content"
-    },
-    {
-      "type": "header",
-      "content": "t:sections.mobile-sticky-bar.settings.header_settings.content"
-    },
-    {
-      "type": "checkbox",
-      "id": "enable_sticky_bar",
-      "label": "t:sections.mobile-sticky-bar.settings.enable_sticky_bar.label",
-      "default": true
-    },
-    {
-      "type": "checkbox",
-      "id": "show_text",
-      "label": "t:sections.mobile-sticky-bar.settings.show_text.content",
-      "default": true
-    }
-  ],
-  "blocks": [
-    {
-      "type": "home",
-      "limit": 1,
-      "name": "Home",
-      "settings": [
-        {
-          "type": "paragraph",
-          "content": "t:sections.mobile-sticky-bar.blocks.home.settings.paragraph.content"
-        },
-        {
-          "type": "text",
-          "id": "text",
-          "default": "Home",
-          "label": "t:sections.all.text.label"
-        }
-      ]
-    },
-    {
-      "type": "cart",
-      "limit": 1,
-      "name": "Cart",
-      "settings": [
-        {
-          "type": "paragraph",
-          "content": "t:sections.mobile-sticky-bar.blocks.cart.settings.paragraph.content"
-        },
-        {
-          "type": "text",
-          "id": "text",
-          "default": "Cart",
-          "label": "t:sections.all.text.label"
-        }
-      ]
-    },
-    {
-      "type": "search",
-      "limit": 1,
-      "name": "Search",
-      "settings": [
-        {
-          "type": "paragraph",
-          "content": "t:sections.mobile-sticky-bar.blocks.search.settings.paragraph.content"
-        },
-        {
-          "type": "text",
-          "id": "text",
-          "default": "Search",
-          "label": "t:sections.all.text.label"
-        }
-      ]
-    },
-    {
-      "type": "products",
-      "limit": 1,
-      "name": "Products",
-      "settings": [
-        {
-          "type": "text",
-          "id": "text",
-          "default": "Products",
-          "label": "t:sections.all.text.label"
-        },
-        {
-          "type": "collection",
-          "id": "collection",
-          "label": "Collection",
-          "info": "t:sections.mobile-sticky-bar.blocks.products.settings.collection.info"
-        }
-      ]
-    },
-    {
-      "type": "link",
-      "name": "Custom link",
-      "settings": [
-        {
-          "type": "text",
-          "id": "text",
-          "default": "Custom link",
-          "label": "t:sections.all.text.label"
-        },
-        {
-          "type": "url",
-          "id": "url",
-          "label": "t:sections.all.link.label"
-        },
-        {
-          "type": "select",
-          "id": "icon",
-          "options": [
-            {
-              "value": "none",
-              "label": "t:sections.all.icon.options__1.label"
-            },
-            {
-              "value": "certificate",
-              "label": "t:sections.all.icon.options__2.label"
-            },
-            {
-              "value": "clover",
-              "label": "t:sections.all.icon.options__3.label"
-            },
-            {
-              "value": "confetti",
-              "label": "t:sections.all.icon.options__4.label"
-            },
-            {
-              "value": "currency-circle-dollar",
-              "label": "t:sections.all.icon.options__5.label"
-            },
-            {
-              "value": "eyedropper",
-              "label": "t:sections.all.icon.options__6.label"
-            },
-            {
-              "value": "gear",
-              "label": "t:sections.all.icon.options__7.label"
-            },
-            {
-              "value": "gift",
-              "label": "t:sections.all.icon.options__8.label"
-            },
-            {
-              "value": "globe",
-              "label": "t:sections.all.icon.options__9.label"
-            },
-            {
-              "value": "heart",
-              "label": "t:sections.all.icon.options__10.label"
-            },
-            {
-              "value": "package",
-              "label": "t:sections.all.icon.options__11.label"
-            },
-            {
-              "value": "star-four",
-              "label": "t:sections.all.icon.options__12.label"
-            },
-            {
-              "value": "truck",
-              "label": "t:sections.all.icon.options__13.label"
-            },
-            {
-              "value": "ruler",
-              "label": "t:sections.all.icon.options__14.label"
-            },
-            {
-              "value": "check-circle",
-              "label": "t:sections.all.icon.options__15.label"
-            },
-            {
-              "value": "map-pin",
-              "label": "t:sections.all.icon.options__16.label"
-            },
-            {
-              "value": "tag",
-              "label": "t:sections.all.icon.options__17.label"
-            },
-            {
-              "value": "recycle",
-              "label": "t:sections.all.icon.options__18.label"
-            },
-            {
-              "value": "arrow-up-left",
-              "label": "t:sections.all.icon.options__20.label"
-            },
-            {
-              "value": "cloud",
-              "label": "t:sections.all.icon.options__21.label"
-            },
-            {
-              "value": "seal-check",
-              "label": "t:sections.all.icon.options__22.label"
-            },
-            {
-              "value": "drop-half-bottom",
-              "label": "t:sections.all.icon.options__23.label"
-            }
-          ],
-          "default": "none",
-          "label": "t:sections.all.icon.label"
-        }
-      ]
-    }
-  ],
-  "enabled_on": {
-    "groups": ["footer"]
-  },
-  "presets": [
-    {
-      "name": "t:sections.mobile-sticky-bar.name",
-      "blocks": [
-        {
-          "type": "home"
-        },
-        {
-          "type": "products"
-        },
-        {
-          "type": "search"
-        },
-        {
-          "type": "cart"
-        }
-      ]
-    }
-  ]
-}
-{% endschema %}
+
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     setTimeout(function () {
-      const stickyBar = document.querySelector('.mobile-sticky-bar.hidden-delay');
-      if (stickyBar) {
-        stickyBar.classList.remove('hidden-delay');
+      const bar = document.querySelector('.mobile-sticky-bar.hidden-delay');
+      if (bar) {
+        bar.classList.add('show');
       }
-    }, 5000); // 5 secondes
+    }, 5000);
   });
 </script>
