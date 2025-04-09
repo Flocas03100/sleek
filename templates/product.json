@@ -123,11 +123,11 @@
         "enable_sticky_info": true,
         "media_size": "large",
         "gallery_layout": "grid-mix",
-        "mobile_thumbnails": "hide",
+        "mobile_thumbnails": "show",
         "enable_image_zoom": true,
         "enable_video_looping": true,
         "padding_top": 0,
-        "padding_bottom": 24
+        "padding_bottom": 12
       }
     },
     "feature_list_cW3d9c": {
