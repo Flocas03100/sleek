@@ -220,9 +220,9 @@
           "settings": {
             "image": "shopify://shop_images/3_vert.png",
             "percent": 0,
-            "percent_text": "<p>Optional subtext</p>",
-            "title": "<h3>TELL YOUR STORY</h3>",
-            "text": "<p>Talk about results of your customers and how your product improved their life.</p>"
+            "percent_text": "",
+            "title": "<h3>Porte-gobelet</h3>",
+            "text": "<p>Profitez de la commodité mains libres avec un porte-gobelet intégré pour votre boisson.</p>"
           }
         },
         "item_cDBULV": {
@@ -230,9 +230,9 @@
           "settings": {
             "image": "shopify://shop_images/1_vert.png",
             "percent": 0,
-            "percent_text": "<p>Optional subtext</p>",
-            "title": "<h3>TELL YOUR STORY</h3>",
-            "text": "<p>Talk about results of your customers and how your product improved their life.</p>"
+            "percent_text": "",
+            "title": "<h3>Serrures sécurité aéroport approuvées</h3>",
+            "text": "<p>Gardez votre valise en sécurité avec des cadenas approuvés par la sécurité aéroportuaire pour voyager l’esprit tranquille.</p>"
           }
         },
         "item_XjnMwK": {
@@ -240,9 +240,9 @@
           "settings": {
             "image": "shopify://shop_images/4_vert.png",
             "percent": 0,
-            "percent_text": "<p>Optional subtext</p>",
-            "title": "<h3>TELL YOUR STORY</h3>",
-            "text": "<p>Talk about results of your customers and how your product improved their life.</p>"
+            "percent_text": "",
+            "title": "<h3>Support pour téléphone</h3>",
+            "text": "<p>Le support pour téléphone monté sur la poignée vous permet de faire défiler ou de regarder sans les mains.</p>"
           }
         },
         "item_8pkEQr": {
@@ -250,9 +250,9 @@
           "settings": {
             "image": "shopify://shop_images/6_vert.png",
             "percent": 0,
-            "percent_text": "<p>Optional subtext</p>",
-            "title": "<h3>TELL YOUR STORY</h3>",
-            "text": "<p>Talk about results of your customers and how your product improved their life.</p>"
+            "percent_text": "",
+            "title": "<h3>Port de chargement</h3>",
+            "text": "<p>Restez alimenté avec des ports USB et USB-C en connectant votre power bank.</p>"
           }
         },
         "item_6U6Wxh": {
@@ -260,9 +260,9 @@
           "settings": {
             "image": "shopify://shop_images/2_vert.png",
             "percent": 0,
-            "percent_text": "<p>Optional subtext</p>",
-            "title": "<h3>TELL YOUR STORY</h3>",
-            "text": "<p>Talk about results of your customers and how your product improved their life.</p>"
+            "percent_text": "",
+            "title": "<h3>Poche avant</h3>",
+            "text": "<p>Rangez votre ordinateur portable et vos essentiels en toute sécurité avec un accès facile et rapide.</p>"
           }
         }
       },
@@ -315,7 +315,7 @@
         "content_padding_horizontal": 20,
         "content_padding_horizontal_mobile": 20,
         "title_custom": true,
-        "title_font": "montserrat_n4",
+        "title_font": "montserrat_n6",
         "title_size": 16,
         "title_size_mobile": 16,
         "title_height": 130,
@@ -371,7 +371,7 @@
         "percent_text_color": "#ffffff",
         "title_color": "#000000",
         "text_color": "#000000",
-        "slide_bg_color": "#f3f3f3",
+        "slide_bg_color": "#faf9f7",
         "image_overlay_color": "#000000",
         "pagination_color": "#ffffff",
         "arrow_color": "#ffffff",
