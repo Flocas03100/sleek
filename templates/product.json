@@ -48,8 +48,8 @@
           "settings": {
             "picker_type": "button",
             "swatch_type": "color_swatch",
-            "button_style": "standard",
-            "button_size": 40,
+            "button_style": "circle",
+            "button_size": 30,
             "size_title": "Size",
             "size_chart_from_page": ""
           }
