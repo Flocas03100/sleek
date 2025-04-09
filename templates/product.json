@@ -71,7 +71,7 @@
         "custom_liquid_7gHBwT": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div style=\"\n  background-color: #F6F2EE;\n  padding: 15px 10px;\n  border-radius: 5px;\n  text-align: center;\n  font-family: 'Montserrat', sans-serif;\n\">\n  <style>\n    .responsive-text {\n      font-size: 13px;\n      line-height: 1.4em;\n      color: #1c1c1c;\n      margin: 0;\n    }\n\n    @media screen and (max-width: 768px) {\n      .responsive-text {\n        font-size: 12px;\n      }\n    }\n\n    @media screen and (max-width: 480px) {\n      .responsive-text {\n        font-size: 11px;\n      }\n    }\n  </style>\n\n  <p class=\"responsive-text\">\n    Convient à toutes les compagnies aériennes internationales, y compris les compagnies low-cost européennes\n  </p>\n</div>"
+            "custom_liquid": "<div style=\"\n  background-color: #F6F2EE;\n  padding: 15px 4px; /* ← padding réduit à gauche et droite */\n  border-radius: 5px;\n  text-align: center;\n  font-family: 'Montserrat', sans-serif;\n\">\n  <style>\n    .responsive-text {\n      font-size: 13px;\n      line-height: 1.4em;\n      color: #1c1c1c;\n      margin: 0 auto;\n      max-width: 100%;\n    }\n\n    @media screen and (max-width: 768px) {\n      .responsive-text {\n        font-size: 12px;\n      }\n    }\n\n    @media screen and (max-width: 480px) {\n      .responsive-text {\n        font-size: 11px;\n      }\n    }\n  </style>\n\n  <p class=\"responsive-text\">\n    Convient à toutes les compagnies aériennes internationales, y compris les compagnies low-cost européennes\n  </p>\n</div>"
           }
         },
         "pickup_availability": {
