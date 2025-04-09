@@ -138,12 +138,11 @@
       <script src="{{ 'quick-view.js' | asset_url }}" defer="defer"></script>
     {% endif %}
 <script>
-  window.addEventListener('DOMContentLoaded', () => {
-    setTimeout(() => {
-      const stickyBar = document.querySelector('.sticky-bar-delayed');
-      if (stickyBar) {
-        stickyBar.classList.add('sticky-bar-visible');
-        stickyBar.classList.remove('sticky-bar-delayed');
+  document.addEventListener('DOMContentLoaded', function () {
+    setTimeout(function () {
+      var bar = document.querySelector('.sticky-add-to-cart-bar');
+      if (bar) {
+        bar.classList.add('visible');
       }
     }, 5000); // 5 secondes
   });
