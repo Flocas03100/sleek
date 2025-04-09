@@ -211,45 +211,6 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "product_tabs_JRF8bP": {
-      "type": "product-tabs",
-      "blocks": {
-        "tab_JqXLry": {
-          "type": "tab",
-          "settings": {
-            "title": "",
-            "collection": "frontpage"
-          }
-        }
-      },
-      "block_order": [
-        "tab_JqXLry"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "header_layout": "vertical",
-        "heading": "Nos produits",
-        "heading_size": "h2",
-        "heading_highlight_style": "none",
-        "limit": 5,
-        "columns": 5,
-        "column_gap": "medium",
-        "row_gap": "inherit",
-        "grid_layout": "standard",
-        "pcard_image_ratio": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "show_all_button_on_top": false,
-        "button_label": "",
-        "button_link": "",
-        "button_style": "btn--primary",
-        "tabs_nav_style": "design-1",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
-    },
     "feature_list_cW3d9c": {
       "type": "feature-list",
       "blocks": {
@@ -1337,12 +1298,110 @@
         "show_section_divider": false,
         "divider_width": "fixed"
       }
+    },
+    "featured_product_WNHnEF": {
+      "type": "featured-product",
+      "blocks": {
+        "badges_rQayj9": {
+          "type": "badges",
+          "settings": {
+            "show_soldout_badge": true,
+            "show_sale_badge": true,
+            "sale_badge_type": "percentage"
+          }
+        },
+        "title_AFQTV4": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_xCYe9r": {
+          "type": "price",
+          "settings": {}
+        },
+        "description_gMRPqF": {
+          "type": "description",
+          "settings": {}
+        },
+        "inventory_wbHUaX": {
+          "type": "inventory",
+          "settings": {
+            "text_style": "body",
+            "inventory_threshold": 10,
+            "show_inventory_quantity": true
+          }
+        },
+        "variant_picker_67KNBL": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_type": "color_swatch",
+            "button_style": "standard",
+            "button_size": 40,
+            "size_title": "Size",
+            "size_chart_from_page": ""
+          }
+        },
+        "buy_buttons_FBht3X": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "icon_with_text_xAVVAp": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "title_font": "body",
+            "title_size": "text-base",
+            "icon_1": "package",
+            "heading_1": "Orders over $50 ship free",
+            "icon_2": "currency-circle-dollar",
+            "heading_2": "30 day returns",
+            "icon_3": "star-four",
+            "heading_3": ""
+          }
+        },
+        "addons_ne6k9D": {
+          "type": "addons",
+          "settings": {
+            "show_share": true,
+            "show_ask_question": true
+          }
+        }
+      },
+      "block_order": [
+        "badges_rQayj9",
+        "title_AFQTV4",
+        "price_xCYe9r",
+        "description_gMRPqF",
+        "inventory_wbHUaX",
+        "variant_picker_67KNBL",
+        "buy_buttons_FBht3X",
+        "icon_with_text_xAVVAp",
+        "addons_ne6k9D"
+      ],
+      "settings": {
+        "product": "valise-argent",
+        "color_scheme": "",
+        "enable_sticky_info": true,
+        "media_size": "large",
+        "mobile_thumbnails": "hide",
+        "enable_image_zoom": true,
+        "enable_video_looping": false,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
     }
   },
   "order": [
     "ss_hero_6_e37GBt",
     "slideshow_q3U4Jn",
-    "product_tabs_JRF8bP",
     "feature_list_cW3d9c",
     "press_pFfQkM",
     "lookbook_slider_WeHJUK",
@@ -1354,6 +1413,7 @@
     "ss_testimonial_8_PeEecB",
     "ss_testimonial_12_XQKFki",
     "ss_hotspots_DBt6BY",
-    "lookbook_banner_WjmKhW"
+    "lookbook_banner_WjmKhW",
+    "featured_product_WNHnEF"
   ]
 }
