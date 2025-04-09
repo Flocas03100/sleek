@@ -2,15 +2,14 @@
   <script src="{{ 'mobile-sticky-bar.js' | asset_url }}" defer="defer"></script>
   {% style %}
   .hidden-delay {
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.4s ease-in-out;
-  }
-
-  .hidden-delay.show {
-    opacity: 1;
-    pointer-events: auto;
-  }
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease-in-out;
+}
+.hidden-delay.show {
+  opacity: 1;
+  pointer-events: auto;
+}
     .cart-icon-wrap {
       width: 4rem;
     }
