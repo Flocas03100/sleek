@@ -1,8 +1,10 @@
 {%- if section.settings.enable_sticky_bar -%}
   <script src="{{ 'mobile-sticky-bar.js' | asset_url }}" defer="defer"></script>
   {% style %}
-    .mobile-sticky-bar.delayed-hidden {
-  display: none !important;
+    .mobile-sticky-bar.hidden-delay {
+  opacity: 0 !important;
+  pointer-events: none;
+  transition: opacity 0.5s ease-in-out;
 }
     .cart-icon-wrap {
       width: 4rem;
