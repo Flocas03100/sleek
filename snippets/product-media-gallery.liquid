@@ -172,21 +172,27 @@
   {%- endif -%}
 </media-gallery>
 <style>
-  .media-dots {
-    display: flex;
+  .custom-bullets {
+    position: absolute;
+    bottom: 14px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    display: flex !important;
     justify-content: center;
     gap: 6px;
-    margin-top: 10px;
   }
-  .media-dots .dot {
-    height: 8px;
-    width: 8px;
-    background-color: #D1D1D1;
+
+  .swiper-pagination-bullet {
+    width: 6px;
+    height: 6px;
+    background: #D1D1D1;
     border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.3s;
+    opacity: 1;
+    transition: background 0.3s;
   }
-  .media-dots .dot.active {
-    background-color: #1C1C1C;
+
+  .swiper-pagination-bullet-active {
+    background: #1C1C1C;
   }
 </style>
