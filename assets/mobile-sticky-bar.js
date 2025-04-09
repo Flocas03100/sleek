@@ -59,3 +59,19 @@ if (!customElements.get('mobile-sticky-bar')) {
     }
   );
 }
+document.addEventListener('DOMContentLoaded', function () {
+  const stickyBar = document.querySelector('.mobile-sticky-bar');
+
+  if (stickyBar) {
+    // On la cache d'abord si jamais elle est visible par un autre script
+    stickyBar.style.display = 'none';
+
+    // Et on la montre après 5 secondes
+    setTimeout(() => {
+      stickyBar.style.display = 'block';
+      stickyBar.classList.remove('hidden');
+      stickyBar.classList.remove('down');
+      stickyBar.classList.add('up');
+    }, 5000);
+  }
+});
