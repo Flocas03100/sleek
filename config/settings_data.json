@@ -107,10 +107,7 @@
       },
       "sticky-atc-bar": {
         "type": "sticky-atc-bar",
-        "custom_css": [
-          ".sticky-bar-delayed {opacity: 0; pointer-events: none; transition: opacity 0.5s ease;}",
-          ".sticky-bar-visible {opacity: 1; pointer-events: auto;}"
-        ],
+        "custom_css": [],
         "settings": {
           "container": "full",
           "visibility": "all",
