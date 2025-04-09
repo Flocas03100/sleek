@@ -53,11 +53,11 @@ if (!customElements.get('media-gallery')) {
             nextEl: this.querySelector('.swiper-button-next'),
             prevEl: this.querySelector('.swiper-button-prev'),
           },
-          pagination: {
-            el: this.querySelector('.swiper-pagination'),
-            clickable: true,
-            type: 'fraction',
-          },
+pagination: {
+  el: this.querySelector('.swiper-pagination'),
+  clickable: true,
+  type: 'bullets',
+},
           threshold: 2,
         };
 
