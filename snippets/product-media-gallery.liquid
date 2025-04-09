@@ -94,22 +94,8 @@
     {%- if media_count > 1 -%}
       <div class="slider-controls--group{% if enable_desktop_slider == false %} md:hidden{% endif %}">
         <div class="slider-controls">
-          <button
-            type="button"
-            class="swiper-button-prev btn"
-            name="previous"
-            aria-label="{{ 'general.slider.previous_slide' | t }}"
-          >
-            {%- render 'icon-slider-prev' -%}
-          </button>
-          <button
-            type="button"
-            class="swiper-button-next btn"
-            name="next"
-            aria-label="{{ 'general.slider.next_slide' | t }}"
-          >
-            {%- render 'icon-slider-next' -%}
-          </button>
+          <!-- Flèches supprimées -->
+<div class="swiper-pagination"></div>
           <div class="media-dots" id="media-dots">
   {% for media in product.media %}
     <span class="dot {% if forloop.first %}active{% endif %}"></span>
@@ -185,3 +171,22 @@
     </div>
   {%- endif -%}
 </media-gallery>
+<style>
+  .media-dots {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 10px;
+  }
+  .media-dots .dot {
+    height: 8px;
+    width: 8px;
+    background-color: #D1D1D1;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s;
+  }
+  .media-dots .dot.active {
+    background-color: #1C1C1C;
+  }
+</style>
