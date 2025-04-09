@@ -130,79 +130,6 @@
         "padding_bottom": 12
       }
     },
-    "feature_list_cW3d9c": {
-      "type": "feature-list",
-      "blocks": {
-        "feature_item_VbCwL3": {
-          "type": "feature_item",
-          "settings": {
-            "color_scheme": "scheme-1",
-            "icon": "check",
-            "icon_style": "btn--secondary",
-            "text": "Feature item"
-          }
-        },
-        "feature_item_NzxQGa": {
-          "type": "feature_item",
-          "settings": {
-            "color_scheme": "",
-            "icon": "check",
-            "icon_style": "btn--secondary",
-            "text": "Feature item"
-          }
-        },
-        "feature_item_yyNV9A": {
-          "type": "feature_item",
-          "settings": {
-            "color_scheme": "",
-            "icon": "check",
-            "icon_style": "btn--secondary",
-            "text": "Feature item"
-          }
-        },
-        "feature_item_gBgLft": {
-          "type": "feature_item",
-          "settings": {
-            "color_scheme": "",
-            "icon": "check",
-            "icon_style": "btn--secondary",
-            "text": "Feature item"
-          }
-        },
-        "feature_item_R8A8eX": {
-          "type": "feature_item",
-          "settings": {
-            "color_scheme": "",
-            "icon": "check",
-            "icon_style": "btn--secondary",
-            "text": "Feature item"
-          }
-        }
-      },
-      "block_order": [
-        "feature_item_VbCwL3",
-        "feature_item_NzxQGa",
-        "feature_item_yyNV9A",
-        "feature_item_gBgLft",
-        "feature_item_R8A8eX"
-      ],
-      "settings": {
-        "color_scheme": "scheme-1",
-        "subheading": "",
-        "heading": "",
-        "heading_size": "h2",
-        "heading_highlight_style": "none",
-        "description": "",
-        "text_size": "text-base",
-        "item_alignment": "center",
-        "icon_size": "extra-medium",
-        "swipe_on_mobile": true,
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
-    },
     "image_with_text_MgddA8": {
       "type": "image-with-text",
       "blocks": {
@@ -445,7 +372,6 @@
   },
   "order": [
     "main",
-    "feature_list_cW3d9c",
     "image_with_text_MgddA8",
     "collapsible_tabs_phAkEE",
     "scrolling_promotion_WAekUk",
