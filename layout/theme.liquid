@@ -137,5 +137,16 @@
     {% if settings.pcard_show_quickview_button or settings.pcard_choose_options_actions == 'open_popup' %}
       <script src="{{ 'quick-view.js' | asset_url }}" defer="defer"></script>
     {% endif %}
+<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    setTimeout(() => {
+      const stickyBar = document.querySelector('.sticky-bar-delayed');
+      if (stickyBar) {
+        stickyBar.classList.add('sticky-bar-visible');
+        stickyBar.classList.remove('sticky-bar-delayed');
+      }
+    }, 5000); // 5 secondes
+  });
+</script>
   {%- render 'foxify-footer' -%}</body>
 </html>
