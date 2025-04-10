@@ -6327,29 +6327,34 @@ body:not(.header-pinned) .header-scrolled .header {
     padding-top: 0 !important;
   }
 
-  .product__media-gallery {
+  .product__media-gallery,
+  .product__media-gallery-viewer {
     margin-top: 0 !important;
     padding-top: 0 !important;
   }
-
-  header.header {
-    margin-bottom: 0 !important;
-    padding-bottom: 0 !important;
-  }
-}
-.product__media-gallery {
-  background: red; /* temporaire pour visualiser */
 }
 @media (max-width: 767px) {
-  .product__media-gallery .swiper-pagination.custom-bullets {
-    position: absolute !important;
-    bottom: 16px !important; /* Plus tu réduis, plus les bullets montent */
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 2;
-  }
-
   .product__media-gallery-viewer {
     position: relative;
   }
+
+  .swiper-pagination.custom-bullets {
+    position: absolute !important;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    background: none !important;
+  }
+}
+.swiper-pagination-bullet {
+  width: 6px;
+  height: 6px;
+  background-color: #ccc;
+  border-radius: 50%;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: black;
 }
