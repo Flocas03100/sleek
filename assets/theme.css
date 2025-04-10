@@ -6343,3 +6343,21 @@ body:not(.header-pinned) .header-scrolled .header {
     display: none !important;
   }
 }
+@media (max-width: 767px) {
+  body > * {
+    background: rgba(0, 255, 0, 0.1); /* vert très léger */
+  }
+
+  .product__media-gallery {
+    background: rgba(255, 0, 0, 0.1); /* rouge très léger */
+  }
+}
+html, body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body.template-product {
+  margin: 0 !important;
+  padding: 0 !important;
+}
