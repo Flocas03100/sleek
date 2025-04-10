@@ -6321,3 +6321,27 @@ body:not(.header-pinned) .header-scrolled .header {
     order: 2;
   }
 }
+@media (max-width: 767px) {
+  .product__media-gallery,
+  .product__media-gallery-viewer,
+  .product__media-gallery-viewer-wrap,
+  .swiper,
+  .swiper-wrapper,
+  .swiper-slide,
+  .product__media-item {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  body.template-product main {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+  }
+
+  .shopify-section-header-sticky,
+  header.shopify-section-header-sticky {
+    position: absolute !important;
+    top: 0;
+    z-index: 99;
+  }
+}
