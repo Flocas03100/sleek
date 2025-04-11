@@ -20,31 +20,18 @@
             "text": "Lancement de la collection été",
             "link": ""
           }
-        },
-        "timer_nRnHf8": {
-          "type": "timer",
-          "settings": {
-            "type": "evergreen",
-            "duration": "every_6_hrs",
-            "time": "2025/08/20 00:00",
-            "text": "La promotion ce termine dans :",
-            "button_label": "",
-            "button_style": "btn--primary",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
-        "announcement_bar_dqm6jd",
-        "timer_nRnHf8"
+        "announcement_bar_dqm6jd"
       ],
       "settings": {
         "color_scheme": "scheme-2",
         "content_width": 30,
         "autoplay": true,
         "autoplay_speed": 5,
-        "padding_top": 12,
-        "padding_bottom": 12
+        "padding_top": 10,
+        "padding_bottom": 10
       }
     },
     "header": {
