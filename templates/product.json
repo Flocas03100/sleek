@@ -665,6 +665,7 @@
         "image_tfMYVQ",
         "image_ncFVyB"
       ],
+      "custom_css": [],
       "settings": {
         "color_scheme": "scheme-1",
         "vertical_alignment": "center",
@@ -679,8 +680,40 @@
         "divider_layout": "vertical"
       }
     },
+    "scrolling_promotion_gHzNL8": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "image_npzxX4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Copie_de_ELYZE.png",
+            "image_height": 60,
+            "image_rounded": false,
+            "image_link": "",
+            "image_height_mobile": 46
+          }
+        }
+      },
+      "block_order": [
+        "image_npzxX4"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "vertical_alignment": "center",
+        "direction": "left",
+        "pause_on_hover": false,
+        "speed": 0.9,
+        "h_spacing": 0,
+        "v_spacing": 10,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_divider": false,
+        "divider_layout": "vertical"
+      }
+    },
     "custom_liquid_3Ym3K6": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<style>\n  .elyze-banner-desktop {\n    display: block;\n  }\n\n  @media screen and (max-width: 768px) {\n    .elyze-banner-desktop {\n      display: none !important;\n    }\n  }\n</style>\n\n<div class=\"elyze-banner-desktop\" style=\"width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw;\">\n  <img \n    src=\"https://cdn.shopify.com/s/files/1/0934/4129/4668/files/Copie_de_ELYZE.png?v=1744394849\" \n    alt=\"Bannière Elyze\" \n    style=\"width: 100%; height: auto; display: block;\"\n    loading=\"lazy\"\n  >\n</div>",
         "color_scheme": "",
@@ -690,6 +723,7 @@
     },
     "custom_liquid_yigBEU": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<style>\n  .elyze-banner-mobile {\n    display: none;\n  }\n\n  @media screen and (max-width: 768px) {\n    .elyze-banner-mobile {\n      display: block;\n      position: relative;\n      left: 50%;\n      right: 50%;\n      margin-left: -50vw;\n      margin-right: -50vw;\n      width: 100vw;\n      overflow: hidden;\n      z-index: 1;\n    }\n\n    .elyze-banner-mobile img {\n      width: 140vw; /* Zoom de l’image */\n      max-width: none;\n      height: auto;\n      display: block;\n      margin: 0 auto;\n      transform: translateX(-20vw); /* Recentre l'image */\n    }\n  }\n</style>\n\n<div class=\"elyze-banner-mobile\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0934/4129/4668/files/Copie_de_ELYZE.png?v=1744394849\" alt=\"ELYZE Bannière Mobile\">\n</div>",
         "color_scheme": "",
@@ -706,6 +740,7 @@
     "custom_content_LFmPka",
     "related-products",
     "scrolling_promotion_c3fMLV",
+    "scrolling_promotion_gHzNL8",
     "custom_liquid_3Ym3K6",
     "custom_liquid_yigBEU"
   ]
