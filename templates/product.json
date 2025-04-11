@@ -447,7 +447,7 @@
         "heading": "Quel est votre prochaine destination ?",
         "heading_size": "h2",
         "heading_highlight_style": "none",
-        "subheading": "",
+        "subheading": "Elyze Airline",
         "description": "",
         "column_gap": "medium",
         "row_gap": "large",
@@ -697,7 +697,9 @@
       "block_order": [
         "image_npzxX4"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".scrolling-promotion img {transform: none !important; transition: none !important;}"
+      ],
       "settings": {
         "color_scheme": "",
         "vertical_alignment": "center",
