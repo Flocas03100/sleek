@@ -347,16 +347,6 @@
         "lazy": true
       }
     },
-    "custom_liquid_FKzrFn": {
-      "type": "custom-liquid",
-      "custom_css": [],
-      "settings": {
-        "custom_liquid": "<div style=\"\n  background-color: #F6F2EE;\n  padding: 15px 8px;\n  border-radius: 5px;\n  text-align: center;\n  font-family: 'Montserrat', sans-serif;\n  border: none; /* suppression de toute ligne résiduelle */\n  box-shadow: none; /* au cas où il y aurait une ombre */\n  outline: none;\n\">\n  <style>\n    .responsive-text {\n      font-size: 13px;\n      line-height: 1.4em;\n      color: #1c1c1c;\n      margin: 0 auto;\n      max-width: 100%;\n      border: none;\n      box-shadow: none;\n    }\n\n    @media screen and (max-width: 768px) {\n      .responsive-text {\n        font-size: 12px;\n      }\n    }\n\n    @media screen and (max-width: 480px) {\n      .responsive-text {\n        font-size: 11px;\n      }\n    }\n  </style>\n\n  <p class=\"responsive-text\">\n    Convient à toutes les compagnies aériennes internationales, y compris les compagnies low-cost européennes\n  </p>\n</div>",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "image_comparison_LBQPCj": {
       "type": "image-comparison",
       "blocks": {
@@ -383,7 +373,7 @@
         "container": "fixed",
         "color_scheme": "",
         "header_layout": "vertical",
-        "heading": "Before/after image slider",
+        "heading": "L'économie ELIZE",
         "heading_size": "h1",
         "heading_highlight_style": "none",
         "subheading": "",
@@ -398,6 +388,69 @@
         "product": "",
         "padding_top": 50,
         "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "custom_liquid_FKzrFn": {
+      "type": "custom-liquid",
+      "custom_css": [],
+      "settings": {
+        "custom_liquid": "<div style=\"\n  background-color: #F6F2EE;\n  padding: 15px 8px;\n  border-radius: 5px;\n  text-align: center;\n  font-family: 'Montserrat', sans-serif;\n  border: none; /* suppression de toute ligne résiduelle */\n  box-shadow: none; /* au cas où il y aurait une ombre */\n  outline: none;\n\">\n  <style>\n    .responsive-text {\n      font-size: 13px;\n      line-height: 1.4em;\n      color: #1c1c1c;\n      margin: 0 auto;\n      max-width: 100%;\n      border: none;\n      box-shadow: none;\n    }\n\n    @media screen and (max-width: 768px) {\n      .responsive-text {\n        font-size: 12px;\n      }\n    }\n\n    @media screen and (max-width: 480px) {\n      .responsive-text {\n        font-size: 11px;\n      }\n    }\n  </style>\n\n  <p class=\"responsive-text\">\n    Convient à toutes les compagnies aériennes internationales, y compris les compagnies low-cost européennes\n  </p>\n</div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom_content_iF6dUt": {
+      "type": "custom-content",
+      "blocks": {
+        "image_4QJfge": {
+          "type": "image",
+          "settings": {
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        },
+        "text_E8BgEP": {
+          "type": "text",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1",
+            "heading_highlight_style": "none",
+            "subheading": "",
+            "description": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "content_alignment": "left",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_4QJfge",
+        "text_E8BgEP"
+      ],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "enable_sticky_column": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_highlight_style": "none",
+        "subheading": "",
+        "description": "<p></p><p></p>",
+        "column_gap": "medium",
+        "row_gap": "large",
+        "swipe_on_mobile": false,
+        "columns_mobile": "1",
+        "padding_top": 0,
+        "padding_bottom": 0,
         "show_section_divider": false,
         "divider_width": "fixed"
       }
@@ -759,10 +812,10 @@
         "divider_layout": "vertical"
       }
     },
-    "custom_content_iF6dUt": {
+    "custom_content_VFJqHd": {
       "type": "custom-content",
       "blocks": {
-        "image_4QJfge": {
+        "image_7TFpTX": {
           "type": "image",
           "settings": {
             "width": "50%",
@@ -770,7 +823,7 @@
             "block_custom_class": ""
           }
         },
-        "text_E8BgEP": {
+        "text_QtWznB": {
           "type": "text",
           "settings": {
             "heading": "Talk about your brand",
@@ -779,7 +832,7 @@
             "subheading": "",
             "description": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
             "text_size": "text-base",
-            "button_label": "",
+            "button_label": "Button label",
             "button_link": "",
             "button_style": "btn--primary",
             "content_alignment": "left",
@@ -790,24 +843,24 @@
         }
       },
       "block_order": [
-        "image_4QJfge",
-        "text_E8BgEP"
+        "image_7TFpTX",
+        "text_QtWznB"
       ],
       "settings": {
         "container": "fixed",
         "color_scheme": "",
         "enable_sticky_column": false,
-        "heading": "",
+        "heading": "Custom content",
         "heading_size": "h1",
         "heading_highlight_style": "none",
         "subheading": "",
-        "description": "<p></p><p></p>",
+        "description": "<p>Combine images with text and a stand-out offer</p>",
         "column_gap": "medium",
         "row_gap": "large",
         "swipe_on_mobile": false,
         "columns_mobile": "1",
-        "padding_top": 0,
-        "padding_bottom": 0,
+        "padding_top": 50,
+        "padding_bottom": 50,
         "show_section_divider": false,
         "divider_width": "fixed"
       }
@@ -816,9 +869,10 @@
   "order": [
     "main",
     "ss_feature_22_M3X9FH",
-    "custom_liquid_FKzrFn",
     "image_comparison_LBQPCj",
+    "custom_liquid_FKzrFn",
     "custom_content_iF6dUt",
+    "custom_content_VFJqHd",
     "collapsible_tabs_phAkEE",
     "custom_content_LFmPka",
     "related-products",
