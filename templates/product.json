@@ -713,11 +713,57 @@
         "show_divider": false,
         "divider_layout": "vertical"
       }
+    },
+    "image_comparison_LBQPCj": {
+      "type": "image-comparison",
+      "blocks": {
+        "image_fm6pYU": {
+          "type": "image",
+          "settings": {
+            "heading": "Before",
+            "color_scheme": ""
+          }
+        },
+        "image_hJDrJc": {
+          "type": "image",
+          "settings": {
+            "heading": "After",
+            "color_scheme": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_fm6pYU",
+        "image_hJDrJc"
+      ],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "header_layout": "vertical",
+        "heading": "Before/after image slider",
+        "heading_size": "h1",
+        "heading_highlight_style": "none",
+        "subheading": "",
+        "description": "",
+        "description_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "direction": "horizontal",
+        "image_height": "adapt",
+        "image_heading_style": "badge",
+        "product": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
     }
   },
   "order": [
     "main",
     "ss_feature_22_M3X9FH",
+    "image_comparison_LBQPCj",
     "custom_liquid_FKzrFn",
     "collapsible_tabs_phAkEE",
     "custom_content_LFmPka",
