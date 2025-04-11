@@ -20,10 +20,23 @@
             "text": "Lancement de la collection été",
             "link": ""
           }
+        },
+        "timer_nRnHf8": {
+          "type": "timer",
+          "settings": {
+            "type": "evergreen",
+            "duration": "every_6_hrs",
+            "time": "2025/08/20 00:00",
+            "text": "La promotion ce termine dans :",
+            "button_label": "",
+            "button_style": "btn--primary",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
-        "announcement_bar_dqm6jd"
+        "announcement_bar_dqm6jd",
+        "timer_nRnHf8"
       ],
       "settings": {
         "color_scheme": "scheme-2",
