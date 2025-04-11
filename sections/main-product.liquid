@@ -82,31 +82,6 @@
       </motion-element>
     {%- endif -%}
     <motion-element data-motion="fade-up" data-motion-delay="100" class="block product__info-wrapper w-full">
-      <div class="custom-rating-stars" style="margin-bottom: -10px;">
-  <style>
-    .custom-rating-stars {
-      display: flex;
-      align-items: center;
-      gap: 5px;
-      font-family: 'Montserrat', sans-serif;
-      font-size: 13px;
-      color: #8B5C48;
-    }
-    .custom-rating-stars svg {
-      width: 14px;
-      height: 14px;
-      fill: #8B5C48;
-    }
-  </style>
-  <!-- Icônes SVG étoiles -->
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.431 8.2 1.192-5.934 5.782 1.4 8.172L12 18.896l-7.334 3.86 1.4-8.172L.132 9.21l8.2-1.192z"/></svg>
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.431 8.2 1.192-5.934 5.782 1.4 8.172L12 18.896l-7.334 3.86 1.4-8.172L.132 9.21l8.2-1.192z"/></svg>
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.431 8.2 1.192-5.934 5.782 1.4 8.172L12 18.896l-7.334 3.86 1.4-8.172L.132 9.21l8.2-1.192z"/></svg>
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.431 8.2 1.192-5.934 5.782 1.4 8.172L12 18.896l-7.334 3.86 1.4-8.172L.132 9.21l8.2-1.192z"/></svg>
-  <!-- Demi étoile -->
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><linearGradient id="half"><stop offset="50%" stop-color="#8B5C48"/><stop offset="50%" stop-color="#e0e0e0"/></linearGradient></defs><path fill="url(#half)" d="M12 .587l3.668 7.431 8.2 1.192-5.934 5.782 1.4 8.172L12 18.896l-7.334 3.86 1.4-8.172L.132 9.21l8.2-1.192z"/></svg>
-  <span>Noté 4.8 | 387 avis</span>
-</div>
       {% render 'product-information-blocks', enable_sticky_info: enable_sticky_info, update_browser_history: true %}
     </motion-element>
   </div>
