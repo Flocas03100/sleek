@@ -119,7 +119,7 @@
       "settings": {
         "color_scheme": "scheme-1",
         "enable_sticky_info": true,
-        "media_size": "medium",
+        "media_size": "large",
         "gallery_layout": "carousel",
         "mobile_thumbnails": "show",
         "enable_image_zoom": true,
