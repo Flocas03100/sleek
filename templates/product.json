@@ -678,6 +678,15 @@
         "show_divider": false,
         "divider_layout": "vertical"
       }
+    },
+    "custom_liquid_3Ym3K6": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
     }
   },
   "order": [
@@ -687,6 +696,7 @@
     "collapsible_tabs_phAkEE",
     "custom_content_LFmPka",
     "related-products",
-    "scrolling_promotion_c3fMLV"
+    "scrolling_promotion_c3fMLV",
+    "custom_liquid_3Ym3K6"
   ]
 }
