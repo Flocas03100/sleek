@@ -23,7 +23,7 @@
         "custom_liquid_rdJTdb": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div class=\"review-line-soft-mini\">\n  <div class=\"stars-soft-mini\">\n    <span class=\"star-soft-mini\">&#9733;</span>\n    <span class=\"star-soft-mini\">&#9733;</span>\n    <span class=\"star-soft-mini\">&#9733;</span>\n    <span class=\"star-soft-mini\">&#9733;</span>\n    <span class=\"star-soft-mini\">&#9733;</span>\n  </div>\n  <span class=\"text-soft-mini\">4.7/5 – 13,770 Avis Vérifiés</span>\n</div>\n\n<style>\n  .review-line-soft-mini {\n    display: flex;\n    align-items: center;\n    font-family: 'Montserrat', sans-serif;\n    font-size: 12px;\n    color: #1c1c1c;\n  }\n\n  .stars-soft-mini {\n    display: flex;\n    margin-right: 6px;\n  }\n\n  .star-soft-mini {\n    font-size: 12px;\n    color: #1c1c1c;\n    margin-right: 1px;\n  }\n\n  @media screen and (max-width: 600px) {\n    .review-line-soft-mini {\n      font-size: 11px;\n    }\n\n    .star-soft-mini {\n      font-size: 11px;\n    }\n  }\n</style>\n<div class=\"custom-liquid-stars\">\n  ★★★★★ 4.7/5 – 13,770 Avis Vérifiés\n</div>"
+            "custom_liquid": "<div style=\"font-family: 'Montserrat', sans-serif; font-size: 14px; display: flex; align-items: center; gap: 6px; margin-bottom: 0.4rem;\">\n  <span style=\"color: #000; font-size: 15px;\">\n    ★★★★★\n  </span>\n  <span style=\"color: #1c1c1c;\">\n    4.7/5 – 13,770 Avis Vérifiés\n  </span>\n</div>"
           }
         },
         "title": {
@@ -122,8 +122,7 @@
       ],
       "custom_css": [
         ".product__tax,.price__tax,.product__tax-note,.product__policies {display: none !important;}",
-        "/* Réduit l'espacement entre les étoiles et le titre */.custom-liquid-stars {margin-bottom: 0px !important;}",
-        "/* Réduit le padding top du bloc qui contient le titre produit */.product__title {margin-top: 4px !important;}"
+        ".product__title {margin-top: 0 !important; padding-top: 0 !important;}"
       ],
       "settings": {
         "color_scheme": "scheme-1",
