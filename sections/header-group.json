@@ -11,40 +11,27 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
-    "scrolling_promotion_KhdTdc": {
-      "type": "scrolling-promotion",
+    "announcement_bar_qnrGdm": {
+      "type": "announcement-bar",
       "blocks": {
-        "text_niHbzP": {
-          "type": "text",
+        "announcement_bar_dqm6jd": {
+          "type": "announcement_bar",
           "settings": {
-            "text": "TELL CUSTOMERS ABOUT A PROMOTION",
-            "text_link": "",
-            "text_size": "text-base",
-            "font_weight": "font-heading",
-            "font_style": "normal",
-            "letter_spacing": 0,
-            "text_opacity": 100,
-            "text_style": "normal",
-            "use_custom_color": false,
-            "custom_color": "#000000"
+            "text": "Lancement de la collection été",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "text_niHbzP"
+        "announcement_bar_dqm6jd"
       ],
       "settings": {
         "color_scheme": "scheme-2",
-        "vertical_alignment": "center",
-        "direction": "left",
-        "pause_on_hover": false,
-        "speed": 0.5,
-        "h_spacing": 60,
-        "v_spacing": 0,
+        "content_width": 30,
+        "autoplay": true,
+        "autoplay_speed": 5,
         "padding_top": 12,
-        "padding_bottom": 12,
-        "show_divider": false,
-        "divider_layout": "vertical"
+        "padding_bottom": 12
       }
     },
     "header": {
@@ -70,7 +57,7 @@
     }
   },
   "order": [
-    "scrolling_promotion_KhdTdc",
+    "announcement_bar_qnrGdm",
     "header"
   ]
 }
