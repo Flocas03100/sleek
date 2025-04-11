@@ -321,8 +321,7 @@
     "custom_liquid_FKzrFn": {
       "type": "custom-liquid",
       "custom_css": [
-        ":host {border-bottom: none !important; padding-bottom: 0 !important; margin-bottom: 0 !important; background-color: transparent !important;}",
-        "div {border-top: none !important;}"
+        ":host {background-color: transparent !important; border: none !important; padding-bottom: 0 !important; margin-bottom: 0 !important; box-shadow: none !important;}"
       ],
       "settings": {
         "custom_liquid": "<div style=\"\n  background-color: #F6F2EE;\n  padding: 15px 8px;\n  border-radius: 5px;\n  text-align: center;\n  font-family: 'Montserrat', sans-serif;\n  border: none; /* suppression de toute ligne résiduelle */\n  box-shadow: none; /* au cas où il y aurait une ombre */\n  outline: none;\n\">\n  <style>\n    .responsive-text {\n      font-size: 13px;\n      line-height: 1.4em;\n      color: #1c1c1c;\n      margin: 0 auto;\n      max-width: 100%;\n      border: none;\n      box-shadow: none;\n    }\n\n    @media screen and (max-width: 768px) {\n      .responsive-text {\n        font-size: 12px;\n      }\n    }\n\n    @media screen and (max-width: 480px) {\n      .responsive-text {\n        font-size: 11px;\n      }\n    }\n  </style>\n\n  <p class=\"responsive-text\">\n    Convient à toutes les compagnies aériennes internationales, y compris les compagnies low-cost européennes\n  </p>\n</div>",
@@ -384,6 +383,9 @@
         "collapsible_item_RQ3WzW",
         "collapsible_item_aKpRFm",
         "collapsible_item_3c4PkF"
+      ],
+      "custom_css": [
+        ":host {margin-top: 0 !important;}"
       ],
       "settings": {
         "container": "narrow",
