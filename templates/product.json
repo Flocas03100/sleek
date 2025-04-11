@@ -461,6 +461,37 @@
         "show_section_divider": false,
         "divider_width": "fixed"
       }
+    },
+    "scrolling_promotion_c3fMLV": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "image_88GQMm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ELYZE_5.png",
+            "image_height": 136,
+            "image_rounded": false,
+            "image_link": "",
+            "image_height_mobile": 90
+          }
+        }
+      },
+      "block_order": [
+        "image_88GQMm"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "vertical_alignment": "center",
+        "direction": "left",
+        "pause_on_hover": false,
+        "speed": 0.3,
+        "h_spacing": 50,
+        "v_spacing": 10,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "show_divider": false,
+        "divider_layout": "vertical"
+      }
     }
   },
   "order": [
@@ -468,6 +499,7 @@
     "ss_feature_22_M3X9FH",
     "custom_liquid_FKzrFn",
     "collapsible_tabs_phAkEE",
-    "related-products"
+    "related-products",
+    "scrolling_promotion_c3fMLV"
   ]
 }
