@@ -442,7 +442,7 @@
       "type": "custom-content",
       "settings": {
         "container": "full",
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "enable_sticky_column": false,
         "heading": "Quel est votre prochaine destination ?",
         "heading_size": "h2",
