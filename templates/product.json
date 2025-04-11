@@ -686,7 +686,7 @@
         "image_npzxX4": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Copie_de_ELYZE.png",
+            "image": "shopify://shop_images/Copie_de_ELYZE_2.png",
             "image_height": 60,
             "image_rounded": false,
             "image_link": "",
@@ -702,7 +702,7 @@
         "vertical_alignment": "center",
         "direction": "left",
         "pause_on_hover": false,
-        "speed": 0.9,
+        "speed": 0.8,
         "h_spacing": 0,
         "v_spacing": 0,
         "padding_top": 0,
