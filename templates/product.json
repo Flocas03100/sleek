@@ -63,6 +63,12 @@
             "show_gift_card_recipient": true
           }
         },
+        "custom_liquid_jFQ8RL": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Centered Class Badge</title>\n  <style>\n    .containerAb7xF3 {\n      display: flex;\n      align-items: center;\n      justify-content: center; /* ✅ CENTRAGE horizontal */\n      background: linear-gradient(90deg, #b29eff, #d39fff);\n      padding: 5px 15px;\n      border-radius: 6px;\n      font-family: Arial, sans-serif;\n      font-size: 14px;\n      color: white;\n      font-weight: bold;\n      text-align: center; /* ✅ Centrage du texte */\n      flex-wrap: wrap; /* pour que tout tienne bien en responsive */\n    }\n\n    .avatarsWrapper9JuY2 {\n      display: flex;\n      margin-right: 10px;\n      justify-content: center; /* ✅ Avatars centrés */\n    }\n\n    .avatarImgS3k8Ly {\n      width: 24px;\n      height: 24px;\n      border-radius: 16px;\n      border: 2px solid white;\n      margin-left: -8px;\n    }\n\n    .avatarImgS3k8Ly:first-child {\n      margin-left: 0;\n    }\n  </style>\n</head>\n<body class=\"bodyClass7Zx4N9\">\n\n  <div class=\"containerAb7xF3\">\n    <div class=\"avatarsWrapper9JuY2\">\n      <img src=\"https://randomuser.me/api/portraits/women/65.jpg\" alt=\"Customer 1\" class=\"avatarImgS3k8Ly\">\n      <img src=\"https://randomuser.me/api/portraits/men/66.jpg\" alt=\"Customer 2\" class=\"avatarImgS3k8Ly\">\n      <img src=\"https://randomuser.me/api/portraits/women/67.jpg\" alt=\"Customer 3\" class=\"avatarImgS3k8Ly\">\n    </div>\n    <span>1,000,000+ HAPPY CUSTOMERS</span>\n  </div>\n\n</body>\n</html>"
+          }
+        },
         "custom_liquid_7gHBwT": {
           "type": "custom_liquid",
           "settings": {
@@ -100,6 +106,7 @@
         "description",
         "variant_picker",
         "buy_buttons",
+        "custom_liquid_jFQ8RL",
         "custom_liquid_7gHBwT",
         "pickup_availability",
         "complementary",
