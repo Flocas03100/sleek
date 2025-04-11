@@ -12,6 +12,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "custom_liquid_jFQ8RL": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"containerAb7xF3\">\n  <div class=\"avatarsWrapper9JuY2\">\n    <img src=\"https://randomuser.me/api/portraits/women/65.jpg\" alt=\"Customer 1\" class=\"avatarImgS3k8Ly\">\n    <img src=\"https://randomuser.me/api/portraits/men/66.jpg\" alt=\"Customer 2\" class=\"avatarImgS3k8Ly\">\n    <img src=\"https://randomuser.me/api/portraits/women/67.jpg\" alt=\"Customer 3\" class=\"avatarImgS3k8Ly\">\n  </div>\n  <span>100,000+ VOYAGEURS SATISFAIT</span>\n</div>\n\n<style>\n  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');\n\n  .containerAb7xF3 {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    background: linear-gradient(90deg, #f5f0e6, #e8dfd2);\n    padding: 10px 20px;\n    border-radius: 10px;\n    font-family: 'Montserrat', sans-serif;\n    font-size: 14px;\n    color: #4a3e36;\n    font-weight: 600;\n    text-align: center;\n    flex-wrap: wrap;\n    box-shadow: 0 2px 8px rgba(0,0,0,0.05);\n  }\n\n  .avatarsWrapper9JuY2 {\n    display: flex;\n    margin-right: 10px;\n  }\n\n  .avatarImgS3k8Ly {\n    width: 26px;\n    height: 26px;\n    border-radius: 50%;\n    border: 2px solid white;\n    margin-left: -8px;\n  }\n\n  .avatarImgS3k8Ly:first-child {\n    margin-left: 0;\n  }\n\n  @media (max-width: 480px) {\n    .containerAb7xF3 {\n      font-size: 12px;\n    }\n  }\n</style>"
+          }
+        },
         "badges": {
           "type": "badges",
           "settings": {
@@ -69,12 +75,6 @@
             "show_gift_card_recipient": true
           }
         },
-        "custom_liquid_jFQ8RL": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div class=\"containerAb7xF3\">\n  <div class=\"avatarsWrapper9JuY2\">\n    <img src=\"https://randomuser.me/api/portraits/women/65.jpg\" alt=\"Customer 1\" class=\"avatarImgS3k8Ly\">\n    <img src=\"https://randomuser.me/api/portraits/men/66.jpg\" alt=\"Customer 2\" class=\"avatarImgS3k8Ly\">\n    <img src=\"https://randomuser.me/api/portraits/women/67.jpg\" alt=\"Customer 3\" class=\"avatarImgS3k8Ly\">\n  </div>\n  <span>100,000+ VOYAGEURS SATISFAIT</span>\n</div>\n\n<style>\n  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');\n\n  .containerAb7xF3 {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    background: linear-gradient(90deg, #f5f0e6, #e8dfd2);\n    padding: 10px 20px;\n    border-radius: 10px;\n    font-family: 'Montserrat', sans-serif;\n    font-size: 14px;\n    color: #4a3e36;\n    font-weight: 600;\n    text-align: center;\n    flex-wrap: wrap;\n    box-shadow: 0 2px 8px rgba(0,0,0,0.05);\n  }\n\n  .avatarsWrapper9JuY2 {\n    display: flex;\n    margin-right: 10px;\n  }\n\n  .avatarImgS3k8Ly {\n    width: 26px;\n    height: 26px;\n    border-radius: 50%;\n    border: 2px solid white;\n    margin-left: -8px;\n  }\n\n  .avatarImgS3k8Ly:first-child {\n    margin-left: 0;\n  }\n\n  @media (max-width: 480px) {\n    .containerAb7xF3 {\n      font-size: 12px;\n    }\n  }\n</style>"
-          }
-        },
         "custom_liquid_7gHBwT": {
           "type": "custom_liquid",
           "disabled": true,
@@ -126,6 +126,7 @@
         }
       },
       "block_order": [
+        "custom_liquid_jFQ8RL",
         "badges",
         "custom_liquid_rdJTdb",
         "title",
@@ -134,7 +135,6 @@
         "description",
         "variant_picker",
         "buy_buttons",
-        "custom_liquid_jFQ8RL",
         "custom_liquid_7gHBwT",
         "pickup_availability",
         "complementary",
@@ -451,6 +451,59 @@
         "columns_mobile": "1",
         "padding_top": 0,
         "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "custom_content_VFJqHd": {
+      "type": "custom-content",
+      "blocks": {
+        "text_QtWznB": {
+          "type": "text",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1",
+            "heading_highlight_style": "none",
+            "subheading": "",
+            "description": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "content_alignment": "left",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        },
+        "image_7TFpTX": {
+          "type": "image",
+          "settings": {
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_QtWznB",
+        "image_7TFpTX"
+      ],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "enable_sticky_column": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_highlight_style": "none",
+        "subheading": "",
+        "description": "",
+        "column_gap": "medium",
+        "row_gap": "large",
+        "swipe_on_mobile": false,
+        "columns_mobile": "1",
+        "padding_top": 0,
+        "padding_bottom": 50,
         "show_section_divider": false,
         "divider_width": "fixed"
       }
@@ -810,59 +863,6 @@
         "padding_bottom": 0,
         "show_divider": false,
         "divider_layout": "vertical"
-      }
-    },
-    "custom_content_VFJqHd": {
-      "type": "custom-content",
-      "blocks": {
-        "image_7TFpTX": {
-          "type": "image",
-          "settings": {
-            "width": "50%",
-            "alignment": "center",
-            "block_custom_class": ""
-          }
-        },
-        "text_QtWznB": {
-          "type": "text",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1",
-            "heading_highlight_style": "none",
-            "subheading": "",
-            "description": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-            "text_size": "text-base",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style": "btn--primary",
-            "content_alignment": "left",
-            "width": "50%",
-            "alignment": "center",
-            "block_custom_class": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_7TFpTX",
-        "text_QtWznB"
-      ],
-      "settings": {
-        "container": "fixed",
-        "color_scheme": "",
-        "enable_sticky_column": false,
-        "heading": "Custom content",
-        "heading_size": "h1",
-        "heading_highlight_style": "none",
-        "subheading": "",
-        "description": "<p>Combine images with text and a stand-out offer</p>",
-        "column_gap": "medium",
-        "row_gap": "large",
-        "swipe_on_mobile": false,
-        "columns_mobile": "1",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "show_section_divider": false,
-        "divider_width": "fixed"
       }
     }
   },
