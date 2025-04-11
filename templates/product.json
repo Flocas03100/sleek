@@ -28,6 +28,7 @@
         },
         "custom_liquid_rdJTdb": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<div style=\"font-family: 'Montserrat', sans-serif; font-size: 14px; display: flex; align-items: center; gap: 6px; margin-bottom: 0.4rem;\">\n  <span style=\"color: #000; font-size: 15px;\">\n    ★★★★★\n  </span>\n  <span style=\"color: #1c1c1c;\">\n    4.7/5 – 13,770 Avis Vérifiés\n  </span>\n</div>"
           }
