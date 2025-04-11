@@ -445,7 +445,7 @@
         "color_scheme": "",
         "enable_sticky_column": false,
         "heading": "Quel est votre prochaine destination ?",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "heading_highlight_style": "none",
         "subheading": "",
         "description": "",
@@ -563,7 +563,7 @@
             "image_height": 72,
             "image_rounded": false,
             "image_link": "",
-            "image_height_mobile": 90
+            "image_height_mobile": 72
           }
         }
       },
