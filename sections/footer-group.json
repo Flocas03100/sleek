@@ -75,53 +75,8 @@
     },
     "mobile_sticky_bar_aYhgJK": {
       "type": "mobile-sticky-bar",
-      "blocks": {
-        "home_AP8mmy": {
-          "type": "home",
-          "settings": {
-            "text": "Home"
-          }
-        },
-        "search_n3h4zT": {
-          "type": "search",
-          "settings": {
-            "text": "Search"
-          }
-        },
-        "cart_gnnwxQ": {
-          "type": "cart",
-          "settings": {
-            "text": "Cart"
-          }
-        },
-        "products_eYYkE8": {
-          "type": "products",
-          "settings": {
-            "text": "Products",
-            "collection": ""
-          }
-        },
-        "link_mJ6QMc": {
-          "type": "link",
-          "settings": {
-            "text": "About",
-            "url": "shopify://pages/about",
-            "icon": "map-pin"
-          }
-        }
-      },
-      "block_order": [
-        "home_AP8mmy",
-        "search_n3h4zT",
-        "cart_gnnwxQ",
-        "products_eYYkE8",
-        "link_mJ6QMc"
-      ],
       "disabled": true,
-      "settings": {
-        "enable_sticky_bar": true,
-        "show_text": true
-      }
+      "settings": {}
     }
   },
   "order": [
