@@ -20,6 +20,12 @@
             "sale_badge_type": "percentage"
           }
         },
+        "custom_liquid_rdJTdb": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"review-line-soft-mini\">\n  <div class=\"stars-soft-mini\">\n    <span class=\"star-soft-mini\">&#9733;</span>\n    <span class=\"star-soft-mini\">&#9733;</span>\n    <span class=\"star-soft-mini\">&#9733;</span>\n    <span class=\"star-soft-mini\">&#9733;</span>\n    <span class=\"star-soft-mini\">&#9733;</span>\n  </div>\n  <span class=\"text-soft-mini\">4.7/5 – 13,770 Avis Vérifiés</span>\n</div>\n\n<style>\n  .review-line-soft-mini {\n    display: flex;\n    align-items: center;\n    font-family: 'Montserrat', sans-serif;\n    font-size: 12px;\n    color: #1c1c1c;\n  }\n\n  .stars-soft-mini {\n    display: flex;\n    margin-right: 6px;\n  }\n\n  .star-soft-mini {\n    font-size: 12px;\n    color: #1c1c1c;\n    margin-right: 1px;\n  }\n\n  @media screen and (max-width: 600px) {\n    .review-line-soft-mini {\n      font-size: 11px;\n    }\n\n    .star-soft-mini {\n      font-size: 11px;\n    }\n  }\n</style>\n<div class=\"custom-liquid-stars\">\n  ★★★★★ 4.7/5 – 13,770 Avis Vérifiés\n</div>"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -101,6 +107,7 @@
       },
       "block_order": [
         "badges",
+        "custom_liquid_rdJTdb",
         "title",
         "price",
         "inventory",
@@ -114,7 +121,9 @@
         "custom_liquid_LAx4WJ"
       ],
       "custom_css": [
-        ".product__tax,.price__tax,.product__tax-note,.product__policies {display: none !important;}"
+        ".product__tax,.price__tax,.product__tax-note,.product__policies {display: none !important;}",
+        "/* Réduit l'espacement entre les étoiles et le titre */.custom-liquid-stars {margin-bottom: 0px !important;}",
+        "/* Réduit le padding top du bloc qui contient le titre produit */.product__title {margin-top: 4px !important;}"
       ],
       "settings": {
         "color_scheme": "scheme-1",
@@ -320,9 +329,7 @@
     },
     "custom_liquid_FKzrFn": {
       "type": "custom-liquid",
-      "custom_css": [
-        ":host {background-color: transparent !important; border: none !important; padding-bottom: 0 !important; margin-bottom: 0 !important; box-shadow: none !important;}"
-      ],
+      "custom_css": [],
       "settings": {
         "custom_liquid": "<div style=\"\n  background-color: #F6F2EE;\n  padding: 15px 8px;\n  border-radius: 5px;\n  text-align: center;\n  font-family: 'Montserrat', sans-serif;\n  border: none; /* suppression de toute ligne résiduelle */\n  box-shadow: none; /* au cas où il y aurait une ombre */\n  outline: none;\n\">\n  <style>\n    .responsive-text {\n      font-size: 13px;\n      line-height: 1.4em;\n      color: #1c1c1c;\n      margin: 0 auto;\n      max-width: 100%;\n      border: none;\n      box-shadow: none;\n    }\n\n    @media screen and (max-width: 768px) {\n      .responsive-text {\n        font-size: 12px;\n      }\n    }\n\n    @media screen and (max-width: 480px) {\n      .responsive-text {\n        font-size: 11px;\n      }\n    }\n  </style>\n\n  <p class=\"responsive-text\">\n    Convient à toutes les compagnies aériennes internationales, y compris les compagnies low-cost européennes\n  </p>\n</div>",
         "color_scheme": "",
@@ -384,9 +391,7 @@
         "collapsible_item_aKpRFm",
         "collapsible_item_3c4PkF"
       ],
-      "custom_css": [
-        ":host {margin-top: 0 !important;}"
-      ],
+      "custom_css": [],
       "settings": {
         "container": "narrow",
         "color_scheme": "",
