@@ -438,6 +438,27 @@
         "divider_width": "fixed"
       }
     },
+    "custom_content_LFmPka": {
+      "type": "custom-content",
+      "settings": {
+        "container": "full",
+        "color_scheme": "",
+        "enable_sticky_column": false,
+        "heading": "Quel est votre prochaine destination ?",
+        "heading_size": "h1",
+        "heading_highlight_style": "none",
+        "subheading": "",
+        "description": "",
+        "column_gap": "medium",
+        "row_gap": "large",
+        "swipe_on_mobile": false,
+        "columns_mobile": "1",
+        "padding_top": 20,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -468,8 +489,78 @@
         "image_88GQMm": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ELYZE_5.png",
-            "image_height": 136,
+            "image": "shopify://shop_images/10.png",
+            "image_height": 72,
+            "image_rounded": false,
+            "image_link": "",
+            "image_height_mobile": 90
+          }
+        },
+        "image_9i9x4x": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_5e532ebf-2b69-4ba9-969e-8a289d8271d6.png",
+            "image_height": 72,
+            "image_rounded": false,
+            "image_link": "",
+            "image_height_mobile": 90
+          }
+        },
+        "image_qUpzER": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_46c6b50e-2871-433e-9cd7-601bf60825e0.png",
+            "image_height": 72,
+            "image_rounded": false,
+            "image_link": "",
+            "image_height_mobile": 90
+          }
+        },
+        "image_chDmFm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/6_c19f6397-15b5-4b6f-846f-6aa46b7e46e2.png",
+            "image_height": 72,
+            "image_rounded": false,
+            "image_link": "",
+            "image_height_mobile": 90
+          }
+        },
+        "image_8XBRVU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5_80bb9c61-9301-49db-a183-c263d37349e7.png",
+            "image_height": 72,
+            "image_rounded": false,
+            "image_link": "",
+            "image_height_mobile": 90
+          }
+        },
+        "image_WNd8rx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/9_659d8717-0560-4b2f-9485-e51d8a62b384.png",
+            "image_height": 72,
+            "image_rounded": false,
+            "image_link": "",
+            "image_height_mobile": 90
+          }
+        },
+        "image_6yWbUQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/8_422dd771-2191-4c39-98a2-96b9a8420145.png",
+            "image_height": 72,
+            "image_rounded": false,
+            "image_link": "",
+            "image_height_mobile": 90
+          }
+        },
+        "image_tfMYVQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/7_24abd0b3-bfb8-4d97-ba22-15d671db0f88.png",
+            "image_height": 72,
             "image_rounded": false,
             "image_link": "",
             "image_height_mobile": 90
@@ -477,18 +568,25 @@
         }
       },
       "block_order": [
-        "image_88GQMm"
+        "image_88GQMm",
+        "image_9i9x4x",
+        "image_qUpzER",
+        "image_chDmFm",
+        "image_8XBRVU",
+        "image_WNd8rx",
+        "image_6yWbUQ",
+        "image_tfMYVQ"
       ],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "vertical_alignment": "center",
         "direction": "left",
         "pause_on_hover": false,
-        "speed": 0.3,
-        "h_spacing": 50,
+        "speed": 0.2,
+        "h_spacing": 0,
         "v_spacing": 10,
-        "padding_top": 20,
-        "padding_bottom": 20,
+        "padding_top": 0,
+        "padding_bottom": 0,
         "show_divider": false,
         "divider_layout": "vertical"
       }
@@ -499,6 +597,7 @@
     "ss_feature_22_M3X9FH",
     "custom_liquid_FKzrFn",
     "collapsible_tabs_phAkEE",
+    "custom_content_LFmPka",
     "related-products",
     "scrolling_promotion_c3fMLV"
   ]
