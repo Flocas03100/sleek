@@ -704,7 +704,7 @@
         "pause_on_hover": false,
         "speed": 0.9,
         "h_spacing": 0,
-        "v_spacing": 10,
+        "v_spacing": 0,
         "padding_top": 0,
         "padding_bottom": 0,
         "show_divider": false,
