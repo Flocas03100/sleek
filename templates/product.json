@@ -758,6 +758,59 @@
         "show_divider": false,
         "divider_layout": "vertical"
       }
+    },
+    "custom_content_iF6dUt": {
+      "type": "custom-content",
+      "blocks": {
+        "image_4QJfge": {
+          "type": "image",
+          "settings": {
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        },
+        "text_E8BgEP": {
+          "type": "text",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1",
+            "heading_highlight_style": "none",
+            "subheading": "",
+            "description": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "content_alignment": "left",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_4QJfge",
+        "text_E8BgEP"
+      ],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "enable_sticky_column": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_highlight_style": "none",
+        "subheading": "",
+        "description": "<p></p><p></p>",
+        "column_gap": "medium",
+        "row_gap": "large",
+        "swipe_on_mobile": false,
+        "columns_mobile": "1",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
     }
   },
   "order": [
@@ -765,6 +818,7 @@
     "ss_feature_22_M3X9FH",
     "custom_liquid_FKzrFn",
     "image_comparison_LBQPCj",
+    "custom_content_iF6dUt",
     "collapsible_tabs_phAkEE",
     "custom_content_LFmPka",
     "related-products",
