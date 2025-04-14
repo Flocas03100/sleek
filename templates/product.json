@@ -143,7 +143,9 @@
         "collapsible_tab_E7MQNa"
       ],
       "custom_css": [
-        ".product__tax,.price__tax,.product__tax-note,.product__policies {display: none !important;}"
+        ".product__tax,.price__tax,.product__tax-note,.product__policies {display: none !important;}",
+        " /* Pour les points de pagination */.pagination-dots {position: absolute; bottom: 20px; left: 0; right: 0; margin: 0;}",
+        " /* Pour réduire l'espace blanc */.product-image {margin-bottom: 0;}"
       ],
       "settings": {
         "color_scheme": "scheme-1",
@@ -592,7 +594,7 @@
           "settings": {
             "icon": "none",
             "heading": "La valise est-elle acceptée en cabine ?",
-            "content": "<p>Oui. ElizeWay est conforme aux dimensions exigées par les compagnies. Elle est 100 % cabine, sa taille respecte les standards internationaux des bagages cabine.</p>",
+            "content": "<p>Oui. ElyzeWay est conforme aux dimensions exigées par les compagnies. Elle est 100 % cabine, sa taille respecte les standards internationaux des bagages cabine.</p>",
             "custom_liquid": "",
             "page": "",
             "open": true
@@ -635,7 +637,7 @@
           "type": "collapsible_item",
           "settings": {
             "icon": "none",
-            "heading": "Pourquoi choisir ElizeWay plutôt qu’une valise classique ?",
+            "heading": "Pourquoi choisir ElyzeWay plutôt qu’une valise classique ?",
             "content": "<p>Parce qu’elle regroupe plusieurs produits en un seul. Vous gagnez du temps, de l’espace, de l’argent. Et vous voyagez l’esprit léger, avec style.<br/></p>",
             "custom_liquid": "",
             "page": "",
