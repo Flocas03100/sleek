@@ -408,30 +408,30 @@
         "feature_NjrGCc": {
           "type": "feature",
           "settings": {
-            "icon": "atc",
-            "tab_title": "test",
-            "title": "Title",
-            "text": "<p>Text</p>",
-            "sub_text": "<p>Subtext</p>"
+            "icon": "heart",
+            "tab_title": "",
+            "title": "Toujours connecté, jamais stressé",
+            "text": "<p>Imaginez-vous à l’aéroport, attendant sereinement votre vol. Votre téléphone posé sur votre valise se recharge tranquillement grâce au chargeur intégré. Adieu les prises introuvables, bonjour la tranquillité.</p>",
+            "sub_text": ""
           }
         },
         "feature_b4PezF": {
           "type": "feature",
           "settings": {
-            "icon": "atc",
-            "tab_title": "Tab title",
-            "title": "Title",
-            "text": "<p>Text</p>",
-            "sub_text": "<p>Subtext</p>"
+            "icon": "love",
+            "tab_title": "",
+            "title": "Votre boisson à portée de main",
+            "text": "<p>Traversez l'aéroport aisément, café ou bouteille d’eau stablement installée sur votre valise. Plus besoin de garder les mains occupées, vous avancez librement et sereinement.</p>",
+            "sub_text": ""
           }
         },
         "feature_XebFha": {
           "type": "feature",
           "settings": {
             "icon": "atc",
-            "tab_title": "Tab title",
-            "title": "Title",
-            "text": "<p>Text</p>",
+            "tab_title": "",
+            "title": "Prêt en un instant",
+            "text": "<p>Dans votre chambre d'hôtel, valise ouverte sur le lit, tout se range facilement grâce aux compartiments intelligents. Vous fermez et repartez en quelques instants, prêt à profiter de votre voyage.</p>",
             "sub_text": "<p>Subtext</p>"
           }
         },
@@ -439,9 +439,9 @@
           "type": "feature",
           "settings": {
             "icon": "atc",
-            "tab_title": "Tab title",
-            "title": "Title",
-            "text": "<p>Text</p>",
+            "tab_title": "",
+            "title": "Libérez vos mains, libérez votre esprit",
+            "text": "<p>Au café de l'aéroport, votre téléphone bien calé et votre sac posé élégamment sur la valise. Vous profitez pleinement de votre pause, détendu et organisé.</p>",
             "sub_text": "<p>Subtext</p>"
           }
         },
@@ -449,20 +449,10 @@
           "type": "feature",
           "settings": {
             "icon": "atc",
-            "tab_title": "Tab title",
-            "title": "Title",
+            "tab_title": "",
+            "title": "Ne cherchez plus, trouvez directement",
             "text": "<p>Text</p>",
-            "sub_text": "<p>Subtext</p>"
-          }
-        },
-        "feature_DrkiQP": {
-          "type": "feature",
-          "settings": {
-            "icon": "atc",
-            "tab_title": "Tab title",
-            "title": "Title",
-            "text": "<p>Text</p>",
-            "sub_text": "<p>Subtext</p>"
+            "sub_text": "<p>À la sécurité de l'aéroport, ouvrez simplement la poche frontale pour sortir ordinateur, passeport et liquides. Rapide, efficace, vous gardez le contrôle en toute situation.</p>"
           }
         }
       },
@@ -471,15 +461,14 @@
         "feature_b4PezF",
         "feature_XebFha",
         "feature_WmKmfX",
-        "feature_4ACWET",
-        "feature_DrkiQP"
+        "feature_4ACWET"
       ],
       "settings": {
         "body_layout": "text_image",
         "body_gap": 92,
         "content_align": "center",
         "content_align_mobile": "center",
-        "heading": "<h2>Heading</h2>",
+        "heading": "<h2>La valise pensée pour vous</h2>",
         "heading_custom": true,
         "heading_font": "montserrat_n4",
         "heading_size": 36,
@@ -555,23 +544,23 @@
         "image_ratio_mobile": "landscape",
         "image_radius": 12,
         "images_mt_mobile": 40,
-        "tab_title_color": "#39392D",
-        "icon_color": "#39392D",
-        "icon_bg_color": "#FFFFFF",
+        "tab_title_color": "#39392d",
+        "icon_color": "#39392d",
+        "icon_bg_color": "#ffffff",
         "icons_bg_color": "#e7e7e2",
         "circle_color": "#f4f5f0",
         "circle_active_color": "#8c735b",
-        "title_color": "#39392D",
-        "text_color": "#39392D",
-        "sub_text_color": "#39392D",
-        "button_color": "#FFFFFF",
-        "button_hover_color": "#39392D",
-        "button_bg_color": "#39392D",
+        "title_color": "#39392d",
+        "text_color": "#39392d",
+        "sub_text_color": "#39392d",
+        "button_color": "#ffffff",
+        "button_hover_color": "#39392d",
+        "button_bg_color": "#39392d",
         "button_bg_hover_color": "#f9f9f6",
-        "button_border_color": "#39392D",
-        "button_border_hover_color": "#39392D",
-        "heading_color": "#39392D",
-        "sub_heading_color": "#39392D",
+        "button_border_color": "#39392d",
+        "button_border_hover_color": "#39392d",
+        "heading_color": "#39392d",
+        "sub_heading_color": "#39392d",
         "background_color": "#fefdfa",
         "background_gradient": "",
         "border_color": "#000000",
