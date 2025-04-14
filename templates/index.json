@@ -190,7 +190,7 @@
             "description": "<p>Design raffiné & intemporel</p>",
             "description_size": "text-base",
             "button_label": "Acheter maintenant",
-            "button_link": "shopify://products/valise-verte",
+            "button_link": "shopify://collections/les-produits-elyze",
             "button_style": "btn--underline"
           }
         }
