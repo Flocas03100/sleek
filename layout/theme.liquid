@@ -147,54 +147,51 @@
     }, 5000); // 5 secondes
   });
 </script>
-    <script>
+<script>
   document.addEventListener('DOMContentLoaded', function() {
-    // Script existant pour la barre sticky
-    setTimeout(function() {
-      var bar = document.querySelector('.sticky-add-to-cart-bar');
-      if (bar) {
-        bar.classList.add('visible');
-      }
-    }, 5000);
-    
-    // Nouveau script pour repositionner les bullets points de Variant Wizard
-    function moveVariantWizardPagination() {
-      // Identifier les sélecteurs spécifiques de Variant Wizard
-      // Ces sélecteurs peuvent nécessiter des ajustements selon l'implémentation exacte
-      var paginationDots = document.querySelector('.slick-dots, .flickity-page-dots, .variant-wizard-pagination');
-      var imageContainer = document.querySelector('.product__media-container, .product-single__media-wrapper, .variant-wizard-image-container');
+    // Fonction pour déplacer les bullets de pagination
+    function movePaginationBullets() {
+      // Cibler les éléments spécifiques de Variant Wizard selon l'inspecteur
+      var paginationBullets = document.querySelector('.pwzrswiper-pagination.pwzrswiper-pagination-bullets');
+      var imageContainer = document.querySelector('#pwzrswiper-container-wrapper');
       
-      if (paginationDots && imageContainer) {
-        // Déplacer les points dans le conteneur d'image
+      if (paginationBullets && imageContainer) {
+        // S'assurer que le conteneur d'image a position relative
         imageContainer.style.position = 'relative';
-        imageContainer.appendChild(paginationDots);
         
-        // Ajuster le style des points
-        paginationDots.style.position = 'absolute';
-        paginationDots.style.bottom = '15px';
-        paginationDots.style.left = '0';
-        paginationDots.style.right = '0';
-        paginationDots.style.margin = '0';
-        paginationDots.style.zIndex = '10';
+        // Déplacer les bullets dans le conteneur d'image
+        imageContainer.appendChild(paginationBullets);
+        
+        // Ajuster le style des bullets
+        paginationBullets.style.position = 'absolute';
+        paginationBullets.style.bottom = '15px';
+        paginationBullets.style.left = '0';
+        paginationBullets.style.right = '0';
+        paginationBullets.style.margin = '0';
+        paginationBullets.style.zIndex = '10';
+        paginationBullets.style.marginTop = '0';
+        paginationBullets.style.marginBottom = '0';
       }
     }
     
-    // Exécuter initialement
-    moveVariantWizardPagination();
+    // Exécuter la fonction après un court délai pour laisser Variant Wizard charger
+    setTimeout(movePaginationBullets, 500);
     
-    // Exécuter à nouveau après un délai pour s'assurer que Variant Wizard a complètement chargé
-    setTimeout(moveVariantWizardPagination, 1000);
+    // Exécuter à nouveau après un délai plus long au cas où le premier appel était trop tôt
+    setTimeout(movePaginationBullets, 1500);
     
-    // Observer les changements de DOM au cas où Variant Wizard charge dynamiquement
+    // Observer les changements dans le DOM
     var observer = new MutationObserver(function(mutations) {
-      moveVariantWizardPagination();
+      movePaginationBullets();
     });
     
-    // Observer le conteneur principal du produit
-    var productContainer = document.querySelector('.product, .product-template');
-    if (productContainer) {
-      observer.observe(productContainer, { childList: true, subtree: true });
-    }
+    // Observer le conteneur de produit
+    setTimeout(function() {
+      var productContainer = document.querySelector('.product-template, .product');
+      if (productContainer) {
+        observer.observe(productContainer, { childList: true, subtree: true });
+      }
+    }, 1000);
   });
 </script>
   {%- render 'foxify-footer' -%}</body>
