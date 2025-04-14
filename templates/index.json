@@ -359,164 +359,43 @@
         "divider_width": "fixed"
       }
     },
-    "lookbook_slider_WeHJUK": {
-      "type": "lookbook-slider",
+    "featured_products_tab_j9yD94": {
+      "type": "featured-products-tab",
       "blocks": {
-        "product_K7miRk": {
-          "type": "product",
+        "tab_DHN3zf": {
+          "type": "tab",
           "settings": {
-            "product": "",
-            "top": 45,
-            "left": 30
-          }
-        },
-        "product_BwgpfL": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "top": 50,
-            "left": 70
-          }
-        },
-        "product_dkdktH": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "top": 62,
-            "left": 43
+            "title": "Liste",
+            "description": "",
+            "products": [
+              "valise-argent",
+              "etui-a-passeport",
+              "etiquette-de-valise",
+              "balance-portable-rechargable",
+              "trousse-de-toilette-transparente"
+            ],
+            "collection": ""
           }
         }
       },
       "block_order": [
-        "product_K7miRk",
-        "product_BwgpfL",
-        "product_dkdktH"
+        "tab_DHN3zf"
       ],
       "settings": {
         "color_scheme": "",
-        "use_color_scheme_in_container": false,
-        "heading": "Shop the look",
-        "heading_size": "h1",
+        "enable_video_autoplay": true,
+        "heading": "DECOUVREZ UNE NOUVELLE FACON DE VOYAGER",
+        "heading_size": "h5",
         "heading_highlight_style": "none",
         "subheading": "",
-        "description": "<p>test</p>",
+        "description": "",
         "description_size": "text-base",
-        "image_aspect_ratio": "adapt",
-        "image_position": "left",
-        "annotation_color": "dark",
-        "product_image_ratio": "",
-        "product_per_slide": "2",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
-    },
-    "highlight_text_with_image_9KLzcX": {
-      "type": "highlight-text-with-image",
-      "blocks": {
-        "image_9JdcFw": {
-          "type": "image",
-          "settings": {
-            "image_link": "",
-            "image_width": 220,
-            "image_width_mobile": 110
-          }
-        },
-        "image_P3qGMJ": {
-          "type": "image",
-          "settings": {
-            "image_link": "",
-            "image_width": 220,
-            "image_width_mobile": 110
-          }
-        },
-        "image_URaWGC": {
-          "type": "image",
-          "settings": {
-            "image_link": "",
-            "image_width": 220,
-            "image_width_mobile": 110
-          }
-        },
-        "image_DyKWHM": {
-          "type": "image",
-          "settings": {
-            "image_link": "",
-            "image_width": 134,
-            "image_width_mobile": 110
-          }
-        }
-      },
-      "block_order": [
-        "image_9JdcFw",
-        "image_P3qGMJ",
-        "image_URaWGC",
-        "image_DyKWHM"
-      ],
-      "settings": {
-        "color_scheme": "scheme-2",
-        "text": "Highlight products, [img1] a collection, or [img2] images alongside a brand message [img3]",
-        "heading_size": "hd1",
-        "alignment": "center",
-        "padding_top": 100,
-        "padding_bottom": 100,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
-    },
-    "layered_images_with_text_pj49Yi": {
-      "type": "layered-images-with-text",
-      "blocks": {
-        "image_X3kfac": {
-          "type": "image",
-          "settings": {
-            "custom_classes": ""
-          }
-        },
-        "image_4MWJpp": {
-          "type": "image",
-          "settings": {
-            "custom_classes": ""
-          }
-        },
-        "image_werV9Q": {
-          "type": "image",
-          "settings": {
-            "custom_classes": ""
-          }
-        },
-        "image_PfcPHD": {
-          "type": "image",
-          "settings": {
-            "custom_classes": ""
-          }
-        },
-        "image_DJXYrP": {
-          "type": "image",
-          "settings": {
-            "custom_classes": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_X3kfac",
-        "image_4MWJpp",
-        "image_werV9Q",
-        "image_PfcPHD",
-        "image_DJXYrP"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "heading": "Layered images with text",
-        "heading_size": "h1",
-        "heading_highlight_style": "none",
-        "subheading": "",
-        "description": "<p>Tell your brand's story through images</p>",
-        "description_size": "text-base",
-        "button_label": "Button label",
-        "button_link": "",
-        "button_style": "btn--primary",
+        "limit": 5,
+        "column_gap": "medium",
+        "row_gap": "inherit",
+        "pcard_image_ratio": "3/4",
+        "pcard_thumbnail_ratio": "",
+        "swipe_on_mobile": true,
         "padding_top": 50,
         "padding_bottom": 50,
         "show_section_divider": false,
@@ -1240,100 +1119,6 @@
         "border_thickness": 0,
         "lazy": true
       }
-    },
-    "lookbook_banner_WjmKhW": {
-      "type": "lookbook-banner",
-      "blocks": {
-        "product_EtCFwx": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "top": 45,
-            "left": 30,
-            "top_mobile": 45,
-            "left_mobile": 30
-          }
-        },
-        "product_XnMxye": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "top": 50,
-            "left": 70,
-            "top_mobile": 50,
-            "left_mobile": 70
-          }
-        },
-        "product_VmbGie": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "top": 62,
-            "left": 43,
-            "top_mobile": 62,
-            "left_mobile": 43
-          }
-        }
-      },
-      "block_order": [
-        "product_EtCFwx",
-        "product_XnMxye",
-        "product_VmbGie"
-      ],
-      "settings": {
-        "color_scheme": "scheme-1",
-        "heading": "Lookbook banner",
-        "heading_size": "h1",
-        "heading_highlight_style": "none",
-        "subheading": "",
-        "description": "",
-        "description_size": "text-base",
-        "annotation_color": "dark",
-        "scrolling_direction": "left",
-        "pause_on_hover": true,
-        "scrolling_speed": 1,
-        "scrolling_text_color": "#000000",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
-    },
-    "scrolling_promotion_TLnYKA": {
-      "type": "scrolling-promotion",
-      "blocks": {
-        "text_Ky9NcN": {
-          "type": "text",
-          "settings": {
-            "text": "Welcome to our store",
-            "text_link": "",
-            "text_size": "h2",
-            "font_weight": "font-heading",
-            "font_style": "normal",
-            "letter_spacing": 0,
-            "text_opacity": 100,
-            "text_style": "normal",
-            "use_custom_color": false,
-            "custom_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "text_Ky9NcN"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "vertical_alignment": "center",
-        "direction": "left",
-        "pause_on_hover": true,
-        "speed": 1,
-        "h_spacing": 50,
-        "v_spacing": 10,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "show_divider": false,
-        "divider_layout": "vertical"
-      }
     }
   },
   "order": [
@@ -1341,16 +1126,12 @@
     "slideshow_q3U4Jn",
     "feature_list_cW3d9c",
     "press_pFfQkM",
-    "lookbook_slider_WeHJUK",
-    "highlight_text_with_image_9KLzcX",
-    "layered_images_with_text_pj49Yi",
+    "featured_products_tab_j9yD94",
     "custom_content_rhXbV3",
     "image_with_text_MgddA8",
     "scrolling_promotion_htQpcB",
     "ss_testimonial_8_PeEecB",
     "ss_testimonial_12_XQKFki",
-    "ss_hotspots_DBt6BY",
-    "lookbook_banner_WjmKhW",
-    "scrolling_promotion_TLnYKA"
+    "ss_hotspots_DBt6BY"
   ]
 }
