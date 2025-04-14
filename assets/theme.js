@@ -2605,9 +2605,25 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 document.addEventListener("DOMContentLoaded", function () {
-  const motionEl = document.querySelector('motion-element');
-  if (motionEl && motionEl.style.marginTop) {
-    motionEl.style.marginTop = '0px';
-    motionEl.style.paddingTop = '0px';
-  }
+  const observer = new MutationObserver((mutations) => {
+    mutations.forEach((mutation) => {
+      const addedNodes = Array.from(mutation.addedNodes);
+      addedNodes.forEach((node) => {
+        if (
+          node.nodeType === 1 &&
+          node.tagName === "MOTION-ELEMENT" &&
+          node.style.marginTop
+        ) {
+          console.log("Motion element détecté, suppression du padding");
+          node.style.marginTop = "0px";
+          node.style.paddingTop = "0px";
+        }
+      });
+    });
+  });
+
+  observer.observe(document.body, {
+    childList: true,
+    subtree: true,
+  });
 });
