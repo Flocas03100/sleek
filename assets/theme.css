@@ -6345,3 +6345,11 @@ media-gallery {
   padding-top: 0 !important;
   margin-top: 0 !important;
 }
+div[id^="pwrzswiper-wrapper"] {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+.pwrzswiper-container-wrapper {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
