@@ -6323,7 +6323,7 @@ body:not(.header-pinned) .header-scrolled .header {
 }
 .pwzrswiper-pagination-bullets {
   position: absolute !important;
-  bottom: 10px !important;
+  bottom: 18px !important;
   left: 50% !important;
   transform: translateX(-50%) !important;
   z-index: 10 !important;
