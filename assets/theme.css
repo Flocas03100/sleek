@@ -6371,3 +6371,10 @@ body:not(.header-pinned) .header-scrolled .header {
   opacity: 1 !important;
   background: #000 !important;
 }
+.product__media-gallery-viewer-wrap img {
+  z-index: 1 !important;
+  position: relative !important;
+}
+.product__media-gallery-viewer-wrap {
+  overflow: visible !important;
+}
