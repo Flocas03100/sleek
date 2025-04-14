@@ -512,6 +512,38 @@
         "divider_width": "fixed"
       }
     },
+    "feature_slider_fEX6MM": {
+      "type": "feature-slider",
+      "blocks": {
+        "feature_66MTai": {
+          "type": "feature",
+          "settings": {
+            "title": "Livraison gratuite",
+            "text": "Recevez votre produit en 48h chrono."
+          }
+        },
+        "feature_g67Re7": {
+          "type": "feature",
+          "settings": {
+            "title": "Livraison gratuite",
+            "text": "Recevez votre produit en 48h chrono."
+          }
+        },
+        "feature_rJPdjT": {
+          "type": "feature",
+          "settings": {
+            "title": "Livraison gratuite",
+            "text": "Recevez votre produit en 48h chrono."
+          }
+        }
+      },
+      "block_order": [
+        "feature_66MTai",
+        "feature_g67Re7",
+        "feature_rJPdjT"
+      ],
+      "settings": {}
+    },
     "scrolling_promotion_htQpcB": {
       "type": "scrolling-promotion",
       "blocks": {
@@ -1123,6 +1155,7 @@
     "press_pFfQkM",
     "custom_content_rhXbV3",
     "image_with_text_MgddA8",
+    "feature_slider_fEX6MM",
     "scrolling_promotion_htQpcB",
     "ss_testimonial_8_PeEecB",
     "ss_testimonial_12_XQKFki",
