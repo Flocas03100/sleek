@@ -18,11 +18,11 @@
           "type": "newsletter",
           "settings": {
             "block_width": 41,
-            "heading": "Rester informé",
-            "heading_size": "h1",
-            "newsletter_description": "<p>Soyez le premier à connaître les nouvelles collections et les offres exclusives.</p>",
+            "heading": "Besoin d'aide ?",
+            "heading_size": "h2",
+            "newsletter_description": "<p>Veuillez nous contacter par mail ou via notre formulaire de contact</p>",
             "newsletter_term": "<p>En vous inscrivant, vous acceptez les conditions d'utilisation et la politique de confidentialité.</p>",
-            "newsletter_text_alignment": "left",
+            "newsletter_text_alignment": "center",
             "form_width": 465,
             "order_first": true
           }
