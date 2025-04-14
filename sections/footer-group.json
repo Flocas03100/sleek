@@ -27,20 +27,6 @@
             "order_first": true
           }
         },
-        "contact_information_yEGyDn": {
-          "type": "contact_information",
-          "settings": {
-            "block_width": 25,
-            "heading": "About",
-            "heading_size": "h4",
-            "address": "382 NE 191st St # 87394 Miami",
-            "working_hours": "9:00am - 6:00pm, Mon to Sun",
-            "email": "hi@yourdomain.com",
-            "phone": "+1-202-555-0195",
-            "open_default": false,
-            "show_divider": false
-          }
-        },
         "image_text_DVTDdh": {
           "type": "image_text",
           "settings": {
@@ -94,7 +80,6 @@
       },
       "block_order": [
         "newsletter_3qCrWc",
-        "contact_information_yEGyDn",
         "image_text_DVTDdh",
         "menu_kDa7te",
         "image_text_F3FNhx",
