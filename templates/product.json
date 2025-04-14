@@ -622,7 +622,7 @@
         "table_row_rXPRMX": {
           "type": "table_row",
           "settings": {
-            "row_heading": "Optimized Dosing",
+            "row_heading": "Format cabine compatible partout",
             "first_column": "",
             "first_column_icon": "check",
             "second_column": "",
@@ -773,7 +773,7 @@
         "table_heading_image_size": 100,
         "table_heading_image_size_mobile": 80,
         "first_heading": "Elyze",
-        "first_heading_image": "shopify://shop_images/ELYZE_4.png",
+        "first_heading_image": "shopify://shop_images/ELYZE_6.png",
         "second_heading": "Valise classique",
         "third_heading": "Third",
         "four_heading": "Fourth",
