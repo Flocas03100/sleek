@@ -2594,13 +2594,3 @@ document.addEventListener('DOMContentLoaded', () => {
     section.style.setProperty('padding-top', '0px', 'important');
     section.style.setProperty('margin-top', '0px', 'important');
   }
-
-  const bullets = document.querySelector('.swiper-pagination');
-  if (bullets) {
-    bullets.style.setProperty('position', 'absolute', 'important');
-    bullets.style.setProperty('bottom', '14px', 'important'); // ajuste ici
-    bullets.style.setProperty('left', '50%', 'important');
-    bullets.style.setProperty('transform', 'translateX(-50%)', 'important');
-    bullets.style.setProperty('z-index', '9', 'important');
-  }
-});
