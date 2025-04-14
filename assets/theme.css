@@ -6329,3 +6329,7 @@ body:not(.header-pinned) .header-scrolled .header {
   transform: translateX(-50%);
   z-index: 10;
 }
+.product__media {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
