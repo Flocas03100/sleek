@@ -6356,16 +6356,3 @@ media-gallery {
   padding-top: 0 !important;
   margin-top: 0 !important;
 }
-document.addEventListener("DOMContentLoaded", function () {
-  const section = document.querySelector('.shopify-section[id*="product-template"]');
-  if (section) {
-    section.style.setProperty('padding-top', '0px', 'important');
-    section.style.setProperty('margin-top', '0px', 'important');
-  }
-
-  const childWrapper = section?.firstElementChild;
-  if (childWrapper) {
-    childWrapper.style.setProperty('padding-top', '0px', 'important');
-    childWrapper.style.setProperty('margin-top', '0px', 'important');
-  }
-});
