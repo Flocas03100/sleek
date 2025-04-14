@@ -6345,13 +6345,17 @@ media-gallery {
   padding-top: 0 !important;
   margin-top: 0 !important;
 }
-#shopify-section-template--product .product__media-gallery,
-#shopify-section-template--product .product__media-gallery-viewer-wrap {
-  padding-top: 0 !important;
-  margin-top: 0 !important;
+.shopify-section[id*="product-template"] {
+  padding-top: 0!important;
+  margin-top: 0!important;
 }
-
-.shopify-section:first-of-type {
-  padding-top: 0 !important;
-  margin-top: 0 !important;
+.product__media-gallery,
+.product__media-gallery-viewer-wrap,
+.product__media-gallery-viewer {
+  padding-top: 0!important;
+  margin-top: 0!important;
+}
+motion-element:first-of-type {
+  margin-top: 0!important;
+  padding-top: 0!important;
 }
