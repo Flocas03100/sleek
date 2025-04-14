@@ -371,6 +371,7 @@
         "image_fm6pYU",
         "image_hJDrJc"
       ],
+      "disabled": true,
       "settings": {
         "container": "fixed",
         "color_scheme": "",
@@ -407,27 +408,16 @@
     "ss_feature_24_pczPAd": {
       "type": "ss-feature-24",
       "blocks": {
-        "feature_NjrGCc": {
+        "feature_4ACWET": {
           "type": "feature",
           "settings": {
-            "icon": "heart",
-            "custom_icon": "shopify://shop_images/procrastination.png",
+            "icon": "atc",
+            "custom_icon": "shopify://shop_images/suitcase.png",
             "tab_title": "",
-            "title": "Toujours connecté, jamais stressé",
-            "text": "<p>Imaginez-vous à l’aéroport, attendant sereinement votre vol. Votre téléphone posé sur votre valise se recharge tranquillement grâce au chargeur intégré. Adieu les prises introuvables, bonjour la tranquillité.</p>",
-            "sub_text": ""
-          }
-        },
-        "feature_b4PezF": {
-          "type": "feature",
-          "settings": {
-            "icon": "love",
-            "custom_icon": "shopify://shop_images/bottle.png",
-            "tab_title": "",
-            "title": "Votre boisson à portée de main",
-            "text": "<p>Traversez l'aéroport aisément, café ou bouteille d’eau stablement installée sur votre valise. Plus besoin de garder les mains occupées, vous avancez librement et sereinement.</p>",
+            "title": "Ne cherchez plus, trouvez directement",
+            "text": "<p>À la sécurité de l'aéroport, ouvrez simplement la poche frontale pour sortir ordinateur, passeport et liquides. Rapide, efficace, vous gardez le contrôle en toute situation.</p>",
             "sub_text": "",
-            "image": "shopify://shop_images/WhatsApp_GIF_2025-04-14_at_10.00.16.gif"
+            "image": "shopify://shop_images/WhatsApp_GIF_2025-04-14_at_10.40.13.gif"
           }
         },
         "feature_XebFha": {
@@ -453,24 +443,36 @@
             "sub_text": ""
           }
         },
-        "feature_4ACWET": {
+        "feature_NjrGCc": {
           "type": "feature",
           "settings": {
-            "icon": "atc",
-            "custom_icon": "shopify://shop_images/suitcase.png",
+            "icon": "heart",
+            "custom_icon": "shopify://shop_images/procrastination.png",
             "tab_title": "",
-            "title": "Ne cherchez plus, trouvez directement",
-            "text": "<p>À la sécurité de l'aéroport, ouvrez simplement la poche frontale pour sortir ordinateur, passeport et liquides. Rapide, efficace, vous gardez le contrôle en toute situation.</p>",
+            "title": "Toujours connecté, jamais stressé",
+            "text": "<p>Imaginez-vous à l’aéroport, attendant sereinement votre vol. Votre téléphone posé sur votre valise se recharge tranquillement grâce au chargeur intégré. Adieu les prises introuvables, bonjour la tranquillité.</p>",
             "sub_text": ""
+          }
+        },
+        "feature_b4PezF": {
+          "type": "feature",
+          "settings": {
+            "icon": "love",
+            "custom_icon": "shopify://shop_images/bottle.png",
+            "tab_title": "",
+            "title": "Votre boisson à portée de main",
+            "text": "<p>Traversez l'aéroport aisément, café ou bouteille d’eau stablement installée sur votre valise. Plus besoin de garder les mains occupées, vous avancez librement et sereinement.</p>",
+            "sub_text": "",
+            "image": "shopify://shop_images/WhatsApp_GIF_2025-04-14_at_10.00.16.gif"
           }
         }
       },
       "block_order": [
-        "feature_NjrGCc",
-        "feature_b4PezF",
+        "feature_4ACWET",
         "feature_XebFha",
         "feature_WmKmfX",
-        "feature_4ACWET"
+        "feature_NjrGCc",
+        "feature_b4PezF"
       ],
       "settings": {
         "body_layout": "text_image",
