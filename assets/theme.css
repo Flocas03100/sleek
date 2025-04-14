@@ -6336,3 +6336,12 @@ media-gallery {
   margin-top: 0 !important;
   display: block;
 }
+.product__media-gallery-viewer-wrap {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+.media, .media--transparent {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
