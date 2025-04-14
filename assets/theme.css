@@ -6360,3 +6360,7 @@ motion-element[style*="margin-top"] {
   margin-top: 0 !important;
   padding-top: 0 !important;
 }
+motion-element[style] {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
