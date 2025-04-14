@@ -6336,17 +6336,3 @@ media-gallery {
   margin-top: 0 !important;
   display: block;
 }
-.pwzrswiper-pagination-bullets {
-  position: absolute !important;
-  bottom: 18px !important;
-  left: 50% !important;
-  transform: translateX(-50%) !important;
-  margin: 0 !important;
-  z-index: 10 !important;
-  display: flex !important;
-  width: auto !important;
-  padding: 0 !important;
-}
-.product__media-gallery-viewer {
-  position: relative !important;
-}
