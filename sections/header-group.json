@@ -37,7 +37,7 @@
     "header": {
       "type": "header",
       "settings": {
-        "container": "full",
+        "container": "fixed",
         "color_scheme": "scheme-1",
         "menu": "main-menu",
         "menu_mobile": "main-menu",
