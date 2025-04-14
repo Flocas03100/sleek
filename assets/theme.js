@@ -2588,6 +2588,10 @@ class NewsletterForm extends HTMLFormElement {
   }
 }
 customElements.define('newsletter-form', NewsletterForm, { extends: 'form' });
+// 📦 Ton fichier theme.js avec le fix pour Variant Wizard (padding top photo)
+
+// Règle les bullets Swiper
+
 document.addEventListener('DOMContentLoaded', () => {
   const section = document.querySelector('[id^="shopify-section-template"][class*="product"]');
   if (section) {
@@ -2598,12 +2602,15 @@ document.addEventListener('DOMContentLoaded', () => {
   const bullets = document.querySelector('.swiper-pagination');
   if (bullets) {
     bullets.style.setProperty('position', 'absolute', 'important');
-    bullets.style.setProperty('bottom', '14px', 'important'); // ajuste ici
+    bullets.style.setProperty('bottom', '14px', 'important');
     bullets.style.setProperty('left', '50%', 'important');
     bullets.style.setProperty('transform', 'translateX(-50%)', 'important');
     bullets.style.setProperty('z-index', '9', 'important');
   }
 });
+
+// 🔥 Supprime le margin-top injecté par Variant Wizard
+
 document.addEventListener("DOMContentLoaded", function () {
   function removeMotionPadding() {
     const el = document.querySelector('motion-element');
