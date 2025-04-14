@@ -6321,47 +6321,38 @@ body:not(.header-pinned) .header-scrolled .header {
     order: 2;
   }
 }
-/* ------------------------ */
-/* 🔧 BULLETS SWIPER FIX 🔧 */
-/* ------------------------ */
-
-/* 1. Le conteneur principal doit être relatif + visible */
-.product__media-gallery-viewer,
-.product__media-gallery-viewer-wrap {
+.product__media-gallery-viewer {
   position: relative !important;
   overflow: visible !important;
-  z-index: 1 !important;
+  z-index: 0 !important;
 }
 
-/* 2. L'image doit rester derrière les bullets */
-.product__media-gallery-viewer-wrap img {
-  position: relative !important;
-  z-index: 1 !important;
-}
-
-/* 3. Les bullets doivent apparaître au-dessus */
 .swiper-pagination {
   position: absolute !important;
-  bottom: 14px !important;
+  bottom: 8px !important;
   left: 50% !important;
   transform: translateX(-50%) !important;
+  z-index: 2 !important;
   display: flex !important;
+  justify-content: center;
   gap: 6px;
-  z-index: 9999 !important;
+  width: auto;
+  padding: 4px 8px;
+  background: rgba(255, 255, 255, 0.6); /* en option */
+  border-radius: 8px;
 }
 
-/* 4. Style visuel des bullets */
 .swiper-pagination-bullet {
   width: 8px;
   height: 8px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background: #999;
   border-radius: 50%;
-  opacity: 0.6;
-  transition: all 0.3s ease;
+  opacity: 0.5;
+  transition: all 0.2s ease;
   margin: 0 4px;
 }
 
 .swiper-pagination-bullet-active {
+  background: #000;
   opacity: 1;
-  background-color: #fff;
 }
