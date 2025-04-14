@@ -512,6 +512,38 @@
         "divider_width": "fixed"
       }
     },
+    "image_with_text_PWanT8": {
+      "type": "image-with-text",
+      "blocks": {
+        "button_w8N6Pf": {
+          "type": "button",
+          "settings": {
+            "button_label": "Voir les accessoires",
+            "button_link": "shopify://collections/les-produits-elyze",
+            "button_style": "btn--underline"
+          }
+        }
+      },
+      "block_order": [
+        "button_w8N6Pf"
+      ],
+      "settings": {
+        "section_color_scheme": "",
+        "color_scheme": "scheme-4",
+        "image": "shopify://shop_images/Design_sans_titre_69.png",
+        "image_height": "adapt",
+        "layout": "image_first",
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "center",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "mobile_content_alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
     "feature_slider_fEX6MM": {
       "type": "feature-slider",
       "blocks": {
@@ -1398,6 +1430,7 @@
     "press_pFfQkM",
     "custom_content_rhXbV3",
     "image_with_text_MgddA8",
+    "image_with_text_PWanT8",
     "feature_slider_fEX6MM",
     "ss_testimonial_8_VbncBh",
     "ss_testimonial_8_PeEecB",
