@@ -6321,77 +6321,47 @@ body:not(.header-pinned) .header-scrolled .header {
     order: 2;
   }
 }
-/* Positionner les bullets Swiper dans l’image */
-.pwzrswiper-pagination-bullets {
-  position: absolute !important;
-  bottom: 12px !important;
-  left: 50% !important;
-  transform: translateX(-50%) !important;
-  z-index: 5;
-  margin: 0 !important;
-  padding: 0 !important;
-}
+/* ------------------------ */
+/* 🔧 BULLETS SWIPER FIX 🔧 */
+/* ------------------------ */
 
-/* Pour que le conteneur permette un positionnement absolu */
-.pwzrswiper-pagination-bullets::before {
-  content: '';
-}
-
-/* S'assurer que le parent est positionné en relative */
-.media, .media--transparent {
-  position: relative !important;
-}
-/* Place les bullets dans la photo */
+/* 1. Le conteneur principal doit être relatif + visible */
+.product__media-gallery-viewer,
 .product__media-gallery-viewer-wrap {
   position: relative !important;
+  overflow: visible !important;
+  z-index: 1 !important;
 }
 
-.pwzrswiper-pagination-bullets {
-  position: absolute !important;
-  bottom: 30px !important;
-  left: 50% !important;
-  transform: translateX(-50%) !important;
-  z-index: 99 !important;
-  margin: 0 !important;
-  padding: 6px 10px !important;
-  background: rgba(255,255,255,0.6); /* temporaire pour test */
-  border-radius: 12px;
-}
-
-.pwzrswiper-pagination-bullet {
-  width: 10px !important;
-  height: 10px !important;
-  background: #000 !important;
-  opacity: 0.4 !important;
-  margin: 0 4px !important;
-  border-radius: 50% !important;
-}
-
-.pwzrswiper-pagination-bullet-active {
-  opacity: 1 !important;
-  background: #000 !important;
-}
+/* 2. L'image doit rester derrière les bullets */
 .product__media-gallery-viewer-wrap img {
-  z-index: 1 !important;
-  position: relative !important;
-}
-.product__media-gallery-viewer-wrap {
-  overflow: visible !important;
-}
-.product__media-gallery-viewer {
-  position: relative !important;
-}
-.product__media-gallery-viewer-wrap {
-  position: relative !important;
-  overflow: visible !important;
-  z-index: 0 !important;
-}
-
-.product__media-gallery-viewer {
   position: relative !important;
   z-index: 1 !important;
 }
 
+/* 3. Les bullets doivent apparaître au-dessus */
 .swiper-pagination {
-  z-index: 10 !important;
+  position: absolute !important;
+  bottom: 14px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  display: flex !important;
+  gap: 6px;
+  z-index: 9999 !important;
+}
+
+/* 4. Style visuel des bullets */
+.swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  opacity: 0.6;
+  transition: all 0.3s ease;
+  margin: 0 4px;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background-color: #fff;
 }
