@@ -30,9 +30,10 @@ if (!customElements.get('x-media-gallery')) {
     }
 
     playActiveMedia(selected) {
+      if (!selected) return;
       window.Foxify.Utils.pauseAllMedia()
       this.activeMedia = selected
-      this.activeMediaType = this.activeMedia.dataset.mediaType
+      this.activeMediaType = this.activeMedia?.dataset?.mediaType
       const deferredMedia = selected.querySelector('x-deferred-media')
       if (deferredMedia) deferredMedia.loadContent(false)
 
@@ -43,14 +44,14 @@ if (!customElements.get('x-media-gallery')) {
       }
     }
 
-    setActiveMedia(mediaId) {
+    setActiveMedia(mediaId, transition = 300) {
       const selectedMedia = this.querySelector(`[data-media-id="${mediaId}"]`)
       if (!selectedMedia) return;
       const mediaIndex = Number(selectedMedia.dataset.mediaIndex)
       this.scrollIntoView(selectedMedia)
 
       this.preventStickyHeader()
-      if (this.mainSlider) this.mainSlider.slideTo(mediaIndex)
+      if (this.mainSlider) this.mainSlider.slideTo(mediaIndex, transition)
     }
 
     preventStickyHeader() {
