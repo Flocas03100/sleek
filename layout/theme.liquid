@@ -147,5 +147,55 @@
     }, 5000); // 5 secondes
   });
 </script>
+    <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Script existant pour la barre sticky
+    setTimeout(function() {
+      var bar = document.querySelector('.sticky-add-to-cart-bar');
+      if (bar) {
+        bar.classList.add('visible');
+      }
+    }, 5000);
+    
+    // Nouveau script pour repositionner les bullets points de Variant Wizard
+    function moveVariantWizardPagination() {
+      // Identifier les sélecteurs spécifiques de Variant Wizard
+      // Ces sélecteurs peuvent nécessiter des ajustements selon l'implémentation exacte
+      var paginationDots = document.querySelector('.slick-dots, .flickity-page-dots, .variant-wizard-pagination');
+      var imageContainer = document.querySelector('.product__media-container, .product-single__media-wrapper, .variant-wizard-image-container');
+      
+      if (paginationDots && imageContainer) {
+        // Déplacer les points dans le conteneur d'image
+        imageContainer.style.position = 'relative';
+        imageContainer.appendChild(paginationDots);
+        
+        // Ajuster le style des points
+        paginationDots.style.position = 'absolute';
+        paginationDots.style.bottom = '15px';
+        paginationDots.style.left = '0';
+        paginationDots.style.right = '0';
+        paginationDots.style.margin = '0';
+        paginationDots.style.zIndex = '10';
+      }
+    }
+    
+    // Exécuter initialement
+    moveVariantWizardPagination();
+    
+    // Exécuter à nouveau après un délai pour s'assurer que Variant Wizard a complètement chargé
+    setTimeout(moveVariantWizardPagination, 1000);
+    
+    // Observer les changements de DOM au cas où Variant Wizard charge dynamiquement
+    var observer = new MutationObserver(function(mutations) {
+      moveVariantWizardPagination();
+    });
+    
+    // Observer le conteneur principal du produit
+    var productContainer = document.querySelector('.product, .product-template');
+    if (productContainer) {
+      observer.observe(productContainer, { childList: true, subtree: true });
+    }
+  });
+</script>
   {%- render 'foxify-footer' -%}</body>
 </html>
