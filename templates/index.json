@@ -284,6 +284,45 @@
         "divider_width": "fixed"
       }
     },
+    "product_tabs_pPiLai": {
+      "type": "product-tabs",
+      "blocks": {
+        "tab_3F7aha": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab 1",
+            "collection": "frontpage"
+          }
+        }
+      },
+      "block_order": [
+        "tab_3F7aha"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "header_layout": "vertical",
+        "heading": "Product tabs",
+        "heading_size": "h1",
+        "heading_highlight_style": "none",
+        "limit": 4,
+        "columns": 4,
+        "column_gap": "medium",
+        "row_gap": "inherit",
+        "grid_layout": "standard",
+        "pcard_image_ratio": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "show_all_button_on_top": false,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "tabs_nav_style": "design-1",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
     "press_pFfQkM": {
       "type": "press",
       "blocks": {
@@ -393,7 +432,7 @@
         "limit": 5,
         "column_gap": "medium",
         "row_gap": "inherit",
-        "pcard_image_ratio": "1/1",
+        "pcard_image_ratio": "3/4",
         "pcard_thumbnail_ratio": "",
         "swipe_on_mobile": true,
         "padding_top": 50,
@@ -1039,6 +1078,17 @@
             "heading": "<h2>Patented TUSHY Classic</h2>",
             "text": "<p>Text</p>"
           }
+        },
+        "hotspot_NCqKQq": {
+          "type": "hotspot",
+          "settings": {
+            "vertical_position": 50,
+            "vertical_position_mobile": 50,
+            "horizontal_position": 50,
+            "horizontal_position_mobile": 50,
+            "heading": "<h2>Patented TUSHY Classic</h2>",
+            "text": "<p>Text</p>"
+          }
         }
       },
       "block_order": [
@@ -1047,7 +1097,8 @@
         "hotspot_AAe6aN",
         "hotspot_nfE7Xa",
         "hotspot_RGrJ8M",
-        "hotspot_9FBnzj"
+        "hotspot_9FBnzj",
+        "hotspot_NCqKQq"
       ],
       "disabled": true,
       "settings": {
@@ -1125,6 +1176,7 @@
     "ss_hero_6_e37GBt",
     "slideshow_q3U4Jn",
     "feature_list_cW3d9c",
+    "product_tabs_pPiLai",
     "press_pFfQkM",
     "featured_products_tab_j9yD94",
     "custom_content_rhXbV3",
