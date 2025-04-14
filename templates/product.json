@@ -123,6 +123,16 @@
             "page": "",
             "default_open": false
           }
+        },
+        "collapsible_tab_EVjkzV": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Ce que vous recevez",
+            "icon": "check-circle",
+            "content": "<p>Valise ElizeWay 35L – Format cabine</p><p>Planche de stickers</p><p>House de protection</p>",
+            "page": "",
+            "default_open": false
+          }
         }
       },
       "block_order": [
@@ -140,7 +150,8 @@
         "complementary",
         "custom_liquid_LAx4WJ",
         "collapsible_tab_4FL6Vi",
-        "collapsible_tab_E7MQNa"
+        "collapsible_tab_E7MQNa",
+        "collapsible_tab_EVjkzV"
       ],
       "custom_css": [
         ".product__tax,.price__tax,.product__tax-note,.product__policies {display: none !important;}",
@@ -810,21 +821,21 @@
         "text_color": "#000000",
         "icon_color": "#000000",
         "list_text_color": "#000000",
-        "button_color": "#FFFFFF",
+        "button_color": "#ffffff",
         "button_hover_color": "#8c735b",
-        "button_bg_color": "#16142B",
-        "button_bg_hover_color": "#16142B",
-        "button_border_color": "#16142B",
-        "button_border_hover_color": "#16142B",
+        "button_bg_color": "#16142b",
+        "button_bg_hover_color": "#16142b",
+        "button_border_color": "#16142b",
+        "button_border_hover_color": "#16142b",
         "table_border_color": "#8c735b",
         "table_active_border_color": "#ffffff",
         "table_heading_color": "#000000",
-        "table_heading_active_color": "#FFFFFF",
+        "table_heading_active_color": "#ffffff",
         "table_heading_bg_active_color": "#8c735b",
         "table_column_active_bg_color": "#8c735b",
-        "table_row_heading_color": "#1A192E",
-        "table_row_text_color": "#1A192E",
-        "table_row_active_text_color": "#FFFFFF",
+        "table_row_heading_color": "#1a192e",
+        "table_row_text_color": "#1a192e",
+        "table_row_active_text_color": "#ffffff",
         "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#000000",
