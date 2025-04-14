@@ -6345,3 +6345,20 @@ media-gallery {
   padding-top: 0 !important;
   margin-top: 0 !important;
 }
+#shopify-section-template--24646550945956__main {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+.product__media-gallery,
+.product__media-gallery-viewer-wrap,
+.product__media-gallery-viewer {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+.swiper-pagination {
+  position: absolute !important;
+  bottom: 14px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  z-index: 9 !important;
+}
