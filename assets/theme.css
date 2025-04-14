@@ -6345,3 +6345,13 @@ media-gallery {
   padding-top: 0 !important;
   margin-top: 0 !important;
 }
+#shopify-section-template--product .product__media-gallery,
+#shopify-section-template--product .product__media-gallery-viewer-wrap {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+.shopify-section:first-of-type {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
