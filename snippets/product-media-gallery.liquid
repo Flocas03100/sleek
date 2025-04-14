@@ -66,11 +66,29 @@
   <div
   id="GalleryViewer-{{ section.id }}"
 >
-    <div class="product__media-gallery-viewer blocks-radius swiper">
-  <!-- Swiper slides -->
-  ...
-  <!-- ICI : ajouter pagination -->
-  <div class="swiper-pagination"></div>
+    <div class="product__media-gallery-viewer blocks-radius swiper" style="position: relative;">
+  <div
+    id="Slider-Gallery-{{ section.id }}"
+    class="product__media-list flex swiper-wrapper"
+    role="list"
+  >
+    {%- for media in product.media -%}
+      {% render 'product-thumbnail',
+        media: media,
+        media_count: media_count,
+        position: forloop.index0,
+        desktop_layout: media_layout,
+        mobile_layout: mobile_thumbnails,
+        enable_image_zoom: enable_image_zoom,
+        loop: section.settings.enable_video_looping,
+        modal_id: section.id,
+        xr_button: true,
+        media_width: media_width
+      %}
+    {%- endfor -%}
+  </div>
+
+  <div class="swiper-pagination"></div> <!-- ✅ BULLETS en bas de la photo -->
 </div>
       <a class="skip-to-content-link button visually-hidden" href="#ProductInfo-{{ section.id }}">
         {{ 'accessibility.skip_to_product_info' | t }}
