@@ -143,7 +143,9 @@
         "collapsible_tab_E7MQNa"
       ],
       "custom_css": [
-        ".product__tax,.price__tax,.product__tax-note,.product__policies {display: none !important;}"
+        ".product__tax,.price__tax,.product__tax-note,.product__policies {display: none !important;}",
+        "/* Pour les points de pagination */.pagination-dots {position: absolute; bottom: 20px; left: 0; right: 0; margin: 0;}",
+        "/* Pour réduire l'espace blanc */.product-image {margin-bottom: 0;}"
       ],
       "settings": {
         "color_scheme": "scheme-1",
