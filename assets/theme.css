@@ -6345,22 +6345,3 @@ media-gallery {
   padding-top: 0 !important;
   margin-top: 0 !important;
 }
-div[class*="pwrzswiper"],
-[class*="pwrzswiper"] {
-  padding-top: 0 !important;
-  margin-top: 0 !important;
-}
-
-.pwrzswiper-container,
-.pwrzswiper-container-wrapper,
-.pwrzswiper-wrapper,
-.pwrzswiper-slide-active,
-.product__media-gallery,
-.product__media-gallery-viewer,
-.product__media-gallery-viewer-wrap,
-.media-gallery,
-media-gallery,
-.shopify-section[id*="product-template"] {
-  padding-top: 0 !important;
-  margin-top: 0 !important;
-}
