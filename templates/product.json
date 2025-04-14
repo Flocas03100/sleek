@@ -592,6 +592,254 @@
         "lazy": true
       }
     },
+    "ss_comparison_table_6_hqdHc9": {
+      "type": "ss-comparison-table-6",
+      "blocks": {
+        "list_item_YrppBm": {
+          "type": "list_item",
+          "settings": {
+            "text": "Aucun accessoire à acheter"
+          }
+        },
+        "list_item_T9EK86": {
+          "type": "list_item",
+          "settings": {
+            "text": "Plus jamais de frais de soute"
+          }
+        },
+        "list_item_dpMw73": {
+          "type": "list_item",
+          "settings": {
+            "text": "Zéro perte de temps"
+          }
+        },
+        "list_item_fa6zJa": {
+          "type": "list_item",
+          "settings": {
+            "text": "Pour des années de voyage"
+          }
+        },
+        "table_row_rXPRMX": {
+          "type": "table_row",
+          "settings": {
+            "row_heading": "Optimized Dosing",
+            "first_column": "",
+            "first_column_icon": "check",
+            "second_column": "",
+            "second_column_icon": "cross",
+            "third_column": "",
+            "third_column_icon": "none",
+            "four_column": "",
+            "four_column_icon": "none"
+          }
+        },
+        "table_row_CbTJyD": {
+          "type": "table_row",
+          "settings": {
+            "row_heading": "Plant Based",
+            "first_column": "",
+            "first_column_icon": "check",
+            "second_column": "",
+            "second_column_icon": "cross",
+            "third_column": "",
+            "third_column_icon": "none",
+            "four_column": "",
+            "four_column_icon": "none"
+          }
+        },
+        "table_row_fMEiGg": {
+          "type": "table_row",
+          "settings": {
+            "row_heading": "Low Sugar",
+            "first_column": "",
+            "first_column_icon": "check",
+            "second_column": "",
+            "second_column_icon": "cross",
+            "third_column": "",
+            "third_column_icon": "none",
+            "four_column": "",
+            "four_column_icon": "none"
+          }
+        },
+        "table_row_Gq8XFn": {
+          "type": "table_row",
+          "settings": {
+            "row_heading": "Simple Ingredients",
+            "first_column": "",
+            "first_column_icon": "check",
+            "second_column": "",
+            "second_column_icon": "cross",
+            "third_column": "",
+            "third_column_icon": "none",
+            "four_column": "",
+            "four_column_icon": "none"
+          }
+        },
+        "table_row_KcHJPT": {
+          "type": "table_row",
+          "settings": {
+            "row_heading": "3rd Party Tested",
+            "first_column": "",
+            "first_column_icon": "check",
+            "second_column": "",
+            "second_column_icon": "cross",
+            "third_column": "",
+            "third_column_icon": "none",
+            "four_column": "",
+            "four_column_icon": "none"
+          }
+        },
+        "table_row_rJbjUK": {
+          "type": "table_row",
+          "settings": {
+            "row_heading": "Delicious Taste",
+            "first_column": "",
+            "first_column_icon": "check",
+            "second_column": "",
+            "second_column_icon": "cross",
+            "third_column": "",
+            "third_column_icon": "none",
+            "four_column": "",
+            "four_column_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "list_item_YrppBm",
+        "list_item_T9EK86",
+        "list_item_dpMw73",
+        "list_item_fa6zJa",
+        "table_row_rXPRMX",
+        "table_row_CbTJyD",
+        "table_row_fMEiGg",
+        "table_row_Gq8XFn",
+        "table_row_KcHJPT",
+        "table_row_rJbjUK"
+      ],
+      "settings": {
+        "body_gap": 32,
+        "body_gap_mobile": 32,
+        "content_horizontal_align": "start",
+        "content_horizontal_align_mobile": "center",
+        "heading": "<p>Pourquoi ElizeWay ?</p>",
+        "heading_custom": true,
+        "heading_font": "montserrat_n4",
+        "heading_size": 52,
+        "heading_size_mobile": 32,
+        "heading_height": 150,
+        "text": "<p>Nous avons repensé la valise cabine pour qu’elle vous fasse <strong>gagner du temps, de l’espace et de la sérénité</strong>.</p>",
+        "text_custom": true,
+        "text_font": "montserrat_n4",
+        "text_size": 18,
+        "text_size_mobile": 18,
+        "text_height": 150,
+        "text_mt": 4,
+        "list_mt": 50,
+        "list_mt_mobile": 32,
+        "list_gap": 30,
+        "list_gap_mobile": 30,
+        "list_hide_mobile": true,
+        "icon_size": 28,
+        "icon_size_mobile": 28,
+        "icon_margin_right": 16,
+        "list_text_custom": true,
+        "list_text_font": "montserrat_n4",
+        "list_text_size": 20,
+        "list_text_size_mobile": 18,
+        "list_text_height": 150,
+        "button": "",
+        "button_url": "",
+        "button_custom": true,
+        "button_font": "montserrat_n4",
+        "button_size": 18,
+        "button_size_mobile": 18,
+        "button_height": 100,
+        "button_width": 305,
+        "button_mt": 50,
+        "button_mt_mobile": 32,
+        "button_padding_vertical": 16,
+        "button_padding_vertical_mobile": 16,
+        "button_padding_horizontal": 48,
+        "button_padding_horizontal_mobile": 48,
+        "button_radius": 100,
+        "button_border_thickness": 0,
+        "button_style": "non_outline",
+        "button_position_mobile": "bottom",
+        "table_columns": 2,
+        "table_mt_mobile": 32,
+        "table_column_active": "1",
+        "table_radius": 16,
+        "table_border_thickness": 1,
+        "table_heading_image_size": 100,
+        "table_heading_image_size_mobile": 80,
+        "first_heading": "Elyze",
+        "first_heading_image": "shopify://shop_images/ELYZE_4.png",
+        "second_heading": "Valise classique",
+        "third_heading": "Third",
+        "four_heading": "Fourth",
+        "table_heading_custom": true,
+        "table_heading_font": "montserrat_n4",
+        "table_heading_size": 20,
+        "table_heading_size_mobile": 16,
+        "table_heading_height": 100,
+        "table_heading_align": "center",
+        "table_heading_padding_horizontal": 18,
+        "table_heading_padding_horizontal_mobile": 18,
+        "table_heading_padding_vertical": 18,
+        "table_heading_padding_vertical_mobile": 18,
+        "table_row_padding_horizontal": 14,
+        "table_row_padding_horizontal_mobile": 14,
+        "table_row_padding_vertical": 16,
+        "table_row_padding_vertical_mobile": 16,
+        "table_row_heading_width_mobile": 66,
+        "table_row_heading_custom": true,
+        "table_row_heading_font": "montserrat_n4",
+        "table_row_heading_size": 16,
+        "table_row_heading_size_mobile": 16,
+        "table_row_heading_height": 130,
+        "table_row_heading_align": "left",
+        "table_row_text_custom": false,
+        "table_row_text_font": "assistant_n4",
+        "table_row_text_size": 20,
+        "table_row_text_size_mobile": 16,
+        "table_row_text_height": 130,
+        "table_row_text_align": "center",
+        "table_row_image_size": 24,
+        "table_row_image_size_mobile": 24,
+        "heading_color": "#000000",
+        "text_color": "#000000",
+        "icon_color": "#000000",
+        "list_text_color": "#000000",
+        "button_color": "#FFFFFF",
+        "button_hover_color": "#8c735b",
+        "button_bg_color": "#16142B",
+        "button_bg_hover_color": "#16142B",
+        "button_border_color": "#16142B",
+        "button_border_hover_color": "#16142B",
+        "table_border_color": "#8c735b",
+        "table_active_border_color": "#ffffff",
+        "table_heading_color": "#000000",
+        "table_heading_active_color": "#FFFFFF",
+        "table_heading_bg_active_color": "#8c735b",
+        "table_column_active_bg_color": "#8c735b",
+        "table_row_heading_color": "#1A192E",
+        "table_row_text_color": "#1A192E",
+        "table_row_active_text_color": "#FFFFFF",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 130,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
     "collapsible_tabs_phAkEE": {
       "type": "collapsible-tabs",
       "blocks": {
@@ -969,6 +1217,7 @@
     "image_comparison_LBQPCj",
     "custom_liquid_FKzrFn",
     "ss_feature_24_pczPAd",
+    "ss_comparison_table_6_hqdHc9",
     "collapsible_tabs_phAkEE",
     "custom_content_LFmPka",
     "related-products",
