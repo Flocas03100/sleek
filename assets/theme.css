@@ -6321,15 +6321,23 @@ body:not(.header-pinned) .header-scrolled .header {
     order: 2;
   }
 }
-/* Fix pagination mobile - déplacer les bullets dans l'image */
-.flickity-page-dots {
+/* Positionner les bullets Swiper dans l’image */
+.pwzrswiper-pagination-bullets {
   position: absolute !important;
-  bottom: 12px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 10;
+  bottom: 12px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  z-index: 5;
+  margin: 0 !important;
+  padding: 0 !important;
 }
-.product__media {
-  margin-bottom: 0 !important;
-  padding-bottom: 0 !important;
+
+/* Pour que le conteneur permette un positionnement absolu */
+.pwzrswiper-pagination-bullets::before {
+  content: '';
+}
+
+/* S'assurer que le parent est positionné en relative */
+.media, .media--transparent {
+  position: relative !important;
 }
