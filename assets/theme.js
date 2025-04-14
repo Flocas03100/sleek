@@ -2604,3 +2604,10 @@ document.addEventListener('DOMContentLoaded', () => {
     bullets.style.setProperty('z-index', '9', 'important');
   }
 });
+document.addEventListener("DOMContentLoaded", function () {
+  const motionEl = document.querySelector('motion-element');
+  if (motionEl && motionEl.style.marginTop) {
+    motionEl.style.marginTop = '0px';
+    motionEl.style.paddingTop = '0px';
+  }
+});
