@@ -549,7 +549,7 @@
         "button_style": "outline",
         "image_width": 40,
         "image_ratio": "square",
-        "image_ratio_mobile": "landscape",
+        "image_ratio_mobile": "square",
         "image_radius": 12,
         "images_mt_mobile": 40,
         "tab_title_color": "#39392d",
