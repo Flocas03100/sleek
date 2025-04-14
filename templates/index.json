@@ -1351,8 +1351,8 @@
         "image_9ckpVt": {
           "type": "image",
           "settings": {
-            "feature_title": "Free Shipping",
-            "feature_text": "Order today, receive tomorrow",
+            "feature_title": "Garantie à vie",
+            "feature_text": "Pour tous les dommages fonctionnels causés à votre valise",
             "feature_url": "",
             "hide_image": false
           }
@@ -1360,8 +1360,8 @@
         "image_94gKEp": {
           "type": "image",
           "settings": {
-            "feature_title": "Price-match guarantee",
-            "feature_text": "Safe money when ordering with us",
+            "feature_title": "Retours gratuits",
+            "feature_text": "Bénéficiez du retour gratuit sous 30 jours",
             "feature_url": "",
             "hide_image": false
           }
