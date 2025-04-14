@@ -41,6 +41,20 @@
             "show_divider": false
           }
         },
+        "image_text_UKfG93": {
+          "type": "image_text",
+          "settings": {
+            "block_width": 25,
+            "heading": "",
+            "heading_size": "h4",
+            "image_width": 150,
+            "text": "",
+            "button_label": "Expédition et livraison",
+            "button_link": "shopify://pages/notre-histoire",
+            "open_default": true,
+            "show_divider": false
+          }
+        },
         "image_text_F3FNhx": {
           "type": "image_text",
           "settings": {
@@ -59,6 +73,7 @@
       "block_order": [
         "newsletter_3qCrWc",
         "image_text_DVTDdh",
+        "image_text_UKfG93",
         "image_text_F3FNhx"
       ],
       "custom_css": [
