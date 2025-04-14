@@ -33,12 +33,6 @@
             "heading_size": "h3"
           }
         },
-        "custom_liquid_jFQ8RL": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div class=\"containerAb7xF3\">\n  <div class=\"avatarsWrapper9JuY2\">\n    <img src=\"https://randomuser.me/api/portraits/women/65.jpg\" alt=\"Customer 1\" class=\"avatarImgS3k8Ly\">\n    <img src=\"https://randomuser.me/api/portraits/men/66.jpg\" alt=\"Customer 2\" class=\"avatarImgS3k8Ly\">\n    <img src=\"https://randomuser.me/api/portraits/women/67.jpg\" alt=\"Customer 3\" class=\"avatarImgS3k8Ly\">\n  </div>\n  <span>100,000+ VOYAGEURS SATISFAIT</span>\n</div>\n\n<style>\n  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');\n\n  .containerAb7xF3 {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    background: linear-gradient(90deg, #f5f0e6, #e8dfd2);\n    padding: 10px 20px;\n    border-radius: 10px;\n    font-family: 'Montserrat', sans-serif;\n    font-size: 14px;\n    color: #4a3e36;\n    font-weight: 600;\n    text-align: center;\n    flex-wrap: wrap;\n    box-shadow: 0 2px 8px rgba(0,0,0,0.05);\n  }\n\n  .avatarsWrapper9JuY2 {\n    display: flex;\n    margin-right: 10px;\n  }\n\n  .avatarImgS3k8Ly {\n    width: 26px;\n    height: 26px;\n    border-radius: 50%;\n    border: 2px solid white;\n    margin-left: -8px;\n  }\n\n  .avatarImgS3k8Ly:first-child {\n    margin-left: 0;\n  }\n\n  @media (max-width: 480px) {\n    .containerAb7xF3 {\n      font-size: 12px;\n    }\n  }\n</style>"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {}
@@ -55,6 +49,12 @@
         "description": {
           "type": "description",
           "settings": {}
+        },
+        "custom_liquid_jFQ8RL": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"containerAb7xF3\">\n  <div class=\"avatarsWrapper9JuY2\">\n    <img src=\"https://randomuser.me/api/portraits/women/65.jpg\" alt=\"Customer 1\" class=\"avatarImgS3k8Ly\">\n    <img src=\"https://randomuser.me/api/portraits/men/66.jpg\" alt=\"Customer 2\" class=\"avatarImgS3k8Ly\">\n    <img src=\"https://randomuser.me/api/portraits/women/67.jpg\" alt=\"Customer 3\" class=\"avatarImgS3k8Ly\">\n  </div>\n  <span>100,000+ VOYAGEURS SATISFAIT</span>\n</div>\n\n<style>\n  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');\n\n  .containerAb7xF3 {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    background: linear-gradient(90deg, #f5f0e6, #e8dfd2);\n    padding: 10px 20px;\n    border-radius: 10px;\n    font-family: 'Montserrat', sans-serif;\n    font-size: 14px;\n    color: #4a3e36;\n    font-weight: 600;\n    text-align: center;\n    flex-wrap: wrap;\n    box-shadow: 0 2px 8px rgba(0,0,0,0.05);\n  }\n\n  .avatarsWrapper9JuY2 {\n    display: flex;\n    margin-right: 10px;\n  }\n\n  .avatarImgS3k8Ly {\n    width: 26px;\n    height: 26px;\n    border-radius: 50%;\n    border: 2px solid white;\n    margin-left: -8px;\n  }\n\n  .avatarImgS3k8Ly:first-child {\n    margin-left: 0;\n  }\n\n  @media (max-width: 480px) {\n    .containerAb7xF3 {\n      font-size: 12px;\n    }\n  }\n</style>"
+          }
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -129,10 +129,10 @@
         "badges",
         "custom_liquid_rdJTdb",
         "title",
-        "custom_liquid_jFQ8RL",
         "price",
         "inventory",
         "description",
+        "custom_liquid_jFQ8RL",
         "variant_picker",
         "buy_buttons",
         "custom_liquid_7gHBwT",
