@@ -6345,3 +6345,25 @@ media-gallery {
   padding-top: 0 !important;
   margin-top: 0 !important;
 }
+@media screen and (max-width: 749px) {
+  motion-element:first-of-type,
+  motion-element:first-of-type > div,
+  motion-element:first-of-type > div > div,
+  .shopify-section[id*="product-template"] > *:first-child {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+  }
+
+  .product__media-gallery,
+  .product__media-gallery-viewer-wrap,
+  .product__media-gallery-viewer {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+  }
+
+  media-gallery {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+    display: block !important;
+  }
+}
