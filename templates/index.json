@@ -398,49 +398,6 @@
         "divider_width": "fixed"
       }
     },
-    "featured_products_tab_j9yD94": {
-      "type": "featured-products-tab",
-      "blocks": {
-        "tab_DHN3zf": {
-          "type": "tab",
-          "settings": {
-            "title": "Liste",
-            "description": "",
-            "products": [
-              "valise-argent",
-              "etui-a-passeport",
-              "etiquette-de-valise",
-              "balance-portable-rechargable",
-              "trousse-de-toilette-transparente"
-            ],
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "tab_DHN3zf"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "enable_video_autoplay": true,
-        "heading": "DECOUVREZ UNE NOUVELLE FACON DE VOYAGER",
-        "heading_size": "h5",
-        "heading_highlight_style": "none",
-        "subheading": "",
-        "description": "",
-        "description_size": "text-base",
-        "limit": 5,
-        "column_gap": "medium",
-        "row_gap": "inherit",
-        "pcard_image_ratio": "3/4",
-        "pcard_thumbnail_ratio": "",
-        "swipe_on_mobile": true,
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
-    },
     "custom_content_rhXbV3": {
       "type": "custom-content",
       "blocks": {
@@ -1178,7 +1135,6 @@
     "feature_list_cW3d9c",
     "product_tabs_pPiLai",
     "press_pFfQkM",
-    "featured_products_tab_j9yD94",
     "custom_content_rhXbV3",
     "image_with_text_MgddA8",
     "scrolling_promotion_htQpcB",
