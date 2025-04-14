@@ -6331,32 +6331,3 @@ body:not(.header-pinned) .header-scrolled .header {
   margin: 0 !important;
   padding: 0 !important;
 }
-media-gallery {
-  padding-top: 0 !important;
-  margin-top: 0 !important;
-  display: block;
-}
-.product__media-gallery-viewer-wrap {
-  padding-top: 0 !important;
-  margin-top: 0 !important;
-}
-
-.media, .media--transparent {
-  padding-top: 0 !important;
-  margin-top: 0 !important;
-}
-.shopify-section[id*="product-template"] {
-  padding-top: 0 !important;
-  margin-top: 0 !important;
-}
-
-.product__media-gallery,
-.product__media-gallery-viewer-wrap,
-.product__media-gallery-viewer {
-  padding-top: 0 !important;
-  margin-top: 0 !important;
-}
-motion-element[style] {
-  margin-top: 0 !important;
-  padding-top: 0 !important;
-}
