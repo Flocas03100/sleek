@@ -41,17 +41,6 @@
             "show_divider": false
           }
         },
-        "menu_KcD9Nr": {
-          "type": "menu",
-          "settings": {
-            "block_width": 25,
-            "heading": "Quick links",
-            "heading_size": "h4",
-            "menu": "",
-            "open_default": false,
-            "show_divider": false
-          }
-        },
         "image_text_UKfG93": {
           "type": "image_text",
           "settings": {
@@ -98,7 +87,6 @@
       "block_order": [
         "newsletter_3qCrWc",
         "image_text_DVTDdh",
-        "menu_KcD9Nr",
         "image_text_UKfG93",
         "image_text_7KbDT6",
         "image_text_F3FNhx"
