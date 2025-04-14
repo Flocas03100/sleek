@@ -147,5 +147,19 @@
     }, 5000); // 5 secondes
   });
 </script>
+    <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const section = document.querySelector('[id^="shopify-section-template--product"]');
+    const motion = document.querySelector('motion-element');
+    if (section) {
+      section.style.marginTop = '0px';
+      section.style.paddingTop = '0px';
+    }
+    if (motion) {
+      motion.style.marginTop = '0px';
+      motion.style.paddingTop = '0px';
+    }
+  });
+</script>
   {%- render 'foxify-footer' -%}</body>
 </html>
