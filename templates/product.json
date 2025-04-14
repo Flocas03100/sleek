@@ -485,7 +485,7 @@
         "heading_size": 36,
         "heading_size_mobile": 24,
         "heading_height": 130,
-        "sub_heading": "<p>Subheading</p>",
+        "sub_heading": "",
         "sub_heading_custom": true,
         "sub_heading_font": "montserrat_n4",
         "sub_heading_size": 18,
