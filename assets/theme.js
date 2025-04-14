@@ -2607,16 +2607,15 @@ document.addEventListener('DOMContentLoaded', () => {
 document.addEventListener("DOMContentLoaded", function () {
   const observer = new MutationObserver((mutations) => {
     mutations.forEach((mutation) => {
-      const addedNodes = Array.from(mutation.addedNodes);
-      addedNodes.forEach((node) => {
-        if (
-          node.nodeType === 1 &&
-          node.tagName === "MOTION-ELEMENT" &&
-          node.style.marginTop
-        ) {
-          console.log("Motion element détecté, suppression du padding");
-          node.style.marginTop = "0px";
-          node.style.paddingTop = "0px";
+      mutation.addedNodes.forEach((node) => {
+        if (node.nodeType === 1) {
+          // 1. On check si c'est un shopify-block
+          const motion = node.querySelector?.('motion-element');
+          if (motion && motion.style.marginTop) {
+            console.log("✅ Motion element détecté et modifié !");
+            motion.style.marginTop = "0px";
+            motion.style.paddingTop = "0px";
+          }
         }
       });
     });
@@ -2624,6 +2623,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
   observer.observe(document.body, {
     childList: true,
-    subtree: true,
+    subtree: true
   });
+
+  // 🔁 En plus, petit intervalle au cas où le bloc arrive en retard
+  setInterval(() => {
+    const motion = document.querySelector('motion-element');
+    if (motion && motion.style.marginTop !== "0px") {
+      console.log("♻️ Correction via interval");
+      motion.style.marginTop = "0px";
+      motion.style.paddingTop = "0px";
+    }
+  }, 500);
 });
