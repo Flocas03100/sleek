@@ -409,6 +409,7 @@
           "type": "feature",
           "settings": {
             "icon": "heart",
+            "custom_icon": "shopify://shop_images/procrastination.png",
             "tab_title": "",
             "title": "Toujours connecté, jamais stressé",
             "text": "<p>Imaginez-vous à l’aéroport, attendant sereinement votre vol. Votre téléphone posé sur votre valise se recharge tranquillement grâce au chargeur intégré. Adieu les prises introuvables, bonjour la tranquillité.</p>",
@@ -419,6 +420,7 @@
           "type": "feature",
           "settings": {
             "icon": "love",
+            "custom_icon": "shopify://shop_images/bottle.png",
             "tab_title": "",
             "title": "Votre boisson à portée de main",
             "text": "<p>Traversez l'aéroport aisément, café ou bouteille d’eau stablement installée sur votre valise. Plus besoin de garder les mains occupées, vous avancez librement et sereinement.</p>",
@@ -429,6 +431,7 @@
           "type": "feature",
           "settings": {
             "icon": "atc",
+            "custom_icon": "shopify://shop_images/fast-time.png",
             "tab_title": "",
             "title": "Prêt en un instant",
             "text": "<p>Dans votre chambre d'hôtel, valise ouverte sur le lit, tout se range facilement grâce aux compartiments intelligents. Vous fermez et repartez en quelques instants, prêt à profiter de votre voyage.</p>",
@@ -439,6 +442,7 @@
           "type": "feature",
           "settings": {
             "icon": "atc",
+            "custom_icon": "shopify://shop_images/cyber-security.png",
             "tab_title": "",
             "title": "Libérez vos mains, libérez votre esprit",
             "text": "<p>Au café de l'aéroport, votre téléphone bien calé et votre sac posé élégamment sur la valise. Vous profitez pleinement de votre pause, détendu et organisé.</p>",
@@ -449,6 +453,7 @@
           "type": "feature",
           "settings": {
             "icon": "atc",
+            "custom_icon": "shopify://shop_images/suitcase.png",
             "tab_title": "",
             "title": "Ne cherchez plus, trouvez directement",
             "text": "<p>Text</p>",
