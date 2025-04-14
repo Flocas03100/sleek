@@ -438,7 +438,7 @@
             "tab_title": "",
             "title": "Prêt en un instant",
             "text": "<p>Dans votre chambre d'hôtel, valise ouverte sur le lit, tout se range facilement grâce aux compartiments intelligents. Vous fermez et repartez en quelques instants, prêt à profiter de votre voyage.</p>",
-            "sub_text": "<p>Subtext</p>",
+            "sub_text": "",
             "image": "shopify://shop_images/WhatsApp_GIF_2025-04-14_at_10.24.51.gif"
           }
         },
@@ -450,7 +450,7 @@
             "tab_title": "",
             "title": "Libérez vos mains, libérez votre esprit",
             "text": "<p>Au café de l'aéroport, votre téléphone bien calé et votre sac posé élégamment sur la valise. Vous profitez pleinement de votre pause, détendu et organisé.</p>",
-            "sub_text": "<p>Subtext</p>"
+            "sub_text": ""
           }
         },
         "feature_4ACWET": {
@@ -460,8 +460,8 @@
             "custom_icon": "shopify://shop_images/suitcase.png",
             "tab_title": "",
             "title": "Ne cherchez plus, trouvez directement",
-            "text": "<p>Text</p>",
-            "sub_text": "<p>À la sécurité de l'aéroport, ouvrez simplement la poche frontale pour sortir ordinateur, passeport et liquides. Rapide, efficace, vous gardez le contrôle en toute situation.</p>"
+            "text": "<p>À la sécurité de l'aéroport, ouvrez simplement la poche frontale pour sortir ordinateur, passeport et liquides. Rapide, efficace, vous gardez le contrôle en toute situation.</p>",
+            "sub_text": ""
           }
         }
       },
