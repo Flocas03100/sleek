@@ -54,24 +54,12 @@
             "open_default": true,
             "show_divider": false
           }
-        },
-        "menu_DEKGYP": {
-          "type": "menu",
-          "settings": {
-            "block_width": 17,
-            "heading": "Quick links",
-            "heading_size": "h4",
-            "menu": "footer",
-            "open_default": false,
-            "show_divider": false
-          }
         }
       },
       "block_order": [
         "newsletter_3qCrWc",
         "image_text_DVTDdh",
-        "image_text_F3FNhx",
-        "menu_DEKGYP"
+        "image_text_F3FNhx"
       ],
       "custom_css": [
         ".form-control {--color-border: var(--color-field);}"
