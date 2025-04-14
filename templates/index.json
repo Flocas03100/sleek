@@ -488,26 +488,18 @@
             "heading_highlight_style": "none"
           }
         },
-        "text_A3Dahr": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "text_size": "text-lg"
-          }
-        },
         "button_jAUX49": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style": "btn--primary"
+            "button_label": "Voir les valises",
+            "button_link": "shopify://products/valise-argent",
+            "button_style": "btn--underline"
           }
         }
       },
       "block_order": [
         "subheading_XLgqVJ",
         "heading_J7mctK",
-        "text_A3Dahr",
         "button_jAUX49"
       ],
       "settings": {
