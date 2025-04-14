@@ -156,33 +156,52 @@
       var imageContainer = document.querySelector('#pwzrswiper-container-wrapper');
       
       if (paginationBullets && imageContainer) {
+        // Cloner les bullets plutôt que de les déplacer directement
+        var clonedBullets = paginationBullets.cloneNode(true);
+        
         // S'assurer que le conteneur d'image a position relative
         imageContainer.style.position = 'relative';
         
-        // Déplacer les bullets dans le conteneur d'image
-        imageContainer.appendChild(paginationBullets);
+        // Appliquer les styles au clone avant de l'ajouter au DOM
+        clonedBullets.style.position = 'absolute';
+        clonedBullets.style.bottom = '15px';
+        clonedBullets.style.left = '0';
+        clonedBullets.style.right = '0';
+        clonedBullets.style.margin = '0';
+        clonedBullets.style.zIndex = '10';
+        clonedBullets.style.display = 'flex';
+        clonedBullets.style.justifyContent = 'center';
+        clonedBullets.style.gap = '5px';
         
-        // Ajuster le style des bullets
-        paginationBullets.style.position = 'absolute';
-        paginationBullets.style.bottom = '15px';
-        paginationBullets.style.left = '0';
-        paginationBullets.style.right = '0';
-        paginationBullets.style.margin = '0';
-        paginationBullets.style.zIndex = '10';
-        paginationBullets.style.marginTop = '0';
-        paginationBullets.style.marginBottom = '0';
+        // Ajouter les bullets clonés au conteneur d'image
+        imageContainer.appendChild(clonedBullets);
+        
+        // Cacher les bullets d'origine
+        paginationBullets.style.display = 'none';
+        
+        // S'assurer que les bullets individuels sont visibles
+        var bullets = clonedBullets.querySelectorAll('.pwzrswiper-pagination-bullet');
+        bullets.forEach(function(bullet) {
+          bullet.style.display = 'block';
+          bullet.style.opacity = '1';
+          bullet.style.visibility = 'visible';
+        });
       }
     }
     
-    // Exécuter la fonction après un court délai pour laisser Variant Wizard charger
+    // Exécuter après un court délai pour laisser Variant Wizard charger
     setTimeout(movePaginationBullets, 500);
     
-    // Exécuter à nouveau après un délai plus long au cas où le premier appel était trop tôt
+    // Exécuter à nouveau après un délai plus long
     setTimeout(movePaginationBullets, 1500);
     
     // Observer les changements dans le DOM
     var observer = new MutationObserver(function(mutations) {
-      movePaginationBullets();
+      // Vérifier si les bullets ont disparu et les repositionner si nécessaire
+      var overlayBullets = document.querySelector('#pwzrswiper-container-wrapper .pwzrswiper-pagination');
+      if (!overlayBullets) {
+        movePaginationBullets();
+      }
     });
     
     // Observer le conteneur de produit
