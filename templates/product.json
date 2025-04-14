@@ -128,7 +128,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Ce que vous recevez",
-            "icon": "check-circle",
+            "icon": "gift",
             "content": "<p>Valise ElizeWay 35L – Format cabine</p><p>Planche de stickers</p><p>House de protection</p>",
             "page": "",
             "default_open": false
