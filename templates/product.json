@@ -371,6 +371,7 @@
         "image_fm6pYU",
         "image_hJDrJc"
       ],
+      "disabled": true,
       "settings": {
         "container": "fixed",
         "color_scheme": "",
@@ -437,7 +438,7 @@
             "tab_title": "",
             "title": "Prêt en un instant",
             "text": "<p>Dans votre chambre d'hôtel, valise ouverte sur le lit, tout se range facilement grâce aux compartiments intelligents. Vous fermez et repartez en quelques instants, prêt à profiter de votre voyage.</p>",
-            "sub_text": "<p>Subtext</p>"
+            "sub_text": ""
           }
         },
         "feature_WmKmfX": {
@@ -448,7 +449,7 @@
             "tab_title": "",
             "title": "Libérez vos mains, libérez votre esprit",
             "text": "<p>Au café de l'aéroport, votre téléphone bien calé et votre sac posé élégamment sur la valise. Vous profitez pleinement de votre pause, détendu et organisé.</p>",
-            "sub_text": "<p>Subtext</p>"
+            "sub_text": ""
           }
         },
         "feature_4ACWET": {
