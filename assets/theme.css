@@ -6321,38 +6321,28 @@ body:not(.header-pinned) .header-scrolled .header {
     order: 2;
   }
 }
-.product__media-gallery-viewer {
-  position: relative !important;
-  overflow: visible !important;
-  z-index: 0 !important;
-}
-
 .swiper-pagination {
   position: absolute !important;
-  bottom: 8px !important;
+  bottom: 10px !important;
   left: 50% !important;
   transform: translateX(-50%) !important;
-  z-index: 2 !important;
   display: flex !important;
   justify-content: center;
   gap: 6px;
-  width: auto;
-  padding: 4px 8px;
-  background: rgba(255, 255, 255, 0.6); /* en option */
-  border-radius: 8px;
+  z-index: 3 !important;
+  pointer-events: auto;
 }
 
 .swiper-pagination-bullet {
   width: 8px;
   height: 8px;
-  background: #999;
-  border-radius: 50%;
-  opacity: 0.5;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 9999px;
+  opacity: 0.6;
   transition: all 0.2s ease;
-  margin: 0 4px;
 }
 
 .swiper-pagination-bullet-active {
-  background: #000;
+  background-color: #fff;
   opacity: 1;
 }
