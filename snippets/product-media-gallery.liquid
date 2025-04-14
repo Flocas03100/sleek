@@ -11,12 +11,7 @@
 
 {%- liquid
   assign media_count = product.media.size
-
-  assign has_only_once_media = false
-  if media_count < 2
-    assign has_only_once_media = true
-  endif
-
+  assign has_only_once_media = media_count < 2
   assign media_item_gap = 10
 
   if section.settings.media_size == 'large'
@@ -27,10 +22,7 @@
     assign media_width = 0.45
   endif
 
-  assign enable_mobile_thumbnails = false
-  if mobile_thumbnails == 'show'
-    assign enable_mobile_thumbnails = true
-  endif
+  assign enable_mobile_thumbnails = mobile_thumbnails == 'show'
 
   assign enable_desktop_slider = false
   assign slider_css_class = ''
@@ -48,6 +40,7 @@
     endif
   endif
 -%}
+
 <media-gallery
   id="MediaGallery-{{ section.id }}"
   role="region"
@@ -63,57 +56,31 @@
 >
   <div id="GalleryStatus-{{ section.id }}" class="visually-hidden" role="status"></div>
   <div class="product__media-gallery-viewer-wrap relative{{ slider_css_class }}">
-  <div
-  id="GalleryViewer-{{ section.id }}"
->
-    <div class="product__media-gallery-viewer blocks-radius swiper" style="position: relative;">
-  <div
-    id="Slider-Gallery-{{ section.id }}"
-    class="product__media-list flex swiper-wrapper"
-    role="list"
-  >
-    {%- for media in product.media -%}
-      {% render 'product-thumbnail',
-        media: media,
-        media_count: media_count,
-        position: forloop.index0,
-        desktop_layout: media_layout,
-        mobile_layout: mobile_thumbnails,
-        enable_image_zoom: enable_image_zoom,
-        loop: section.settings.enable_video_looping,
-        modal_id: section.id,
-        xr_button: true,
-        media_width: media_width
-      %}
-    {%- endfor -%}
-  </div>
-
-  <div class="swiper-pagination"></div> <!-- ✅ BULLETS en bas de la photo -->
-</div>
+    <div id="GalleryViewer-{{ section.id }}">
+      <div class="product__media-gallery-viewer blocks-radius swiper" style="position: relative;">
+        <div id="Slider-Gallery-{{ section.id }}" class="product__media-list flex swiper-wrapper" role="list">
+          {%- for media in product.media -%}
+            {% render 'product-thumbnail',
+              media: media,
+              media_count: media_count,
+              position: forloop.index0,
+              desktop_layout: media_layout,
+              mobile_layout: mobile_thumbnails,
+              enable_image_zoom: enable_image_zoom,
+              loop: section.settings.enable_video_looping,
+              modal_id: section.id,
+              xr_button: true,
+              media_width: media_width
+            %}
+          {%- endfor -%}
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
       <a class="skip-to-content-link button visually-hidden" href="#ProductInfo-{{ section.id }}">
         {{ 'accessibility.skip_to_product_info' | t }}
       </a>
-      <div
-        id="Slider-Gallery-{{ section.id }}"
-        class="product__media-list flex swiper-wrapper"
-        role="list"
-      >
-        {%- for media in product.media -%}
-          {% render 'product-thumbnail',
-            media: media,
-            media_count: media_count,
-            position: forloop.index0,
-            desktop_layout: media_layout,
-            mobile_layout: mobile_thumbnails,
-            enable_image_zoom: enable_image_zoom,
-            loop: section.settings.enable_video_looping,
-            modal_id: section.id,
-            xr_button: true,
-            media_width: media_width
-          %}
-        {%- endfor -%}
-      </div>
     </div>
+
     {%- if media_count > 1 -%}
       <div class="slider-controls--group{% if enable_desktop_slider == false %} md:hidden{% endif %}">
         <div class="slider-controls">
@@ -122,6 +89,7 @@
       </div>
     {%- endif -%}
   </div>
+
   {%- if media_count > 1 and media_layout contains 'carousel' or mobile_thumbnails == 'show' -%}
     {%- liquid
       assign thumbnail_class = ''
@@ -131,14 +99,8 @@
         assign thumbnail_class = ' block md:hidden'
       endif
     -%}
-    <div
-      id="GalleryThumbnails-{{ section.id }}"
-      class="product__media-gallery-thumbails swiper{{ thumbnail_class }}"
-    >
-      <div
-        id="Slider-Thumbnails-{{ section.id }}"
-        class="thumbnail-list swiper-wrapper"
-      >
+    <div id="GalleryThumbnails-{{ section.id }}" class="product__media-gallery-thumbails swiper{{ thumbnail_class }}">
+      <div id="Slider-Thumbnails-{{ section.id }}" class="thumbnail-list swiper-wrapper">
         {%- for media in product.media -%}
           {%- liquid
             capture media_index
@@ -152,11 +114,7 @@
             endcapture
             assign media_index = media_index | plus: 1
           -%}
-          <div
-            class="product__thumbs-item swiper-slide"
-            data-target="{{ media.id }}"
-            data-media-position="{{ media_index }}"
-          >
+          <div class="product__thumbs-item swiper-slide" data-target="{{ media.id }}" data-media-position="{{ media_index }}">
             <div class="product__thumbs-container medium-blocks-radius media-wrapper">
               <div class="product__thumbs-inner" style="--aspect-ratio: 1">
                 {{
@@ -188,53 +146,3 @@
     </div>
   {%- endif -%}
 </media-gallery>
-<style>
-  /* Supprime les résidus d’espace liés à l’ancienne pagination fraction */
-  .swiper-pagination-fraction {
-    display: none !important;
-    height: 0 !important;
-    margin: 0 !important;
-    padding: 0 !important;
-  }
-
-  /* Supprime aussi tout espace restant si jamais une marge est définie */
-  .product__media-gallery-viewer {
-    margin-bottom: 0 !important;
-  }
-</style>
-<style>
-  .swiper-pagination.custom-bullets {
-    position: absolute;
-    bottom: 14px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 2;
-    display: flex !important;
-    justify-content: center;
-    gap: 6px;
-    width: auto;
-    right: auto;
-  }
-
-  .swiper-pagination-bullet {
-    width: 6px;
-    height: 6px;
-    background: #D1D1D1;
-    border-radius: 50%;
-    opacity: 1;
-    transition: background 0.3s;
-  }
-
-  .swiper-pagination-bullet-active {
-    background: #1C1C1C;
-  }
-</style>
-<style>
-  .slider-controls--group {
-    display: none !important;
-  }
-
-  .product__media-gallery-viewer {
-    margin-bottom: 0 !important;
-  }
-</style>
