@@ -630,13 +630,13 @@
             "text": "Pour des années de voyage"
           }
         },
-        "table_row_rXPRMX": {
+        "table_row_CbTJyD": {
           "type": "table_row",
           "settings": {
-            "row_heading": "Format cabine compatible partout",
+            "row_heading": "Valise cabine 35L",
             "first_column": "",
             "first_column_icon": "check",
-            "second_column": "",
+            "second_column": "150€",
             "second_column_icon": "cross",
             "third_column": "",
             "third_column_icon": "none",
@@ -644,13 +644,13 @@
             "four_column_icon": "none"
           }
         },
-        "table_row_CbTJyD": {
+        "table_row_rXPRMX": {
           "type": "table_row",
           "settings": {
-            "row_heading": "Plant Based",
+            "row_heading": "Porte-documents",
             "first_column": "",
             "first_column_icon": "check",
-            "second_column": "",
+            "second_column": "60€",
             "second_column_icon": "cross",
             "third_column": "",
             "third_column_icon": "none",
@@ -720,13 +720,14 @@
         "list_item_T9EK86",
         "list_item_dpMw73",
         "list_item_fa6zJa",
-        "table_row_rXPRMX",
         "table_row_CbTJyD",
+        "table_row_rXPRMX",
         "table_row_fMEiGg",
         "table_row_Gq8XFn",
         "table_row_KcHJPT",
         "table_row_rJbjUK"
       ],
+      "disabled": true,
       "settings": {
         "body_gap": 32,
         "body_gap_mobile": 32,
