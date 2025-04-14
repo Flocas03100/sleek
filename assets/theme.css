@@ -6356,23 +6356,16 @@ media-gallery {
   padding-top: 0 !important;
   margin-top: 0 !important;
 }
-/* Supprime le padding top de la section Product info */
-.shopify-section[data-section-type="main-product"] {
-  --section-padding-top: 0px !important;
-  padding-top: 0 !important;
-  margin-top: 0 !important;
-}
-.shopify-section[id*="product-template"] > div:first-child {
-  margin-top: 0 !important;
-  padding-top: 0 !important;
-}
+document.addEventListener("DOMContentLoaded", function () {
+  const section = document.querySelector('.shopify-section[id*="product-template"]');
+  if (section) {
+    section.style.setProperty('padding-top', '0px', 'important');
+    section.style.setProperty('margin-top', '0px', 'important');
+  }
 
-.shopify-section[id*="product-template"] {
-  --section-padding-top: 0px !important;
-  padding-top: 0 !important;
-  margin-top: 0 !important;
-}
-body.template-product .shopify-section:first-of-type {
-  padding-top: 0 !important;
-  margin-top: 0 !important;
-}
+  const childWrapper = section?.firstElementChild;
+  if (childWrapper) {
+    childWrapper.style.setProperty('padding-top', '0px', 'important');
+    childWrapper.style.setProperty('margin-top', '0px', 'important');
+  }
+});
