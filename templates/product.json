@@ -109,7 +109,7 @@
           "settings": {
             "heading": "Détails + Dimensions",
             "icon": "gear",
-            "content": "",
+            "content": "<ul><li>Coque incassable en polycarbonate et cadre en aluminium</li><li>Cadenas approuvés par la sécurité aéroportuaire pour une sécurité supplémentaire</li><li>Roues pivotantes 360° pour un trajet fluide</li><li>Poignées à relâchement lent pour un transport facile</li><li>Système de compression intérieur et panneau à poches pour maximiser l'espace</li><li>Remplit les exigences des principales compagnies aériennes pour les bagages à main</li></ul><p><strong>Dimensions extérieures </strong>38 x 22 x 53 cm<br/><strong>Dimensions intérieures </strong>22 x 35 x 46 cm<br/><strong>Capacité </strong>35L<br/><em>Les mesures incluent les roues.</em></p><p>Votre bagage peut être ouvert, inspecté et refermé par les autorités de sécurité aéroportuaires sans aucun dommage, garantissant une expérience de voyage fluide.​</p>",
             "page": "",
             "default_open": false
           }
@@ -117,9 +117,9 @@
         "collapsible_tab_E7MQNa": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Garantie à vie + Politique de retour",
+            "heading": "Garantie à vie l Politique de retour",
             "icon": "certificate",
-            "content": "",
+            "content": "<p>Nous voulons que vous aimiez tout ce qui concerne ElyzeWay – c'est pourquoi nous offrons des retours pour les articles non utilisés pendant les 100 premiers jours.<br/><br/>Nos valises sont garanties contre tout dommage à la coque, aux roues, aux poignées, aux fermetures éclair et à de nombreux autres éléments fonctionnels de nos bagages.</p>",
             "page": "",
             "default_open": false
           }
@@ -591,8 +591,8 @@
           "type": "collapsible_item",
           "settings": {
             "icon": "none",
-            "heading": "Collapsible tab heading",
-            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
+            "heading": "La valise est-elle acceptée en cabine ?",
+            "content": "<p>Oui. ElizeWay est conforme aux dimensions exigées par les compagnies. Elle est 100 % cabine, sa taille respecte les standards internationaux des bagages cabine.</p>",
             "custom_liquid": "",
             "page": "",
             "open": true
@@ -602,8 +602,8 @@
           "type": "collapsible_item",
           "settings": {
             "icon": "none",
-            "heading": "Collapsible tab heading",
-            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
+            "heading": "Est-ce que la valise recharge mon téléphone ?",
+            "content": "<p>Oui. Un port USB est intégré sur la valise. Il suffit d’insérer votre batterie externe dans la poche dédiée, de la connecter, puis de brancher votre téléphone à l'extérieur.</p>",
             "custom_liquid": "",
             "page": "",
             "open": false
@@ -613,8 +613,8 @@
           "type": "collapsible_item",
           "settings": {
             "icon": "none",
-            "heading": "Collapsible tab heading",
-            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
+            "heading": "La valise est-elle sécurisée ?",
+            "content": "<p>Oui. Elle dispose d’une serrure à code approuvée TSA. Cela permet aux autorités de l’ouvrir sans la casser lors des contrôles aléatoires</p>",
             "custom_liquid": "",
             "page": "",
             "open": false
@@ -624,8 +624,19 @@
           "type": "collapsible_item",
           "settings": {
             "icon": "none",
-            "heading": "Collapsible tab heading",
-            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
+            "heading": "Est-elle vraiment solide ?",
+            "content": "<p>Absolument. Sa coque est en polycarbonate haute résistance, conçue pour durer. Les roues sont silencieuses, fluides et renforcées. Les matériaux ont été choisis pour résister aux chocs et à l’usure des voyages fréquents</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false
+          }
+        },
+        "collapsible_item_Wwqkz3": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Pourquoi choisir ElizeWay plutôt qu’une valise classique ?",
+            "content": "<p>Parce qu’elle regroupe plusieurs produits en un seul. Vous gagnez du temps, de l’espace, de l’argent. Et vous voyagez l’esprit léger, avec style.<br/></p>",
             "custom_liquid": "",
             "page": "",
             "open": false
@@ -636,7 +647,8 @@
         "collapsible_item_eFemDY",
         "collapsible_item_RQ3WzW",
         "collapsible_item_aKpRFm",
-        "collapsible_item_3c4PkF"
+        "collapsible_item_3c4PkF",
+        "collapsible_item_Wwqkz3"
       ],
       "custom_css": [],
       "settings": {
