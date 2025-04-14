@@ -6321,3 +6321,11 @@ body:not(.header-pinned) .header-scrolled .header {
     order: 2;
   }
 }
+/* Fix pagination mobile - déplacer les bullets dans l'image */
+.flickity-page-dots {
+  position: absolute !important;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
