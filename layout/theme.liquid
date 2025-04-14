@@ -147,15 +147,5 @@
     }, 5000); // 5 secondes
   });
 </script>
-    document.addEventListener("DOMContentLoaded", function () {
-  const observer = new MutationObserver(() => {
-    const target = document.querySelector('.pwrzswiper-wrapper');
-    if (target && target.style.paddingTop !== '0px') {
-      target.style.paddingTop = '0px';
-    }
-  });
-
-  observer.observe(document.body, { childList: true, subtree: true });
-});
   {%- render 'foxify-footer' -%}</body>
 </html>
