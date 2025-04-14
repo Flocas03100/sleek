@@ -12,6 +12,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "custom_liquid_jFQ8RL": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"containerAb7xF3\">\n  <div class=\"avatarsWrapper9JuY2\">\n    <img src=\"https://randomuser.me/api/portraits/women/65.jpg\" alt=\"Customer 1\" class=\"avatarImgS3k8Ly\">\n    <img src=\"https://randomuser.me/api/portraits/men/66.jpg\" alt=\"Customer 2\" class=\"avatarImgS3k8Ly\">\n    <img src=\"https://randomuser.me/api/portraits/women/67.jpg\" alt=\"Customer 3\" class=\"avatarImgS3k8Ly\">\n  </div>\n  <span>100,000+ VOYAGEURS SATISFAIT</span>\n</div>\n\n<style>\n  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');\n\n  .containerAb7xF3 {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    background: linear-gradient(90deg, #f5f0e6, #e8dfd2);\n    padding: 10px 20px;\n    border-radius: 10px;\n    font-family: 'Montserrat', sans-serif;\n    font-size: 14px;\n    color: #4a3e36;\n    font-weight: 600;\n    text-align: center;\n    flex-wrap: wrap;\n    box-shadow: 0 2px 8px rgba(0,0,0,0.05);\n  }\n\n  .avatarsWrapper9JuY2 {\n    display: flex;\n    margin-right: 10px;\n  }\n\n  .avatarImgS3k8Ly {\n    width: 26px;\n    height: 26px;\n    border-radius: 50%;\n    border: 2px solid white;\n    margin-left: -8px;\n  }\n\n  .avatarImgS3k8Ly:first-child {\n    margin-left: 0;\n  }\n\n  @media (max-width: 480px) {\n    .containerAb7xF3 {\n      font-size: 12px;\n    }\n  }\n</style>"
+          }
+        },
         "badges": {
           "type": "badges",
           "settings": {
@@ -49,12 +55,6 @@
         "description": {
           "type": "description",
           "settings": {}
-        },
-        "custom_liquid_jFQ8RL": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div class=\"containerAb7xF3\">\n  <div class=\"avatarsWrapper9JuY2\">\n    <img src=\"https://randomuser.me/api/portraits/women/65.jpg\" alt=\"Customer 1\" class=\"avatarImgS3k8Ly\">\n    <img src=\"https://randomuser.me/api/portraits/men/66.jpg\" alt=\"Customer 2\" class=\"avatarImgS3k8Ly\">\n    <img src=\"https://randomuser.me/api/portraits/women/67.jpg\" alt=\"Customer 3\" class=\"avatarImgS3k8Ly\">\n  </div>\n  <span>100,000+ VOYAGEURS SATISFAIT</span>\n</div>\n\n<style>\n  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');\n\n  .containerAb7xF3 {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    background: linear-gradient(90deg, #f5f0e6, #e8dfd2);\n    padding: 10px 20px;\n    border-radius: 10px;\n    font-family: 'Montserrat', sans-serif;\n    font-size: 14px;\n    color: #4a3e36;\n    font-weight: 600;\n    text-align: center;\n    flex-wrap: wrap;\n    box-shadow: 0 2px 8px rgba(0,0,0,0.05);\n  }\n\n  .avatarsWrapper9JuY2 {\n    display: flex;\n    margin-right: 10px;\n  }\n\n  .avatarImgS3k8Ly {\n    width: 26px;\n    height: 26px;\n    border-radius: 50%;\n    border: 2px solid white;\n    margin-left: -8px;\n  }\n\n  .avatarImgS3k8Ly:first-child {\n    margin-left: 0;\n  }\n\n  @media (max-width: 480px) {\n    .containerAb7xF3 {\n      font-size: 12px;\n    }\n  }\n</style>"
-          }
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -109,7 +109,7 @@
           "settings": {
             "heading": "Détails + Dimensions",
             "icon": "gear",
-            "content": "<ul><li>Coque incassable en polycarbonate et cadre en aluminium</li><li>Cadenas TSA approuvés par la sécurité aéroportuaire pour une sécurité supplémentaire</li><li>Roues pivotantes 360° pour un trajet fluide</li><li>Poignées à relâchement lent pour un transport facile</li><li>Système de compression intérieur et panneau à poches pour maximiser l'espace</li><li>Remplit les exigences des principales compagnies aériennes pour les bagages à main</li></ul><p><strong>Dimensions extérieures </strong>38 x 22 x 53 cm<br/><strong>Dimensions intérieures </strong>22 x 35 x 46 cm<br/><strong>Capacité </strong>35L<br/><em>Les mesures incluent les roues.</em></p><p>Votre bagage peut être ouvert, inspecté et refermé par les autorités de sécurité aéroportuaires sans aucun dommage, garantissant une expérience de voyage fluide.​</p>",
+            "content": "<ul><li>Coque incassable en polycarbonate et cadre en aluminium</li><li>Cadenas approuvés par la sécurité aéroportuaire pour une sécurité supplémentaire</li><li>Roues pivotantes 360° pour un trajet fluide</li><li>Poignées à relâchement lent pour un transport facile</li><li>Système de compression intérieur et panneau à poches pour maximiser l'espace</li><li>Remplit les exigences des principales compagnies aériennes pour les bagages à main</li></ul><p><strong>Dimensions extérieures </strong>38 x 22 x 53 cm<br/><strong>Dimensions intérieures </strong>22 x 35 x 46 cm<br/><strong>Capacité </strong>35L<br/><em>Les mesures incluent les roues.</em></p><p>Votre bagage peut être ouvert, inspecté et refermé par les autorités de sécurité aéroportuaires sans aucun dommage, garantissant une expérience de voyage fluide.​</p>",
             "page": "",
             "default_open": false
           }
@@ -126,13 +126,13 @@
         }
       },
       "block_order": [
+        "custom_liquid_jFQ8RL",
         "badges",
         "custom_liquid_rdJTdb",
         "title",
         "price",
         "inventory",
         "description",
-        "custom_liquid_jFQ8RL",
         "variant_picker",
         "buy_buttons",
         "custom_liquid_7gHBwT",
@@ -156,17 +156,7 @@
         "enable_image_zoom": true,
         "enable_video_looping": true,
         "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "custom_liquid_FKzrFn": {
-      "type": "custom-liquid",
-      "custom_css": [],
-      "settings": {
-        "custom_liquid": "<div style=\"\n  background-color: #F6F2EE;\n  padding: 15px 8px;\n  border-radius: 5px;\n  text-align: center;\n  font-family: 'Montserrat', sans-serif;\n  border: none; /* suppression de toute ligne résiduelle */\n  box-shadow: none; /* au cas où il y aurait une ombre */\n  outline: none;\n\">\n  <style>\n    .responsive-text {\n      font-size: 18px;\n      line-height: 1.4em;\n      color: #1c1c1c;\n      margin: 0 auto;\n      max-width: 100%;\n      border: none;\n      box-shadow: none;\n    }\n\n    @media screen and (max-width: 768px) {\n      .responsive-text {\n        font-size: 12px;\n      }\n    }\n\n    @media screen and (max-width: 480px) {\n      .responsive-text {\n        font-size: 11px;\n      }\n    }\n  </style>\n\n  <p class=\"responsive-text\">\n    Convient à toutes les compagnies aériennes internationales, y compris les compagnies low-cost européennes.\n  </p>\n</div>",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 12
       }
     },
     "ss_feature_22_M3X9FH": {
@@ -198,8 +188,8 @@
             "image": "shopify://shop_images/FERMETURE_TSA.png",
             "percent": 0,
             "percent_text": "",
-            "title": "<h3>Serrures sécurisé</h3>",
-            "text": "<p>Gardez votre valise sécurisée grâce à un cadenas approuvé TSA, pour voyager l’esprit léger.</p>"
+            "title": "<h3>Serrures sécurité aéroport approuvées</h3>",
+            "text": "<p>Gardez votre valise en sécurité avec des cadenas approuvés par la sécurité aéroportuaire pour voyager l’esprit tranquille.</p>"
           }
         },
         "item_XjnMwK": {
@@ -209,7 +199,7 @@
             "percent": 0,
             "percent_text": "",
             "title": "<h3>Support pour téléphone</h3>",
-            "text": "<p>Le support pour téléphone monté sur la poignée vous permet de faire défiler ou de regarder sans les mains.</p>"
+            "text": "<p>Monté sur la poignée il vous permet de déposer votre téléphone en toute sécurité.</p>"
           }
         },
         "item_8pkEQr": {
@@ -328,7 +318,7 @@
         "percent_text_color": "#ffffff",
         "title_color": "#000000",
         "text_color": "#000000",
-        "slide_bg_color": "#f6f4f0",
+        "slide_bg_color": "#faf9f7",
         "image_overlay_color": "#000000",
         "pagination_color": "#ffffff",
         "arrow_color": "#ffffff",
@@ -348,7 +338,7 @@
         "margin_bottom": 0,
         "margin_horizontal": 0,
         "margin_horizontal_mobile": 0,
-        "padding_top": 0,
+        "padding_top": 36,
         "padding_bottom": 36,
         "padding_horizontal": 2,
         "padding_horizontal_mobile": 1.5,
@@ -365,14 +355,14 @@
         "image_fm6pYU": {
           "type": "image",
           "settings": {
-            "heading": "ElizeWay",
+            "heading": "Before",
             "color_scheme": ""
           }
         },
         "image_hJDrJc": {
           "type": "image",
           "settings": {
-            "heading": "Autre",
+            "heading": "After",
             "color_scheme": ""
           }
         }
@@ -381,7 +371,6 @@
         "image_fm6pYU",
         "image_hJDrJc"
       ],
-      "disabled": true,
       "settings": {
         "container": "fixed",
         "color_scheme": "",
@@ -405,44 +394,19 @@
         "divider_width": "fixed"
       }
     },
+    "custom_liquid_FKzrFn": {
+      "type": "custom-liquid",
+      "custom_css": [],
+      "settings": {
+        "custom_liquid": "<div style=\"\n  background-color: #F6F2EE;\n  padding: 15px 8px;\n  border-radius: 5px;\n  text-align: center;\n  font-family: 'Montserrat', sans-serif;\n  border: none; /* suppression de toute ligne résiduelle */\n  box-shadow: none; /* au cas où il y aurait une ombre */\n  outline: none;\n\">\n  <style>\n    .responsive-text {\n      font-size: 18px;\n      line-height: 1.4em;\n      color: #1c1c1c;\n      margin: 0 auto;\n      max-width: 100%;\n      border: none;\n      box-shadow: none;\n    }\n\n    @media screen and (max-width: 768px) {\n      .responsive-text {\n        font-size: 12px;\n      }\n    }\n\n    @media screen and (max-width: 480px) {\n      .responsive-text {\n        font-size: 11px;\n      }\n    }\n  </style>\n\n  <p class=\"responsive-text\">\n    Convient à toutes les compagnies aériennes internationales, y compris les compagnies low-cost européennes.\n  </p>\n</div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "ss_feature_24_pczPAd": {
       "type": "ss-feature-24",
       "blocks": {
-        "feature_4ACWET": {
-          "type": "feature",
-          "settings": {
-            "icon": "atc",
-            "custom_icon": "shopify://shop_images/suitcase.png",
-            "tab_title": "",
-            "title": "Ne cherchez plus, trouvez directement",
-            "text": "<p>À la sécurité de l'aéroport, ouvrez simplement la poche frontale pour sortir ordinateur, passeport et liquides. Rapide, efficace, vous gardez le contrôle en toute situation.</p>",
-            "sub_text": "",
-            "image": "shopify://shop_images/WhatsApp_GIF_2025-04-14_at_10.40.13.gif"
-          }
-        },
-        "feature_XebFha": {
-          "type": "feature",
-          "settings": {
-            "icon": "atc",
-            "custom_icon": "shopify://shop_images/fast-time.png",
-            "tab_title": "",
-            "title": "Prêt en un instant",
-            "text": "<p>Dans votre chambre d'hôtel, valise ouverte sur le lit, tout se range facilement grâce aux compartiments intelligents. Vous fermez et repartez en quelques instants, prêt à profiter de votre voyage.</p>",
-            "sub_text": "",
-            "image": "shopify://shop_images/WhatsApp_GIF_2025-04-14_at_10.24.51.gif"
-          }
-        },
-        "feature_WmKmfX": {
-          "type": "feature",
-          "settings": {
-            "icon": "atc",
-            "custom_icon": "shopify://shop_images/phone-charge.png",
-            "tab_title": "",
-            "title": "Libérez vos mains, libérez votre esprit",
-            "text": "<p>Au café de l'aéroport, votre téléphone bien calé et votre sac posé élégamment sur la valise. Vous profitez pleinement de votre pause, détendu et organisé, pendant que votre téléphone charge.</p>",
-            "sub_text": ""
-          }
-        },
         "feature_NjrGCc": {
           "type": "feature",
           "settings": {
@@ -462,17 +426,49 @@
             "tab_title": "",
             "title": "Votre boisson à portée de main",
             "text": "<p>Traversez l'aéroport aisément, café ou bouteille d’eau stablement installée sur votre valise. Plus besoin de garder les mains occupées, vous avancez librement et sereinement.</p>",
-            "sub_text": "",
-            "image": "shopify://shop_images/WhatsApp_GIF_2025-04-14_at_10.00.16.gif"
+            "sub_text": ""
+          }
+        },
+        "feature_XebFha": {
+          "type": "feature",
+          "settings": {
+            "icon": "atc",
+            "custom_icon": "shopify://shop_images/fast-time.png",
+            "tab_title": "",
+            "title": "Prêt en un instant",
+            "text": "<p>Dans votre chambre d'hôtel, valise ouverte sur le lit, tout se range facilement grâce aux compartiments intelligents. Vous fermez et repartez en quelques instants, prêt à profiter de votre voyage.</p>",
+            "sub_text": "<p>Subtext</p>"
+          }
+        },
+        "feature_WmKmfX": {
+          "type": "feature",
+          "settings": {
+            "icon": "atc",
+            "custom_icon": "shopify://shop_images/cyber-security.png",
+            "tab_title": "",
+            "title": "Libérez vos mains, libérez votre esprit",
+            "text": "<p>Au café de l'aéroport, votre téléphone bien calé et votre sac posé élégamment sur la valise. Vous profitez pleinement de votre pause, détendu et organisé.</p>",
+            "sub_text": "<p>Subtext</p>"
+          }
+        },
+        "feature_4ACWET": {
+          "type": "feature",
+          "settings": {
+            "icon": "atc",
+            "custom_icon": "shopify://shop_images/suitcase.png",
+            "tab_title": "",
+            "title": "Ne cherchez plus, trouvez directement",
+            "text": "<p>Text</p>",
+            "sub_text": "<p>À la sécurité de l'aéroport, ouvrez simplement la poche frontale pour sortir ordinateur, passeport et liquides. Rapide, efficace, vous gardez le contrôle en toute situation.</p>"
           }
         }
       },
       "block_order": [
-        "feature_4ACWET",
+        "feature_NjrGCc",
+        "feature_b4PezF",
         "feature_XebFha",
         "feature_WmKmfX",
-        "feature_NjrGCc",
-        "feature_b4PezF"
+        "feature_4ACWET"
       ],
       "settings": {
         "body_layout": "text_image",
@@ -552,7 +548,7 @@
         "button_style": "outline",
         "image_width": 40,
         "image_ratio": "square",
-        "image_ratio_mobile": "square",
+        "image_ratio_mobile": "landscape",
         "image_radius": 12,
         "images_mt_mobile": 40,
         "tab_title_color": "#39392d",
@@ -572,7 +568,7 @@
         "button_border_hover_color": "#39392d",
         "heading_color": "#39392d",
         "sub_heading_color": "#39392d",
-        "background_color": "#fefefe",
+        "background_color": "#fefdfa",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
@@ -932,7 +928,7 @@
         "image_npzxX4": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Copie_de_ELYZE_6.png",
+            "image": "shopify://shop_images/Copie_de_ELYZE_5.png",
             "image_height": 60,
             "image_rounded": false,
             "image_link": "",
@@ -963,9 +959,9 @@
   },
   "order": [
     "main",
-    "custom_liquid_FKzrFn",
     "ss_feature_22_M3X9FH",
     "image_comparison_LBQPCj",
+    "custom_liquid_FKzrFn",
     "ss_feature_24_pczPAd",
     "collapsible_tabs_phAkEE",
     "custom_content_LFmPka",
