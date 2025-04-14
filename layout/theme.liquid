@@ -149,19 +149,40 @@
 </script>
     <script>
   document.addEventListener("DOMContentLoaded", function () {
-    function removePadding() {
-      const suspects = document.querySelectorAll('[class*="pwrzswiper"], media-gallery, .product__media-gallery, .product__media-gallery-viewer, .product__media-gallery-viewer-wrap, .shopify-section[id*="product-template"]');
-      suspects.forEach(function (el) {
-        el.style.marginTop = '0px';
-        el.style.paddingTop = '0px';
+    const removeTopSpacing = () => {
+      const selectors = [
+        '.shopify-section[id*="product-template"]',
+        '.product__media-gallery',
+        '.product__media-gallery-viewer-wrap',
+        '.product__media-gallery-viewer',
+        'media-gallery',
+        '.pwrzswiper-wrapper', // App Variant Wizard
+        '.pwrzswiper-container-wrapper'
+      ];
+
+      selectors.forEach(sel => {
+        const el = document.querySelector(sel);
+        if (el) {
+          el.style.marginTop = '0px';
+          el.style.paddingTop = '0px';
+        }
       });
-    }
+    };
 
-    // 1er appel au cas où le contenu est déjà là
-    removePadding();
+    // 1. On tente directement
+    removeTopSpacing();
 
-    // 2e appel pour être sûr après que tout est bien monté (surtout avec Variant Wizard)
-    setTimeout(removePadding, 1000);
+    // 2. On écoute les changements dans le DOM
+    const observer = new MutationObserver(() => {
+      removeTopSpacing();
+    });
+
+    observer.observe(document.body, { childList: true, subtree: true });
+
+    // 3. On relance plusieurs fois au cas où
+    setTimeout(removeTopSpacing, 500);
+    setTimeout(removeTopSpacing, 1000);
+    setTimeout(removeTopSpacing, 2000);
   });
 </script>
   {%- render 'foxify-footer' -%}</body>
