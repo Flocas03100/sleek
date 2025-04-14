@@ -402,7 +402,7 @@
         "custom_liquid": "<div style=\"\n  background-color: #F6F2EE;\n  padding: 15px 8px;\n  border-radius: 5px;\n  text-align: center;\n  font-family: 'Montserrat', sans-serif;\n  border: none; /* suppression de toute ligne résiduelle */\n  box-shadow: none; /* au cas où il y aurait une ombre */\n  outline: none;\n\">\n  <style>\n    .responsive-text {\n      font-size: 18px;\n      line-height: 1.4em;\n      color: #1c1c1c;\n      margin: 0 auto;\n      max-width: 100%;\n      border: none;\n      box-shadow: none;\n    }\n\n    @media screen and (max-width: 768px) {\n      .responsive-text {\n        font-size: 12px;\n      }\n    }\n\n    @media screen and (max-width: 480px) {\n      .responsive-text {\n        font-size: 11px;\n      }\n    }\n  </style>\n\n  <p class=\"responsive-text\">\n    Convient à toutes les compagnies aériennes internationales, y compris les compagnies low-cost européennes.\n  </p>\n</div>",
         "color_scheme": "",
         "padding_top": 0,
-        "padding_bottom": 34
+        "padding_bottom": 36
       }
     },
     "ss_feature_24_pczPAd": {
