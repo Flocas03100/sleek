@@ -2632,3 +2632,30 @@ document.addEventListener("DOMContentLoaded", function () {
     if (attempts > 10) clearInterval(interval);
   }, 500);
 });
+document.addEventListener("DOMContentLoaded", function () {
+  function forceRemovePadding() {
+    const el = document.querySelector("motion-element");
+    if (el && el.style && el.style.marginTop !== "0px") {
+      el.style.marginTop = "0px";
+      el.style.paddingTop = "0px";
+      console.log("✅ Margin-top supprimé par JS");
+    }
+  }
+
+  // Observer le DOM si Shopify injecte le bloc après
+  const observer = new MutationObserver(() => {
+    forceRemovePadding();
+  });
+  observer.observe(document.body, {
+    childList: true,
+    subtree: true,
+  });
+
+  // Sécurité : on exécute la correction plusieurs fois au cas où
+  let count = 0;
+  const interval = setInterval(() => {
+    forceRemovePadding();
+    count++;
+    if (count > 20) clearInterval(interval); // 10 secondes max
+  }, 500);
+});
