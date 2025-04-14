@@ -459,8 +459,8 @@
             "custom_icon": "shopify://shop_images/suitcase.png",
             "tab_title": "",
             "title": "Ne cherchez plus, trouvez directement",
-            "text": "<p>Text</p>",
-            "sub_text": "<p>À la sécurité de l'aéroport, ouvrez simplement la poche frontale pour sortir ordinateur, passeport et liquides. Rapide, efficace, vous gardez le contrôle en toute situation.</p>"
+            "text": "<p>À la sécurité de l'aéroport, ouvrez simplement la poche frontale pour sortir ordinateur, passeport et liquides. Rapide, efficace, vous gardez le contrôle en toute situation.</p>",
+            "sub_text": ""
           }
         }
       },
