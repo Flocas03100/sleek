@@ -6362,3 +6362,17 @@ media-gallery {
   padding-top: 0 !important;
   margin-top: 0 !important;
 }
+.shopify-section[id*="product-template"] > div:first-child {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+.shopify-section[id*="product-template"] {
+  --section-padding-top: 0px !important;
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+body.template-product .shopify-section:first-of-type {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
