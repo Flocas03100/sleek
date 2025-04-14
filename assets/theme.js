@@ -2588,19 +2588,3 @@ class NewsletterForm extends HTMLFormElement {
   }
 }
 customElements.define('newsletter-form', NewsletterForm, { extends: 'form' });
-document.addEventListener("DOMContentLoaded", function () {
-  const section = document.querySelector('[id^="shopify-section-template"][class*="product"]');
-  if (section) {
-    section.style.paddingTop = '0px';
-    section.style.marginTop = '0px';
-  }
-
-  const bullets = document.querySelector('.swiper-pagination');
-  if (bullets) {
-    bullets.style.position = 'absolute';
-    bullets.style.bottom = '14px';
-    bullets.style.left = '50%';
-    bullets.style.transform = 'translateX(-50%)';
-    bullets.style.zIndex = '9';
-  }
-});
