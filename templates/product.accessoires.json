@@ -1,0 +1,1239 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "badges": {
+          "type": "badges",
+          "settings": {
+            "show_soldout_badge": true,
+            "show_sale_badge": true,
+            "sale_badge_type": "percentage"
+          }
+        },
+        "custom_liquid_rdJTdb": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<div style=\"font-family: 'Montserrat', sans-serif; font-size: 14px; display: flex; align-items: center; gap: 6px; margin-bottom: 0.4rem;\">\n  <span style=\"color: #000; font-size: 15px;\">\n    ★★★★★\n  </span>\n  <span style=\"color: #1c1c1c;\">\n    4.7/5 – 13,770 Avis Vérifiés\n  </span>\n</div>"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h3"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "inventory": {
+          "type": "inventory",
+          "disabled": true,
+          "settings": {
+            "text_style": "body",
+            "inventory_threshold": 100,
+            "show_inventory_quantity": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "custom_liquid_jFQ8RL": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"containerAb7xF3\">\n  <div class=\"avatarsWrapper9JuY2\">\n    <img src=\"https://randomuser.me/api/portraits/women/65.jpg\" alt=\"Customer 1\" class=\"avatarImgS3k8Ly\">\n    <img src=\"https://randomuser.me/api/portraits/men/66.jpg\" alt=\"Customer 2\" class=\"avatarImgS3k8Ly\">\n    <img src=\"https://randomuser.me/api/portraits/women/67.jpg\" alt=\"Customer 3\" class=\"avatarImgS3k8Ly\">\n  </div>\n  <span>100,000+ VOYAGEURS SATISFAIT</span>\n</div>\n\n<style>\n  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');\n\n  .containerAb7xF3 {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    background: linear-gradient(90deg, #f5f0e6, #e8dfd2);\n    padding: 10px 20px;\n    border-radius: 10px;\n    font-family: 'Montserrat', sans-serif;\n    font-size: 14px;\n    color: #4a3e36;\n    font-weight: 600;\n    text-align: center;\n    flex-wrap: wrap;\n    box-shadow: 0 2px 8px rgba(0,0,0,0.05);\n  }\n\n  .avatarsWrapper9JuY2 {\n    display: flex;\n    margin-right: 10px;\n  }\n\n  .avatarImgS3k8Ly {\n    width: 26px;\n    height: 26px;\n    border-radius: 50%;\n    border: 2px solid white;\n    margin-left: -8px;\n  }\n\n  .avatarImgS3k8Ly:first-child {\n    margin-left: 0;\n  }\n\n  @media (max-width: 480px) {\n    .containerAb7xF3 {\n      font-size: 12px;\n    }\n  }\n</style>"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_type": "color_swatch",
+            "button_style": "circle",
+            "button_size": 30,
+            "size_title": "Size",
+            "size_chart_from_page": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "custom_liquid_7gHBwT": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<div style=\"\n  background-color: #F6F2EE;\n  padding: 15px 8px; /* padding ajusté ici */\n  border-radius: 5px;\n  text-align: center;\n  font-family: 'Montserrat', sans-serif;\n\">\n  <style>\n    .responsive-text {\n      font-size: 13px;\n      line-height: 1.4em;\n      color: #1c1c1c;\n      margin: 0 auto;\n      max-width: 100%;\n    }\n\n    @media screen and (max-width: 768px) {\n      .responsive-text {\n        font-size: 12px;\n      }\n    }\n\n    @media screen and (max-width: 480px) {\n      .responsive-text {\n        font-size: 11px;\n      }\n    }\n  </style>\n\n  <p class=\"responsive-text\">\n    Convient à toutes les compagnies aériennes internationales, y compris les compagnies low-cost européennes\n  </p>\n</div>"
+          }
+        },
+        "pickup_availability": {
+          "type": "pickup_availability",
+          "settings": {}
+        },
+        "complementary": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "make_collapsible_row": false,
+            "icon": "tag",
+            "product_list_limit": 4,
+            "products_per_page": 1,
+            "image_ratio": "adapt",
+            "enable_quick_add": true
+          }
+        },
+        "custom_liquid_LAx4WJ": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"\n  background-color: #f6f4f0;\n  font-family: 'Montserrat', sans-serif;\n  padding: 30px 20px 20px;\n  border-radius: 10px;\n\">\n  <style>\n    .feature-clean-grid {\n      display: flex;\n      flex-wrap: wrap;\n      justify-content: space-between;\n      gap: 18px 0;\n    }\n\n    .feature-clean-item {\n      display: flex;\n      align-items: flex-start;\n      gap: 10px;\n      width: 48%;\n    }\n\n    .feature-clean-item img {\n      width: 22px;\n      height: auto;\n      object-fit: contain;\n      pointer-events: none;\n    }\n\n    .feature-clean-text {\n      font-size: 13px;\n      color: #1c1c1c;\n      line-height: 1.4em;\n      margin: 0;\n      font-weight: 400;\n    }\n\n    @media screen and (max-width: 768px) {\n      .feature-clean-text {\n        font-size: 12px;\n      }\n\n      .feature-clean-item img {\n        width: 20px;\n      }\n    }\n\n    @media screen and (max-width: 480px) {\n      .feature-clean-text {\n        font-size: 11px;\n      }\n\n      .feature-clean-item img {\n        width: 18px;\n      }\n    }\n  </style>\n\n  <div class=\"feature-clean-grid\">\n    <div class=\"feature-clean-item\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0934/4129/4668/files/wheels.webp?v=1744174783\" alt=\"Roues 360°\">\n      <p class=\"feature-clean-text\">Roues pivotantes 360°</p>\n    </div>\n    <div class=\"feature-clean-item\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0934/4129/4668/files/numberdays.webp?v=1744174783\" alt=\"5 à 7 jours\">\n      <p class=\"feature-clean-text\">Pour des voyages de 5 à 7 jours</p>\n    </div>\n    <div class=\"feature-clean-item\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0934/4129/4668/files/shell_1.webp?v=1744174783\" alt=\"Coque incassable\">\n      <p class=\"feature-clean-text\">Coque incassable en polycarbonate</p>\n    </div>\n    <div class=\"feature-clean-item\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0934/4129/4668/files/lock.webp?v=1744174783\" alt=\"Serrures sécurité\">\n      <p class=\"feature-clean-text\">Serrures sécurité aéroport approuvées</p>\n    </div>\n  </div>\n</div>"
+          }
+        },
+        "collapsible_tab_4FL6Vi": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Détails + Dimensions",
+            "icon": "gear",
+            "content": "<ul><li>Coque incassable en polycarbonate et cadre en aluminium</li><li>Cadenas approuvés TSA par la sécurité aéroportuaire pour une sécurité supplémentaire</li><li>Roues pivotantes 360° pour un trajet fluide</li><li>Poignées à relâchement lent pour un transport facile</li><li>Système de compression intérieur et panneau à poches pour maximiser l'espace</li><li>Remplit les exigences des principales compagnies aériennes pour les bagages à main</li></ul><p><strong>Dimensions extérieures </strong>38 x 22 x 53 cm<br/><strong>Dimensions intérieures </strong>22 x 35 x 46 cm<br/><strong>Capacité </strong>35L<br/><em>Les mesures incluent les roues.</em></p><p>Votre bagage peut être ouvert, inspecté et refermé par les autorités de sécurité aéroportuaires sans aucun dommage, garantissant une expérience de voyage fluide.​</p>",
+            "page": "",
+            "default_open": false
+          }
+        },
+        "collapsible_tab_E7MQNa": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Garantie à vie l Politique de retour",
+            "icon": "certificate",
+            "content": "<p>Nous voulons que vous aimiez tout ce qui concerne ElyzeWay – c'est pourquoi nous offrons des retours pour les articles non utilisés pendant les 100 premiers jours.<br/><br/>Nos valises sont garanties contre tout dommage à la coque, aux roues, aux poignées, aux fermetures éclair et à de nombreux autres éléments fonctionnels de nos bagages.</p>",
+            "page": "",
+            "default_open": false
+          }
+        },
+        "collapsible_tab_EVjkzV": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Ce que vous recevez",
+            "icon": "gift",
+            "content": "<p>Valise ElizeWay 35L – Format cabine</p><p>Planche de stickers</p><p>House de protection</p>",
+            "page": "",
+            "default_open": false
+          }
+        }
+      },
+      "block_order": [
+        "badges",
+        "custom_liquid_rdJTdb",
+        "title",
+        "price",
+        "inventory",
+        "description",
+        "custom_liquid_jFQ8RL",
+        "variant_picker",
+        "buy_buttons",
+        "custom_liquid_7gHBwT",
+        "pickup_availability",
+        "complementary",
+        "custom_liquid_LAx4WJ",
+        "collapsible_tab_4FL6Vi",
+        "collapsible_tab_E7MQNa",
+        "collapsible_tab_EVjkzV"
+      ],
+      "custom_css": [
+        ".product__tax,.price__tax,.product__tax-note,.product__policies {display: none !important;}",
+        ".pwzrswiper-pagination-bullets {position: absolute !important; bottom: 10px !important; left: 50% !important; transform: translateX(-50%) !important; z-index: 10 !important; display: flex !important;}",
+        "media-gallery,.product__media-gallery,.product__media-gallery-viewer-wrap {padding-top: 0 !important; margin-top: 0 !important;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "enable_sticky_info": true,
+        "media_size": "large",
+        "gallery_layout": "carousel",
+        "mobile_thumbnails": "show",
+        "enable_image_zoom": true,
+        "enable_video_looping": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "ss_feature_22_M3X9FH": {
+      "type": "ss-feature-22",
+      "blocks": {
+        "item_6U6Wxh": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/POCHETTE_1.png",
+            "percent": 0,
+            "percent_text": "",
+            "title": "<h3>Poche avant</h3>",
+            "text": "<p>Rangez votre ordinateur portable et vos essentiels en toute sécurité avec un accès facile et rapide.</p>"
+          }
+        },
+        "item_zNgFD7": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/PORTE_GOBELET_1.png",
+            "percent": 0,
+            "percent_text": "",
+            "title": "<h3>Porte-gobelet</h3>",
+            "text": "<p>Profitez de la commodité mains libres avec un porte-gobelet intégré pour votre boisson ou votre café</p>"
+          }
+        },
+        "item_cDBULV": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/FERMETURE_TSA.png",
+            "percent": 0,
+            "percent_text": "",
+            "title": "<h3>Serrures sécurisées</h3>",
+            "text": "<p>Gardez votre valise sécurisée grâce à un cadenas approuvé TSA par la sécurité aéroportuaire, pour voyager l’esprit léger.</p>"
+          }
+        },
+        "item_XjnMwK": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/PORTE_TELEPHONE.png",
+            "percent": 0,
+            "percent_text": "",
+            "title": "<h3>Support téléphone</h3>",
+            "text": "<p>Disposez votre téléphone en toute sécurité sur la poignée afin de profiter de votre visonnage les mains libres.</p>"
+          }
+        },
+        "item_8pkEQr": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/PRISE_USB_1.png",
+            "percent": 0,
+            "percent_text": "",
+            "title": "<h3>Port de chargement</h3>",
+            "text": "<p>Restez alimenté avec un port USB type A en connectant votre batterie externe via l'emplacement dédié .</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_6U6Wxh",
+        "item_zNgFD7",
+        "item_cDBULV",
+        "item_XjnMwK",
+        "item_8pkEQr"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_custom": true,
+        "heading_font": "montserrat_n4",
+        "heading_size": 36,
+        "heading_size_mobile": 24,
+        "heading_height": 150,
+        "heading_align": "center",
+        "heading_align_mobile": "center",
+        "slider_view": 5,
+        "slider_view_mobile": 1.3,
+        "slider_gap": 20,
+        "slider_gap_mobile": 20,
+        "slider_mt": 36,
+        "slider_mt_mobile": 28,
+        "slide_radius": 0,
+        "image_ratio": "square",
+        "image_ratio_mobile": "square",
+        "image_overlay": 0,
+        "percent_custom": false,
+        "percent_font": "josefin_sans_n4",
+        "percent_size": 18,
+        "percent_size_mobile": 18,
+        "percent_height": 100,
+        "circle_size": 80,
+        "circle_size_mobile": 80,
+        "circle_horizontal_align": "start",
+        "circle_horizontal_align_mobile": "start",
+        "percent_text_custom": true,
+        "percent_text_font": "montserrat_n4",
+        "percent_text_size": 16,
+        "percent_text_size_mobile": 16,
+        "percent_text_height": 150,
+        "percent_text_mt": 10,
+        "percent_text_mt_mobile": 10,
+        "percent_text_align": "left",
+        "percent_text_align_mobile": "left",
+        "content_padding_vertical": 20,
+        "content_padding_vertical_mobile": 20,
+        "content_padding_horizontal": 20,
+        "content_padding_horizontal_mobile": 20,
+        "title_custom": true,
+        "title_font": "montserrat_n6",
+        "title_size": 16,
+        "title_size_mobile": 16,
+        "title_height": 130,
+        "title_align": "left",
+        "title_align_mobile": "left",
+        "text_custom": true,
+        "text_font": "montserrat_n4",
+        "text_size": 14,
+        "text_size_mobile": 14,
+        "text_height": 150,
+        "text_mt": 12,
+        "text_mt_mobile": 12,
+        "text_align": "left",
+        "text_align_mobile": "left",
+        "navigation_show_desktop": false,
+        "navigation_show_mobile": false,
+        "navigation_padding_vertical": 6,
+        "navigation_padding_vertical_mobile": 6,
+        "navigation_padding_horizontal": 16,
+        "navigation_padding_horizontal_mobile": 16,
+        "navigation_gap": 0,
+        "navigation_gap_mobile": 0,
+        "navigation_radius": 16,
+        "navigation_mt": 24,
+        "navigation_mt_mobile": 24,
+        "arrow_size": 100,
+        "arrow_size_mobile": 100,
+        "pagination_custom": true,
+        "pagination_font": "montserrat_n4",
+        "pagination_size": 30,
+        "pagination_size_mobile": 12,
+        "pagination_height": 150,
+        "button": "",
+        "button_url": "",
+        "button_custom": false,
+        "button_font": "josefin_sans_n4",
+        "button_size": 14,
+        "button_size_mobile": 14,
+        "button_height": 100,
+        "button_padding_vertical": 16,
+        "button_padding_vertical_mobile": 16,
+        "button_padding_horizontal": 32,
+        "button_padding_horizontal_mobile": 24,
+        "button_radius": 100,
+        "button_border_thickness": 1,
+        "button_mt": 24,
+        "button_mt_mobile": 16,
+        "button_style": "outline_arrow",
+        "button_horizontal_align": "center",
+        "button_horizontal_align_mobile": "center",
+        "circle_progress": "#ffffff",
+        "percent_color": "#ffffff",
+        "percent_text_color": "#ffffff",
+        "title_color": "#000000",
+        "text_color": "#000000",
+        "slide_bg_color": "#faf9f7",
+        "image_overlay_color": "#000000",
+        "pagination_color": "#ffffff",
+        "arrow_color": "#ffffff",
+        "arrow_hover_color": "#ffffff",
+        "navigation_bg_color": "#000000",
+        "button_color": "#ffffff",
+        "button_hover_color": "#ffffff",
+        "button_bg_color": "#ffffff",
+        "button_bg_hover_color": "#000000",
+        "button_border_color": "#000000",
+        "button_border_hover_color": "#000000",
+        "heading_color": "#ffffff",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 2,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
+    "image_comparison_LBQPCj": {
+      "type": "image-comparison",
+      "blocks": {
+        "image_fm6pYU": {
+          "type": "image",
+          "settings": {
+            "heading": "Before",
+            "color_scheme": ""
+          }
+        },
+        "image_hJDrJc": {
+          "type": "image",
+          "settings": {
+            "heading": "After",
+            "color_scheme": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_fm6pYU",
+        "image_hJDrJc"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "header_layout": "vertical",
+        "heading": "L'économie ELIZE",
+        "heading_size": "h1",
+        "heading_highlight_style": "none",
+        "subheading": "",
+        "description": "",
+        "description_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "direction": "horizontal",
+        "image_height": "adapt",
+        "image_heading_style": "badge",
+        "product": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "custom_liquid_FKzrFn": {
+      "type": "custom-liquid",
+      "custom_css": [],
+      "settings": {
+        "custom_liquid": "<div style=\"\n  background-color: #F6F2EE;\n  padding: 15px 8px;\n  border-radius: 5px;\n  text-align: center;\n  font-family: 'Montserrat', sans-serif;\n  border: none; /* suppression de toute ligne résiduelle */\n  box-shadow: none; /* au cas où il y aurait une ombre */\n  outline: none;\n\">\n  <style>\n    .responsive-text {\n      font-size: 18px;\n      line-height: 1.4em;\n      color: #1c1c1c;\n      margin: 0 auto;\n      max-width: 100%;\n      border: none;\n      box-shadow: none;\n    }\n\n    @media screen and (max-width: 768px) {\n      .responsive-text {\n        font-size: 12px;\n      }\n    }\n\n    @media screen and (max-width: 480px) {\n      .responsive-text {\n        font-size: 11px;\n      }\n    }\n  </style>\n\n  <p class=\"responsive-text\">\n    Convient à toutes les compagnies aériennes internationales, y compris les compagnies low-cost européennes.\n  </p>\n</div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "ss_feature_24_pczPAd": {
+      "type": "ss-feature-24",
+      "blocks": {
+        "feature_NjrGCc": {
+          "type": "feature",
+          "settings": {
+            "icon": "heart",
+            "custom_icon": "shopify://shop_images/procrastination.png",
+            "tab_title": "",
+            "title": "Toujours connecté, jamais stressé",
+            "text": "<p>Imaginez-vous à l’aéroport, attendant sereinement votre vol. Votre téléphone posé sur votre valise se recharge tranquillement grâce au chargeur intégré. Adieu les prises introuvables, bonjour la tranquillité.</p>",
+            "sub_text": "",
+            "image": "shopify://shop_images/WhatsApp_GIF_2025-04-14_at_10.16.22.gif"
+          }
+        },
+        "feature_b4PezF": {
+          "type": "feature",
+          "settings": {
+            "icon": "love",
+            "custom_icon": "shopify://shop_images/bottle.png",
+            "tab_title": "",
+            "title": "Votre boisson à portée de main",
+            "text": "<p>Traversez l'aéroport aisément, café ou bouteille d’eau stablement installée sur votre valise. Plus besoin de garder les mains occupées, vous avancez librement et sereinement.</p>",
+            "sub_text": "",
+            "image": "shopify://shop_images/WhatsApp_GIF_2025-04-14_at_10.00.16.gif"
+          }
+        },
+        "feature_XebFha": {
+          "type": "feature",
+          "settings": {
+            "icon": "atc",
+            "custom_icon": "shopify://shop_images/fast-time.png",
+            "tab_title": "",
+            "title": "Prêt en un instant",
+            "text": "<p>Dans votre chambre d'hôtel, valise ouverte sur le lit, tout se range facilement grâce aux compartiments intelligents. Vous fermez et repartez en quelques instants, prêt à profiter de votre voyage.</p>",
+            "sub_text": "",
+            "image": "shopify://shop_images/WhatsApp_GIF_2025-04-14_at_10.24.51.gif"
+          }
+        },
+        "feature_WmKmfX": {
+          "type": "feature",
+          "settings": {
+            "icon": "atc",
+            "custom_icon": "shopify://shop_images/iphone.png",
+            "tab_title": "",
+            "title": "Libérez vos mains, libérez votre esprit",
+            "text": "<p>Au café de l'aéroport, votre téléphone bien calé et votre sac posé élégamment sur la valise. Vous profitez pleinement de votre pause, détendu et organisé.</p>",
+            "sub_text": "",
+            "image": "shopify://shop_images/WhatsApp_GIF_2025-04-14_at_11.39.05.gif"
+          }
+        },
+        "feature_4ACWET": {
+          "type": "feature",
+          "settings": {
+            "icon": "atc",
+            "custom_icon": "shopify://shop_images/suitcase.png",
+            "tab_title": "",
+            "title": "Ne cherchez plus, trouvez directement",
+            "text": "<p>À la sécurité de l'aéroport, ouvrez simplement la poche frontale pour sortir ordinateur, passeport et liquides. Rapide, efficace, vous gardez le contrôle en toute situation.</p>",
+            "sub_text": "",
+            "image": "shopify://shop_images/WhatsApp_GIF_2025-04-14_at_10.40.13.gif"
+          }
+        }
+      },
+      "block_order": [
+        "feature_NjrGCc",
+        "feature_b4PezF",
+        "feature_XebFha",
+        "feature_WmKmfX",
+        "feature_4ACWET"
+      ],
+      "settings": {
+        "body_layout": "text_image",
+        "body_gap": 92,
+        "content_align": "center",
+        "content_align_mobile": "center",
+        "heading": "<h2>La valise pensée pour vous</h2>",
+        "heading_custom": true,
+        "heading_font": "montserrat_n4",
+        "heading_size": 36,
+        "heading_size_mobile": 24,
+        "heading_height": 130,
+        "sub_heading": "",
+        "sub_heading_custom": true,
+        "sub_heading_font": "montserrat_n4",
+        "sub_heading_size": 18,
+        "sub_heading_size_mobile": 16,
+        "sub_heading_height": 150,
+        "sub_heading_mt": 16,
+        "sub_heading_mt_mobile": 24,
+        "icons_padding_horizontal": 6,
+        "icons_padding_horizontal_mobile": 6,
+        "icons_padding_vertical": 4,
+        "icons_padding_vertical_mobile": 4,
+        "icons_radius": 100,
+        "icons_gap": 16,
+        "icons_gap_mobile": 10,
+        "icons_mt": 48,
+        "icons_mt_mobile": 40,
+        "use_autoplay": true,
+        "icons_autoplay_delay": 6,
+        "icon_size": 22,
+        "icon_size_mobile": 18,
+        "tab_title_custom": true,
+        "tab_title_font": "montserrat_n4",
+        "tab_title_size": 12,
+        "tab_title_size_mobile": 12,
+        "tab_title_height": 130,
+        "tab_title_mt": 6,
+        "tab_title_mt_mobile": 10,
+        "title_custom": true,
+        "title_font": "montserrat_n4",
+        "title_size": 20,
+        "title_size_mobile": 16,
+        "title_height": 130,
+        "title_mt": 52,
+        "title_mt_mobile": 40,
+        "text_custom": true,
+        "text_font": "montserrat_n4",
+        "text_size": 14,
+        "text_size_mobile": 14,
+        "text_height": 150,
+        "text_mt": 12,
+        "text_mt_mobile": 10,
+        "sub_text_custom": true,
+        "sub_text_font": "montserrat_n4",
+        "sub_text_size": 12,
+        "sub_text_size_mobile": 12,
+        "sub_text_height": 130,
+        "sub_text_mt": 10,
+        "sub_text_mt_mobile": 8,
+        "button": "",
+        "button_url": "",
+        "button_custom": false,
+        "button_font": "josefin_sans_n4",
+        "button_size": 14,
+        "button_size_mobile": 14,
+        "button_height": 100,
+        "button_padding_horizontal": 32,
+        "button_padding_horizontal_mobile": 32,
+        "button_padding_vertical": 10,
+        "button_padding_vertical_mobile": 10,
+        "button_radius": 100,
+        "button_border_thickness": 1,
+        "button_mt": 52,
+        "button_mt_mobile": 52,
+        "button_style": "outline",
+        "image_width": 40,
+        "image_ratio": "square",
+        "image_ratio_mobile": "square",
+        "image_radius": 12,
+        "images_mt_mobile": 40,
+        "tab_title_color": "#39392d",
+        "icon_color": "#39392d",
+        "icon_bg_color": "#ffffff",
+        "icons_bg_color": "#e7e7e2",
+        "circle_color": "#f4f5f0",
+        "circle_active_color": "#8c735b",
+        "title_color": "#39392d",
+        "text_color": "#39392d",
+        "sub_text_color": "#39392d",
+        "button_color": "#ffffff",
+        "button_hover_color": "#39392d",
+        "button_bg_color": "#39392d",
+        "button_bg_hover_color": "#f9f9f6",
+        "button_border_color": "#39392d",
+        "button_border_hover_color": "#39392d",
+        "heading_color": "#39392d",
+        "sub_heading_color": "#39392d",
+        "background_color": "#fefdfa",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
+    "ss_comparison_table_6_hqdHc9": {
+      "type": "ss-comparison-table-6",
+      "blocks": {
+        "list_item_YrppBm": {
+          "type": "list_item",
+          "settings": {
+            "text": "Aucun accessoire à acheter"
+          }
+        },
+        "list_item_T9EK86": {
+          "type": "list_item",
+          "settings": {
+            "text": "Plus jamais de frais de soute"
+          }
+        },
+        "list_item_dpMw73": {
+          "type": "list_item",
+          "settings": {
+            "text": "Zéro perte de temps"
+          }
+        },
+        "list_item_fa6zJa": {
+          "type": "list_item",
+          "settings": {
+            "text": "Pour des années de voyage"
+          }
+        },
+        "table_row_CbTJyD": {
+          "type": "table_row",
+          "settings": {
+            "row_heading": "Valise cabine 35L",
+            "first_column": "",
+            "first_column_icon": "check",
+            "second_column": "150€",
+            "second_column_icon": "cross",
+            "third_column": "",
+            "third_column_icon": "none",
+            "four_column": "",
+            "four_column_icon": "none"
+          }
+        },
+        "table_row_rXPRMX": {
+          "type": "table_row",
+          "settings": {
+            "row_heading": "Porte-documents",
+            "first_column": "",
+            "first_column_icon": "check",
+            "second_column": "60€",
+            "second_column_icon": "cross",
+            "third_column": "",
+            "third_column_icon": "none",
+            "four_column": "",
+            "four_column_icon": "none"
+          }
+        },
+        "table_row_fMEiGg": {
+          "type": "table_row",
+          "settings": {
+            "row_heading": "Low Sugar",
+            "first_column": "",
+            "first_column_icon": "check",
+            "second_column": "",
+            "second_column_icon": "cross",
+            "third_column": "",
+            "third_column_icon": "none",
+            "four_column": "",
+            "four_column_icon": "none"
+          }
+        },
+        "table_row_Gq8XFn": {
+          "type": "table_row",
+          "settings": {
+            "row_heading": "Simple Ingredients",
+            "first_column": "",
+            "first_column_icon": "check",
+            "second_column": "",
+            "second_column_icon": "cross",
+            "third_column": "",
+            "third_column_icon": "none",
+            "four_column": "",
+            "four_column_icon": "none"
+          }
+        },
+        "table_row_KcHJPT": {
+          "type": "table_row",
+          "settings": {
+            "row_heading": "3rd Party Tested",
+            "first_column": "",
+            "first_column_icon": "check",
+            "second_column": "",
+            "second_column_icon": "cross",
+            "third_column": "",
+            "third_column_icon": "none",
+            "four_column": "",
+            "four_column_icon": "none"
+          }
+        },
+        "table_row_rJbjUK": {
+          "type": "table_row",
+          "settings": {
+            "row_heading": "Delicious Taste",
+            "first_column": "",
+            "first_column_icon": "check",
+            "second_column": "",
+            "second_column_icon": "cross",
+            "third_column": "",
+            "third_column_icon": "none",
+            "four_column": "",
+            "four_column_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "list_item_YrppBm",
+        "list_item_T9EK86",
+        "list_item_dpMw73",
+        "list_item_fa6zJa",
+        "table_row_CbTJyD",
+        "table_row_rXPRMX",
+        "table_row_fMEiGg",
+        "table_row_Gq8XFn",
+        "table_row_KcHJPT",
+        "table_row_rJbjUK"
+      ],
+      "disabled": true,
+      "settings": {
+        "body_gap": 32,
+        "body_gap_mobile": 32,
+        "content_horizontal_align": "start",
+        "content_horizontal_align_mobile": "center",
+        "heading": "<p>Pourquoi ElyzeWay ?</p>",
+        "heading_custom": true,
+        "heading_font": "montserrat_n4",
+        "heading_size": 52,
+        "heading_size_mobile": 32,
+        "heading_height": 150,
+        "text": "<p>Nous avons repensé la valise cabine pour qu’elle vous fasse <strong>gagner du temps, de l’espace et de la sérénité</strong>.</p>",
+        "text_custom": true,
+        "text_font": "montserrat_n4",
+        "text_size": 18,
+        "text_size_mobile": 18,
+        "text_height": 150,
+        "text_mt": 4,
+        "list_mt": 50,
+        "list_mt_mobile": 32,
+        "list_gap": 30,
+        "list_gap_mobile": 30,
+        "list_hide_mobile": true,
+        "icon_size": 28,
+        "icon_size_mobile": 28,
+        "icon_margin_right": 16,
+        "list_text_custom": true,
+        "list_text_font": "montserrat_n4",
+        "list_text_size": 20,
+        "list_text_size_mobile": 18,
+        "list_text_height": 150,
+        "button": "",
+        "button_url": "",
+        "button_custom": true,
+        "button_font": "montserrat_n4",
+        "button_size": 18,
+        "button_size_mobile": 18,
+        "button_height": 100,
+        "button_width": 305,
+        "button_mt": 50,
+        "button_mt_mobile": 32,
+        "button_padding_vertical": 16,
+        "button_padding_vertical_mobile": 16,
+        "button_padding_horizontal": 48,
+        "button_padding_horizontal_mobile": 48,
+        "button_radius": 100,
+        "button_border_thickness": 0,
+        "button_style": "non_outline",
+        "button_position_mobile": "bottom",
+        "table_columns": 2,
+        "table_mt_mobile": 32,
+        "table_column_active": "1",
+        "table_radius": 16,
+        "table_border_thickness": 1,
+        "table_heading_image_size": 100,
+        "table_heading_image_size_mobile": 80,
+        "first_heading": "Elyze",
+        "first_heading_image": "shopify://shop_images/ELYZE_6.png",
+        "second_heading": "Valise classique",
+        "third_heading": "Third",
+        "four_heading": "Fourth",
+        "table_heading_custom": true,
+        "table_heading_font": "montserrat_n4",
+        "table_heading_size": 20,
+        "table_heading_size_mobile": 16,
+        "table_heading_height": 100,
+        "table_heading_align": "center",
+        "table_heading_padding_horizontal": 18,
+        "table_heading_padding_horizontal_mobile": 18,
+        "table_heading_padding_vertical": 18,
+        "table_heading_padding_vertical_mobile": 18,
+        "table_row_padding_horizontal": 14,
+        "table_row_padding_horizontal_mobile": 14,
+        "table_row_padding_vertical": 16,
+        "table_row_padding_vertical_mobile": 16,
+        "table_row_heading_width_mobile": 66,
+        "table_row_heading_custom": true,
+        "table_row_heading_font": "montserrat_n4",
+        "table_row_heading_size": 16,
+        "table_row_heading_size_mobile": 16,
+        "table_row_heading_height": 130,
+        "table_row_heading_align": "left",
+        "table_row_text_custom": false,
+        "table_row_text_font": "assistant_n4",
+        "table_row_text_size": 20,
+        "table_row_text_size_mobile": 16,
+        "table_row_text_height": 130,
+        "table_row_text_align": "center",
+        "table_row_image_size": 24,
+        "table_row_image_size_mobile": 24,
+        "heading_color": "#000000",
+        "text_color": "#000000",
+        "icon_color": "#000000",
+        "list_text_color": "#000000",
+        "button_color": "#ffffff",
+        "button_hover_color": "#8c735b",
+        "button_bg_color": "#16142b",
+        "button_bg_hover_color": "#16142b",
+        "button_border_color": "#16142b",
+        "button_border_hover_color": "#16142b",
+        "table_border_color": "#8c735b",
+        "table_active_border_color": "#ffffff",
+        "table_heading_color": "#000000",
+        "table_heading_active_color": "#ffffff",
+        "table_heading_bg_active_color": "#8c735b",
+        "table_column_active_bg_color": "#8c735b",
+        "table_row_heading_color": "#1a192e",
+        "table_row_text_color": "#1a192e",
+        "table_row_active_text_color": "#ffffff",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 130,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "collapsible_tabs_phAkEE": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "collapsible_item_eFemDY": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "La valise est-elle acceptée en cabine ?",
+            "content": "<p>Oui. ElyzeWay est conforme aux dimensions exigées par les compagnies. Elle est 100 % cabine, sa taille respecte les standards internationaux des bagages cabine.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": true
+          }
+        },
+        "collapsible_item_RQ3WzW": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Est-ce que la valise recharge mon téléphone ?",
+            "content": "<p>Oui. Un port USB est intégré sur la valise. Il suffit d’insérer votre batterie externe dans la poche dédiée, de la connecter, puis de brancher votre téléphone à l'extérieur.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false
+          }
+        },
+        "collapsible_item_aKpRFm": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "La valise est-elle sécurisée ?",
+            "content": "<p>Oui. Elle dispose d’une serrure à code approuvée TSA. Cela permet aux autorités de l’ouvrir sans la casser lors des contrôles aléatoires</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false
+          }
+        },
+        "collapsible_item_3c4PkF": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Est-elle vraiment solide ?",
+            "content": "<p>Absolument. Sa coque est en polycarbonate haute résistance, conçue pour durer. Les roues sont silencieuses, fluides et renforcées. Les matériaux ont été choisis pour résister aux chocs et à l’usure des voyages fréquents</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false
+          }
+        },
+        "collapsible_item_Wwqkz3": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Pourquoi choisir ElyzeWay plutôt qu’une valise classique ?",
+            "content": "<p>Parce qu’elle regroupe plusieurs produits en un seul. Vous gagnez du temps, de l’espace, de l’argent. Et vous voyagez l’esprit léger, avec style.<br/></p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_item_eFemDY",
+        "collapsible_item_RQ3WzW",
+        "collapsible_item_aKpRFm",
+        "collapsible_item_3c4PkF",
+        "collapsible_item_Wwqkz3"
+      ],
+      "custom_css": [],
+      "settings": {
+        "container": "narrow",
+        "color_scheme": "",
+        "header_layout": "vertical",
+        "heading": "FAQ",
+        "heading_size": "h1",
+        "heading_highlight_style": "none",
+        "subheading": "",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "column_gap": "large",
+        "row_gap": "inherit",
+        "item_style": "standard",
+        "item_color_scheme": "",
+        "item_heading_font": "heading",
+        "item_heading_size": "h4",
+        "item_icon_size": "extra-large",
+        "padding_top": 96,
+        "padding_bottom": 100,
+        "show_section_divider": true,
+        "divider_width": "fixed"
+      }
+    },
+    "custom_content_LFmPka": {
+      "type": "custom-content",
+      "settings": {
+        "container": "full",
+        "color_scheme": "scheme-1",
+        "enable_sticky_column": false,
+        "heading": "Quel est votre prochaine destination ?",
+        "heading_size": "h2",
+        "heading_highlight_style": "none",
+        "subheading": "Elyze Airline",
+        "description": "",
+        "column_gap": "medium",
+        "row_gap": "large",
+        "swipe_on_mobile": false,
+        "columns_mobile": "1",
+        "padding_top": 20,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-1",
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "heading_highlight_style": "none",
+        "subheading": "",
+        "description": "",
+        "limit": 6,
+        "columns": 4,
+        "column_gap": "extra-small",
+        "row_gap": "inherit",
+        "enable_slider": true,
+        "controls_position": "inside",
+        "pcard_image_ratio": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 100,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "scrolling_promotion_c3fMLV": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "image_88GQMm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/10.png",
+            "image_height": 72,
+            "image_rounded": false,
+            "image_link": "",
+            "image_height_mobile": 72
+          }
+        },
+        "image_wXEcmw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_00a54db6-6b46-4831-a32c-1f7f304d5bc7.png",
+            "image_height": 120,
+            "image_rounded": false,
+            "image_link": "",
+            "image_height_mobile": 90
+          }
+        },
+        "image_9i9x4x": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_5e532ebf-2b69-4ba9-969e-8a289d8271d6.png",
+            "image_height": 72,
+            "image_rounded": false,
+            "image_link": "",
+            "image_height_mobile": 72
+          }
+        },
+        "image_h9XY7b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5_124a5108-ef38-43b7-a011-9d0f51f04813.png",
+            "image_height": 120,
+            "image_rounded": false,
+            "image_link": "",
+            "image_height_mobile": 90
+          }
+        },
+        "image_qUpzER": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_46c6b50e-2871-433e-9cd7-601bf60825e0.png",
+            "image_height": 72,
+            "image_rounded": false,
+            "image_link": "",
+            "image_height_mobile": 72
+          }
+        },
+        "image_tGd8Ee": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_3440c82a-55d3-4d29-9ea8-f98f8866d088.png",
+            "image_height": 120,
+            "image_rounded": false,
+            "image_link": "",
+            "image_height_mobile": 90
+          }
+        },
+        "image_chDmFm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/6_c19f6397-15b5-4b6f-846f-6aa46b7e46e2.png",
+            "image_height": 72,
+            "image_rounded": false,
+            "image_link": "",
+            "image_height_mobile": 72
+          }
+        },
+        "image_qiDxVf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_b20ec78a-f3b3-4917-8d30-344e8d8895cd.png",
+            "image_height": 120,
+            "image_rounded": false,
+            "image_link": "",
+            "image_height_mobile": 90
+          }
+        },
+        "image_8XBRVU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5_80bb9c61-9301-49db-a183-c263d37349e7.png",
+            "image_height": 72,
+            "image_rounded": false,
+            "image_link": "",
+            "image_height_mobile": 72
+          }
+        },
+        "image_93iQCV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_b33b9d91-0bd9-42ef-a2a7-4d13ec69e587.png",
+            "image_height": 120,
+            "image_rounded": false,
+            "image_link": "",
+            "image_height_mobile": 90
+          }
+        },
+        "image_WNd8rx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/9_659d8717-0560-4b2f-9485-e51d8a62b384.png",
+            "image_height": 72,
+            "image_rounded": false,
+            "image_link": "",
+            "image_height_mobile": 72
+          }
+        },
+        "image_iDyCe8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_00a54db6-6b46-4831-a32c-1f7f304d5bc7.png",
+            "image_height": 120,
+            "image_rounded": false,
+            "image_link": "",
+            "image_height_mobile": 90
+          }
+        },
+        "image_6yWbUQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/8_422dd771-2191-4c39-98a2-96b9a8420145.png",
+            "image_height": 72,
+            "image_rounded": false,
+            "image_link": "",
+            "image_height_mobile": 72
+          }
+        },
+        "image_JmHdER": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5_124a5108-ef38-43b7-a011-9d0f51f04813.png",
+            "image_height": 120,
+            "image_rounded": false,
+            "image_link": "",
+            "image_height_mobile": 90
+          }
+        },
+        "image_tfMYVQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/7_24abd0b3-bfb8-4d97-ba22-15d671db0f88.png",
+            "image_height": 72,
+            "image_rounded": false,
+            "image_link": "",
+            "image_height_mobile": 72
+          }
+        },
+        "image_ncFVyB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_3440c82a-55d3-4d29-9ea8-f98f8866d088.png",
+            "image_height": 120,
+            "image_rounded": false,
+            "image_link": "",
+            "image_height_mobile": 90
+          }
+        }
+      },
+      "block_order": [
+        "image_88GQMm",
+        "image_wXEcmw",
+        "image_9i9x4x",
+        "image_h9XY7b",
+        "image_qUpzER",
+        "image_tGd8Ee",
+        "image_chDmFm",
+        "image_qiDxVf",
+        "image_8XBRVU",
+        "image_93iQCV",
+        "image_WNd8rx",
+        "image_iDyCe8",
+        "image_6yWbUQ",
+        "image_JmHdER",
+        "image_tfMYVQ",
+        "image_ncFVyB"
+      ],
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "vertical_alignment": "center",
+        "direction": "right",
+        "pause_on_hover": false,
+        "speed": 0.2,
+        "h_spacing": 0,
+        "v_spacing": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_divider": false,
+        "divider_layout": "vertical"
+      }
+    },
+    "scrolling_promotion_gHzNL8": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "image_npzxX4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Copie_de_ELYZE_6.png",
+            "image_height": 60,
+            "image_rounded": false,
+            "image_link": "",
+            "image_height_mobile": 46
+          }
+        }
+      },
+      "block_order": [
+        "image_npzxX4"
+      ],
+      "custom_css": [
+        ".scrolling-promotion img {transform: none !important; transition: none !important;}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "vertical_alignment": "center",
+        "direction": "right",
+        "pause_on_hover": false,
+        "speed": 0.8,
+        "h_spacing": 0,
+        "v_spacing": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_divider": false,
+        "divider_layout": "vertical"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ss_feature_22_M3X9FH",
+    "image_comparison_LBQPCj",
+    "custom_liquid_FKzrFn",
+    "ss_feature_24_pczPAd",
+    "ss_comparison_table_6_hqdHc9",
+    "collapsible_tabs_phAkEE",
+    "custom_content_LFmPka",
+    "related-products",
+    "scrolling_promotion_c3fMLV",
+    "scrolling_promotion_gHzNL8"
+  ]
+}
