@@ -28,7 +28,6 @@
   class="section block section-{{ section.id }} page-width color-{{ section.settings.color_scheme }}"
   style="padding-top: 0px !important; margin-top: 0px !important; --section-padding-top: 0px; --section-padding-bottom: 0px;"
 >
->
   {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
   {{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
   {% unless product.has_only_default_variant %}
