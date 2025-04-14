@@ -6378,3 +6378,6 @@ body:not(.header-pinned) .header-scrolled .header {
 .product__media-gallery-viewer-wrap {
   overflow: visible !important;
 }
+.product__media-gallery-viewer {
+  position: relative !important;
+}
