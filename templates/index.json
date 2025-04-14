@@ -483,8 +483,8 @@
         "heading_J7mctK": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "hd1",
+            "heading": "<em>Trouvez votre compagnon pour chaque destination</em>",
+            "heading_size": "h3",
             "heading_highlight_style": "none"
           }
         },
@@ -515,7 +515,7 @@
         "color_scheme": "scheme-4",
         "image": "shopify://shop_images/ezgif-4024f0bbd4aa20.gif",
         "image_height": "adapt",
-        "layout": "text_first",
+        "layout": "image_first",
         "desktop_content_position": "center",
         "desktop_content_alignment": "center",
         "enable_parallax": false,
