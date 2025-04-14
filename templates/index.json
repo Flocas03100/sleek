@@ -474,12 +474,6 @@
     "image_with_text_MgddA8": {
       "type": "image-with-text",
       "blocks": {
-        "subheading_XLgqVJ": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Add a tagline"
-          }
-        },
         "heading_J7mctK": {
           "type": "heading",
           "settings": {
@@ -498,7 +492,6 @@
         }
       },
       "block_order": [
-        "subheading_XLgqVJ",
         "heading_J7mctK",
         "button_jAUX49"
       ],
