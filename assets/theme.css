@@ -6381,3 +6381,17 @@ body:not(.header-pinned) .header-scrolled .header {
 .product__media-gallery-viewer {
   position: relative !important;
 }
+.product__media-gallery-viewer-wrap {
+  position: relative !important;
+  overflow: visible !important;
+  z-index: 0 !important;
+}
+
+.product__media-gallery-viewer {
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+.swiper-pagination {
+  z-index: 10 !important;
+}
