@@ -512,8 +512,8 @@
         "desktop_content_alignment": "center",
         "enable_parallax": false,
         "parallax_direction": "vertical",
-        "mobile_content_alignment": "left",
-        "padding_top": 100,
+        "mobile_content_alignment": "center",
+        "padding_top": 50,
         "padding_bottom": 0,
         "show_section_divider": false,
         "divider_width": "fixed"
