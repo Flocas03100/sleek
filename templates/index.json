@@ -179,9 +179,9 @@
           "type": "slide",
           "settings": {
             "color_scheme": "scheme-3",
-            "background": "shopify://shop_images/Design_sans_titre_65.png",
-            "background_mobile": "shopify://shop_images/Sans_titre_600_x_480_px.png",
-            "image_overlay_opacity": 0,
+            "background": "shopify://shop_images/Design_sans_titre_68.png",
+            "background_mobile": "shopify://shop_images/Design_sans_titre_69.png",
+            "image_overlay_opacity": 35,
             "content_position": "middle-center",
             "text_alignment": "center",
             "title": "<strong>L’excellence à chaque destination</strong>",
