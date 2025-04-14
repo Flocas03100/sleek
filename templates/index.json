@@ -991,6 +991,7 @@
         "video_74GXff": {
           "type": "video",
           "settings": {
+            "video": "shopify://files/videos/WhatsApp Video 2025-04-02 at 16.11.37.mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "poster": "shopify://shop_images/ezgif-4024f0bbd4aa20.gif"
           }
