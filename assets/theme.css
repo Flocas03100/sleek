@@ -6345,24 +6345,28 @@ media-gallery {
   padding-top: 0 !important;
   margin-top: 0 !important;
 }
-motion-element:first-of-type,
-motion-element:first-of-type > div,
-.shopify-section[id*="product-template"],
+section[id^="shopify-section-template--product"],
+.shopify-section[id^="shopify-section-template--product"],
 .product__media-gallery,
 .product__media-gallery-viewer-wrap,
-.product__media-gallery-viewer {
-  margin-top: 0 !important;
+.product__media-gallery-viewer,
+motion-element:first-of-type,
+motion-element:first-of-type > div {
   padding-top: 0 !important;
+  margin-top: 0 !important;
 }
 
 .product__media-gallery-viewer-wrap {
   position: relative !important;
 }
 
-.swiper-pagination {
+.swiper-pagination,
+.pwzrswiper-pagination-bullets {
   position: absolute !important;
-  bottom: 12px !important;
+  bottom: 16px !important;
   left: 50% !important;
   transform: translateX(-50%) !important;
-  z-index: 9 !important;
+  z-index: 10 !important;
+  display: flex !important;
+  justify-content: center;
 }
