@@ -393,7 +393,7 @@
         "limit": 5,
         "column_gap": "medium",
         "row_gap": "inherit",
-        "pcard_image_ratio": "3/4",
+        "pcard_image_ratio": "1/1",
         "pcard_thumbnail_ratio": "",
         "swipe_on_mobile": true,
         "padding_top": 50,
