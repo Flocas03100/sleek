@@ -2605,34 +2605,23 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 document.addEventListener("DOMContentLoaded", function () {
-  const observer = new MutationObserver((mutations) => {
-    mutations.forEach((mutation) => {
-      mutation.addedNodes.forEach((node) => {
-        if (node.nodeType === 1) {
-          // 1. On check si c'est un shopify-block
-          const motion = node.querySelector?.('motion-element');
-          if (motion && motion.style.marginTop) {
-            console.log("✅ Motion element détecté et modifié !");
-            motion.style.marginTop = "0px";
-            motion.style.paddingTop = "0px";
-          }
-        }
-      });
-    });
-  });
-
-  observer.observe(document.body, {
-    childList: true,
-    subtree: true
-  });
-
-  // 🔁 En plus, petit intervalle au cas où le bloc arrive en retard
-  setInterval(() => {
-    const motion = document.querySelector('motion-element');
-    if (motion && motion.style.marginTop !== "0px") {
-      console.log("♻️ Correction via interval");
-      motion.style.marginTop = "0px";
-      motion.style.paddingTop = "0px";
+  function removeMotionPadding() {
+    const el = document.querySelector('motion-element');
+    if (el && el.style.marginTop !== '0px') {
+      console.log('✅ Motion element padding supprimé');
+      el.style.marginTop = '0px';
     }
+  }
+
+  // Observe les changements de DOM
+  const observer = new MutationObserver(() => removeMotionPadding());
+  observer.observe(document.body, { childList: true, subtree: true });
+
+  // Sécurité : relance toutes les 500ms pendant 5 secondes
+  let attempts = 0;
+  const interval = setInterval(() => {
+    removeMotionPadding();
+    attempts++;
+    if (attempts > 10) clearInterval(interval);
   }, 500);
 });
