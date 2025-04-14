@@ -985,131 +985,6 @@
         "lazy": true
       }
     },
-    "ss_product_videos_2_tcTXnc": {
-      "type": "ss-product-videos-2",
-      "blocks": {
-        "video_74GXff": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/WhatsApp Video 2025-04-02 at 16.11.37.mp4",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "poster": "shopify://shop_images/ezgif-4024f0bbd4aa20.gif"
-          }
-        },
-        "video_cWTjyR": {
-          "type": "video",
-          "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
-          }
-        },
-        "video_J68Fgm": {
-          "type": "video",
-          "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
-          }
-        },
-        "video_aQcffY": {
-          "type": "video",
-          "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
-          }
-        }
-      },
-      "block_order": [
-        "video_74GXff",
-        "video_cWTjyR",
-        "video_J68Fgm",
-        "video_aQcffY"
-      ],
-      "settings": {
-        "videos_position": "above_description",
-        "heading": "",
-        "heading_custom": false,
-        "heading_font": "josefin_sans_n4",
-        "heading_size": 15,
-        "heading_size_mobile": 15,
-        "heading_height": 130,
-        "heading_align": "left",
-        "heading_align_mobile": "left",
-        "slider_view": 4,
-        "slider_view_mobile": 4,
-        "slider_gap": 16,
-        "slider_gap_mobile": 16,
-        "slider_mt": 0,
-        "card_padding": 2,
-        "card_radius": 300,
-        "card_border_thickness": 2,
-        "card_hover": true,
-        "card_shadow": false,
-        "video_ratio": "square",
-        "video_ratio_mobile": "square",
-        "video_overlay": 0,
-        "navigation_mt": 16,
-        "arrow_size": 28,
-        "arrow_size_mobile": 26,
-        "arrow_icon_size": 12,
-        "arrow_icon_size_mobile": 12,
-        "arrow_border_thickness": 0,
-        "arrow_show_desktop": true,
-        "arrow_show_mobile": false,
-        "dots_size": 12,
-        "dots_size_mobile": 12,
-        "dots_show_desktop": false,
-        "dots_show_mobile": false,
-        "modal_width": 70,
-        "modal_width_mobile": 95,
-        "modal_padding_vertical": 0,
-        "modal_padding_vertical_mobile": 0,
-        "modal_padding_horizontal": 0,
-        "modal_padding_horizontal_mobile": 0,
-        "modal_radius": 16,
-        "modal_border_thickness": 0,
-        "modal_overlay": 1,
-        "close_size": 32,
-        "close_size_mobile": 32,
-        "close_border_thickness": 0,
-        "buttons_size": 32,
-        "buttons_size_mobile": 32,
-        "buttons_border_thickness": 0,
-        "modal_video_radius": 0,
-        "modal_video_border_thickness": 0,
-        "modal_video_ratio": "portrait",
-        "modal_video_ratio_mobile": "portrait",
-        "card_bg_color": "#FFFFFF",
-        "card_border_color": "#827E6D",
-        "card_shadow_color": "#000000",
-        "video_overlay_color": "#000000",
-        "arrow_color": "#FFFFFF",
-        "arrow_hover_color": "#FFFFFF",
-        "arrow_bg_color": "#000000",
-        "arrow_bg_hover_color": "#555555",
-        "arrow_border_color": "#000000",
-        "arrow_border_hover_color": "#555555",
-        "dots_color": "#827E6D",
-        "modal_overlay_color": "#242424",
-        "modal_bg_color": "#FFFFFF",
-        "modal_border_color": "#000000",
-        "close_bg_color": "#000000",
-        "close_border_color": "#000000",
-        "close_icon_color": "#FFFFFF",
-        "buttons_bg_color": "#FFFFFF",
-        "buttons_border_color": "#000000",
-        "buttons_icon_color": "#000000",
-        "modal_video_border_color": "#000000",
-        "heading_color": "#000000",
-        "background_color": "#FFFFFF",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 20,
-        "padding_bottom": 20,
-        "padding_horizontal": 0,
-        "padding_horizontal_mobile": 0,
-        "border_thickness": 0,
-        "lazy": true
-      }
-    },
     "ss_hotspots_DBt6BY": {
       "type": "ss-hotspots",
       "blocks": {
@@ -1284,7 +1159,6 @@
     "scrolling_promotion_htQpcB",
     "ss_testimonial_8_PeEecB",
     "ss_testimonial_12_XQKFki",
-    "ss_product_videos_2_tcTXnc",
     "ss_hotspots_DBt6BY"
   ]
 }
