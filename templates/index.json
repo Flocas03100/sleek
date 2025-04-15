@@ -1385,7 +1385,7 @@
         "feature_row_mobile": 1,
         "feature_gap": 20,
         "feature_gap_mobile": 50,
-        "feature_padding_vertical": 0,
+        "feature_padding_vertical": 40,
         "feature_padding_horizontal": 56,
         "feature_radius": 16,
         "feature_border_thickness": 0,
