@@ -211,8 +211,8 @@
           "type": "collapsible_item",
           "settings": {
             "icon": "none",
-            "heading": "Pourquoi choisir ElyzeWay plutôt qu’une valise classique ?",
-            "content": "<p>Parce qu’elle regroupe plusieurs produits en un seul. Vous gagnez du temps, de l’espace, de l’argent. Et vous voyagez l’esprit léger, avec style.</p>",
+            "heading": "Y a-t-il des frais pour les retours ?",
+            "content": "<p>Des frais de restockage de 5 % seront appliqués à chaque retour effectué.</p>",
             "custom_liquid": "",
             "page": "",
             "open": false
