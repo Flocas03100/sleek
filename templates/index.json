@@ -1368,6 +1368,7 @@
           "settings": {
             "feature_title": "Paiement sécurisé",
             "feature_text": "Votre carte de crédit sera débitée une fois votre commande expédiée.",
+            "feature_image": "shopify://shop_images/affaires-et-finances.png",
             "feature_url": "",
             "hide_image": false
           }
