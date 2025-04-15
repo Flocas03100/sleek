@@ -107,8 +107,8 @@
           "type": "collapsible_item",
           "settings": {
             "icon": "none",
-            "heading": "Collapsible tab heading",
-            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
+            "heading": "Est-elle vraiment solide ?",
+            "content": "<p>Absolument. Sa coque est en polycarbonate haute résistance, conçue pour durer. Les roues sont silencieuses, fluides et renforcées. Les matériaux ont été choisis pour résister aux chocs et à l’usure des voyages fréquents</p>",
             "custom_liquid": "",
             "page": "",
             "open": false
