@@ -118,8 +118,8 @@
           "type": "collapsible_item",
           "settings": {
             "icon": "none",
-            "heading": "Collapsible tab heading",
-            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
+            "heading": "Pourquoi choisir ElyzeWay plutôt qu’une valise classique ?",
+            "content": "<p>Parce qu’elle regroupe plusieurs produits en un seul. Vous gagnez du temps, de l’espace, de l’argent. Et vous voyagez l’esprit léger, avec style.</p>",
             "custom_liquid": "",
             "page": "",
             "open": false
