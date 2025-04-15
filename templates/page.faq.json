@@ -234,7 +234,7 @@
           "settings": {
             "icon": "none",
             "heading": "Elyse Way propose-t-il une garantie sur ses produits ?",
-            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
+            "content": "<p>Oui, nous offrons une garantie à vie sur nos produits. Cette garantie couvre les défauts de fabrication et de matériaux sous conditions d'utilisation normale et d'entretien approprié.</p>",
             "custom_liquid": "",
             "page": "",
             "open": false
