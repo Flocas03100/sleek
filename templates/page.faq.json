@@ -353,7 +353,7 @@
           "settings": {
             "icon": "none",
             "heading": "Quand ma commande sera-t-elle expédiée ?",
-            "content": "<p>Nous expédions les commandes passées avant 15h00 GMT le jour même, du lundi au vendredi. Veuillez prévoir jusqu'à 72 heures pour le traitement de votre commande avant expédition. Un e-mail de confirmation avec le numéro de suivi vous sera envoyé une fois votre colis expédié.</p>",
+            "content": "<p>Nous expédions les commandes reçues avant 15h00 GMT le même jour, du lundi au vendredi. Toutefois, veuillez prévoir un délai de traitement allant jusqu’à 72 heures. Dès l’expédition, vous recevrez un e-mail contenant votre numéro de suivi.</p>",
             "custom_liquid": "",
             "page": "",
             "open": false
@@ -363,8 +363,8 @@
           "type": "collapsible_item",
           "settings": {
             "icon": "none",
-            "heading": "Quelles sont les conditions pour un retour ?",
-            "content": "<p>Pour que votre retour soit accepté, l'article doit être dans son état d'origine : non utilisé, avec les étiquettes intactes, et dans son emballage d'origine. Il est également nécessaire de fournir la preuve d'achat.</p>",
+            "heading": "D’où sont expédiées les commandes ?",
+            "content": "<p>Pour les commandes destinées à l’Union européenne, l’expédition se fait depuis notre entrepôt en Allemagne. Pour les autres destinations, nous expédions depuis l’entrepôt le plus proche de votre adresse.</p>",
             "custom_liquid": "",
             "page": "",
             "open": false
