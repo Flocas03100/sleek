@@ -35,50 +35,8 @@
             "heading_size": "h4",
             "image_width": 150,
             "text": "<p>Veuillez nous contacter par e-mail ou via notre formulaire de contact<br/><a href=\"/pages/nous-contacter\" title=\"Nous contacter\">Nous contacter</a><br/><a href=\"/pages/nous-contacter\" title=\"Nous contacter\">FAQ<br/>Paiement</a><br/><a href=\"/pages/notre-histoire\" title=\"Notre histoire\">Expédition & Livraison</a><br/><a href=\"/pages/nous-contacter\" title=\"Nous contacter\">Exchanges & retours</a>   </p>",
-            "button_label": "Nous contacter",
-            "button_link": "shopify://pages/contact",
-            "open_default": true,
-            "show_divider": false
-          }
-        },
-        "image_text_UKfG93": {
-          "type": "image_text",
-          "settings": {
-            "block_width": 25,
-            "heading": "",
-            "heading_size": "h4",
-            "image_width": 150,
-            "text": "",
-            "button_label": "Expédition et livraison",
-            "button_link": "shopify://pages/notre-histoire",
-            "open_default": true,
-            "show_divider": false
-          }
-        },
-        "image_text_7KbDT6": {
-          "type": "image_text",
-          "settings": {
-            "block_width": 25,
-            "heading": "",
-            "heading_size": "h4",
-            "image_width": 150,
-            "text": "",
-            "button_label": "échanges & retours",
-            "button_link": "shopify://pages/notre-histoire",
-            "open_default": true,
-            "show_divider": false
-          }
-        },
-        "image_text_F3FNhx": {
-          "type": "image_text",
-          "settings": {
-            "block_width": 25,
-            "heading": "",
-            "heading_size": "h4",
-            "image_width": 150,
-            "text": "",
-            "button_label": "Notre histoire",
-            "button_link": "shopify://pages/notre-histoire",
+            "button_label": "",
+            "button_link": "",
             "open_default": true,
             "show_divider": false
           }
@@ -86,10 +44,7 @@
       },
       "block_order": [
         "newsletter_3qCrWc",
-        "image_text_DVTDdh",
-        "image_text_UKfG93",
-        "image_text_7KbDT6",
-        "image_text_F3FNhx"
+        "image_text_DVTDdh"
       ],
       "custom_css": [
         ".form-control {--color-border: var(--color-field);}"
