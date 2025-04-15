@@ -375,7 +375,7 @@
           "settings": {
             "icon": "none",
             "heading": "Comment puis-je savoir quand ma commande arrivera ?",
-            "content": "<p>Le délai de livraison dépend de différents facteurs, c'est pour cela qu'un numéro de suivi vous sera fourni lors de votre commande.</p>",
+            "content": "<p>Dès l’expédition de votre commande, nous vous enverrons un e-mail avec un numéro de suivi. Notez que les informations de suivi peuvent prendre jusqu’à 48 heures pour être actualisées par les transporteurs.</p>",
             "custom_liquid": "",
             "page": "",
             "open": false
@@ -385,8 +385,8 @@
           "type": "collapsible_item",
           "settings": {
             "icon": "none",
-            "heading": "Que faire si mon produit arrive endommagé ou incomplet ?",
-            "content": "<p>Si votre commande arrive défectueuse, endommagée ou avec des articles manquants, contactez-nous dans un délai de 7 jours suivant la réception. Nous vous fournirons les instructions nécessaires pour effectuer un retour et procéderons à un remplacement ou un remboursement, selon votre préférence.</p>",
+            "heading": "Y a-t-il des options d’expédition accélérée ?",
+            "content": "<p>Nous proposons une expédition le jour même pour les commandes effectuées avant 15h00 GMT. Selon votre emplacement et le transporteur, des options d’expédition accélérée peuvent être disponibles lors du processus de paiement.</p>",
             "custom_liquid": "",
             "page": "",
             "open": false
