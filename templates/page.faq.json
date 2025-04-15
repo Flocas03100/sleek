@@ -178,8 +178,8 @@
           "type": "collapsible_item",
           "settings": {
             "icon": "none",
-            "heading": "Est-ce que la valise recharge mon téléphone ?",
-            "content": "<p>Oui. Un port USB est intégré sur la valise. Il suffit d’insérer votre batterie externe dans la poche dédiée, de la connecter, puis de brancher votre téléphone à l'extérieur.</p>",
+            "heading": "Quelles sont les conditions pour un retour ?",
+            "content": "<p>Pour que votre retour soit accepté, l'article doit être dans son état d'origine : non utilisé, avec les étiquettes intactes, et dans son emballage d'origine. Il est également nécessaire de fournir la preuve d'achat.</p>",
             "custom_liquid": "",
             "page": "",
             "open": false
