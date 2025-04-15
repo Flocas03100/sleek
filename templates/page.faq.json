@@ -255,8 +255,8 @@
           "type": "collapsible_item",
           "settings": {
             "icon": "none",
-            "heading": "Collapsible tab heading",
-            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
+            "heading": "Quelles sont les exclusions de la garantie à vie ?",
+            "content": "<p>La garantie ne couvre pas les dommages résultant d'une mauvaise utilisation, d'un accident, d'une négligence ou d'un abus. De plus, les dommages esthétiques tels que les rayures et les bosses, ainsi que ceux causés par un entretien inapproprié, ne sont pas couverts.</p>",
             "custom_liquid": "",
             "page": "",
             "open": false
