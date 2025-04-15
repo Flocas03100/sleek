@@ -189,8 +189,8 @@
           "type": "collapsible_item",
           "settings": {
             "icon": "none",
-            "heading": "La valise est-elle sécurisée ?",
-            "content": "<p>Oui. Elle dispose d’une serrure à code approuvée TSA. Cela permet aux autorités de l’ouvrir sans la casser lors des contrôles aléatoires</p>",
+            "heading": "Qui prend en charge les frais de retour ?",
+            "content": "<p>Les frais d'expédition liés au retour des produits sont à la charge du client.</p>",
             "custom_liquid": "",
             "page": "",
             "open": false
