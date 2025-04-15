@@ -18,9 +18,9 @@
           "type": "newsletter",
           "settings": {
             "block_width": 41,
-            "heading": "Besoin d'aide ?",
-            "heading_size": "h2",
-            "newsletter_description": "<p>Veuillez nous contacter par mail ou via notre formulaire de contact</p>",
+            "heading": "INSCRIPTION E-MAIL",
+            "heading_size": "h6",
+            "newsletter_description": "<p>Inscrivez-vous pour faire partie des premiers à recevoir toute notre actualité sur les nouvelles collections et les évènements spéciaux.</p>",
             "newsletter_term": "<p>En vous inscrivant, vous acceptez les conditions d'utilisation et la politique de confidentialité.</p>",
             "newsletter_text_alignment": "center",
             "form_width": 465,
