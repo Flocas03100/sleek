@@ -266,8 +266,8 @@
           "type": "collapsible_item",
           "settings": {
             "icon": "none",
-            "heading": "Collapsible tab heading",
-            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
+            "heading": "Comment faire une réclamation au titre de la garantie ?",
+            "content": "<p>Pour soumettre une demande de garantie, contactez notre service client à l'adresse <strong>contact@elyzeway.com</strong>. Vous devrez fournir la preuve d'achat et décrire le problème rencontré. Nous évaluerons la demande et si elle est approuvée, nous vous enverrons un produit de remplacement sans frais supplémentaires.</p>",
             "custom_liquid": "",
             "page": "",
             "open": false
