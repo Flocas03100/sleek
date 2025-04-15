@@ -34,7 +34,7 @@
             "heading": "Besoin d'aide",
             "heading_size": "h4",
             "image_width": 150,
-            "text": "<p>Veuillez nous contacter par e-mail ou via notre formulaire de contact<br/><a href=\"/pages/nous-contacter\" title=\"Nous contacter\">Contact</a></p>",
+            "text": "<p>Veuillez nous contacter par e-mail ou via notre formulaire de contact<br/><a href=\"/pages/nous-contacter\" title=\"Nous contacter\">Contact<br/></a></p>",
             "button_label": "Nous contacter",
             "button_link": "shopify://pages/contact",
             "open_default": false,
