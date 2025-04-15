@@ -1389,7 +1389,7 @@
         "feature_padding_horizontal": 56,
         "feature_radius": 16,
         "feature_border_thickness": 0,
-        "feature_shadow": true,
+        "feature_shadow": false,
         "feature_heading_custom": true,
         "feature_heading_font": "montserrat_n4",
         "feature_heading_size": 20,
