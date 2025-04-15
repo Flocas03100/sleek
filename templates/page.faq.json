@@ -352,8 +352,8 @@
           "type": "collapsible_item",
           "settings": {
             "icon": "none",
-            "heading": "Quel est le délai de retour chez Elyse Way ?",
-            "content": "<p>Chez Elyse Way, vous disposez de 100 jours à compter de la réception de votre commande pour retourner un produit. Si vous n'êtes pas satisfait, vous pouvez initier un retour dans les 7 jours suivant la livraison.</p>",
+            "heading": "Quand ma commande sera-t-elle expédiée ?",
+            "content": "<p>Nous expédions les commandes passées avant 15h00 GMT le jour même, du lundi au vendredi. Veuillez prévoir jusqu'à 72 heures pour le traitement de votre commande avant expédition. Un e-mail de confirmation avec le numéro de suivi vous sera envoyé une fois votre colis expédié.</p>",
             "custom_liquid": "",
             "page": "",
             "open": false
