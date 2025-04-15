@@ -1348,6 +1348,7 @@
           "settings": {
             "feature_title": "Retour gratuit",
             "feature_text": "Bénéficiez du retour gratuit sous 30 jours",
+            "feature_image": "shopify://shop_images/retour-de-produit.png",
             "feature_url": "",
             "hide_image": false
           }
