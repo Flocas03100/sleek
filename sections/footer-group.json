@@ -31,7 +31,21 @@
           "type": "image_text",
           "settings": {
             "block_width": 25,
-            "heading": "Besoin d'aide",
+            "heading": "BESOIN D'AIDE",
+            "heading_size": "h4",
+            "image_width": 150,
+            "text": "<p>Veuillez nous contacter par e-mail ou via notre formulaire de contact<br/><a href=\"/pages/nous-contacter\" title=\"Nous contacter\">Nous contacter</a><br/><a href=\"/pages/nous-contacter\" title=\"Nous contacter\">FAQ<br/>Paiement</a><br/><a href=\"/pages/notre-histoire\" title=\"Notre histoire\">Expédition & Livraison</a><br/><a href=\"/pages/nous-contacter\" title=\"Nous contacter\">Exchanges & retours</a>   </p>",
+            "button_label": "",
+            "button_link": "",
+            "open_default": true,
+            "show_divider": false
+          }
+        },
+        "image_text_eD6diA": {
+          "type": "image_text",
+          "settings": {
+            "block_width": 25,
+            "heading": "A PROPOS DE ELYSE",
             "heading_size": "h4",
             "image_width": 150,
             "text": "<p>Veuillez nous contacter par e-mail ou via notre formulaire de contact<br/><a href=\"/pages/nous-contacter\" title=\"Nous contacter\">Nous contacter</a><br/><a href=\"/pages/nous-contacter\" title=\"Nous contacter\">FAQ<br/>Paiement</a><br/><a href=\"/pages/notre-histoire\" title=\"Notre histoire\">Expédition & Livraison</a><br/><a href=\"/pages/nous-contacter\" title=\"Nous contacter\">Exchanges & retours</a>   </p>",
@@ -44,7 +58,8 @@
       },
       "block_order": [
         "newsletter_3qCrWc",
-        "image_text_DVTDdh"
+        "image_text_DVTDdh",
+        "image_text_eD6diA"
       ],
       "custom_css": [
         ".form-control {--color-border: var(--color-field);}"
