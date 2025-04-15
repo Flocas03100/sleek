@@ -167,8 +167,8 @@
           "type": "collapsible_item",
           "settings": {
             "icon": "none",
-            "heading": "La valise est-elle acceptée en cabine ?",
-            "content": "<p>Oui. ElyzeWay est conforme aux dimensions exigées par les compagnies. Elle est 100 % cabine, sa taille respecte les standards internationaux des bagages cabine.</p>",
+            "heading": "Quel est le délai de retour chez Elyse ?",
+            "content": "<p>Chez Elyse, vous disposez de 100 jours à compter de la réception de votre commande pour retourner un produit. Si vous n'êtes pas satisfait, vous pouvez initier un retour dans les 7 jours suivant la livraison.</p>",
             "custom_liquid": "",
             "page": "",
             "open": false
@@ -217,6 +217,83 @@
             "page": "",
             "open": false
           }
+        },
+        "collapsible_item_i4tx6n": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Collapsible tab heading",
+            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false
+          }
+        },
+        "collapsible_item_FdJRAA": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Collapsible tab heading",
+            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false
+          }
+        },
+        "collapsible_item_ignc8E": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Collapsible tab heading",
+            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false
+          }
+        },
+        "collapsible_item_T49j7K": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Collapsible tab heading",
+            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false
+          }
+        },
+        "collapsible_item_WzKnKt": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Collapsible tab heading",
+            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false
+          }
+        },
+        "collapsible_item_DneDzN": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Collapsible tab heading",
+            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false
+          }
+        },
+        "collapsible_item_D6bnEE": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Collapsible tab heading",
+            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false
+          }
         }
       },
       "block_order": [
@@ -225,7 +302,14 @@
         "collapsible_item_d6mH3z",
         "collapsible_item_3qAXeA",
         "collapsible_item_ry6Xtc",
-        "collapsible_item_XPhcQU"
+        "collapsible_item_XPhcQU",
+        "collapsible_item_i4tx6n",
+        "collapsible_item_FdJRAA",
+        "collapsible_item_ignc8E",
+        "collapsible_item_T49j7K",
+        "collapsible_item_WzKnKt",
+        "collapsible_item_DneDzN",
+        "collapsible_item_D6bnEE"
       ],
       "settings": {
         "container": "narrow",
