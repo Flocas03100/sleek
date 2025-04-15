@@ -200,8 +200,8 @@
           "type": "collapsible_item",
           "settings": {
             "icon": "none",
-            "heading": "Est-elle vraiment solide ?",
-            "content": "<p>Absolument. Sa coque est en polycarbonate haute résistance, conçue pour durer. Les roues sont silencieuses, fluides et renforcées. Les matériaux ont été choisis pour résister aux chocs et à l’usure des voyages fréquents</p>",
+            "heading": "Que faire si mon produit arrive endommagé ou incomplet ?",
+            "content": "<p>Si votre commande arrive défectueuse, endommagée ou avec des articles manquants, contactez-nous dans un délai de 7 jours suivant la réception. Nous vous fournirons les instructions nécessaires pour effectuer un retour et procéderons à un remplacement ou un remboursement, selon votre préférence.</p>",
             "custom_liquid": "",
             "page": "",
             "open": false
