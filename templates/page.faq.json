@@ -74,8 +74,8 @@
           "type": "collapsible_item",
           "settings": {
             "icon": "none",
-            "heading": "Collapsible tab heading",
-            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
+            "heading": "La valise est-elle acceptée en cabine ?",
+            "content": "<p>Oui. ElyzeWay est conforme aux dimensions exigées par les compagnies. Elle est 100 % cabine, sa taille respecte les standards internationaux des bagages cabine.</p>",
             "custom_liquid": "",
             "page": "",
             "open": true
