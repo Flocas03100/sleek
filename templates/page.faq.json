@@ -374,8 +374,8 @@
           "type": "collapsible_item",
           "settings": {
             "icon": "none",
-            "heading": "Qui prend en charge les frais de retour ?",
-            "content": "<p>Les frais d'expédition liés au retour des produits sont à la charge du client.</p>",
+            "heading": "Comment puis-je savoir quand ma commande arrivera ?",
+            "content": "<p>Le délai de livraison dépend de différents facteurs, c'est pour cela qu'un numéro de suivi vous sera fourni lors de votre commande.</p>",
             "custom_liquid": "",
             "page": "",
             "open": false
