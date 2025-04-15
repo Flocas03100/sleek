@@ -155,26 +155,12 @@
     "collapsible_tabs_F6WRCe": {
       "type": "collapsible-tabs",
       "blocks": {
-        "image_card_p7giEK": {
-          "type": "image_card",
+        "heading_mnpqfc": {
+          "type": "heading",
           "settings": {
-            "color_scheme": "scheme-inverse",
-            "desktop_image_position": "left",
-            "image_width": 34,
-            "alignment": "start",
-            "image_ratio": "adapt",
-            "image_overlay_opacity": 20,
-            "heading": "Image card",
-            "heading_size": "h1",
-            "subheading": "",
-            "description": "<p>Give customers details about your store</p>",
-            "button_label": "Button label",
-            "button_style": "btn--primary",
-            "content_position": "middle-center",
-            "content_alignment": "center",
-            "content_spacing": "medium",
-            "card_link": "",
-            "order_first": false
+            "heading": "<strong>ELYSE WAY – FAQ SUR LA POLITIQUE DE RETOURS ET DE REMBOURSEMENTS </strong>",
+            "heading_size": "h6",
+            "sub_heading": ""
           }
         },
         "collapsible_item_drBUw6": {
@@ -234,7 +220,7 @@
         }
       },
       "block_order": [
-        "image_card_p7giEK",
+        "heading_mnpqfc",
         "collapsible_item_drBUw6",
         "collapsible_item_d6mH3z",
         "collapsible_item_3qAXeA",
