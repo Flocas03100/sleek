@@ -244,8 +244,8 @@
           "type": "collapsible_item",
           "settings": {
             "icon": "none",
-            "heading": "Collapsible tab heading",
-            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
+            "heading": "Que couvre exactement la garantie à vie ?",
+            "content": "<p>La garantie couvre les défauts de fabrication ou de matériaux qui compromettent l’utilisation prévue du produit, y compris les dysfonctionnements des composants essentiels et des défauts structurels qui affectent la fonctionnalité du produit.</p>",
             "custom_liquid": "",
             "page": "",
             "open": false
