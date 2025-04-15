@@ -233,7 +233,7 @@
           "type": "collapsible_item",
           "settings": {
             "icon": "none",
-            "heading": "Collapsible tab heading",
+            "heading": "Elyse Way propose-t-il une garantie sur ses produits ?",
             "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
             "custom_liquid": "",
             "page": "",
