@@ -222,8 +222,8 @@
           "type": "collapsible_item",
           "settings": {
             "icon": "none",
-            "heading": "Collapsible tab heading",
-            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
+            "heading": "Comment le remboursement est-il effectué ?",
+            "content": "<p>Une fois que nous aurons reçu et inspecté votre retour, nous vous enverrons une confirmation. Si le retour est approuvé, vous serez remboursé via votre méthode de paiement initiale. Le remboursement peut prendre jusqu'à 5 jours ouvrables pour être traité par votre institution financière.</p>",
             "custom_liquid": "",
             "page": "",
             "open": false
