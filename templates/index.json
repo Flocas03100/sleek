@@ -1338,6 +1338,7 @@
           "settings": {
             "feature_title": "Garantie à vie",
             "feature_text": "Pour tous les dommages fonctionnels causés à votre valise",
+            "feature_image": "shopify://shop_images/la-satisfaction.png",
             "feature_url": "",
             "hide_image": false
           }
