@@ -277,8 +277,8 @@
           "type": "collapsible_item",
           "settings": {
             "icon": "none",
-            "heading": "Collapsible tab heading",
-            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
+            "heading": "La garantie est-elle transférable ?",
+            "content": "<p>Non, la garantie est uniquement valable pour l'acheteur original et ne peut pas être transférée à une autre personne.</p>",
             "custom_liquid": "",
             "page": "",
             "open": false
