@@ -1358,6 +1358,7 @@
           "settings": {
             "feature_title": "Sécurité renforcée",
             "feature_text": "Serrures certifiées norme TSA",
+            "feature_image": "shopify://shop_images/la-cyber-securite.png",
             "feature_url": "",
             "hide_image": false
           }
