@@ -413,72 +413,6 @@
             "page": "",
             "open": false
           }
-        },
-        "collapsible_item_GXPH4K": {
-          "type": "collapsible_item",
-          "settings": {
-            "icon": "none",
-            "heading": "Elyse Way propose-t-il une garantie sur ses produits ?",
-            "content": "<p>Oui, nous offrons une garantie à vie sur nos produits. Cette garantie couvre les défauts de fabrication et de matériaux sous conditions d'utilisation normale et d'entretien approprié.</p>",
-            "custom_liquid": "",
-            "page": "",
-            "open": false
-          }
-        },
-        "collapsible_item_eCh9LL": {
-          "type": "collapsible_item",
-          "settings": {
-            "icon": "none",
-            "heading": "Que couvre exactement la garantie à vie ?",
-            "content": "<p>La garantie couvre les défauts de fabrication ou de matériaux qui compromettent l’utilisation prévue du produit, y compris les dysfonctionnements des composants essentiels et des défauts structurels qui affectent la fonctionnalité du produit.</p>",
-            "custom_liquid": "",
-            "page": "",
-            "open": false
-          }
-        },
-        "collapsible_item_pr68hD": {
-          "type": "collapsible_item",
-          "settings": {
-            "icon": "none",
-            "heading": "Quelles sont les exclusions de la garantie à vie ?",
-            "content": "<p>La garantie ne couvre pas les dommages résultant d'une mauvaise utilisation, d'un accident, d'une négligence ou d'un abus. De plus, les dommages esthétiques tels que les rayures et les bosses, ainsi que ceux causés par un entretien inapproprié, ne sont pas couverts.</p>",
-            "custom_liquid": "",
-            "page": "",
-            "open": false
-          }
-        },
-        "collapsible_item_WLPBMz": {
-          "type": "collapsible_item",
-          "settings": {
-            "icon": "none",
-            "heading": "Comment faire une réclamation au titre de la garantie ?",
-            "content": "<p>Pour soumettre une demande de garantie, contactez notre service client à l'adresse <strong>contact@elyzeway.com</strong>. Vous devrez fournir la preuve d'achat et décrire le problème rencontré. Nous évaluerons la demande et si elle est approuvée, nous vous enverrons un produit de remplacement sans frais supplémentaires.</p>",
-            "custom_liquid": "",
-            "page": "",
-            "open": false
-          }
-        },
-        "collapsible_item_eB7kGc": {
-          "type": "collapsible_item",
-          "settings": {
-            "icon": "none",
-            "heading": "La garantie est-elle transférable ?",
-            "content": "<p>Non, la garantie est uniquement valable pour l'acheteur original et ne peut pas être transférée à une autre personne.</p>",
-            "custom_liquid": "",
-            "page": "",
-            "open": false
-          }
-        },
-        "collapsible_item_HVTNMw": {
-          "type": "collapsible_item",
-          "settings": {
-            "icon": "none",
-            "heading": "Comment contacter Elyse pour des questions sur les retours, les remboursements ou la garantie ?",
-            "content": "<p>Pour toute question ou demande concernant un retour, un remboursement ou une réclamation de garantie, vous pouvez nous joindre par email à <strong>contact@elyzeway.com</strong>.</p>",
-            "custom_liquid": "",
-            "page": "",
-            "open": false
-          }
         }
       },
       "block_order": [
@@ -488,13 +422,7 @@
         "collapsible_item_ewDFHd",
         "collapsible_item_KR4PKg",
         "collapsible_item_W78wby",
-        "collapsible_item_PcYHC9",
-        "collapsible_item_GXPH4K",
-        "collapsible_item_eCh9LL",
-        "collapsible_item_pr68hD",
-        "collapsible_item_WLPBMz",
-        "collapsible_item_eB7kGc",
-        "collapsible_item_HVTNMw"
+        "collapsible_item_PcYHC9"
       ],
       "settings": {
         "container": "narrow",
