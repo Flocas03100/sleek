@@ -1846,7 +1846,9 @@
     "custom_css": [
       ".product__badges {display: none !important;}",
       "@media screen and (max-width: 768px) {.product__media-wrapper {margin-left: calc(-1 * var(--page-padding)) !important; margin-right: calc(-1 * var(--page-padding)) !important; width: 100vw !important; max-width: 100vw !important; } .product__media-list {width: 100vw !important; max-width: 100vw !important; } .product__media {width: 100vw !important; max-width: 100vw !important; } .media.media--transparent.media--adapt {border-radius: 0 !important; }}",
-      "media-gallery {position: sticky !importnat;}"
+      "media-gallery {position: sticky !importnat;}",
+      ".accordion-details__summary{font-size:11px!important;padding:6px 0!important}",
+      ".accordion-details__summary svg{width:12px!important;height:12px!important}"
     ]
   }
 }
