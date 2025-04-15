@@ -396,8 +396,8 @@
           "type": "collapsible_item",
           "settings": {
             "icon": "none",
-            "heading": "Y a-t-il des frais pour les retours ?",
-            "content": "<p>Des frais de restockage de 5 % seront appliqués à chaque retour effectué.</p>",
+            "heading": "Que faire si ma commande subit un retard ?",
+            "content": "<p>Les délais de livraison peuvent parfois être affectés par des circonstances imprévues. Nous vous conseillons de suivre votre colis grâce au numéro de suivi fourni. Si le retard est significatif, n’hésitez pas à contacter notre service client pour obtenir de l’aide.</p>",
             "custom_liquid": "",
             "page": "",
             "open": false
