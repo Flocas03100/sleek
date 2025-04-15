@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "breadcrumbs_RzgTi9": {
@@ -8,7 +17,6 @@
     },
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -17,30 +25,24 @@
     "rich_text_rwWQrL": {
       "type": "rich-text",
       "blocks": {
-        "heading_GeX69R": {
-          "type": "heading",
-          "settings": {
-            "heading": "Discover more in our FAQ",
-            "heading_size": "hd2"
-          }
-        },
         "text_nb9hEL": {
           "type": "text",
           "settings": {
-            "text": "<p>Have a question or comment? Don't be shy: Reach out and say hi! <br\/>Support hours: Monday-Friday, 7am-3pm<\/p>",
-            "text_size": "text-lg"
+            "text": "<p>Vous avez une question ou un commentaire ? Ne soyez pas timide : Prenez contact avec nous et dites-nous bonjour ! Heures d'ouverture du service d'assistance : Du lundi au vendredi, de 8 h à 17 h</p>",
+            "text_size": "text-sm"
           }
         }
       },
       "block_order": [
-        "heading_GeX69R",
         "text_nb9hEL"
       ],
       "settings": {
         "color_scheme": "",
         "content_alignment": "center",
         "padding_top": 36,
-        "padding_bottom": 0
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "fixed"
       }
     },
     "collapsible_tabs_phAkEE": {
@@ -58,12 +60,13 @@
             "heading": "Image card",
             "heading_size": "h1",
             "subheading": "",
-            "description": "<p>Give customers details about your store<\/p>",
+            "description": "<p>Give customers details about your store</p>",
             "button_label": "Button label",
             "button_style": "btn--primary",
             "content_position": "middle-center",
             "content_alignment": "center",
             "content_spacing": "medium",
+            "card_link": "",
             "order_first": false
           }
         },
@@ -72,7 +75,7 @@
           "settings": {
             "icon": "none",
             "heading": "Collapsible tab heading",
-            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.<\/p>",
+            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
             "custom_liquid": "",
             "page": "",
             "open": true
@@ -83,7 +86,7 @@
           "settings": {
             "icon": "none",
             "heading": "Collapsible tab heading",
-            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.<\/p>",
+            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
             "custom_liquid": "",
             "page": "",
             "open": false
@@ -94,7 +97,7 @@
           "settings": {
             "icon": "none",
             "heading": "Collapsible tab heading",
-            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.<\/p>",
+            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
             "custom_liquid": "",
             "page": "",
             "open": false
@@ -105,7 +108,7 @@
           "settings": {
             "icon": "none",
             "heading": "Collapsible tab heading",
-            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.<\/p>",
+            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
             "custom_liquid": "",
             "page": "",
             "open": false
@@ -116,7 +119,7 @@
           "settings": {
             "icon": "none",
             "heading": "Collapsible tab heading",
-            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.<\/p>",
+            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
             "custom_liquid": "",
             "page": "",
             "open": false
@@ -143,8 +146,10 @@
         "header_layout": "vertical",
         "heading": "",
         "heading_size": "h1",
+        "heading_highlight_style": "none",
         "subheading": "",
         "description": "",
+        "text_size": "text-base",
         "button_label": "",
         "button_link": "",
         "button_style": "btn--primary",
@@ -154,8 +159,11 @@
         "item_color_scheme": "",
         "item_heading_font": "heading",
         "item_heading_size": "h3",
+        "item_icon_size": "extra-large",
         "padding_top": 80,
-        "padding_bottom": 100
+        "padding_bottom": 100,
+        "show_section_divider": false,
+        "divider_width": "fixed"
       }
     }
   },
