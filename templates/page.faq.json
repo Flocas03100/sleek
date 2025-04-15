@@ -288,8 +288,8 @@
           "type": "collapsible_item",
           "settings": {
             "icon": "none",
-            "heading": "Collapsible tab heading",
-            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
+            "heading": "Comment contacter Elyse pour des questions sur les retours, les remboursements ou la garantie ?",
+            "content": "<p>Pour toute question ou demande concernant un retour, un remboursement ou une réclamation de garantie, vous pouvez nous joindre par email à <strong>contact@elyzeway.com</strong>.</p>",
             "custom_liquid": "",
             "page": "",
             "open": false
