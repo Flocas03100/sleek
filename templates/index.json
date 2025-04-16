@@ -761,7 +761,7 @@
         "color_scheme": "scheme-4",
         "image": "shopify://shop_images/ezgif.com-animated-gif-maker.gif",
         "image_height": "adapt",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "center",
         "desktop_content_alignment": "center",
         "enable_parallax": false,
