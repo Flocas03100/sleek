@@ -55,18 +55,15 @@
             "show_divider": true
           }
         },
-        "image_text_8cgxDi": {
-          "type": "image_text",
+        "menu_T7wdp7": {
+          "type": "menu",
           "settings": {
             "block_width": 25,
             "heading": "LEGAL",
             "heading_size": "h4",
-            "image_width": 150,
-            "text": "<p>Conditions Générales de vente<br/>Politique de retours<br/></p>",
-            "button_label": "",
-            "button_link": "",
+            "menu": "l-gal",
             "open_default": false,
-            "show_divider": true
+            "show_divider": false
           }
         }
       },
@@ -74,7 +71,7 @@
         "newsletter_3qCrWc",
         "image_text_DVTDdh",
         "image_text_eD6diA",
-        "image_text_8cgxDi"
+        "menu_T7wdp7"
       ],
       "custom_css": [
         ".form-control {--color-border: var(--color-field);}"
