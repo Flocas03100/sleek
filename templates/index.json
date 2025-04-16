@@ -698,7 +698,7 @@
       "settings": {
         "color_scheme": "",
         "vertical_alignment": "center",
-        "direction": "left",
+        "direction": "right",
         "pause_on_hover": true,
         "speed": 0.2,
         "h_spacing": 50,
@@ -730,9 +730,9 @@
       "settings": {
         "color_scheme": "",
         "vertical_alignment": "center",
-        "direction": "left",
+        "direction": "right",
         "pause_on_hover": true,
-        "speed": 0.8,
+        "speed": 0.9,
         "h_spacing": 0,
         "v_spacing": 0,
         "padding_top": 0,
