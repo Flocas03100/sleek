@@ -31,7 +31,7 @@
           "type": "menu",
           "settings": {
             "block_width": 25,
-            "heading": "À PROPOS DE ELYSE",
+            "heading": "À PROPOS DE ELYZE",
             "heading_size": "h4",
             "menu": "propos-de-elyze",
             "open_default": false,
