@@ -61,7 +61,7 @@
             "block_width": 25,
             "heading": "LEGAL",
             "heading_size": "h4",
-            "menu": "l-gal",
+            "menu": "legal",
             "open_default": false,
             "show_divider": false
           }
