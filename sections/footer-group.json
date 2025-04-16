@@ -53,7 +53,7 @@
           "type": "menu",
           "settings": {
             "block_width": 25,
-            "heading": "LEGAL",
+            "heading": "LÉGAL",
             "heading_size": "h4",
             "menu": "legal",
             "open_default": false,
