@@ -1238,12 +1238,6 @@
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
         },
-        "judge_me_reviews_featured_carousel_A6aCUd": {
-          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "maxwidth": 1080
-          }
-        },
         "judge_me_reviews_medals_jXAmjk": {
           "type": "shopify://apps/judge-me-reviews/blocks/medals/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
@@ -1252,7 +1246,6 @@
       "block_order": [
         "judge_me_reviews_all_reviews_text_jkbjCk",
         "judge_me_reviews_review_widget_i46DAh",
-        "judge_me_reviews_featured_carousel_A6aCUd",
         "judge_me_reviews_medals_jXAmjk"
       ],
       "settings": {
