@@ -744,6 +744,14 @@
     "image_with_text_PWanT8": {
       "type": "image-with-text",
       "blocks": {
+        "heading_QKB3CL": {
+          "type": "heading",
+          "settings": {
+            "heading": "Le style ne prend jamais de pause, même en voyage",
+            "heading_size": "h3",
+            "heading_highlight_style": "none"
+          }
+        },
         "button_w8N6Pf": {
           "type": "button",
           "settings": {
@@ -754,6 +762,7 @@
         }
       },
       "block_order": [
+        "heading_QKB3CL",
         "button_w8N6Pf"
       ],
       "settings": {
