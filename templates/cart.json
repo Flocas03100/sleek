@@ -57,7 +57,7 @@
         "description": "",
         "text_size": "text-base",
         "show_collection_description": false,
-        "collection": "",
+        "collection": "les-produits-elyze",
         "limit": 4,
         "columns": 4,
         "column_gap": "extra-small",
