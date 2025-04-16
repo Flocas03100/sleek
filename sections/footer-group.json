@@ -65,13 +65,25 @@
             "open_default": false,
             "show_divider": false
           }
+        },
+        "menu_Mkem7P": {
+          "type": "menu",
+          "settings": {
+            "block_width": 25,
+            "heading": "À PROPOS DE ELYSE",
+            "heading_size": "h4",
+            "menu": "main-menu",
+            "open_default": false,
+            "show_divider": false
+          }
         }
       },
       "block_order": [
         "newsletter_3qCrWc",
         "image_text_DVTDdh",
         "image_text_eD6diA",
-        "menu_T7wdp7"
+        "menu_T7wdp7",
+        "menu_Mkem7P"
       ],
       "custom_css": [
         ".form-control {--color-border: var(--color-field);}"
