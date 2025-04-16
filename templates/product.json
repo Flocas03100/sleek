@@ -1225,7 +1225,11 @@
     "1744809113069b229a": {
       "type": "apps",
       "blocks": {
-        "judge_me_reviews_review_widget_NagrzJ": {
+        "judge_me_reviews_all_reviews_text_jkbjCk": {
+          "type": "shopify://apps/judge-me-reviews/blocks/all_reviews_text/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "judge_me_reviews_review_widget_i46DAh": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
         },
@@ -1235,35 +1239,16 @@
             "maxwidth": 1080
           }
         },
-        "judge_me_reviews_all_reviews_text_jkbjCk": {
-          "type": "shopify://apps/judge-me-reviews/blocks/all_reviews_text/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
-        },
         "judge_me_reviews_medals_jXAmjk": {
           "type": "shopify://apps/judge-me-reviews/blocks/medals/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
-        },
-        "judge_me_reviews_preview_badge_g93BPx": {
-          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
-        },
-        "judge_me_reviews_ugc_media_grid_A7iMx9": {
-          "type": "shopify://apps/judge-me-reviews/blocks/ugc_media_grid/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
-        },
-        "judge_me_reviews_verified_badge_ze4Ngi": {
-          "type": "shopify://apps/judge-me-reviews/blocks/verified_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
         }
       },
       "block_order": [
-        "judge_me_reviews_review_widget_NagrzJ",
-        "judge_me_reviews_featured_carousel_A6aCUd",
         "judge_me_reviews_all_reviews_text_jkbjCk",
-        "judge_me_reviews_medals_jXAmjk",
-        "judge_me_reviews_preview_badge_g93BPx",
-        "judge_me_reviews_ugc_media_grid_A7iMx9",
-        "judge_me_reviews_verified_badge_ze4Ngi"
+        "judge_me_reviews_review_widget_i46DAh",
+        "judge_me_reviews_featured_carousel_A6aCUd",
+        "judge_me_reviews_medals_jXAmjk"
       ],
       "settings": {
         "include_margins": true,
