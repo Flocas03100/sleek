@@ -27,32 +27,26 @@
             "order_first": false
           }
         },
-        "image_text_DVTDdh": {
-          "type": "image_text",
-          "settings": {
-            "block_width": 25,
-            "heading": "BESOIN D'AIDE",
-            "heading_size": "h4",
-            "image_width": 150,
-            "text": "<p>Veuillez nous contacter par e-mail ou via notre formulaire de contact<br/><a href=\"/pages/nous-contacter\" title=\"Nous contacter\">Nous contacter</a><br/><a href=\"/pages/faq\" title=\"FAQ\">FAQ<br/>Paiement</a><br/><a href=\"/pages/notre-histoire\" title=\"Notre histoire\">Expédition & Livraison</a><br/><a href=\"/pages/nous-contacter\" title=\"Nous contacter\">Exchanges & retours</a>   <br/><a href=\"/pages/contact\" title=\"Contact\">Suivre une commande</a></p>",
-            "button_label": "",
-            "button_link": "",
-            "open_default": false,
-            "show_divider": true
-          }
-        },
-        "image_text_eD6diA": {
-          "type": "image_text",
+        "menu_Mkem7P": {
+          "type": "menu",
           "settings": {
             "block_width": 25,
             "heading": "À PROPOS DE ELYSE",
             "heading_size": "h4",
-            "image_width": 150,
-            "text": "<p><a href=\"/pages/notre-histoire\" title=\"Notre histoire\">Notre histoire</a><br/><a href=\"/collections/all\" title=\"Tous les produits\">Tous les produits</a></p>",
-            "button_label": "",
-            "button_link": "",
+            "menu": "propos-de-elyze",
             "open_default": false,
-            "show_divider": true
+            "show_divider": false
+          }
+        },
+        "menu_HicYbk": {
+          "type": "menu",
+          "settings": {
+            "block_width": 25,
+            "heading": "BESOIN D'AIDE",
+            "heading_size": "h4",
+            "menu": "besoin-daide",
+            "open_default": false,
+            "show_divider": false
           }
         },
         "menu_T7wdp7": {
@@ -65,37 +59,13 @@
             "open_default": false,
             "show_divider": false
           }
-        },
-        "menu_Mkem7P": {
-          "type": "menu",
-          "settings": {
-            "block_width": 25,
-            "heading": "À PROPOS DE ELYSE",
-            "heading_size": "h4",
-            "menu": "main-menu",
-            "open_default": false,
-            "show_divider": false
-          }
-        },
-        "menu_HicYbk": {
-          "type": "menu",
-          "settings": {
-            "block_width": 25,
-            "heading": "Besoin d'aide",
-            "heading_size": "h4",
-            "menu": "footer",
-            "open_default": false,
-            "show_divider": false
-          }
         }
       },
       "block_order": [
         "newsletter_3qCrWc",
-        "image_text_DVTDdh",
-        "image_text_eD6diA",
-        "menu_T7wdp7",
         "menu_Mkem7P",
-        "menu_HicYbk"
+        "menu_HicYbk",
+        "menu_T7wdp7"
       ],
       "custom_css": [
         ".form-control {--color-border: var(--color-field);}"
