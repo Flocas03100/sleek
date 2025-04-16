@@ -529,7 +529,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/10.png",
-            "image_height": 120,
+            "image_height": 72,
             "image_rounded": false,
             "image_link": "",
             "image_height_mobile": 90
@@ -549,7 +549,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/4_5e532ebf-2b69-4ba9-969e-8a289d8271d6.png",
-            "image_height": 120,
+            "image_height": 72,
             "image_rounded": false,
             "image_link": "",
             "image_height_mobile": 90
@@ -569,7 +569,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/3_46c6b50e-2871-433e-9cd7-601bf60825e0.png",
-            "image_height": 120,
+            "image_height": 72,
             "image_rounded": false,
             "image_link": "",
             "image_height_mobile": 90
@@ -589,7 +589,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/6_c19f6397-15b5-4b6f-846f-6aa46b7e46e2.png",
-            "image_height": 120,
+            "image_height": 72,
             "image_rounded": false,
             "image_link": "",
             "image_height_mobile": 90
@@ -609,7 +609,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/5_80bb9c61-9301-49db-a183-c263d37349e7.png",
-            "image_height": 120,
+            "image_height": 72,
             "image_rounded": false,
             "image_link": "",
             "image_height_mobile": 90
@@ -629,7 +629,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/9_659d8717-0560-4b2f-9485-e51d8a62b384.png",
-            "image_height": 120,
+            "image_height": 72,
             "image_rounded": false,
             "image_link": "",
             "image_height_mobile": 90
@@ -649,7 +649,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/8_422dd771-2191-4c39-98a2-96b9a8420145.png",
-            "image_height": 120,
+            "image_height": 72,
             "image_rounded": false,
             "image_link": "",
             "image_height_mobile": 90
@@ -669,7 +669,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/7_24abd0b3-bfb8-4d97-ba22-15d671db0f88.png",
-            "image_height": 120,
+            "image_height": 72,
             "image_rounded": false,
             "image_link": "",
             "image_height_mobile": 90
@@ -716,7 +716,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Copie_de_ELYZE_6.png",
-            "image_height": 120,
+            "image_height": 60,
             "image_rounded": false,
             "image_link": "",
             "image_height_mobile": 90
