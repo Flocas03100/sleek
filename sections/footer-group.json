@@ -17,7 +17,7 @@
         "newsletter_3qCrWc": {
           "type": "newsletter",
           "settings": {
-            "block_width": 41,
+            "block_width": 25,
             "heading": "INSCRIPTION E-MAIL",
             "heading_size": "h6",
             "newsletter_description": "<p>Inscrivez-vous pour faire partie des premiers à recevoir toute notre actualité sur les nouvelles collections et les évènements spéciaux.</p>",
