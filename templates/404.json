@@ -1,1 +1,67 @@
-{"sections":{"main":{"type":"main-404","settings":{}}},"order":["main"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-404",
+      "disabled": true,
+      "settings": {}
+    },
+    "custom_content_BataGP": {
+      "type": "custom-content",
+      "blocks": {
+        "text_n7qJDQ": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1",
+            "heading_highlight_style": "none",
+            "subheading": "",
+            "description": "",
+            "text_size": "text-base",
+            "button_label": "Voir nos produits",
+            "button_link": "shopify://collections/les-produits-elyze",
+            "button_style": "btn--primary",
+            "content_alignment": "center",
+            "width": "100%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_n7qJDQ"
+      ],
+      "name": "t:sections.custom-content.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "enable_sticky_column": false,
+        "heading": "Page non trouvée, mais nous avons trouvé ce qu'il vous faut",
+        "heading_size": "h1",
+        "heading_highlight_style": "none",
+        "subheading": "",
+        "description": "",
+        "column_gap": "medium",
+        "row_gap": "large",
+        "swipe_on_mobile": false,
+        "columns_mobile": "1",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_content_BataGP"
+  ]
+}
