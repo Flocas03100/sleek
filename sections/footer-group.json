@@ -76,6 +76,17 @@
             "open_default": false,
             "show_divider": false
           }
+        },
+        "menu_HicYbk": {
+          "type": "menu",
+          "settings": {
+            "block_width": 25,
+            "heading": "Besoin d'aide",
+            "heading_size": "h4",
+            "menu": "footer",
+            "open_default": false,
+            "show_divider": false
+          }
         }
       },
       "block_order": [
@@ -83,7 +94,8 @@
         "image_text_DVTDdh",
         "image_text_eD6diA",
         "menu_T7wdp7",
-        "menu_Mkem7P"
+        "menu_Mkem7P",
+        "menu_HicYbk"
       ],
       "custom_css": [
         ".form-control {--color-border: var(--color-field);}"
