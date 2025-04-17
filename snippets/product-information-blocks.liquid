@@ -356,39 +356,42 @@
               product_id: product.id
             -%}
           </div>
-                  <div id="shipping-timer" style="margin-top: -4px; padding: 0; display: flex; align-items: center; justify-content: center; gap: 8px;">
-  <span style="display:inline-block; width:8px; height:8px; border-radius:50%; background-color:#F97316; animation:pulse 1.5s infinite;"></span>
-  <p class="shipping-timer-text" style="font-size:14px; margin: 0;">
-    Commandez avant <span id="deadline-hour"></span> pour une expédition aujourd’hui
-  </p>
+                  <div id="shipping-timer-wrapper" style="margin-top: 0;">
+  <div
+    id="shipping-timer"
+    style="padding-top: 0; margin-top: -6px; display: flex; align-items: center; justify-content: center; gap: 6px;"
+  >
+    <span class="dot-pulse" style="width: 8px; height: 8px; border-radius: 50%; background-color: #1A1A1A; animation: pulse 1.5s infinite;"></span>
+    <span style="font-size: 14px;">Commandez avant <span id="shipping-hour"></span> pour une expédition aujourd’hui</span>
+  </div>
 </div>
 
 <style>
-@keyframes pulse {
-  0% { transform: scale(1); opacity: 1; }
-  50% { transform: scale(1.5); opacity: 0.5; }
-  100% { transform: scale(1); opacity: 1; }
-}
+  @keyframes pulse {
+    0% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.5); opacity: 0.5; }
+    100% { transform: scale(1); opacity: 1; }
+  }
 
-@media (max-width: 767px) {
-  .shipping-timer-text {
-    font-size: 12px !important;
+  @media screen and (max-width: 749px) {
+    #shipping-timer span {
+      font-size: 12px !important;
+    }
   }
-  #shipping-timer {
-    gap: 6px;
-  }
-}
 </style>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
+  function getNextShippingHour(interval = 3) {
     const now = new Date();
-    const interval = 3 * 60 * 60 * 1000;
-    const next = new Date(Math.ceil(now.getTime() / interval) * interval);
-    next.setMinutes(0, 0, 0);
+    const currentHour = now.getHours();
+    const rounded = Math.ceil(currentHour / interval) * interval;
+    return (rounded >= 24 ? 23 : rounded).toString().padStart(2, '0') + 'h';
+  }
 
-    const hours = next.getHours().toString().padStart(2, '0');
-    document.getElementById("deadline-hour").textContent = hours + "h";
+  document.addEventListener("DOMContentLoaded", function () {
+    const shippingHour = getNextShippingHour();
+    const span = document.getElementById("shipping-hour");
+    if (span) span.textContent = shippingHour;
   });
 </script>
         {%- when 'pickup_availability' -%}
