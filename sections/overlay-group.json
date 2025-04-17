@@ -18,7 +18,7 @@
         "show_shipping_rates_calculator": true,
         "show_free_shipping_goal": true,
         "enable_cart_recommendations": true,
-        "cart_recommendations_heading": "You may also like",
+        "cart_recommendations_heading": "Vous pourriez aimer",
         "cart_recommendations_limit": 3
       }
     },
