@@ -356,39 +356,32 @@
               product_id: product.id
             -%}
           </div>
-                  <div
+              <div
   id="shipping-countdown"
-  style="margin-top: 4px; text-align: center; font-size: 13px; font-weight: 500; color: #1A1A1A;"
+  style="margin-top: 0; padding-top: 2px; text-align: center; font-size: 13px; font-weight: 500; color: #1A1A1A;"
 >
   <span class="pulse-dot" style="width: 8px; height: 8px; background-color: #10B981; border-radius: 9999px; display: inline-block; animation: pulse 1.5s infinite; vertical-align: middle; margin-right: 6px;"></span>
-  <span id="countdown-text">Chargement...</span>
+  <span id="countdown-text">Commandez avant 18h00 pour une expédition aujourd’hui</span>
 </div>
 
 <script>
-  function updateCountdownHour() {
+  document.addEventListener("DOMContentLoaded", function () {
+    const countdownText = document.getElementById("countdown-text");
     const now = new Date();
-    const currentHour = now.getHours();
-    const resetHour = currentHour - (currentHour % 6) + 6;
-    const targetTime = new Date(now.getFullYear(), now.getMonth(), now.getDate(), resetHour, 0, 0);
-    if (targetTime < now) targetTime.setHours(targetTime.getHours() + 6);
-
-    const hours = targetTime.getHours().toString().padStart(2, '0');
-    const minutes = targetTime.getMinutes().toString().padStart(2, '0');
-    const formattedTime = `${hours}h${minutes}`;
-    document.getElementById('countdown-text').textContent =
-      `Commande avant ${formattedTime} pour une expédition aujourd’hui`;
-  }
-
-  updateCountdownHour();
+    now.setHours(now.getHours() + 3); // délai de 3h
+    const hours = now.getHours().toString().padStart(2, '0');
+    const minutes = now.getMinutes().toString().padStart(2, '0');
+    countdownText.textContent = `Commandez avant ${hours}h${minutes} pour une expédition aujourd’hui`;
+  });
 </script>
 
 <style>
-@keyframes pulse {
-  0% { transform: scale(1); opacity: 1; }
-  50% { transform: scale(1.8); opacity: 0.4; }
-  100% { transform: scale(1); opacity: 1; }
-}
-</style>
+  @keyframes pulse {
+    0% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.5); opacity: 0.6; }
+    100% { transform: scale(1); opacity: 1; }
+  }
+</style>    
         {%- when 'pickup_availability' -%}
           <div
             class="product__block product__block--{{ block.type }}"
