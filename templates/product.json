@@ -50,10 +50,6 @@
             "show_inventory_quantity": true
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {}
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -86,6 +82,7 @@
         },
         "complementary": {
           "type": "complementary",
+          "disabled": true,
           "settings": {
             "block_heading": "Pairs well with",
             "make_collapsible_row": false,
@@ -101,6 +98,10 @@
           "settings": {
             "custom_liquid": "<div style=\"\n  background-color: #f6f4f0;\n  font-family: 'Montserrat', sans-serif;\n  padding: 30px 20px 20px;\n  border-radius: 10px;\n\">\n  <style>\n    .feature-clean-grid {\n      display: flex;\n      flex-wrap: wrap;\n      justify-content: space-between;\n      gap: 18px 0;\n    }\n\n    .feature-clean-item {\n      display: flex;\n      align-items: flex-start;\n      gap: 10px;\n      width: 48%;\n    }\n\n    .feature-clean-item img {\n      width: 22px;\n      height: auto;\n      object-fit: contain;\n      pointer-events: none;\n    }\n\n    .feature-clean-text {\n      font-size: 13px;\n      color: #1c1c1c;\n      line-height: 1.4em;\n      margin: 0;\n      font-weight: 400;\n    }\n\n    @media screen and (max-width: 768px) {\n      .feature-clean-text {\n        font-size: 12px;\n      }\n\n      .feature-clean-item img {\n        width: 20px;\n      }\n    }\n\n    @media screen and (max-width: 480px) {\n      .feature-clean-text {\n        font-size: 11px;\n      }\n\n      .feature-clean-item img {\n        width: 18px;\n      }\n    }\n  </style>\n\n  <div class=\"feature-clean-grid\">\n    <div class=\"feature-clean-item\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0934/4129/4668/files/wheels.webp?v=1744174783\" alt=\"Roues 360°\">\n      <p class=\"feature-clean-text\">Roues pivotantes 360°</p>\n    </div>\n    <div class=\"feature-clean-item\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0934/4129/4668/files/numberdays.webp?v=1744174783\" alt=\"5 à 7 jours\">\n      <p class=\"feature-clean-text\">Pour des voyages de 5 à 7 jours</p>\n    </div>\n    <div class=\"feature-clean-item\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0934/4129/4668/files/shell_1.webp?v=1744174783\" alt=\"Coque incassable\">\n      <p class=\"feature-clean-text\">Coque incassable en polycarbonate</p>\n    </div>\n    <div class=\"feature-clean-item\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0934/4129/4668/files/lock.webp?v=1744174783\" alt=\"Serrures sécurité\">\n      <p class=\"feature-clean-text\">Serrures sécurité aéroport approuvées</p>\n    </div>\n  </div>\n</div>"
           }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
         },
         "collapsible_tab_4FL6Vi": {
           "type": "collapsible_tab",
@@ -146,13 +147,13 @@
         "judge_me_reviews_all_reviews_text_rJFNQc",
         "price",
         "inventory",
-        "description",
         "variant_picker",
         "buy_buttons",
         "custom_liquid_7gHBwT",
         "pickup_availability",
         "complementary",
         "custom_liquid_LAx4WJ",
+        "description",
         "collapsible_tab_4FL6Vi",
         "collapsible_tab_E7MQNa",
         "collapsible_tab_EVjkzV",
@@ -590,7 +591,7 @@
         "button_border_hover_color": "#39392d",
         "heading_color": "#39392d",
         "sub_heading_color": "#39392d",
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 28,
