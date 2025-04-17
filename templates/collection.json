@@ -11,6 +11,7 @@
   "sections": {
     "breadcrumbs_Gxg9wp": {
       "type": "breadcrumbs",
+      "disabled": true,
       "settings": {
         "text_alignment": "center"
       }
