@@ -641,6 +641,11 @@
   "shopify": {
     "links": {
       "powered_by_shopify": " "
+    },
+    "checkout": {
+      "general": {
+        "continue_to_review": "Continuer"
+      }
     }
   }
 }
