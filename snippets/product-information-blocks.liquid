@@ -357,38 +357,27 @@
             -%}
           </div>
                   <div
-  id="shipping-countdown"
-  style="margin-top: -4px; padding-top: 0px; text-align: center;"
+  style="margin-top: -2px; padding-top: 0; display: flex; align-items: center; justify-content: center;"
 >
   <span
-    class="pulse-dot"
-    style="width: 10px; height: 10px; background-color: #F97316; border-radius: 50%; display: inline-block; animation: pulse 1.5s infinite; vertical-align: middle; margin-right: 8px;"
+    style="width: 8px; height: 8px; background-color: #F97316; border-radius: 50%; display: inline-block; margin-right: 8px;"
   ></span>
   <span
-    id="countdown-text"
-    style="font-size: 14px; font-weight: 600; color: #F97316;"
+    style="font-size: 14px; font-weight: 500; color: #000;"
+    id="shipping-cutoff"
   >
-    Commandez avant 18h pour une expédition aujourd’hui
+    <!-- Le JS vient remplacer ça -->
   </span>
 </div>
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const countdownText = document.getElementById("countdown-text");
+    const cutoffEl = document.getElementById("shipping-cutoff");
     const now = new Date();
-    now.setHours(now.getHours() + 3);
-    const hour = now.getHours();
-    countdownText.textContent = `Commandez avant ${hour}h pour une expédition aujourd’hui`;
+    const cutoffHour = new Date(now.getTime() + 3 * 60 * 60 * 1000).getHours();
+    cutoffEl.textContent = `Commandez avant ${cutoffHour}h pour une expédition aujourd’hui`;
   });
 </script>
-
-<style>
-  @keyframes pulse {
-    0% { transform: scale(1); opacity: 1; }
-    50% { transform: scale(1.5); opacity: 0.6; }
-    100% { transform: scale(1); opacity: 1; }
-  }
-</style>
         {%- when 'pickup_availability' -%}
           <div
             class="product__block product__block--{{ block.type }}"
