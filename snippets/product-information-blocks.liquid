@@ -356,9 +356,9 @@
               product_id: product.id
             -%}
           </div>
-                  <div id="shipping-timer" style="margin-top: 0px; margin-bottom: 0; padding-top: 4px; display: flex; align-items: center; justify-content: center; gap: 8px;">
+                  <div id="shipping-timer" style="margin: 0; padding-top: 4px; display: flex; align-items: center; justify-content: center; gap: 8px;">
   <span style="display:inline-block; width:8px; height:8px; border-radius:50%; background-color:#F97316; animation:pulse 1.5s infinite;"></span>
-  <p style="font-size:14px; margin: 0;">
+  <p class="shipping-timer-text" style="font-size:14px; margin: 0;">
     Commandez avant <span id="deadline-hour"></span> pour une expédition aujourd’hui
   </p>
 </div>
@@ -368,6 +368,15 @@
   0% { transform: scale(1); opacity: 1; }
   50% { transform: scale(1.5); opacity: 0.5; }
   100% { transform: scale(1); opacity: 1; }
+}
+
+@media (max-width: 767px) {
+  .shipping-timer-text {
+    font-size: 12px !important;
+  }
+  #shipping-timer {
+    gap: 6px;
+  }
 }
 </style>
 
