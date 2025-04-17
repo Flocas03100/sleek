@@ -311,6 +311,12 @@
         "collapsible_item_DneDzN",
         "collapsible_item_D6bnEE"
       ],
+      "custom_css": [
+        ".collapsible-tabs__wrapper {--row-gap-mobile: 4.8rem !important;}",
+        "@media (min-width: 768px) {.accordion-item:first-child .accordion-details__summary {padding-top: 0; }}",
+        "@media (min-width: 1280px) {.section--collapsible-tabs {max-width: 1170px; } .collapsible-tabs__wrapper {--column-gap: 9rem; }}",
+        "@media (max-width: 767px) {.section--collapsible-tabs {padding-top: 1.2rem; }}"
+      ],
       "settings": {
         "container": "narrow",
         "color_scheme": "",
@@ -423,6 +429,12 @@
         "collapsible_item_KR4PKg",
         "collapsible_item_W78wby",
         "collapsible_item_PcYHC9"
+      ],
+      "custom_css": [
+        ".collapsible-tabs__wrapper {--row-gap-mobile: 4.8rem !important;}",
+        "@media (min-width: 768px) {.accordion-item:first-child .accordion-details__summary {padding-top: 0; }}",
+        "@media (min-width: 1280px) {.section--collapsible-tabs {max-width: 1170px; } .collapsible-tabs__wrapper {--column-gap: 9rem; }}",
+        "@media (max-width: 767px) {.section--collapsible-tabs {padding-top: 1.2rem; }}"
       ],
       "settings": {
         "container": "narrow",
