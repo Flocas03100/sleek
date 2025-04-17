@@ -51,7 +51,7 @@
         "heading_p8RADN": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>ELYSE WAY - FOIRE AUX QUESTIONS (FAQ)</strong>",
+            "heading": "<strong>ELYZE WAY - FOIRE AUX QUESTIONS (FAQ)</strong>",
             "heading_size": "h6",
             "sub_heading": ""
           }
@@ -158,7 +158,7 @@
         "heading_mnpqfc": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>ELYSE WAY – FAQ SUR LA POLITIQUE DE RETOURS ET DE REMBOURSEMENTS </strong>",
+            "heading": "<strong>ELYZE WAY – FAQ SUR LA POLITIQUE DE RETOURS ET DE REMBOURSEMENTS </strong>",
             "heading_size": "h6",
             "sub_heading": ""
           }
@@ -349,7 +349,7 @@
         "heading_KPpAGT": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>ELYSE WAY – FAQ SUR LA LIVRAISON</strong>",
+            "heading": "<strong>ELYZE WAY – FAQ SUR LA LIVRAISON</strong>",
             "heading_size": "h6",
             "sub_heading": ""
           }
