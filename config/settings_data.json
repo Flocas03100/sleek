@@ -1857,11 +1857,7 @@
       "@media screen and (max-width: 768px) {.product__media-wrapper {margin-left: calc(-1 * var(--page-padding)) !important; margin-right: calc(-1 * var(--page-padding)) !important; width: 100vw !important; max-width: 100vw !important; } .product__media-list {width: 100vw !important; max-width: 100vw !important; } .product__media {width: 100vw !important; max-width: 100vw !important; } .media.media--transparent.media--adapt {border-radius: 0 !important; }}",
       "media-gallery {position: sticky !important;}",
       ".accordion-details__summary {font-size: 11px !important; padding: 6px 0 !important;}",
-      ".accordion-details__summary svg {width: 12px !important; height: 12px !important;}",
-      ".product__block--title,.product__block--price {margin-top: 8px !important; margin-bottom: 8px !important;}",
-      ".product__block--title h1 {font-size: 20px !important; line-height: 1.2 !important; margin: 0 !important;}",
-      ".product__block--price {font-size: 16px !important;}",
-      "/* Bloc entre titre et prix : on le cible par position si besoin */.product__block:nth-child(3) {margin-top: 8px !important; margin-bottom: 8px !important; padding: 0 !important;}"
+      ".accordion-details__summary svg {width: 12px !important; height: 12px !important;}"
     ]
   }
 }
