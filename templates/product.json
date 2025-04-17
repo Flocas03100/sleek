@@ -571,7 +571,7 @@
         "image_width": 40,
         "image_ratio": "square",
         "image_ratio_mobile": "square",
-        "image_radius": 12,
+        "image_radius": 0,
         "images_mt_mobile": 40,
         "tab_title_color": "#39392d",
         "icon_color": "#39392d",
