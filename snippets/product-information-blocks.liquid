@@ -356,26 +356,30 @@
               product_id: product.id
             -%}
           </div>
-                  <div
-  style="margin-top: -2px; padding-top: 0; display: flex; align-items: center; justify-content: center;"
->
-  <span
-    style="width: 8px; height: 8px; background-color: #F97316; border-radius: 50%; display: inline-block; margin-right: 8px;"
-  ></span>
-  <span
-    style="font-size: 14px; font-weight: 500; color: #000;"
-    id="shipping-cutoff"
-  >
-    <!-- Le JS vient remplacer ça -->
-  </span>
+                  <div id="shipping-timer" style="margin-top: -4px; display: flex; align-items: center; justify-content: center; gap: 8px;">
+  <span style="display:inline-block; width:8px; height:8px; border-radius:50%; background-color:#F97316; animation:pulse 1.5s infinite;"></span>
+  <p style="color:#F97316; font-size:14px; margin:0;">
+    Commandez avant <span id="deadline-hour"></span> pour une expédition aujourd’hui
+  </p>
 </div>
+
+<style>
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.5); opacity: 0.5; }
+  100% { transform: scale(1); opacity: 1; }
+}
+</style>
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const cutoffEl = document.getElementById("shipping-cutoff");
     const now = new Date();
-    const cutoffHour = new Date(now.getTime() + 3 * 60 * 60 * 1000).getHours();
-    cutoffEl.textContent = `Commandez avant ${cutoffHour}h pour une expédition aujourd’hui`;
+    const nextDeadline = new Date(now.getTime() + 3 * 60 * 60 * 1000);
+    const roundedDeadline = new Date(nextDeadline);
+    roundedDeadline.setMinutes(0, 0, 0);
+
+    const hours = roundedDeadline.getHours().toString().padStart(2, '0');
+    document.getElementById("deadline-hour").textContent = hours + "h";
   });
 </script>
         {%- when 'pickup_availability' -%}
