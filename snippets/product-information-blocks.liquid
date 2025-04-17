@@ -356,6 +356,37 @@
               product_id: product.id
             -%}
           </div>
+              <div id="shipping-countdown" style="margin-top: 12px; display: flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 500; background: #F5F5F5; color: #1A1A1A; padding: 6px 12px; border-radius: 6px;">
+  <span class="pulse-dot" style="width: 8px; height: 8px; background-color: #10B981; border-radius: 9999px; display: inline-block; animation: pulse 1.5s infinite;"></span>
+  <span id="countdown-text">Chargement...</span>
+</div>
+
+<script>
+  function updateCountdown() {
+    const now = new Date();
+    const currentHour = now.getHours();
+    const resetHour = currentHour - (currentHour % 6) + 6;
+    const resetTime = new Date(now.getFullYear(), now.getMonth(), now.getDate(), resetHour, 0, 0);
+    if (resetTime < now) resetTime.setHours(resetTime.getHours() + 6);
+    const diff = resetTime - now;
+
+    const hours = Math.floor(diff / (1000 * 60 * 60));
+    const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+    const text = `Commande avant ${hours}h${minutes.toString().padStart(2, '0')} pour une expédition aujourd’hui`;
+    document.getElementById('countdown-text').textContent = text;
+  }
+
+  updateCountdown();
+  setInterval(updateCountdown, 60000);
+</script>
+
+<style>
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.8); opacity: 0.4; }
+  100% { transform: scale(1); opacity: 1; }
+}
+</style>    
         {%- when 'pickup_availability' -%}
           <div
             class="product__block product__block--{{ block.type }}"
