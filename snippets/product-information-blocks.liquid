@@ -356,22 +356,29 @@
               product_id: product.id
             -%}
           </div>
-              <div
+                  <div
   id="shipping-countdown"
-  style="margin-top: 0; padding-top: 2px; text-align: center; font-size: 13px; font-weight: 500; color: #1A1A1A;"
+  style="margin-top: -4px; padding-top: 0px; text-align: center;"
 >
-  <span class="pulse-dot" style="width: 8px; height: 8px; background-color: #10B981; border-radius: 9999px; display: inline-block; animation: pulse 1.5s infinite; vertical-align: middle; margin-right: 6px;"></span>
-  <span id="countdown-text">Commandez avant 18h00 pour une expédition aujourd’hui</span>
+  <span
+    class="pulse-dot"
+    style="width: 10px; height: 10px; background-color: #F97316; border-radius: 50%; display: inline-block; animation: pulse 1.5s infinite; vertical-align: middle; margin-right: 8px;"
+  ></span>
+  <span
+    id="countdown-text"
+    style="font-size: 14px; font-weight: 600; color: #F97316;"
+  >
+    Commandez avant 18h pour une expédition aujourd’hui
+  </span>
 </div>
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const countdownText = document.getElementById("countdown-text");
     const now = new Date();
-    now.setHours(now.getHours() + 3); // délai de 3h
-    const hours = now.getHours().toString().padStart(2, '0');
-    const minutes = now.getMinutes().toString().padStart(2, '0');
-    countdownText.textContent = `Commandez avant ${hours}h${minutes} pour une expédition aujourd’hui`;
+    now.setHours(now.getHours() + 3);
+    const hour = now.getHours();
+    countdownText.textContent = `Commandez avant ${hour}h pour une expédition aujourd’hui`;
   });
 </script>
 
@@ -381,7 +388,7 @@
     50% { transform: scale(1.5); opacity: 0.6; }
     100% { transform: scale(1); opacity: 1; }
   }
-</style>    
+</style>
         {%- when 'pickup_availability' -%}
           <div
             class="product__block product__block--{{ block.type }}"
