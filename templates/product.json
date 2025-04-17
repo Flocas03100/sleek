@@ -239,7 +239,7 @@
       "settings": {
         "heading": "",
         "heading_custom": true,
-        "heading_font": "montserrat_n4",
+        "heading_font": "montserrat_n7",
         "heading_size": 36,
         "heading_size_mobile": 24,
         "heading_height": 150,
@@ -334,7 +334,7 @@
         "percent_text_color": "#ffffff",
         "title_color": "#000000",
         "text_color": "#000000",
-        "slide_bg_color": "#faf9f7",
+        "slide_bg_color": "#FFFFFF",
         "image_overlay_color": "#000000",
         "pagination_color": "#ffffff",
         "arrow_color": "#ffffff",
