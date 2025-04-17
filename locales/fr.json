@@ -385,7 +385,7 @@
       "estimated_total": "Total estimé",
       "new_estimated_total": "Nouveau total estimé",
       "note": "Commander des instructions spéciales",
-      "checkout": "Vérifier",
+      "checkout": "PAIEMENT",
       "empty": "Votre carte est actuellement vide.",
       "cart_error": "Une erreur s'est produite lors de la mise à jour de votre panier. Veuillez réessayer.",
       "cart_quantity_error_html": "Vous ne pouvez ajouter que {{ quantity }} de cet article à votre panier.",
