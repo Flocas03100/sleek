@@ -69,6 +69,13 @@
             "show_gift_card_recipient": true
           }
         },
+        "custom_liquid_LVPBCi": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<div style=\"display: flex; align-items: center; gap: 8px; margin-top: 12px;\">\n  <span style=\"\n    width: 10px;\n    height: 10px;\n    background-color: #4CAF50;\n    border-radius: 50%;\n    display: inline-block;\n    box-shadow: 0 0 0 0 rgba(76, 175, 80, 0.7);\n    animation: pulse 2s infinite;\n  \"></span>\n  <span style=\"font-size: 13px; color: #333; line-height: 1.4;\">\n    Commandez avant <strong>16h</strong> pour une expédition aujourd’hui\n  </span>\n</div>\n\n<style>\n@keyframes pulse {\n  0% {\n    box-shadow: 0 0 0 0 rgba(76, 175, 80, 0.7);\n  }\n  70% {\n    box-shadow: 0 0 0 8px rgba(76, 175, 80, 0);\n  }\n  100% {\n    box-shadow: 0 0 0 0 rgba(76, 175, 80, 0);\n  }\n}\n</style>"
+          }
+        },
         "custom_liquid_7gHBwT": {
           "type": "custom_liquid",
           "disabled": true,
@@ -150,6 +157,7 @@
         "inventory",
         "variant_picker",
         "buy_buttons",
+        "custom_liquid_LVPBCi",
         "custom_liquid_7gHBwT",
         "pickup_availability",
         "complementary",
