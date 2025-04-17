@@ -1860,7 +1860,8 @@
       ".accordion-details__summary svg {width: 12px !important; height: 12px !important;}",
       "[class*=\"product__block--\"][class*=\"app\"] {margin-top: 0 !important; margin-bottom: 4px !important;}",
       ".product__block--title {margin-top: 0 !important; margin-bottom: 6px !important;}",
-      ".product__block--price {margin-top: 0 !important;}"
+      ".product__block--price {margin-top: 0 !important;}",
+      "motion-element:first-of-type,motion-element:first-of-type > div,media-gallery,.product__media-wrapper {margin-bottom: 0 !important; padding-bottom: 0 !important;}"
     ]
   }
 }
