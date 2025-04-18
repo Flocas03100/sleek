@@ -396,7 +396,6 @@
     }
   }
 
-  /* Écrase toute marge indésirable en dessous du bouton */
   .product-form__buttons {
     margin-bottom: 0 !important;
     padding-bottom: 0 !important;
@@ -410,10 +409,16 @@
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const now = new Date();
-    const nextHour = Math.ceil(now.getHours() / 3) * 3;
-    const finalHour = (nextHour >= 24 ? 23 : nextHour).toString().padStart(2, '0') + 'h';
+    const hourNow = now.getHours();
+
+    // Calcul du prochain créneau 3h PLUS TARD (même si on est pile à une heure multiple de 3)
+    const nextSlot = Math.floor(hourNow / 3) * 3 + 3;
+
+    // Cap à 23h max pour éviter de dire 24h ou 27h
+    const shippingHour = Math.min(nextSlot, 23).toString().padStart(2, '0') + 'h';
+
     const hourSpan = document.getElementById("shipping-hour");
-    if (hourSpan) hourSpan.textContent = finalHour;
+    if (hourSpan) hourSpan.textContent = shippingHour;
   });
 </script>
         {%- when 'pickup_availability' -%}
