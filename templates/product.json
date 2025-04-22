@@ -41,6 +41,12 @@
           "type": "price",
           "settings": {}
         },
+        "custom_liquid_jyLdBK": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"offer-timer-container-left\">\n  <svg class=\"offer-icon\" xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 24 24\">\n    <path fill=\"currentColor\" d=\"M12 8v5l4 2 .5-.87L13 12.28V8h-1Z\"/>\n    <path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M12 1a11 11 0 1 0 11 11A11.013 11.013 0 0 0 12 1Zm0 20a9 9 0 1 1 9-9 9.01 9.01 0 0 1-9 9Z\" clip-rule=\"evenodd\"/>\n  </svg>\n  <span class=\"offer-timer-text\">\n    Offre exclusive -30 % se termine dans <span id=\"offer-countdown\"></span>\n  </span>\n</div>\n\n<style>\n  .offer-timer-container-left {\n    display: flex;\n    align-items: center;\n    gap: 6px;\n    font-size: 14px;\n    font-weight: 500;\n    color: #1a1a1a;\n    margin-top: 12px;\n    justify-content: flex-start;\n  }\n\n  .offer-icon {\n    color: #FFA500;\n  }\n\n  .offer-timer-text {\n    font-size: 14px;\n  }\n\n  @media screen and (max-width: 749px) {\n    .offer-timer-text {\n      font-size: 12px;\n    }\n  }\n</style>\n\n<script>\n  document.addEventListener(\"DOMContentLoaded\", function () {\n    function getRemainingTime() {\n      const now = new Date();\n      const tomorrow = new Date(now);\n      tomorrow.setHours(24, 0, 0, 0); // minuit ce soir\n\n      const diff = tomorrow - now;\n      const hours = Math.floor(diff / 1000 / 60 / 60);\n      const minutes = Math.floor((diff / 1000 / 60) % 60);\n\n      return `${hours}h ${minutes.toString().padStart(2, '0')}min`;\n    }\n\n    function updateCountdown() {\n      const el = document.getElementById(\"offer-countdown\");\n      if (el) {\n        el.textContent = getRemainingTime();\n      }\n    }\n\n    updateCountdown();\n    setInterval(updateCountdown, 60000); // actualise toutes les minutes\n  });\n</script>"
+          }
+        },
         "inventory": {
           "type": "inventory",
           "disabled": true,
@@ -154,6 +160,7 @@
         "judge_me_reviews_all_reviews_text_rJFNQc",
         "title",
         "price",
+        "custom_liquid_jyLdBK",
         "inventory",
         "variant_picker",
         "buy_buttons",
