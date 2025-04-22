@@ -167,8 +167,8 @@
           "type": "collapsible_item",
           "settings": {
             "icon": "none",
-            "heading": "Quel est le délai de retour chez Elyse Way ?",
-            "content": "<p>Chez Elyse Way, vous disposez de 100 jours à compter de la réception de votre commande pour retourner un produit. Si vous n'êtes pas satisfait, vous pouvez initier un retour dans les 7 jours suivant la livraison.</p>",
+            "heading": "Quel est le délai de retour chez Elyze Way ?",
+            "content": "<p>Chez Elyze Way, vous disposez de 100 jours à compter de la réception de votre commande pour retourner un produit. Si vous n'êtes pas satisfait, vous pouvez initier un retour dans les 7 jours suivant la livraison.</p>",
             "custom_liquid": "",
             "page": "",
             "open": false
@@ -483,7 +483,6 @@
       "block_order": [
         "custom_field_RpgAqG"
       ],
-      "name": "t:sections.contact-form.presets.name",
       "settings": {
         "section_color_scheme": "",
         "color_scheme": "",
