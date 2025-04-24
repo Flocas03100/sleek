@@ -1379,10 +1379,24 @@
         "border_thickness": 0,
         "lazy": true
       }
+    },
+    "badge_xNThMB": {
+      "type": "badge",
+      "name": "Badges Luhxe",
+      "settings": {
+        "icon_1": "shopify://shop_images/retour-de-produit.png",
+        "text_1": "Approuvé par plus de 100 compagnies",
+        "icon_2": "shopify://shop_images/paiement-securise.png",
+        "text_2": "35€ DE CADEAUX",
+        "icon_3": "shopify://shop_images/retour-de-produit.png",
+        "text_3": "VALISE N°1 EN 2025",
+        "background": "#f4f4f4"
+      }
     }
   },
   "order": [
     "main",
+    "badge_xNThMB",
     "ss_feature_22_M3X9FH",
     "image_comparison_LBQPCj",
     "custom_liquid_FKzrFn",
