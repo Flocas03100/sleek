@@ -27,15 +27,15 @@
             "custom_liquid": "<div style=\"font-family: 'Montserrat', sans-serif; font-size: 14px; display: flex; align-items: center; gap: 6px; margin-bottom: 0.4rem;\">\n  <span style=\"color: #000; font-size: 15px;\">\n    ★★★★★\n  </span>\n  <span style=\"color: #1c1c1c;\">\n    4.7/5 – 13,770 Avis Vérifiés\n  </span>\n</div>"
           }
         },
+        "judge_me_reviews_all_reviews_text_rJFNQc": {
+          "type": "shopify://apps/judge-me-reviews/blocks/all_reviews_text/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
         "custom_liquid_8b36zg": {
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "<div style=\"max-width: 320px; margin: 0; font-family: 'Montserrat', sans-serif;\">\n  <div style=\"display: flex; flex-direction: column; gap: 8px;\">\n    <!-- Badge principal -->\n    <div style=\"background-color: #f4f4f4; padding: 4px 8px; border-radius: 6px; display: flex; align-items: center; justify-content: center; gap: 8px;\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0934/4129/4668/files/gempages_536505205483635921-705865b3-91d4-4c27-88d0-f5d5d7c14324.svg?v=1745412640\" alt=\"Avion\" style=\"height: 14px; width: auto;\" />\n      <span style=\"font-weight: 600; font-size: 12px; letter-spacing: -0.3px; text-align: center;\">Approuvé par plus de 100 compagnies</span>\n    </div>\n\n    <!-- Badges secondaires -->\n    <div style=\"display: flex; gap: 8px; flex-wrap: wrap;\">\n      <div style=\"flex: 1; background-color: #f4f4f4; padding: 4px 8px; border-radius: 6px; font-weight: 700; font-size: 12px; letter-spacing: -0.7px; text-align: center; display: flex; justify-content: center; align-items: center;\">\n        35€ DE CADEAUX\n      </div>\n      <div style=\"flex: 1; background-color: #f4f4f4; padding: 4px 8px; border-radius: 6px; font-weight: 700; font-size: 12px; letter-spacing: -0.7px; text-align: center; display: flex; justify-content: center; align-items: center;\">\n        VALISE N°1 EN 2025\n      </div>\n    </div>\n  </div>\n</div>"
           }
-        },
-        "judge_me_reviews_all_reviews_text_rJFNQc": {
-          "type": "shopify://apps/judge-me-reviews/blocks/all_reviews_text/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
         },
         "title": {
           "type": "title",
@@ -163,8 +163,8 @@
       "block_order": [
         "badges",
         "custom_liquid_rdJTdb",
-        "custom_liquid_8b36zg",
         "judge_me_reviews_all_reviews_text_rJFNQc",
+        "custom_liquid_8b36zg",
         "title",
         "price",
         "custom_liquid_jyLdBK",
