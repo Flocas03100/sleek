@@ -1,52 +1,25 @@
-{% schema %}
-{
-  "name": "Badges Luhxe",
-  "settings": [
-    {
-      "type": "image_picker",
-      "id": "icon_1",
-      "label": "Icône 1"
-    },
-    {
-      "type": "text",
-      "id": "text_1",
-      "label": "Texte 1",
-      "default": "Approuvé par plus de 100 compagnies"
-    },
-    {
-      "type": "image_picker",
-      "id": "icon_2",
-      "label": "Icône 2"
-    },
-    {
-      "type": "text",
-      "id": "text_2",
-      "label": "Texte 2",
-      "default": "35€ DE CADEAUX"
-    },
-    {
-      "type": "image_picker",
-      "id": "icon_3",
-      "label": "Icône 3"
-    },
-    {
-      "type": "text",
-      "id": "text_3",
-      "label": "Texte 3",
-      "default": "VALISE N°1 EN 2025"
-    },
-    {
-      "type": "color",
-      "id": "background",
-      "label": "Couleur de fond",
-      "default": "#f4f4f4"
-    }
-  ],
-  "presets": [
-    {
-      "name": "Badges Luhxe",
-      "category": "Custom"
-    }
-  ]
-}
-{% endschema %}
+<div style="max-width: 320px; font-family: 'Montserrat', sans-serif; display: flex; flex-direction: column; gap: 8px;">
+  <!-- Badge principal -->
+  <div style="background-color: {{ section.settings.background }}; padding: 6px 8px; border-radius: 6px; display: flex; align-items: center; justify-content: center; gap: 8px;">
+    {% if section.settings.icon_1 != blank %}
+      <img src="{{ section.settings.icon_1 | image_url }}" alt="Icone" style="height: 14px; width: auto;" />
+    {% endif %}
+    <span style="font-weight: 600; font-size: 12px; letter-spacing: -0.3px; text-align: center;">{{ section.settings.text_1 }}</span>
+  </div>
+
+  <!-- Badges secondaires -->
+  <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+    <div style="flex: 1; background-color: {{ section.settings.background }}; padding: 6px 8px; border-radius: 6px; font-weight: 700; font-size: 12px; letter-spacing: -0.6px; text-align: center; display: flex; justify-content: center; align-items: center;">
+      {% if section.settings.icon_2 != blank %}
+        <img src="{{ section.settings.icon_2 | image_url }}" alt="Icone" style="height: 14px; width: auto; margin-right: 6px;" />
+      {% endif %}
+      {{ section.settings.text_2 }}
+    </div>
+    <div style="flex: 1; background-color: {{ section.settings.background }}; padding: 6px 8px; border-radius: 6px; font-weight: 700; font-size: 12px; letter-spacing: -0.6px; text-align: center; display: flex; justify-content: center; align-items: center;">
+      {% if section.settings.icon_3 != blank %}
+        <img src="{{ section.settings.icon_3 | image_url }}" alt="Icone" style="height: 14px; width: auto; margin-right: 6px;" />
+      {% endif %}
+      {{ section.settings.text_3 }}
+    </div>
+  </div>
+</div>
