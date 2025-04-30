@@ -649,6 +649,16 @@
         "lazy": true
       }
     },
+    "custom_liquid_dRfjTK": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<!-- BEGIN: Struggling With Overstuffed – padding augmenté & icônes agrandies -->\n<style>\n  .struggling-section {\n    background: #F2EFE9;\n    /* padding vertical standard, horizontal élargi */\n    padding: clamp(32px, 5vw, 64px) clamp(160px, 15vw, 200px);\n    box-sizing: border-box;\n    text-align: center;\n  }\n\n  .struggling-section h2 {\n    font-size: clamp(22px, 4vw, 28px);\n    font-weight: 700;\n    line-height: 1.2;\n    margin: 0 0 clamp(32px, 4vw, 48px);\n    color: #2F1D18;\n  }\n\n  .struggling-cards {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n    gap: clamp(24px, 3vw, 40px);\n  }\n\n  .struggling-card {\n    background: #FFFFFF;\n    border-radius: clamp(12px, 2vw, 24px);\n    padding: clamp(24px, 3vw, 32px);\n    box-sizing: border-box;\n    flex: 1 1 calc(20% - clamp(24px,3vw,40px));\n    min-width: 200px;\n    display: flex;\n    flex-direction: column;\n    text-align: left;\n  }\n\n  .struggling-card p {\n    font-size: clamp(12px, 2vw, 14px);\n    line-height: 1.4;\n    color: #2F1D18;\n    margin: 0 0 auto clamp(16px, 2vw, 24px);\n  }\n\n  .struggling-card .icon-container {\n    flex: 1;\n    display: flex;\n    align-items: flex-end;\n  }\n  .struggling-card .icon {\n    width: clamp(40px, 5vw, 60px);\n    height: clamp(40px, 5vw, 60px);\n    background: #2F1D18;\n    color: #FFFFFF;\n    border-radius: 50%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-size: clamp(24px, 4vw, 32px);\n    line-height: 1;\n  }\n\n  @media (max-width: 768px) {\n    .struggling-card {\n      flex: 1 1 calc(45% - clamp(24px,3vw,40px));\n    }\n    .struggling-section {\n      padding: clamp(32px, 5vw, 64px) clamp(80px, 10vw, 100px);\n    }\n  }\n\n  @media (max-width: 480px) {\n    .struggling-section {\n      padding: 32px 5%;\n    }\n    .struggling-section h2 {\n      font-size: clamp(18px, 4vw, 22px);\n      margin-bottom: clamp(24px, 4vw, 32px);\n    }\n    .struggling-card {\n      flex: 1 1 100%;\n      padding: clamp(16px, 3vw, 24px);\n    }\n    .struggling-card p {\n      font-size: clamp(11px, 2.5vw, 13px);\n      margin-bottom: clamp(12px, 2vw, 16px);\n    }\n    .struggling-card .icon {\n      width: clamp(36px, 6vw, 48px);\n      height: clamp(36px, 6vw, 48px);\n      font-size: clamp(20px, 3vw, 28px);\n    }\n  }\n</style>\n\n<div class=\"struggling-section\">\n  <h2>Still Struggling With Overstuffed,<br>Awkward Bags? Let’s Talk.</h2>\n  <div class=\"struggling-cards\">\n    <div class=\"struggling-card\">\n      <p>Dragging around a heavy suitcase through crowds? NOT fun.</p>\n      <div class=\"icon-container\">\n        <div class=\"icon\">×</div>\n      </div>\n    </div>\n    <div class=\"struggling-card\">\n      <p>Having to leave your favorite outfits at home? Been there.</p>\n      <div class=\"icon-container\">\n        <div class=\"icon\">×</div>\n      </div>\n    </div>\n    <div class=\"struggling-card\">\n      <p>Nothing says vacation-ready like an ironed dress… except when you don’t have one.</p>\n      <div class=\"icon-container\">\n        <div class=\"icon\">×</div>\n      </div>\n    </div>\n    <div class=\"struggling-card\">\n      <p>Paying extra for baggage? That money could go towards cocktails!</p>\n      <div class=\"icon-container\">\n        <div class=\"icon\">×</div>\n      </div>\n    </div>\n  </div>\n</div>\n<!-- END: Struggling With Overstuffed – padding augmenté & icônes agrandies -->",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
     "ss_comparison_table_6_hqdHc9": {
       "type": "ss-comparison-table-6",
       "blocks": {
@@ -1404,6 +1414,7 @@
     "image_comparison_LBQPCj",
     "custom_liquid_FKzrFn",
     "ss_feature_24_pczPAd",
+    "custom_liquid_dRfjTK",
     "ss_comparison_table_6_hqdHc9",
     "collapsible_tabs_phAkEE",
     "custom_content_LFmPka",
