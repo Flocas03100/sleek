@@ -1,5 +1,53 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
+    "slideshow_qXEpRw": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_dqRefa": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "",
+            "background": "shopify://shop_images/IMG_0626_4ae6f6fe-ce82-4396-b784-472a614e7300.jpg",
+            "image_overlay_opacity": 0,
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "title": "",
+            "heading_size": "hd1",
+            "subheading": "",
+            "description": "",
+            "description_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "slide_dqRefa"
+      ],
+      "name": "t:sections.slideshow.name",
+      "settings": {
+        "container": "full",
+        "layout": "standard",
+        "slide_height": "medium",
+        "show_dots": true,
+        "autoplay": false,
+        "autoplay_delay": 3,
+        "controls_position": "bottom",
+        "show_text_below": false,
+        "text_alignment_mobile": "center",
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -9,6 +57,7 @@
     }
   },
   "order": [
+    "slideshow_qXEpRw",
     "main"
   ]
 }
