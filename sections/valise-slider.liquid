@@ -1,6 +1,169 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+{% comment %}
+  File: sections/valise-slider.liquid
+  Usage: Ajouter cette section dans l’éditeur de page produit (OS 2.0)
+{% endcomment %}
+
+<section id="valise-slider-{{ section.id }}" class="valise-slider section-product">
+  <!-- Titre principal -->
+  <div class="vs-header">
+    <h2 class="vs-title">La valise pensée pour vous</h2>
+  </div>
+
+  <!-- Icônes de contrôle du slider -->
+  <div class="vs-icons">
+    {% for block in section.blocks %}
+      <button type="button"
+              class="vs-icon-btn{% if forloop.first %} active{% endif %}"
+              data-index="{{ forloop.index0 }}">
+        <img src="{{ block.settings.icon_image | file_url }}"
+             alt="{{ block.settings.title }}"
+             class="vs-icon-img"/>
+      </button>
+    {% endfor %}
+  </div>
+
+  <!-- Conteneur des slides -->
+  <div class="vs-slides">
+    {% for block in section.blocks %}
+      <div class="vs-slide{% if forloop.first %} active{% endif %}" data-index="{{ forloop.index0 }}">
+        <div class="vs-slide-media">
+          <img src="{{ block.settings.slide_image | img_url: 'master' }}"
+               alt="{{ block.settings.title }}"/>
+        </div>
+        <div class="vs-slide-text">
+          <h3>{{ block.settings.title }}</h3>
+          <div class="rte">{{ block.settings.content }}</div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+  <!-- Indicateurs bas (les petits traits) -->
+  <div class="vs-indicators">
+    {% for block in section.blocks %}
+      <span class="vs-indicator{% if forloop.first %} active{% endif %}" data-index="{{ forloop.index0 }}"></span>
+    {% endfor %}
+  </div>
+</section>
+
+<style>
+  /* Conteneur général */
+  #valise-slider-{{ section.id }} {
+    text-align: center; margin: 3rem 0;
   }
+  .vs-title {
+    font-size: 2rem; margin-bottom: 1.5rem;
+  }
+
+  /* Icônes */
+  .vs-icons {
+    display: flex; justify-content: center; gap: 1rem; margin-bottom: 2rem;
+  }
+  .vs-icon-btn {
+    background: #fff; border: 1px solid #ddd; border-radius: 50%; padding: .75rem;
+    transition: all .2s ease;
+  }
+  .vs-icon-btn.active {
+    background: #000; border-color: #000;
+  }
+  .vs-icon-btn.active .vs-icon-img { filter: invert(1); }
+  .vs-icon-img { width: 1.25rem; height: auto; }
+
+  /* Slides */
+  .vs-slides { position: relative; overflow: hidden; }
+  .vs-slide {
+    display: none; align-items: center; gap: 2rem;
+    max-width: 1000px; margin: auto;
+  }
+  .vs-slide.active { display: flex; }
+  .vs-slide-media img {
+    width: 100%; max-width: 500px; border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,.1);
+  }
+  .vs-slide-text { text-align: left; max-width: 400px; }
+  .vs-slide-text h3 {
+    font-size: 1.5rem; margin-bottom: .75rem;
+  }
+  .vs-slide-text .rte { color: #555; line-height: 1.6; }
+
+  /* Indicateurs bas */
+  .vs-indicators {
+    display: flex; justify-content: center; gap: .5rem; margin-top: 2rem;
+  }
+  .vs-indicator {
+    display: block; width: 2rem; height: .25rem; background: #ccc;
+    transition: background .2s ease;
+  }
+  .vs-indicator.active { background: #000; }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var sectionId = 'valise-slider-{{ section.id }}';
+    var container = document.getElementById(sectionId);
+    var icons = container.querySelectorAll('.vs-icon-btn');
+    var slides = container.querySelectorAll('.vs-slide');
+    var indicators = container.querySelectorAll('.vs-indicator');
+
+    function goTo(index) {
+      slides.forEach(s => s.classList.toggle('active', s.dataset.index === index));
+      icons.forEach(b => b.classList.toggle('active', b.dataset.index === index));
+      indicators.forEach(i => i.classList.toggle('active', i.dataset.index === index));
+    }
+
+    icons.forEach(btn => {
+      btn.addEventListener('click', function() {
+        goTo(this.dataset.index);
+      });
+    });
+    indicators.forEach(dot => {
+      dot.addEventListener('click', function() {
+        goTo(this.dataset.index);
+      });
+    });
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Valise Slider",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "slide",
+      "name": "Slide",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon_image",
+          "label": "Icône (contrôle)"
+        },
+        {
+          "type": "image_picker",
+          "id": "slide_image",
+          "label": "Image de la valise"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Titre",
+          "default": "Libérez vos mains, libérez votre esprit"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Texte",
+          "default": "<p>Au café de l'aéroport, votre téléphone bien calé et votre sac posé élégamment sur la valise. Vous profitez pleinement de votre pause, détendu et organisé.</p>"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 5,
+  "presets": [
+    {
+      "name": "Valise Slider",
+      "category": "Produit"
+    }
+  ]
+}
 {% endschema %}
