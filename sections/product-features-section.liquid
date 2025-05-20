@@ -1,6 +1,662 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+{% comment %}
+  product-features-section.liquid
+  
+  Une section premium pour présenter les caractéristiques de votre valise
+  avec rotation automatique des fonctionnalités et lecture vidéo.
+{% endcomment %}
+
+<style>
+  .features-section {
+    position: relative;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+    font-family: Montserrat, sans-serif;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 100%;
   }
+  
+  .features-bg-gradient {
+    position: absolute;
+    inset: 0;
+    background: white;
+    pointer-events: none;
+  }
+  
+  .features-container {
+    position: relative;
+    width: 100%;
+    padding: 3rem 0;
+    overflow: hidden;
+    max-width: 100%;
+  }
+  
+  @media (min-width: 768px) {
+    .features-container {
+      padding: 4rem 0;
+    }
+  }
+  
+  .features-title {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    color: black;
+    letter-spacing: normal;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease, transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  
+  .features-title.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  @media (min-width: 768px) {
+    .features-title {
+      font-size: 30px;
+      margin-bottom: 3rem;
+    }
+  }
+  
+  .features-nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+  }
+  
+  @media (min-width: 768px) {
+    .features-nav {
+      margin-bottom: 3rem;
+    }
+  }
+  
+  .features-nav-list {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  @media (min-width: 768px) {
+    .features-nav-list {
+      gap: 2.5rem;
+    }
+  }
+  
+  .feature-button {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.7s;
+    background-color: white;
+    color: black;
+    border: 1px solid #e5e5e5;
+    cursor: pointer;
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  
+  .feature-button.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .feature-button:hover {
+    border-color: black;
+  }
+  
+  .feature-button.active {
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+  }
+  
+  @media (min-width: 768px) {
+    .feature-button {
+      width: 4rem;
+      height: 4rem;
+    }
+  }
+  
+  .feature-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    transition: all 0.3s;
+  }
+  
+  .feature-button.active .feature-icon {
+    filter: brightness(0) invert(1);
+  }
+  
+  @media (min-width: 768px) {
+    .feature-icon {
+      width: 1.75rem;
+      height: 1.75rem;
+    }
+  }
+  
+  .features-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  @media (min-width: 1024px) {
+    .features-content {
+      grid-template-columns: 7fr 5fr;
+      gap: 3rem;
+    }
+  }
+  
+  .feature-video-container {
+    position: relative;
+    order: 2;
+  }
+  
+  @media (min-width: 1024px) {
+    .feature-video-container {
+      order: 1;
+    }
+  }
+  
+  .feature-video-wrapper {
+    position: relative;
+    opacity: 0;
+    transform: scale(0.95);
+    transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+    display: none;
+  }
+  
+  .feature-video-wrapper.active {
+    opacity: 1;
+    transform: scale(1);
+    display: block;
+  }
+  
+  .feature-video-box {
+    position: relative;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature-video-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top right, rgba(0, 0, 0, 0.02), rgba(255, 255, 255, 0.05));
+    backdrop-filter: blur(1px);
+    pointer-events: none;
+    z-index: 10;
+  }
+  
+  .feature-video {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+  }
+  
+  .feature-decoration-1 {
+    position: absolute;
+    bottom: -1rem;
+    left: -1rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 9999px;
+    background-color: rgba(0, 0, 0, 0.03);
+    backdrop-filter: blur(5px);
+  }
+  
+  .feature-decoration-2 {
+    position: absolute;
+    top: -1.5rem;
+    right: -1.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 9999px;
+    background-color: rgba(0, 0, 0, 0.03);
+    backdrop-filter: blur(5px);
+  }
+  
+  .feature-text-container {
+    order: 1;
+  }
+  
+  @media (min-width: 1024px) {
+    .feature-text-container {
+      order: 2;
+    }
+  }
+  
+  .feature-text-wrapper {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+    display: none;
+  }
+  
+  .feature-text-wrapper.active {
+    opacity: 1;
+    transform: translateY(0);
+    display: block;
+  }
+  
+  .feature-line {
+    height: 0.125rem;
+    width: 4rem;
+    background-color: black;
+    margin-bottom: 1.5rem;
+  }
+  
+  .feature-title {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+    color: black;
+    letter-spacing: normal;
+  }
+  
+  @media (min-width: 768px) {
+    .feature-title {
+      font-size: 18px;
+    }
+  }
+  
+  .feature-description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .features-progress {
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .features-progress-list {
+    display: flex;
+    gap: 0.75rem;
+  }
+  
+  .progress-button {
+    padding: 0.25rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .progress-indicator {
+    width: 2rem;
+    height: 0.125rem;
+    transition: all 0.5s;
+    background-color: #d1d5db;
+  }
+  
+  .progress-button:hover .progress-indicator {
+    background-color: #9ca3af;
+  }
+  
+  .progress-indicator.active {
+    background-color: black;
+  }
+  
+  .container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1400px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+</style>
+
+<div class="features-section" id="features-section-{{ section.id }}">
+  <div class="features-bg-gradient"></div>
+  
+  <section class="features-container">
+    <div class="container">
+      <!-- Title -->
+      <h2 class="features-title" id="features-title-{{ section.id }}">{{ section.settings.title }}</h2>
+      
+      <!-- Features navigation -->
+      <div class="features-nav">
+        <div class="features-nav-list">
+          {% for block in section.blocks %}
+            <button 
+              class="feature-button {% if forloop.index0 == 0 %}active{% endif %}" 
+              data-feature="{{ forloop.index0 }}"
+              style="transition-delay: {{ forloop.index0 | times: 0.1 }}s;"
+              data-section-id="{{ section.id }}"
+            >
+              <img 
+                src="{{ block.settings.icon | img_url: '100x' }}" 
+                alt="{{ block.settings.title }}" 
+                class="feature-icon"
+                loading="lazy"
+                width="28"
+                height="28"
+              >
+            </button>
+          {% endfor %}
+        </div>
+      </div>
+      
+      <!-- Content area -->
+      <div class="features-content">
+        <!-- Video Section -->
+        <div class="feature-video-container">
+          {% for block in section.blocks %}
+            <div class="feature-video-wrapper {% if forloop.index0 == 0 %}active{% endif %}" data-feature-content="{{ forloop.index0 }}" data-section-id="{{ section.id }}">
+              <div class="feature-video-box">
+                <div class="feature-video-overlay"></div>
+                <video 
+                  class="feature-video" 
+                  poster="{% if block.settings.video_poster %}{{ block.settings.video_poster | img_url: '1200x' }}{% else %}{{ 'placeholder-image.jpg' | asset_url }}{% endif %}"
+                  muted 
+                  playsinline 
+                  loop
+                  data-video-index="{{ forloop.index0 }}"
+                  data-section-id="{{ section.id }}"
+                >
+                  {% if block.settings.video_url != blank %}
+                    <source src="{{ block.settings.video_url }}" type="video/mp4">
+                  {% endif %}
+                  Votre navigateur ne prend pas en charge la lecture vidéo.
+                </video>
+                
+                <!-- Decorative elements -->
+                <div class="feature-decoration-1"></div>
+                <div class="feature-decoration-2"></div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+        
+        <!-- Feature Description -->
+        <div class="feature-text-container">
+          {% for block in section.blocks %}
+            <div class="feature-text-wrapper {% if forloop.index0 == 0 %}active{% endif %}" data-feature-content="{{ forloop.index0 }}" data-section-id="{{ section.id }}">
+              <div class="feature-line"></div>
+              <h3 class="feature-title">{{ block.settings.title }}</h3>
+              <p class="feature-description">{{ block.settings.description }}</p>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+      
+      <!-- Progress indicator -->
+      <div class="features-progress">
+        <div class="features-progress-list">
+          {% for block in section.blocks %}
+            <button 
+              class="progress-button" 
+              data-feature="{{ forloop.index0 }}"
+              aria-label="Voir la fonctionnalité {{ forloop.index }}"
+              data-section-id="{{ section.id }}"
+            >
+              <div class="progress-indicator {% if forloop.index0 == 0 %}active{% endif %}"></div>
+            </button>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    initFeatureSection('{{ section.id }}');
+  });
+  
+  function initFeatureSection(sectionId) {
+    // Elements
+    const featuresSection = document.getElementById(`features-section-${sectionId}`);
+    const featuresTitle = document.getElementById(`features-title-${sectionId}`);
+    const featureButtons = document.querySelectorAll(`.feature-button[data-section-id="${sectionId}"]`);
+    const featureVideoWrappers = document.querySelectorAll(`.feature-video-wrapper[data-section-id="${sectionId}"]`);
+    const featureTextWrappers = document.querySelectorAll(`.feature-text-wrapper[data-section-id="${sectionId}"]`);
+    const progressButtons = document.querySelectorAll(`.progress-button[data-section-id="${sectionId}"]`);
+    const progressIndicators = document.querySelectorAll(`.progress-button[data-section-id="${sectionId}"] .progress-indicator`);
+    const videos = document.querySelectorAll(`video[data-section-id="${sectionId}"]`);
+    
+    // State
+    let activeFeature = 0;
+    let isInView = false;
+    let intervalId = null;
+    
+    // Show title and buttons with delay
+    setTimeout(() => {
+      if (featuresTitle) featuresTitle.classList.add('visible');
+      
+      featureButtons.forEach(button => {
+        button.classList.add('visible');
+      });
+    }, 100);
+    
+    // Setup intersection observer to detect when section is in view
+    const observer = new IntersectionObserver((entries) => {
+      const [entry] = entries;
+      isInView = entry.isIntersecting;
+      
+      if (isInView) {
+        startAutoRotation();
+        playCurrentVideo();
+      } else {
+        stopAutoRotation();
+        pauseAllVideos();
+      }
+    }, { threshold: 0.3 });
+    
+    if (featuresSection) {
+      observer.observe(featuresSection);
+    }
+    
+    // Functions
+    function setActiveFeature(index) {
+      // Update active state
+      activeFeature = index;
+      
+      // Update buttons
+      featureButtons.forEach((button, i) => {
+        if (i === index) {
+          button.classList.add('active');
+        } else {
+          button.classList.remove('active');
+        }
+      });
+      
+      // Update progress indicators
+      progressIndicators.forEach((indicator, i) => {
+        if (i === index) {
+          indicator.classList.add('active');
+        } else {
+          indicator.classList.remove('active');
+        }
+      });
+      
+      // Update content visibility
+      featureVideoWrappers.forEach((wrapper, i) => {
+        if (i === index) {
+          wrapper.classList.add('active');
+        } else {
+          wrapper.classList.remove('active');
+        }
+      });
+      
+      featureTextWrappers.forEach((wrapper, i) => {
+        if (i === index) {
+          wrapper.classList.add('active');
+        } else {
+          wrapper.classList.remove('active');
+        }
+      });
+      
+      // Handle videos
+      pauseAllVideos();
+      playCurrentVideo();
+    }
+    
+    function playCurrentVideo() {
+      if (isInView && videos[activeFeature]) {
+        const playPromise = videos[activeFeature].play();
+        
+        if (playPromise !== undefined) {
+          playPromise.catch(e => console.log("Autoplay prevented:", e));
+        }
+      }
+    }
+    
+    function pauseAllVideos() {
+      videos.forEach(video => {
+        if (video) {
+          const pausePromise = video.pause();
+          if (pausePromise !== undefined) {
+            pausePromise.catch(e => console.log("Pause error:", e));
+          }
+        }
+      });
+    }
+    
+    function startAutoRotation() {
+      if (intervalId) clearInterval(intervalId);
+      
+      intervalId = setInterval(() => {
+        const nextFeature = (activeFeature + 1) % featureButtons.length;
+        setActiveFeature(nextFeature);
+      }, 5000);
+    }
+    
+    function stopAutoRotation() {
+      if (intervalId) {
+        clearInterval(intervalId);
+        intervalId = null;
+      }
+    }
+    
+    // Event listeners
+    featureButtons.forEach((button, index) => {
+      button.addEventListener('click', () => {
+        stopAutoRotation();
+        setActiveFeature(index);
+        startAutoRotation();
+      });
+    });
+    
+    progressButtons.forEach((button, index) => {
+      button.addEventListener('click', () => {
+        stopAutoRotation();
+        setActiveFeature(index);
+        startAutoRotation();
+      });
+    });
+    
+    // Initialize
+    setActiveFeature(0);
+  }
+</script>
+
+{% schema %}
+{
+  "name": "Caractéristiques Valise",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Titre",
+      "default": "La valise pensée pour vous"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "feature",
+      "name": "Caractéristique",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Titre",
+          "default": "Titre de la caractéristique"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Description",
+          "default": "Description de la caractéristique"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icône"
+        },
+        {
+          "type": "url",
+          "id": "video_url",
+          "label": "URL de la vidéo"
+        },
+        {
+          "type": "image_picker",
+          "id": "video_poster",
+          "label": "Image d'aperçu vidéo"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Caractéristiques Valise",
+      "category": "Custom Content",
+      "blocks": [
+        {
+          "type": "feature",
+          "settings": {
+            "title": "Toujours connecté, jamais stressé",
+            "description": "Imaginez-vous à l'aéroport, attendant sereinement votre vol. Votre téléphone posé sur votre valise se recharge tranquillement grâce au chargeur intégré. Adieu les prises introuvables, bonjour la tranquillité."
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "title": "Votre boisson à portée de main",
+            "description": "Traversez l'aéroport aisément, café ou bouteille d'eau stablement installée sur votre valise. Plus besoin de garder les mains occupées, vous avancez librement et sereinement."
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "title": "Prêt en un instant",
+            "description": "Dans votre chambre d'hôtel, valise ouverte sur le lit, tout se range facilement grâce aux compartiments intelligents. Vous fermez et repartez en quelques instants, prêt à profiter de votre voyage."
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "title": "Libérez vos mains, libérez votre esprit",
+            "description": "Au café de l'aéroport, votre téléphone bien calé et votre sac posé élégamment sur la valise. Vous profitez pleinement de votre pause, détendu et organisé."
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "title": "Ne cherchez plus, trouvez directement",
+            "description": "À la sécurité de l'aéroport, ouvrez simplement la poche frontale pour sortir ordinateur, passeport et liquides. Rapide, efficace, vous gardez le contrôle en toute situation."
+          }
+        }
+      ]
+    }
+  ]
+}
 {% endschema %}
