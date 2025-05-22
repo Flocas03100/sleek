@@ -119,7 +119,7 @@
         ],
         "settings": {
           "container": "full",
-          "visibility": "all",
+          "visibility": "hide",
           "show_atc_button": true,
           "show_dynamic_checkout_buttons": false,
           "show_quantity": true
