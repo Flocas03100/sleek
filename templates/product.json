@@ -1596,16 +1596,6 @@
         "border_thickness": 0,
         "lazy": true
       }
-    },
-    "custom_liquid_e3TdPM": {
-      "type": "custom-liquid",
-      "name": "AI-Block-Generator",
-      "settings": {
-        "custom_liquid": "",
-        "color_scheme": "",
-        "padding_top": 50,
-        "padding_bottom": 50
-      }
     }
   },
   "order": [
@@ -1624,7 +1614,6 @@
     "scrolling_promotion_c3fMLV",
     "scrolling_promotion_gHzNL8",
     "1744809113069b229a",
-    "ss_feature_1_DAArQd",
-    "custom_liquid_e3TdPM"
+    "ss_feature_1_DAArQd"
   ]
 }
